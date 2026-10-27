@@ -264,3 +264,14 @@ details.sl[hidden] { display: none !important; }
 
 .tl.tl-collapsed .tl-old { display: none; }
 button.tl-toggle { font: inherit; font-size: .95rem; font-weight: 700; min-height: 44px; margin-top: 10px; padding: 4px 16px; border-radius: 999px; border: 2px solid var(--accent); background: transparent; color: var(--accent); cursor: pointer; }
+
+/* Detail cards: desktop alignment */
+.blk h4 .term { display: inline; font: inherit; letter-spacing: inherit; text-transform: inherit; color: inherit; line-height: inherit; padding: 0; vertical-align: baseline; }
+.term { text-align: inherit; white-space: normal; line-height: inherit; }
+mark.key { white-space: nowrap; }
+.blk .v { text-align: left; overflow-wrap: anywhere; }
+.blk ul.kvlist li.kv, .blk.rank ul.kvlist li.kv { grid-template-columns: minmax(4.5rem, 6.5rem) minmax(0, 1fr); align-items: baseline; }
+@media (min-width: 64rem) {
+  .body { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .blk.talk { grid-column: span 2; }
+}
