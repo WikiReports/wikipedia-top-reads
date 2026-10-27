@@ -292,7 +292,7 @@ page = '''<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wikipedia Top Reads: @@DS@@</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Lexend:wght@500;700&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=20261026c">
+<link rel="stylesheet" href="assets/style.css?v=20261026d">
 </head><body>
 <div id="daynav" data-day="%s"></div>
 <div class="wrap">

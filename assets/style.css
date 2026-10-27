@@ -276,3 +276,21 @@ mark.key { white-space: nowrap; }
   .blk.talk { grid-column: span 2; }
 }
 .nw { white-space: nowrap; }
+
+/* Subtle colour by information type: heading text, faint tint, thin left edge */
+.blk { --c: var(--accent); border-left: 4px solid color-mix(in srgb, var(--c) 55%, var(--surface-2)); background: color-mix(in srgb, var(--c) 7%, var(--surface-2)); }
+.blk h4, .blk h4 .term { color: var(--c); text-decoration-color: currentColor; }
+.blk.news  { --c: light-dark(hsl(215 60% 32%), hsl(215 90% 78%)); }
+.blk.cause { --c: light-dark(hsl(275 45% 38%), hsl(275 80% 80%)); }
+.blk.story { --c: light-dark(hsl(175 70% 22%), hsl(175 60% 66%)); }
+.blk.views { --c: light-dark(hsl(145 60% 22%), hsl(145 55% 66%)); }
+.blk.rank  { --c: light-dark(hsl(325 50% 36%), hsl(325 80% 80%)); }
+.blk.edits { --c: light-dark(hsl(25 80% 30%), hsl(28 90% 70%)); }
+.blk.prot  { --c: light-dark(hsl(355 60% 38%), hsl(355 90% 80%)); }
+.blk.talk  { --c: light-dark(hsl(240 45% 40%), hsl(240 85% 82%)); }
+.blk.cause { background: color-mix(in srgb, var(--c) 7%, var(--surface)); border-color: var(--line); border-left: 4px solid color-mix(in srgb, var(--c) 55%, var(--surface)); }
+/* Section headings */
+#glance h2 { color: light-dark(hsl(215 60% 32%), hsl(215 90% 78%)); border-bottom-color: light-dark(hsl(215 45% 74%), hsl(215 35% 34%)); }
+#detail h2 { color: light-dark(hsl(275 45% 38%), hsl(275 80% 80%)); border-bottom-color: light-dark(hsl(275 35% 76%), hsl(275 28% 36%)); }
+#method h2 { color: light-dark(hsl(175 70% 22%), hsl(175 60% 66%)); border-bottom-color: light-dark(hsl(175 35% 70%), hsl(175 30% 30%)); }
+#sources h2 { color: light-dark(hsl(25 80% 30%), hsl(28 90% 70%)); border-bottom-color: light-dark(hsl(25 50% 72%), hsl(28 35% 34%)); }
