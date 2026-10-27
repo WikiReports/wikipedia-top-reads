@@ -1,0 +1,3382 @@
+{
+ "version": 1,
+ "updated": "2026-10-25",
+ "groups": [
+  {
+   "id": "holmes-documentary",
+   "title": "Elizabeth Holmes documentary",
+   "summary": "A24 documentary You Can See Everything, its subject and the people in it.",
+   "members": [
+    "elizabeth-holmes",
+    "you-can-see-everything",
+    "billy-evans-businessman",
+    "nathan-fielder"
+   ]
+  },
+  {
+   "id": "ohio-governor-ad",
+   "title": "Ohio governor race ad",
+   "summary": "The Ramaswamy campaign ad that featured Amy Acton's estranged mother.",
+   "members": [
+    "amy-acton",
+    "vivek-ramaswamy"
+   ]
+  },
+  {
+   "id": "celebrity-traitors",
+   "title": "The Celebrity Traitors UK",
+   "summary": "Cast members of series 2 charting on episode nights.",
+   "members": [
+    "miranda-hart",
+    "jerry-hall"
+   ]
+  },
+  {
+   "id": "ufc-333",
+   "title": "UFC 333",
+   "summary": "The Abu Dhabi card and its headliner.",
+   "members": [
+    "ufc-333",
+    "alexander-volkanovski"
+   ]
+  },
+  {
+   "id": "heath-ledger-tribute",
+   "title": "Dancing with the Stars tribute to Heath Ledger",
+   "summary": "Dedication Night on 20th Oct (US) and the Julia Stiles tribute.",
+   "members": [
+    "heath-ledger",
+    "julia-stiles",
+    "dancing-with-the-stars-american-tv-series-season-35"
+   ]
+  },
+  {
+   "id": "php-vulnerability",
+   "title": "PHP remote-code-execution flaws",
+   "summary": "The vulnerabilities and the language they affect.",
+   "members": [
+    "php2shell",
+    "php"
+   ]
+  },
+  {
+   "id": "bc-election",
+   "title": "2026 British Columbia election",
+   "summary": "Held on 24th Oct.",
+   "members": [
+    "2026-british-columbia-general-election",
+    "lorne-doerkson"
+   ]
+  },
+  {
+   "id": "serbia-election",
+   "title": "2026 Serbian parliamentary election",
+   "summary": "Held on 25th Oct.",
+   "members": [
+    "2026-serbian-parliamentary-election",
+    "student-list"
+   ]
+  },
+  {
+   "id": "earhardt-hannity",
+   "title": "Ainsley Earhardt and Sean Hannity wedding",
+   "summary": "Married in Palm Beach on 24th Oct.",
+   "members": [
+    "ainsley-earhardt",
+    "sean-hannity"
+   ]
+  },
+  {
+   "id": "mccaffrey-bowl",
+   "title": "The McCaffrey Bowl",
+   "summary": "A game on 20th Oct (UTC), nicknamed the \"McCaffrey Bowl\" in coverage; the 20th Oct test report tied all three articles to it (medium confidence).",
+   "members": [
+    "luke-mccaffrey",
+    "christian-mccaffrey",
+    "brock-purdy"
+   ]
+  }
+ ],
+ "aliases": {},
+ "storylines": [
+  {
+   "id": "2026-alberta-independence-referendum",
+   "title": "2026 Alberta independence referendum",
+   "canonical": "2026_Alberta_independence_referendum",
+   "url": "https://en.wikipedia.org/wiki/2026_Alberta_independence_referendum",
+   "type": "Referendum",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "The vote and its result",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-20",
+     "text": "The vote and its result",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "PBS NewsHour",
+     "url": "https://www.pbs.org/newshour/world/alberta-voters-reject-independence-from-canada-in-victory-for-carney"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Held 19th Oct; about 75% of counted votes backed staying in Canada."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 20,
+     "views": 78072,
+     "confidence": "hi",
+     "anchor": "a17"
+    }
+   ]
+  },
+  {
+   "id": "2026-brazilian-general-election",
+   "title": "2026 Brazilian general election",
+   "canonical": "2026_Brazilian_general_election",
+   "url": "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
+   "type": "Election",
+   "first_charted": "2026-10-25",
+   "cause": {
+    "text": "Run-off held on 25th Oct; Lula beat Bolsonaro in a tight race per Al Jazeera (high confidence). Peak 271,783 views, 12.9 times baseline; first-round bump on 4th and 5th Oct. Related: Luiz Inácio Lula da Silva (rank 41), Flávio Bolsonaro (rank 77).",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-25",
+     "text": "Run-off held on 25th Oct; Lula beat Bolsonaro in a tight race per Al Jazeera (high confidence). Peak 271,783 views, 12.9 times baseline; first-round bump on 4th and 5th Oct. Related: Luiz Inácio Lula da Silva (rank 41), Flávio Bolsonaro (rank 77).",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-results-2026-live-polls-close-in-lula-bolsonaro-face-off"
+    },
+    {
+     "title": "MercoPress",
+     "url": "https://en.mercopress.com/2026/10/05/flavio-bolsonaro-edges-lula-in-the-first-round-both-head-to-an-october-25-runoff"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "text": "Run-off held on 25th Oct; Lula won a fourth term, per Al Jazeera. Highest day of the window, 12.9 times baseline."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-25",
+     "rank": 4,
+     "views": 271783,
+     "confidence": "hi",
+     "anchor": "a1"
+    }
+   ]
+  },
+  {
+   "id": "2026-british-columbia-general-election",
+   "title": "2026 British Columbia general election",
+   "canonical": "2026_British_Columbia_general_election",
+   "url": "https://en.wikipedia.org/wiki/2026_British_Columbia_general_election",
+   "type": "Election",
+   "first_charted": "2026-10-25",
+   "cause": {
+    "text": "Held on 24th Oct; the BC Conservatives won a majority and Eby resigned as NDP leader per CTV News (high confidence). 141,044 views, 17.4 times baseline. Related: Lorne Doerkson, David Eby (rank 45).",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-25",
+     "text": "Held on 24th Oct; the BC Conservatives won a majority and Eby resigned as NDP leader per CTV News (high confidence). 141,044 views, 17.4 times baseline. Related: Lorne Doerkson, David Eby (rank 45).",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CTV News",
+     "url": "https://www.ctvnews.ca/vancouver/article/bc-conservatives-win-majority-eby-resigns-as-ndp-leader-recap/"
+    },
+    {
+     "title": "Castanet",
+     "url": "https://castanet.net/edition/news-story-632015-3-.htm"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "text": "Held on Saturday 24th Oct; the BC Conservatives won a majority and Premier Eby resigned as NDP leader, per CTV News."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-25",
+     "rank": 11,
+     "views": 141044,
+     "confidence": "hi",
+     "anchor": "a8"
+    }
+   ]
+  },
+  {
+   "id": "2026-serbian-parliamentary-election",
+   "title": "2026 Serbian parliamentary election",
+   "canonical": "2026_Serbian_parliamentary_election",
+   "url": "https://en.wikipedia.org/wiki/2026_Serbian_parliamentary_election",
+   "type": "Election",
+   "first_charted": "2026-10-25",
+   "cause": {
+    "text": "Snap election on 25th Oct; Vučić conceded defeat to the Student List that evening per Euronews (high confidence). Peak 242,482 views, 61.7 times baseline. Related: Student List, Aleksandar Vučić (rank 64).",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-25",
+     "text": "Snap election on 25th Oct; Vučić conceded defeat to the Student List that evening per Euronews (high confidence). Peak 242,482 views, 61.7 times baseline. Related: Student List, Aleksandar Vučić (rank 64).",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Euronews",
+     "url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+    },
+    {
+     "title": "N1",
+     "url": "https://n1info.rs/english/news/vucic-says-parliamentary-elections-in-october/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "text": "Snap election on 25th Oct; Vučić conceded defeat to the Student List that evening, per Euronews."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-25",
+     "rank": 5,
+     "views": 242482,
+     "confidence": "hi",
+     "anchor": "a2"
+    }
+   ]
+  },
+  {
+   "id": "abdul-el-sayed",
+   "title": "Abdul El-Sayed",
+   "canonical": "Abdul_El-Sayed",
+   "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
+   "type": "Politician",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "Democratic US Senate candidate in Michigan against Mike Rogers; debate on 21st Oct, election on 3rd Nov. The 25th Oct rise from 56,724 to 84,470 views has no dated trigger (low confidence).",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-25",
+     "text": "Democratic US Senate candidate in Michigan against Mike Rogers; debate on 21st Oct, election on 3rd Nov. The 25th Oct rise from 56,724 to 84,470 views has no dated trigger (low confidence).",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "News5 Cleveland",
+     "url": "https://www.news5cleveland.com/politics/america-votes/el-sayed-rogers-set-to-debate-in-closely-watched-michigan-senate-race"
+    },
+    {
+     "title": "Fox 2 Detroit",
+     "url": "https://www.fox2detroit.com/news/abdul-el-sayed-jd-vance-campaign-michigans-2026-midterm-sprint-ramps-up"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Democratic US Senate nominee in Michigan. Elevated all month; no confirmed trigger for the jump on 18th Oct."
+    },
+    {
+     "date": "2026-10-25",
+     "text": "Democratic US Senate candidate in Michigan; election on 3rd Nov. No dated trigger for 25th Oct (low confidence)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 22,
+     "views": 75508,
+     "confidence": "lo",
+     "anchor": "a19"
+    },
+    {
+     "date": "2026-10-25",
+     "rank": 22,
+     "views": 84470,
+     "confidence": "lo",
+     "anchor": "a19"
+    }
+   ]
+  },
+  {
+   "id": "aberfan-disaster",
+   "title": "Aberfan disaster",
+   "canonical": "Aberfan_disaster",
+   "url": "https://en.wikipedia.org/wiki/Aberfan_disaster",
+   "type": "Disaster",
+   "first_charted": "2026-10-21",
+   "cause": {
+    "text": "60th anniversary of the 1966 Welsh colliery tip disaster on 21st Oct; King Charles marked it and the Prime Minister met survivors on 19th Oct. Peak 187,692 on 21st Oct; decaying.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "60th anniversary of the 1966 Welsh colliery tip disaster on 21st Oct; King Charles marked it and the Prime Minister met survivors on 19th Oct. Peak 187,692 on 21st Oct; decaying.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ITV",
+     "url": "https://www.itv.com/news/wales/2026-10-19/prime-minister-meets-aberfan-survivors-ahead-of-disasters-anniversary"
+    },
+    {
+     "title": "Euronews",
+     "url": "https://www.euronews.com/2026/10/21/aberfan-king-charles-marks-welsh-mining-disaster-that-killed-a-generation-of-children"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "text": "60th anniversary of the 1966 Welsh colliery tip disaster on 21st Oct; King Charles marked it and the Prime Minister met survivors on 19th Oct. Peak 187,692 on 21st Oct; decaying."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-21",
+     "rank": 7,
+     "views": 187692,
+     "confidence": "hi",
+     "anchor": "a4"
+    },
+    {
+     "date": "2026-10-22",
+     "rank": 23,
+     "views": 77524,
+     "confidence": "hi",
+     "anchor": "a20"
+    }
+   ]
+  },
+  {
+   "id": "ainsley-earhardt",
+   "title": "Ainsley Earhardt",
+   "canonical": "Ainsley_Earhardt",
+   "url": "https://en.wikipedia.org/wiki/Ainsley_Earhardt",
+   "type": "TV host",
+   "first_charted": "2026-10-24",
+   "cause": {
+    "text": "Her wedding to Sean Hannity on 24th Oct, with the news and photos spreading on 25th Oct",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-24",
+     "text": "No confirmed trigger (low confidence). Views jumped from 776 to 84,850 with edit disputes over her politics on 24th Oct; only older news found.",
+     "confidence": "lo",
+     "note": "First stated"
+    },
+    {
+     "date": "2026-10-25",
+     "text": "Her wedding to Sean Hannity on 24th Oct, with the news and photos spreading on 25th Oct",
+     "confidence": "hi",
+     "note": "Confidence changed"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Just Jared",
+     "url": "https://www.justjared.com/2026/10/25/sean-hannity-ainsley-earhardt-wedding-guest-list/"
+    },
+    {
+     "title": "WLT Report",
+     "url": "https://wltreport.com/2026/10/10/sean-hannity-ainsley-earhardt-major-new-development/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-24",
+     "text": "No confirmed trigger (low confidence). Views jumped from 776 to 84,850 with edit disputes over her politics on 24th Oct; only older news found."
+    },
+    {
+     "date": "2026-10-25",
+     "text": "108,195 views; the wedding on the evening of 24th Oct (US time) explains the jump, so the earlier \"no confirmed trigger\" is replaced by this cause"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-24",
+     "rank": 19,
+     "views": 84850,
+     "confidence": "lo",
+     "anchor": "a16"
+    },
+    {
+     "date": "2026-10-25",
+     "rank": 16,
+     "views": 108195,
+     "confidence": "hi",
+     "anchor": "a13"
+    }
+   ]
+  },
+  {
+   "id": "alexander-volkanovski",
+   "title": "Alexander Volkanovski",
+   "canonical": "Alexander_Volkanovski",
+   "url": "https://en.wikipedia.org/wiki/Alexander_Volkanovski",
+   "type": "MMA fighter",
+   "first_charted": "2026-10-24",
+   "cause": {
+    "text": "Headliner at UFC 333; beat Movsar Evloev to retain the title and passed Jose Aldo's record, per headlines (high confidence). Related: UFC 333.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-24",
+     "text": "Headliner at UFC 333; beat Movsar Evloev to retain the title and passed Jose Aldo's record, per headlines (high confidence). Related: UFC 333.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/mma/live/ufc-333-live-results-volkanovski-vs-evloev-updates-round-by-round-scoring-for-todays-title-double-header-110000274.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-24",
+     "text": "Headliner at UFC 333; beat Movsar Evloev to retain the title and passed Jose Aldo's record, per headlines (high confidence). Related: UFC 333."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-24",
+     "rank": 17,
+     "views": 87200,
+     "confidence": "hi",
+     "anchor": "a14"
+    }
+   ]
+  },
+  {
+   "id": "amy-acton",
+   "title": "Amy Acton",
+   "canonical": "Amy_Acton",
+   "url": "https://en.wikipedia.org/wiki/Amy_Acton",
+   "type": "Politician",
+   "first_charted": "2026-10-21",
+   "cause": {
+    "text": "Ohio Democratic governor candidate. The Ramaswamy campaign ad featuring her estranged mother leaked 19th Oct, went public 20th Oct and is backed by about $4 million of airtime; Gov. Mike DeWine called it deeply troubling on 22nd Oct. Peak 158,230 on 21st Oct. Related: Vivek Ramaswamy.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "Ohio Democratic governor candidate. The Ramaswamy campaign ad featuring her estranged mother leaked 19th Oct, went public 20th Oct and is backed by about $4 million of airtime; Gov. Mike DeWine called it deeply troubling on 22nd Oct. Peak 158,230 on 21st Oct. Related: Vivek Ramaswamy.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Statehouse News Bureau",
+     "url": "https://www.statenews.org/government-politics/2026-10-21/what-effect-will-ramaswamys-controversial-ad-have-on-the-campaign-for-ohio-governor"
+    },
+    {
+     "title": "WOSU",
+     "url": "https://www.wosu.org/politics-government/2026-10-20/amy-acton-responds-to-viral-video-where-her-estranged-mother-accuses-her-of-lying"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "text": "Ohio Democratic governor candidate. The Ramaswamy campaign ad featuring her estranged mother leaked 19th Oct, went public 20th Oct and is backed by about $4 million of airtime; Gov. Mike DeWine called it deeply troubling on 22nd Oct. Peak 158,230 on 21st Oct. Related: Vivek Ramaswamy."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-21",
+     "rank": 12,
+     "views": 158230,
+     "confidence": "hi",
+     "anchor": "a9"
+    },
+    {
+     "date": "2026-10-22",
+     "rank": 14,
+     "views": 137065,
+     "confidence": "hi",
+     "anchor": "a11"
+    },
+    {
+     "date": "2026-10-23",
+     "rank": 15,
+     "views": 97593,
+     "confidence": "hi",
+     "anchor": "a12"
+    }
+   ]
+  },
+  {
+   "id": "ansel-adams",
+   "title": "Ansel Adams",
+   "canonical": "Ansel_Adams",
+   "url": "https://en.wikipedia.org/wiki/Ansel_Adams",
+   "type": "Photographer",
+   "first_charted": "2026-10-23",
+   "cause": {
+    "text": "No confirmed trigger (low confidence). Recurring weekly peaks near 100,000 suggest routine or automated traffic, which was not checked.",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-23",
+     "text": "No confirmed trigger (low confidence). Recurring weekly peaks near 100,000 suggest routine or automated traffic, which was not checked.",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Swann Galleries",
+     "url": "https://www.swanngalleries.com/news/photographs-and-photobooks/2026/10/ansel-adams-photographing-the-american-west/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "text": "No confirmed trigger (low confidence). Recurring weekly peaks near 100,000 suggest routine or automated traffic, which was not checked."
+    },
+    {
+     "date": "2026-10-24",
+     "text": "highest day in the window (124,107) on the Saturday peak pattern; still no trigger."
+    },
+    {
+     "date": "2026-10-25",
+     "text": "102,028 views on the Sunday after, in line with the Sunday levels of earlier weeks (82,000 to 89,000)"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-23",
+     "rank": 12,
+     "views": 102156,
+     "confidence": "lo",
+     "anchor": "a9"
+    },
+    {
+     "date": "2026-10-24",
+     "rank": 12,
+     "views": 124107,
+     "confidence": "lo",
+     "anchor": "a9"
+    },
+    {
+     "date": "2026-10-25",
+     "rank": 17,
+     "views": 102028,
+     "confidence": "lo",
+     "anchor": "a14"
+    }
+   ]
+  },
+  {
+   "id": "barbara-palvin",
+   "title": "Barbara Palvin",
+   "canonical": "Barbara_Palvin",
+   "url": "https://en.wikipedia.org/wiki/Barbara_Palvin",
+   "type": "Model",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "Unknown",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-20",
+     "text": "Unknown",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Hungarian model. Walked the Victoria's Secret show on 18th Oct, six weeks after giving birth."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 14,
+     "views": 104012,
+     "confidence": "lo",
+     "anchor": "a11"
+    }
+   ]
+  },
+  {
+   "id": "billy-evans-businessman",
+   "title": "Billy Evans (businessman)",
+   "canonical": "Billy_Evans_(businessman)",
+   "url": "https://en.wikipedia.org/wiki/Billy_Evans_%28businessman%29",
+   "type": "Businessman",
+   "first_charted": "2026-10-24",
+   "cause": {
+    "text": "Elizabeth Holmes's partner, who features in You Can See Everything; article created 20th Oct (medium confidence). Related: Elizabeth Holmes, You Can See Everything.",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-24",
+     "text": "Elizabeth Holmes's partner, who features in You Can See Everything; article created 20th Oct (medium confidence). Related: Elizabeth Holmes, You Can See Everything.",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Looper",
+     "url": "https://www.looper.com/2291167/elizabeth-holmes-partner-billy-evans-you-can-see-everything-explained/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-24",
+     "text": "Elizabeth Holmes's partner, who features in You Can See Everything; article created 20th Oct (medium confidence). Related: Elizabeth Holmes, You Can See Everything."
+    },
+    {
+     "date": "2026-10-25",
+     "text": "95,566 views, the fifth daily rise since 21st Oct"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-24",
+     "rank": 22,
+     "views": 82296,
+     "confidence": "md",
+     "anchor": "a19"
+    },
+    {
+     "date": "2026-10-25",
+     "rank": 18,
+     "views": 95566,
+     "confidence": "md",
+     "anchor": "a15"
+    }
+   ]
+  },
+  {
+   "id": "bioware",
+   "title": "BioWare",
+   "canonical": "BioWare",
+   "url": "https://en.wikipedia.org/wiki/BioWare",
+   "type": "Game studio",
+   "first_charted": "2026-10-21",
+   "cause": {
+    "text": "EA announced on 21st Oct that it is closing BioWare and cancelling the next Mass Effect; about 400 layoffs reported (Bloomberg). Followed EA's $55 billion take-private. Peak 170,992 on 21st Oct (332x baseline).",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "EA announced on 21st Oct that it is closing BioWare and cancelling the next Mass Effect; about 400 layoffs reported (Bloomberg). Followed EA's $55 billion take-private. Peak 170,992 on 21st Oct (332x baseline).",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "GamesRadar",
+     "url": "https://www.gamesradar.com/games/rpg/ea-cancels-new-mass-effect-closes-bioware-after-being-bought-by-saudi-arabia/"
+    },
+    {
+     "title": "Video Games Chronicle",
+     "url": "https://www.videogameschronicle.com/news/ea-is-closing-bioware-and-cancelling-the-next-mass-effect/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "text": "EA announced on 21st Oct that it is closing BioWare and cancelling the next Mass Effect; about 400 layoffs reported (Bloomberg). Followed EA's $55 billion take-private. Peak 170,992 on 21st Oct (332x baseline)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-21",
+     "rank": 9,
+     "views": 170992,
+     "confidence": "hi",
+     "anchor": "a6"
+    },
+    {
+     "date": "2026-10-22",
+     "rank": 15,
+     "views": 120343,
+     "confidence": "hi",
+     "anchor": "a12"
+    }
+   ]
+  },
+  {
+   "id": "brock-purdy",
+   "title": "Brock Purdy",
+   "canonical": "Brock_Purdy",
+   "url": "https://en.wikipedia.org/wiki/Brock_Purdy",
+   "type": "NFL player",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "The game, with the same UTC day shift as entries 6 and 14",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-20",
+     "text": "The game, with the same UTC day shift as entries 6 and 14",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fox Sports box score",
+     "url": "https://www.foxsports.com/nfl/week-6-washington-commanders-vs-san-francisco-49ers-oct-19-2026-game-boxscore-11236"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "49ers quarterback in the 23-17 win over the Commanders on Monday Night Football, 19th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 21,
+     "views": 76126,
+     "confidence": "md",
+     "anchor": "a18"
+    }
+   ]
+  },
+  {
+   "id": "candice-swanepoel",
+   "title": "Candice Swanepoel",
+   "canonical": "Candice_Swanepoel",
+   "url": "https://en.wikipedia.org/wiki/Candice_Swanepoel",
+   "type": "Model",
+   "first_charted": "2026-10-25",
+   "cause": {
+    "text": "No confirmed trigger (low confidence). One-day rise from 9,988 to 91,857 views; the 18th Oct Victoria's Secret show explains the 19th Oct peak of 31,347, not this one.",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-25",
+     "text": "No confirmed trigger (low confidence). One-day rise from 9,988 to 91,857 views; the 18th Oct Victoria's Secret show explains the 19th Oct peak of 31,347, not this one.",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hollywood Life",
+     "url": "https://hollywoodlife.com/feature/what-time-victorias-secret-fashion-show-2026-how-to-watch-5566653/amp/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "text": "No confirmed trigger (low confidence); an 18th Oct fashion show explains an earlier peak, not this one."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-25",
+     "rank": 20,
+     "views": 91857,
+     "confidence": "lo",
+     "anchor": "a17"
+    }
+   ]
+  },
+  {
+   "id": "chatgpt",
+   "title": "ChatGPT",
+   "canonical": "ChatGPT",
+   "url": "https://en.wikipedia.org/wiki/ChatGPT",
+   "type": "AI chatbot",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "No confirmed trigger (low confidence). Views jumped from about 33,000 to 100,000 on 19th Oct and have stayed above 100,000. A GPT-6 rollout from 7th Oct predates the rise; Texas sued OpenAI on 23rd Oct, which cannot explain a rise that began on 19th Oct.",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "No confirmed trigger (low confidence). Views jumped from about 33,000 to 100,000 on 19th Oct and have stayed above 100,000. A GPT-6 rollout from 7th Oct predates the rise; Texas sued OpenAI on 23rd Oct, which cannot explain a rise that began on 19th Oct.",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Courthouse News",
+     "url": "https://www.courthousenews.com/texas-attorney-general-accuses-openai-of-lying-about-chatgpt-safety-and-safeguards/"
+    },
+    {
+     "title": "Let's Data Science",
+     "url": "https://letsdatascience.com/news/openai-brings-gpt-6-and-intelligent-ui-to-chatgpt-4f0d797c"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "OpenAI's chatbot. Views tripled on 19th and 20th Oct; no confirmed trigger (a partial file-download outage on the 19th was fixed the same day)."
+    },
+    {
+     "date": "2026-10-21",
+     "text": "No confirmed trigger (low confidence). Views jumped from about 33,000 to 100,000 on 19th Oct and have stayed above 100,000. A GPT-6 rollout from 7th Oct predates the rise; Texas sued OpenAI on 23rd Oct, which cannot explain a rise that began on 19th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 10,
+     "views": 140548,
+     "confidence": "hi",
+     "anchor": "a7"
+    },
+    {
+     "date": "2026-10-21",
+     "rank": 11,
+     "views": 163328,
+     "confidence": "lo",
+     "anchor": "a8"
+    },
+    {
+     "date": "2026-10-22",
+     "rank": 9,
+     "views": 155469,
+     "confidence": "lo",
+     "anchor": "a6"
+    },
+    {
+     "date": "2026-10-23",
+     "rank": 8,
+     "views": 136176,
+     "confidence": "lo",
+     "anchor": "a5"
+    }
+   ]
+  },
+  {
+   "id": "chef-damu",
+   "title": "Chef Damu",
+   "canonical": "Chef_Damu",
+   "url": "https://en.wikipedia.org/wiki/Chef_Damu",
+   "type": "Deceased chef",
+   "first_charted": "2026-10-25",
+   "cause": {
+    "text": "Indian chef and Cooku with Comali judge died aged 72, reported by ANI on 25th Oct (high confidence). 124,496 views against a baseline of 35; 59 edits on 25th Oct. He had denied an earlier death rumour on 29th Aug.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-25",
+     "text": "Indian chef and Cooku with Comali judge died aged 72, reported by ANI on 25th Oct (high confidence). 124,496 views against a baseline of 35; 59 edits on 25th Oct. He had denied an earlier death rumour on 29th Aug.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ANI",
+     "url": "https://www.aninews.in/news/entertainment/out-of-box/celebrity-chef-and-8216cooku-with-comali8217-judge-chef-damu-passes-away-at-7220261025134158/"
+    },
+    {
+     "title": "Kerala Kaumudi",
+     "url": "https://keralakaumudi.com/en/cinema/cine-news/cooku-with-comali-judge-chef-damu-responds-to-death-rumours-1797135"
+    },
+    {
+     "title": "Free Press Journal",
+     "url": "https://www.freepressjournal.in/lifestyle/who-is-chef-damu-renowned-indian-chef-and-tv-personality-dies-at-72"
+    },
+    {
+     "title": "The South First",
+     "url": "https://thesouthfirst.com/tamilnadu/chef-damu-who-brought-tamil-nadus-food-traditions-to-television-dies-at-72/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "text": "Indian chef and television judge (Cooku with Comali) died aged 72, reported on 25th Oct by ANI."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-25",
+     "rank": 12,
+     "views": 124496,
+     "confidence": "hi",
+     "anchor": "a9"
+    }
+   ]
+  },
+  {
+   "id": "christian-mccaffrey",
+   "title": "Christian McCaffrey",
+   "canonical": "Christian_McCaffrey",
+   "url": "https://en.wikipedia.org/wiki/Christian_McCaffrey",
+   "type": "NFL player",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "The game. Kickoff fell on 20th Oct in UTC, which matches the spike day",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-20",
+     "text": "The game. Kickoff fell on 20th Oct in UTC, which matches the spike day",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fox Sports box score",
+     "url": "https://www.foxsports.com/nfl/week-6-washington-commanders-vs-san-francisco-49ers-oct-19-2026-game-boxscore-11236"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "49ers running back who faced his brother Luke's Commanders on Monday Night Football, 19th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 17,
+     "views": 89970,
+     "confidence": "hi",
+     "anchor": "a14"
+    }
+   ]
+  },
+  {
+   "id": "clayface-film",
+   "title": "Clayface (film)",
+   "canonical": "Clayface_(film)",
+   "url": "https://en.wikipedia.org/wiki/Clayface_%28film%29",
+   "type": "Film",
+   "first_charted": "2026-10-21",
+   "cause": {
+    "text": "DC Studios film. International releases from 21st Oct, review embargo and Rotten Tomatoes score before the US release on 23rd Oct; presales reported as the DCU's lowest.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "DC Studios film. International releases from 21st Oct, review embargo and Rotten Tomatoes score before the US release on 23rd Oct; presales reported as the DCU's lowest.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ComicBookMovie",
+     "url": "https://comicbookmovie.com/batman/clayface/clayface-ticket-pre-sales-are-the-dcus-lowest-yet-as-it-eyes-opening-weekend-below-20-million-a230380"
+    },
+    {
+     "title": "Box Office Pro",
+     "url": "https://www.boxofficepro.com/?p=46370"
+    },
+    {
+     "title": "Inquirer",
+     "url": "https://usa.inquirer.net/213507/clayface-tops-north-american-box-office-with-24-million-debut"
+    },
+    {
+     "title": "Deadline",
+     "url": "https://deadline.com/2026/10/box-office-clayface-you-can-see-everything-1237171500/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "text": "DC Studios film. International releases from 21st Oct, review embargo and Rotten Tomatoes score before the US release on 23rd Oct; presales reported as the DCU's lowest."
+    },
+    {
+     "date": "2026-10-24",
+     "text": "231,483 views (peak 264,281 on 23rd Oct), decay after the 23rd Oct US release; weekend takings not found."
+    },
+    {
+     "date": "2026-10-25",
+     "text": "207,969 views, a further decay; opening-weekend headlines put the film at No. 1 with about $24 million"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-21",
+     "rank": 20,
+     "views": 105904,
+     "confidence": "lo",
+     "anchor": "a17"
+    },
+    {
+     "date": "2026-10-22",
+     "rank": 8,
+     "views": 168347,
+     "confidence": "hi",
+     "anchor": "a5"
+    },
+    {
+     "date": "2026-10-23",
+     "rank": 5,
+     "views": 264281,
+     "confidence": "hi",
+     "anchor": "a2"
+    },
+    {
+     "date": "2026-10-24",
+     "rank": 4,
+     "views": 231483,
+     "confidence": "hi",
+     "anchor": "a1"
+    },
+    {
+     "date": "2026-10-25",
+     "rank": 6,
+     "views": 207969,
+     "confidence": "hi",
+     "anchor": "a3"
+    }
+   ]
+  },
+  {
+   "id": "como-1907",
+   "title": "Como 1907",
+   "canonical": "Como_1907",
+   "url": "https://en.wikipedia.org/wiki/Como_1907",
+   "type": "Football club",
+   "first_charted": "2026-10-21",
+   "cause": {
+    "text": "Hosted Manchester United in the Champions League on 21st Oct; the result was not checked.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "Hosted Manchester United in the Champions League on 21st Oct; the result was not checked.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fixture list",
+     "url": "https://thepeoplesperson.com/2026/08/29/manchester-uniteds-champions-league-group-stage-fixture-dates-confirmed-314695/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "text": "Hosted Manchester United in the Champions League on 21st Oct; the result was not checked."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-21",
+     "rank": 18,
+     "views": 113033,
+     "confidence": "hi",
+     "anchor": "a15"
+    }
+   ]
+  },
+  {
+   "id": "crystal-lake-tv-series",
+   "title": "Crystal Lake (TV series)",
+   "canonical": "Crystal_Lake_(TV_series)",
+   "url": "https://en.wikipedia.org/wiki/Crystal_Lake_(TV_series)",
+   "type": "TV series",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "The streaming premiere, now decaying",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-20",
+     "text": "The streaming premiere, now decaying",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Dread Central",
+     "url": "https://www.dreadcentral.com/news/580392/all-8-episodes-of-crystal-lake-premiere-october-15-on-peacock/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Peacock's Friday the 13th prequel; all eight episodes released 15th Oct. Past its 16th Oct peak."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 19,
+     "views": 79856,
+     "confidence": "hi",
+     "anchor": "a16"
+    }
+   ]
+  },
+  {
+   "id": "dancing-with-the-stars-american-tv-series-season-35",
+   "title": "Dancing with the Stars (American TV series) season 35",
+   "canonical": "Dancing_with_the_Stars_(American_TV_series)_season_35",
+   "url": "https://en.wikipedia.org/wiki/Dancing_with_the_Stars_%28American_TV_series%29_season_35",
+   "type": "TV series",
+   "first_charted": "2026-10-21",
+   "cause": {
+    "text": "Spikes each Wednesday UTC on episode night. 21st Oct (151,353 views, 10.9x baseline) was Dedication Night, including the Julia Stiles tribute to Heath Ledger. Related: Julia Stiles, Heath Ledger.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "Spikes each Wednesday UTC on episode night. 21st Oct (151,353 views, 10.9x baseline) was Dedication Night, including the Julia Stiles tribute to Heath Ledger. Related: Julia Stiles, Heath Ledger.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Good Morning America",
+     "url": "https://goodmorningamerica.com/culture/story/julia-stiles-pay-tribute-heath-ledger-dedication-night-137296564"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "text": "Spikes each Wednesday UTC on episode night. 21st Oct (151,353 views, 10.9x baseline) was Dedication Night, including the Julia Stiles tribute to Heath Ledger. Related: Julia Stiles, Heath Ledger."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-21",
+     "rank": 14,
+     "views": 151353,
+     "confidence": "hi",
+     "anchor": "a11"
+    }
+   ]
+  },
+  {
+   "id": "death-of-kyle-plush",
+   "title": "Death of Kyle Plush",
+   "canonical": "Death_of_Kyle_Plush",
+   "url": "https://en.wikipedia.org/wiki/Death_of_Kyle_Plush",
+   "type": "Death",
+   "first_charted": "2026-10-23",
+   "cause": {
+    "text": "No trigger found (low confidence). One-day jump from 717 to 79,910 views on 23rd Oct with no edits, typical of a viral post or media mention; only older coverage found (a $6 million settlement in 2021).",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-23",
+     "text": "No trigger found (low confidence). One-day jump from 717 to 79,910 views on 23rd Oct with no edits, typical of a viral post or media mention; only older coverage found (a $6 million settlement in 2021).",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "WCPO",
+     "url": "https://www.wcpo.com/news/local-news/hamilton-county/cincinnati/plush-family-reaches-settlement-with-cincinnati-over-teens-wrongful-death"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "text": "No trigger found (low confidence). One-day jump from 717 to 79,910 views on 23rd Oct with no edits, typical of a viral post or media mention; only older coverage found (a $6 million settlement in 2021)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-23",
+     "rank": 20,
+     "views": 79910,
+     "confidence": "lo",
+     "anchor": "a17"
+    }
+   ]
+  },
+  {
+   "id": "deaths-in-2026",
+   "title": "Deaths in 2026",
+   "canonical": "Deaths_in_2026",
+   "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
+   "type": "Deaths list",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "Evergreen list page that sits near the top every day, at about its 28-day median; no event needed.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "Evergreen list page that sits near the top every day, at about its 28-day median; no event needed.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Running list of the year's deaths. Steady at 120-150k a day for four weeks, with no single trigger."
+    },
+    {
+     "date": "2026-10-21",
+     "text": "Evergreen list page that sits near the top every day, at about its 28-day median; no event needed."
+    },
+    {
+     "date": "2026-10-24",
+     "text": "0.9 times its 28-day median."
+    },
+    {
+     "date": "2026-10-25",
+     "text": "124,466 views, the same level"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 11,
+     "views": 134021,
+     "confidence": "hi",
+     "anchor": "a8"
+    },
+    {
+     "date": "2026-10-21",
+     "rank": 15,
+     "views": 131170,
+     "confidence": "hi",
+     "anchor": "a12"
+    },
+    {
+     "date": "2026-10-22",
+     "rank": 11,
+     "views": 142776,
+     "confidence": "hi",
+     "anchor": "a8"
+    },
+    {
+     "date": "2026-10-23",
+     "rank": 9,
+     "views": 134088,
+     "confidence": "hi",
+     "anchor": "a6"
+    },
+    {
+     "date": "2026-10-24",
+     "rank": 11,
+     "views": 124463,
+     "confidence": "hi",
+     "anchor": "a8"
+    },
+    {
+     "date": "2026-10-25",
+     "rank": 13,
+     "views": 124466,
+     "confidence": "hi",
+     "anchor": "a10"
+    }
+   ]
+  },
+  {
+   "id": "dorothy-film",
+   "title": "Dorothy (film)",
+   "canonical": "Dorothy_(film)",
+   "url": "https://en.wikipedia.org/wiki/Dorothy_%28film%29",
+   "type": "Film",
+   "first_charted": "2026-10-24",
+   "cause": {
+    "text": "Tamil crime drama starring Keerthy Suresh; Netflix release on 23rd Oct after a 25th Sept cinema run (high confidence).",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-24",
+     "text": "Tamil crime drama starring Keerthy Suresh; Netflix release on 23rd Oct after a 25th Sept cinema run (high confidence).",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/10/18/dorothy-ott-netflix-release-date.amp.html"
+    },
+    {
+     "title": "DT Next",
+     "url": "https://www.dtnext.in/entertainment/ott/karthik-subbarajs-dorothy-to-premiere-on-netflix-on-oct-23"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/10/18/dorothy-ott-netflix-release-date.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-24",
+     "text": "Tamil crime drama starring Keerthy Suresh; Netflix release on 23rd Oct after a 25th Sept cinema run (high confidence)."
+    },
+    {
+     "date": "2026-10-25",
+     "text": "81,997 views, a small decay"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-24",
+     "rank": 18,
+     "views": 86581,
+     "confidence": "hi",
+     "anchor": "a15"
+    },
+    {
+     "date": "2026-10-25",
+     "rank": 23,
+     "views": 81997,
+     "confidence": "hi",
+     "anchor": "a20"
+    }
+   ]
+  },
+  {
+   "id": "dylan-sprouse",
+   "title": "Dylan Sprouse",
+   "canonical": "Dylan_Sprouse",
+   "url": "https://en.wikipedia.org/wiki/Dylan_Sprouse",
+   "type": "Actor",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "The show and the viral reaction, which also drove entry 10",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-20",
+     "text": "The show and the viral reaction, which also drove entry 10",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "IBTimes UK",
+     "url": "https://www.ibtimes.co.uk/dylan-sprouse-barbara-palvin-victorias-secret-return-six-weeks-post-partum-1826486"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Actor. His reaction to wife Barbara Palvin's Victoria's Secret show on 18th Oct went viral."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 18,
+     "views": 82077,
+     "confidence": "hi",
+     "anchor": "a15"
+    }
+   ]
+  },
+  {
+   "id": "elizabeth-holmes",
+   "title": "Elizabeth Holmes",
+   "canonical": "Elizabeth_Holmes",
+   "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
+   "type": "Entrepreneur",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "Theranos founder. Traffic follows the A24 documentary You Can See Everything (US release 16th Oct) and prison news; Axios (19th Oct) says she moves to a halfway house in Aug 2027. Peak 301,284 on 19th Oct. Related: You Can See Everything, Billy Evans (businessman).",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "Theranos founder. Traffic follows the A24 documentary You Can See Everything (US release 16th Oct) and prison news; Axios (19th Oct) says she moves to a halfway house in Aug 2027. Peak 301,284 on 19th Oct. Related: You Can See Everything, Billy Evans (businessman).",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "AP review",
+     "url": "https://abcnews.com/Entertainment/wireStory/movie-review-shows-elizabeth-holmes-nathan-fielders-singular-137265447"
+    },
+    {
+     "title": "Axios",
+     "url": "https://www.axios.com/2026/10/19/elizabeth-holmes-prison-documentary-release"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Convicted Theranos founder. A new A24 documentary about her opened 16th Oct after a clip went viral on 13th-14th Oct."
+    },
+    {
+     "date": "2026-10-21",
+     "text": "Theranos founder. Traffic follows the A24 documentary You Can See Everything (US release 16th Oct) and prison news; Axios (19th Oct) says she moves to a halfway house in Aug 2027. Peak 301,284 on 19th Oct. Related: You Can See Everything, Billy Evans (businessman)."
+    },
+    {
+     "date": "2026-10-24",
+     "text": "first rise after four days of decay (188,874), no new trigger found."
+    },
+    {
+     "date": "2026-10-25",
+     "text": "193,621 views, a second small rise, in the weekend the documentary's second-weekend takings were reported"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 6,
+     "views": 253155,
+     "confidence": "hi",
+     "anchor": "a3"
+    },
+    {
+     "date": "2026-10-21",
+     "rank": 6,
+     "views": 208412,
+     "confidence": "hi",
+     "anchor": "a3"
+    },
+    {
+     "date": "2026-10-22",
+     "rank": 7,
+     "views": 182703,
+     "confidence": "md",
+     "anchor": "a4"
+    },
+    {
+     "date": "2026-10-23",
+     "rank": 7,
+     "views": 170289,
+     "confidence": "hi",
+     "anchor": "a4"
+    },
+    {
+     "date": "2026-10-24",
+     "rank": 7,
+     "views": 188874,
+     "confidence": "lo",
+     "anchor": "a4"
+    },
+    {
+     "date": "2026-10-25",
+     "rank": 7,
+     "views": 193621,
+     "confidence": "md",
+     "anchor": "a4"
+    }
+   ]
+  },
+  {
+   "id": "h3h3productions",
+   "title": "H3h3Productions",
+   "canonical": "H3h3Productions",
+   "url": "https://en.wikipedia.org/wiki/H3h3Productions",
+   "type": "YouTube channel",
+   "first_charted": "2026-10-23",
+   "cause": {
+    "text": "Ethan Klein put the H3 Podcast on indefinite hiatus on 22nd Oct; on 23rd Oct Hila Klein posted a statement confirming a separation and alleging an affair, and the podcast crew said they would stop working with him. These are allegations as reported.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-23",
+     "text": "Ethan Klein put the H3 Podcast on indefinite hiatus on 22nd Oct; on 23rd Oct Hila Klein posted a statement confirming a separation and alleging an affair, and the podcast crew said they would stop working with him. These are allegations as reported.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Just Jared",
+     "url": "https://www.justjared.com/2026/10/23/hila-klein-accuses-ethan-klein-affair-h3-podcast-hiatus/"
+    },
+    {
+     "title": "Variety",
+     "url": "https://variety.com/2026/digital/news/hila-ethan-klein-affair-h3-podcast-cuts-ties-1236925732/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "text": "Ethan Klein put the H3 Podcast on indefinite hiatus on 22nd Oct; on 23rd Oct Hila Klein posted a statement confirming a separation and alleging an affair, and the podcast crew said they would stop working with him. These are allegations as reported."
+    },
+    {
+     "date": "2026-10-24",
+     "text": "decay to 83,511 views from the 91,812 peak on 23rd Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-23",
+     "rank": 17,
+     "views": 91812,
+     "confidence": "hi",
+     "anchor": "a14"
+    },
+    {
+     "date": "2026-10-24",
+     "rank": 21,
+     "views": 83511,
+     "confidence": "hi",
+     "anchor": "a18"
+    }
+   ]
+  },
+  {
+   "id": "heath-ledger",
+   "title": "Heath Ledger",
+   "canonical": "Heath_Ledger",
+   "url": "https://en.wikipedia.org/wiki/Heath_Ledger",
+   "type": "Actor",
+   "first_charted": "2026-10-21",
+   "cause": {
+    "text": "On Tuesday 20th Oct (US), Dancing with the Stars Dedication Night: Julia Stiles and partner Ezra Sosa danced a tribute to her late 10 Things I Hate About You co-star, joined by cast members, per ABC7. Peak 177,482 views on 21st Oct (19.8x baseline 8,983). 22nd Oct (92,132) is decay from that peak with no new trigger found. Related: Julia Stiles, Dancing with the Stars season 35.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "On Tuesday 20th Oct (US), Dancing with the Stars Dedication Night: Julia Stiles and partner Ezra Sosa danced a tribute to her late 10 Things I Hate About You co-star, joined by cast members, per ABC7. Peak 177,482 views on 21st Oct (19.8x baseline 8,983). 22nd Oct (92,132) is decay from that peak with no new trigger found. Related: Julia Stiles, Dancing with the Stars season 35.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ABC7",
+     "url": "https://abc7news.com/story/10-things-hate-cast-reunite-julia-stiles-dwts/19965200/"
+    },
+    {
+     "title": "Good Morning America",
+     "url": "https://goodmorningamerica.com/culture/story/julia-stiles-pay-tribute-heath-ledger-dedication-night-137296564"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "text": "On Tuesday 20th Oct (US), Dancing with the Stars Dedication Night: Julia Stiles and partner Ezra Sosa danced a tribute to her late 10 Things I Hate About You co-star, joined by cast members, per ABC7. Peak 177,482 views on 21st Oct (19.8x baseline 8,983). 22nd Oct (92,132) is decay from that peak with no new trigger found. Related: Julia Stiles, Dancing with the Stars season 35."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-21",
+     "rank": 8,
+     "views": 177482,
+     "confidence": "hi",
+     "anchor": "a5"
+    },
+    {
+     "date": "2026-10-22",
+     "rank": 19,
+     "views": 92132,
+     "confidence": "hi",
+     "anchor": "a16"
+    }
+   ]
+  },
+  {
+   "id": "helen-haines",
+   "title": "Helen Haines",
+   "canonical": "Helen_Haines",
+   "url": "https://en.wikipedia.org/wiki/Helen_Haines",
+   "type": "Politician",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "Australian independent MP struck by a car outside her Wangaratta office on 19th Oct and in critical condition; a 43-year-old man was arrested and a counter-terrorism taskforce is investigating. Peak 220,295 on 19th Oct.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "Australian independent MP struck by a car outside her Wangaratta office on 19th Oct and in critical condition; a 43-year-old man was arrested and a counter-terrorism taskforce is investigating. Peak 220,295 on 19th Oct.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Star",
+     "url": "https://www.thestar.com.my/news/world/2026/10/19/australia-pm-says-independent-mp-helen-haines-has-been-attacked"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Independent Australian MP, critically injured in a deliberate car attack outside her Wangaratta office on 19th Oct."
+    },
+    {
+     "date": "2026-10-21",
+     "text": "Australian independent MP struck by a car outside her Wangaratta office on 19th Oct and in critical condition; a 43-year-old man was arrested and a counter-terrorism taskforce is investigating. Peak 220,295 on 19th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 8,
+     "views": 158924,
+     "confidence": "hi",
+     "anchor": "a5"
+    },
+    {
+     "date": "2026-10-21",
+     "rank": 13,
+     "views": 154476,
+     "confidence": "hi",
+     "anchor": "a10"
+    }
+   ]
+  },
+  {
+   "id": "hunter-schafer",
+   "title": "Hunter Schafer",
+   "canonical": "Hunter_Schafer",
+   "url": "https://en.wikipedia.org/wiki/Hunter_Schafer",
+   "type": "Actress",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "The release and its opening weekend, now decaying",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-20",
+     "text": "The release and its opening weekend, now decaying",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Actress. An Elle interview published 19th Oct disclosed she had gender-affirming surgery in December 2025."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 12,
+     "views": 117851,
+     "confidence": "hi",
+     "anchor": "a9"
+    }
+   ]
+  },
+  {
+   "id": "ilhan-omar",
+   "title": "Ilhan Omar",
+   "canonical": "Ilhan_Omar",
+   "url": "https://en.wikipedia.org/wiki/Ilhan_Omar",
+   "type": "Politician",
+   "first_charted": "2026-10-22",
+   "cause": {
+    "text": "Federal agents searched her Washington home on 12th Oct (ABC News); a push to strip her citizenship was reported on 15th Oct. On 22nd Oct Trump called for her to resign at an Iowa rally and she said she would move out of her DC home (Iowa Capital Dispatch, Washington Times). No new event found for 23rd Oct.",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-22",
+     "text": "Federal agents searched her Washington home on 12th Oct (ABC News); a push to strip her citizenship was reported on 15th Oct. On 22nd Oct Trump called for her to resign at an Iowa rally and she said she would move out of her DC home (Iowa Capital Dispatch, Washington Times). No new event found for 23rd Oct.",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Iowa Capital Dispatch",
+     "url": "https://iowacapitaldispatch.com/2026/10/22/trump-calls-for-omar-to-resign-defends-ramaswamy-campaign-ad-at-iowa-rally/"
+    },
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/video/137209672/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "text": "Federal agents searched her Washington home on 12th Oct (ABC News); a push to strip her citizenship was reported on 15th Oct. On 22nd Oct Trump called for her to resign at an Iowa rally and she said she would move out of her DC home (Iowa Capital Dispatch, Washington Times). No new event found for 23rd Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-22",
+     "rank": 17,
+     "views": 103302,
+     "confidence": "hi",
+     "anchor": "a14"
+    },
+    {
+     "date": "2026-10-23",
+     "rank": 11,
+     "views": 103972,
+     "confidence": "md",
+     "anchor": "a8"
+    }
+   ]
+  },
+  {
+   "id": "india-at-the-2026-asian-para-games",
+   "title": "India at the 2026 Asian Para Games",
+   "canonical": "India_at_the_2026_Asian_Para_Games",
+   "url": "https://en.wikipedia.org/wiki/India_at_the_2026_Asian_Para_Games",
+   "type": "Sports event",
+   "first_charted": "2026-10-23",
+   "cause": {
+    "text": "The Games run 18th to 24th Oct in Aichi-Nagoya; India had 35 medals (9 gold) and sixth place as of 20th Oct.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-23",
+     "text": "The Games run 18th to 24th Oct in Aichi-Nagoya; India had 35 medals (9 gold) and sixth place as of 20th Oct.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Free Press Journal",
+     "url": "https://www.freepressjournal.in/sports/asian-para-games-2026-medal-tally-india-climbs-to-6th-place-with-35-medals-check-gold-silver-and-bronze-count"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "text": "The Games run 18th to 24th Oct in Aichi-Nagoya; India had 35 medals (9 gold) and sixth place as of 20th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-23",
+     "rank": 22,
+     "views": 76790,
+     "confidence": "hi",
+     "anchor": "a19"
+    }
+   ]
+  },
+  {
+   "id": "jacob-misiorowski",
+   "title": "Jacob Misiorowski",
+   "canonical": "Jacob_Misiorowski",
+   "url": "https://en.wikipedia.org/wiki/Jacob_Misiorowski",
+   "type": "MLB pitcher",
+   "first_charted": "2026-10-24",
+   "cause": {
+    "text": "Brewers pitcher who started World Series Game 1 against the Rays on 23rd Oct (7 pm CT, 00:00 UTC on 24th Oct), per CBS Sports; earlier spikes fit his playoff starts (high confidence).",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-24",
+     "text": "Brewers pitcher who started World Series Game 1 against the Rays on 23rd Oct (7 pm CT, 00:00 UTC on 24th Oct), per CBS Sports; earlier spikes fit his playoff starts (high confidence).",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CBS Sports",
+     "url": "https://www.cbssports.com/mlb/news/world-series-game-1-jacob-misiorowski-brewers-start/"
+    },
+    {
+     "title": "Fox 6",
+     "url": "https://www.fox6now.com/sports/brewers-world-series-rays-2026"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-24",
+     "text": "Brewers pitcher who started World Series Game 1 against the Rays on 23rd Oct (7 pm CT, 00:00 UTC on 24th Oct), per CBS Sports; earlier spikes fit his playoff starts (high confidence)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-24",
+     "rank": 10,
+     "views": 133083,
+     "confidence": "hi",
+     "anchor": "a7"
+    }
+   ]
+  },
+  {
+   "id": "jailer-2",
+   "title": "Jailer 2",
+   "canonical": "Jailer_2",
+   "url": "https://en.wikipedia.org/wiki/Jailer_2",
+   "type": "Film",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "Rajinikanth Tamil film released 15th Oct with a record opening (about 418 crore rupees worldwide in four days, per Sacnilk). Peak 378,259 views on 16th Oct; decaying since; 190,945 on 24th Oct.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "Rajinikanth Tamil film released 15th Oct with a record opening (about 418 crore rupees worldwide in four days, per Sacnilk). Peak 378,259 views on 16th Oct; decaying since; 190,945 on 24th Oct.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/news/jailer-2-box-office-records-every-milestone-achieved-by-rajinikanths-blockbuster"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/10/19/jailer-2-500-crore-box-office-collection-worldwide.html"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/10/19/jailer-2-500-crore-box-office-collection-worldwide.amp.html"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/news/jailer-2-first-weekend-box-office-collection-will-it-cross-the-400-crore-mark-in-4-days"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Rajinikanth's Tamil action sequel, released worldwide on 15th Oct. Sixth straight day of heavy traffic."
+    },
+    {
+     "date": "2026-10-21",
+     "text": "Rajinikanth Tamil film released 15th Oct with a record opening (about 418 crore rupees worldwide in four days, per Sacnilk). Peak 378,259 views on 16th Oct; decaying since; 190,945 on 24th Oct."
+    },
+    {
+     "date": "2026-10-25",
+     "text": "186,875 views, a slow decay with no new trigger found"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 5,
+     "views": 303129,
+     "confidence": "hi",
+     "anchor": "a2"
+    },
+    {
+     "date": "2026-10-21",
+     "rank": 4,
+     "views": 278796,
+     "confidence": "hi",
+     "anchor": "a1"
+    },
+    {
+     "date": "2026-10-22",
+     "rank": 6,
+     "views": 243842,
+     "confidence": "hi",
+     "anchor": "a3"
+    },
+    {
+     "date": "2026-10-23",
+     "rank": 6,
+     "views": 192717,
+     "confidence": "hi",
+     "anchor": "a3"
+    },
+    {
+     "date": "2026-10-24",
+     "rank": 6,
+     "views": 190945,
+     "confidence": "hi",
+     "anchor": "a3"
+    },
+    {
+     "date": "2026-10-25",
+     "rank": 8,
+     "views": 186875,
+     "confidence": "hi",
+     "anchor": "a5"
+    }
+   ]
+  },
+  {
+   "id": "jerry-hall",
+   "title": "Jerry Hall",
+   "canonical": "Jerry_Hall",
+   "url": "https://en.wikipedia.org/wiki/Jerry_Hall",
+   "type": "Model",
+   "first_charted": "2026-10-22",
+   "cause": {
+    "text": "Appears in The Celebrity Traitors UK series 2; spikes fit episode nights (low to medium confidence). Peak 138,456 on 22nd Oct. Related: Miranda Hart.",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-22",
+     "text": "Appears in The Celebrity Traitors UK series 2; spikes fit episode nights (low to medium confidence). Peak 138,456 on 22nd Oct. Related: Miranda Hart.",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Grazia",
+     "url": "https://graziadaily.co.uk/life/tv-and-film/celebrity-traitors-jerry-hall/"
+    },
+    {
+     "title": "Henley Standard",
+     "url": "https://www.henleystandard.co.uk/news/home/710186/tense-moments-for-jerry-hall-as-traitors-nears-climax.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "text": "Appears in The Celebrity Traitors UK series 2; spikes fit episode nights (low to medium confidence). Peak 138,456 on 22nd Oct. Related: Miranda Hart."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-22",
+     "rank": 12,
+     "views": 138456,
+     "confidence": "lo",
+     "anchor": "a9"
+    }
+   ]
+  },
+  {
+   "id": "john-anderson-singer",
+   "title": "John Anderson (singer)",
+   "canonical": "John_Anderson_(singer)",
+   "url": "https://en.wikipedia.org/wiki/John_Anderson_%28singer%29",
+   "type": "Deceased singer",
+   "first_charted": "2026-10-22",
+   "cause": {
+    "text": "Country singer died aged 71; family announced it on the evening of 21st Oct (US time), so traffic landed on 22nd Oct UTC. Peak 336,579 on 22nd Oct; decaying.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-22",
+     "text": "Country singer died aged 71; family announced it on the evening of 21st Oct (US time), so traffic landed on 22nd Oct UTC. Peak 336,579 on 22nd Oct; decaying.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "WSMV",
+     "url": "https://www.wsmv.com/2026/10/22/country-music-hall-famer-john-anderson-dies-71/"
+    },
+    {
+     "title": "Variety",
+     "url": "https://variety.com/2026/music/people-news/john-anderson-dead-seminole-wind-swingin-die-1236919387/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "text": "Country singer died aged 71; family announced it on the evening of 21st Oct (US time), so traffic landed on 22nd Oct UTC. Peak 336,579 on 22nd Oct; decaying."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-22",
+     "rank": 5,
+     "views": 336579,
+     "confidence": "hi",
+     "anchor": "a2"
+    },
+    {
+     "date": "2026-10-23",
+     "rank": 14,
+     "views": 98885,
+     "confidence": "hi",
+     "anchor": "a11"
+    }
+   ]
+  },
+  {
+   "id": "julia-stiles",
+   "title": "Julia Stiles",
+   "canonical": "Julia_Stiles",
+   "url": "https://en.wikipedia.org/wiki/Julia_Stiles",
+   "type": "Actor",
+   "first_charted": "2026-10-21",
+   "cause": {
+    "text": "Contestant on Dancing with the Stars season 35; her Dedication Night dance on 20th Oct (US) honored Heath Ledger. Peak 92,740 on 21st Oct. Related: Heath Ledger.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "Contestant on Dancing with the Stars season 35; her Dedication Night dance on 20th Oct (US) honored Heath Ledger. Peak 92,740 on 21st Oct. Related: Heath Ledger.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ABC7",
+     "url": "https://abc7news.com/story/10-things-hate-cast-reunite-julia-stiles-dwts/19965200/"
+    },
+    {
+     "title": "Good Morning America",
+     "url": "https://goodmorningamerica.com/culture/story/julia-stiles-pay-tribute-heath-ledger-dedication-night-137296564"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "text": "Contestant on Dancing with the Stars season 35; her Dedication Night dance on 20th Oct (US) honored Heath Ledger. Peak 92,740 on 21st Oct. Related: Heath Ledger."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-21",
+     "rank": 21,
+     "views": 92740,
+     "confidence": "hi",
+     "anchor": "a18"
+    }
+   ]
+  },
+  {
+   "id": "kehlsteinhaus",
+   "title": "Kehlsteinhaus",
+   "canonical": "Kehlsteinhaus",
+   "url": "https://en.wikipedia.org/wiki/Kehlsteinhaus",
+   "type": "Historic building",
+   "first_charted": "2026-10-24",
+   "cause": {
+    "text": "Fire largely destroyed Hitler's former Eagle's Nest retreat in Bavaria on the evening of 23rd Oct; a suspect was detained and German media suspect arson, per Al Jazeera (high confidence). Peak 110,874 on 24th Oct.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-24",
+     "text": "Fire largely destroyed Hitler's former Eagle's Nest retreat in Bavaria on the evening of 23rd Oct; a suspect was detained and German media suspect arson, per Al Jazeera (high confidence). Peak 110,874 on 24th Oct.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/24/german-police-detain-suspect-after-fire-engulfs-hitlers-eagles-nest"
+    },
+    {
+     "title": "CNBC",
+     "url": "https://www.cnbc.com/2026/10/24/eagles-nest-adolf-hitler-germany-fire.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-24",
+     "text": "Fire largely destroyed Hitler's former Eagle's Nest retreat in Bavaria on the evening of 23rd Oct; a suspect was detained and German media suspect arson, per Al Jazeera (high confidence). Peak 110,874 on 24th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-24",
+     "rank": 13,
+     "views": 110874,
+     "confidence": "hi",
+     "anchor": "a10"
+    }
+   ]
+  },
+  {
+   "id": "kim-jong-un",
+   "title": "Kim Jong Un",
+   "canonical": "Kim_Jong_Un",
+   "url": "https://en.wikipedia.org/wiki/Kim_Jong_Un",
+   "type": "Politician",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "Unverified death and coma rumours spread on social media on 19th to 20th Oct, with no mainstream confirmation (medium confidence). Peak 321,739 on 20th Oct; fading.",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "Unverified death and coma rumours spread on social media on 19th to 20th Oct, with no mainstream confirmation (medium confidence). Peak 321,739 on 20th Oct; fading.",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TuNota",
+     "url": "https://www.tunota.com/mundo/kim-jong-un-murio-hoy-en-2026-que-le-paso-rumores-generan-preocupacion-2026-10-19"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "North Korea's leader. Unverified death rumours spread on 19th Oct; state media published photos of him on 20th Oct."
+    },
+    {
+     "date": "2026-10-21",
+     "text": "Unverified death and coma rumours spread on social media on 19th to 20th Oct, with no mainstream confirmation (medium confidence). Peak 321,739 on 20th Oct; fading."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 4,
+     "views": 321739,
+     "confidence": "hi",
+     "anchor": "a1"
+    },
+    {
+     "date": "2026-10-21",
+     "rank": 19,
+     "views": 107182,
+     "confidence": "md",
+     "anchor": "a16"
+    }
+   ]
+  },
+  {
+   "id": "limonene",
+   "title": "Limonene",
+   "canonical": "Limonene",
+   "url": "https://en.wikipedia.org/wiki/Limonene",
+   "type": "Chemical compound",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "Unknown. This is a step change, not a spike, and the edits do not explain it",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-20",
+     "text": "Unknown. This is a step change, not a spike, and the edits do not explain it",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Citrus-scented compound. Views stepped up on 13th Oct and have held; no trigger found."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 23,
+     "views": 73917,
+     "confidence": "lo",
+     "anchor": "a20"
+    }
+   ]
+  },
+  {
+   "id": "lorne-doerkson",
+   "title": "Lorne Doerkson",
+   "canonical": "Lorne_Doerkson",
+   "url": "https://en.wikipedia.org/wiki/Lorne_Doerkson",
+   "type": "Politician",
+   "first_charted": "2026-10-25",
+   "cause": {
+    "text": "BC Conservative leader, shown as premier-designate by CTV News after the 24th Oct election (high confidence). 108,935 views, 62.6 times baseline. Related: 2026 British Columbia general election.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-25",
+     "text": "BC Conservative leader, shown as premier-designate by CTV News after the 24th Oct election (high confidence). 108,935 views, 62.6 times baseline. Related: 2026 British Columbia general election.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CTV News",
+     "url": "https://www.ctvnews.ca/vancouver/article/bc-conservatives-win-majority-eby-resigns-as-ndp-leader-recap/"
+    },
+    {
+     "title": "Castanet",
+     "url": "https://castanet.net/edition/news-story-632015-3-.htm"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "text": "Leader of the BC Conservatives, shown as premier-designate by CTV News after the 24th Oct election."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-25",
+     "rank": 15,
+     "views": 108935,
+     "confidence": "hi",
+     "anchor": "a12"
+    }
+   ]
+  },
+  {
+   "id": "luke-mccaffrey",
+   "title": "Luke McCaffrey",
+   "canonical": "Luke_McCaffrey",
+   "url": "https://en.wikipedia.org/wiki/Luke_McCaffrey",
+   "type": "NFL player",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "The game, nicknamed the \"McCaffrey Bowl\" in coverage. Kickoff fell on 20th Oct in UTC, which matches the spike day",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-20",
+     "text": "The game, nicknamed the \"McCaffrey Bowl\" in coverage. Kickoff fell on 20th Oct in UTC, which matches the spike day",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Commanders receiver who faced his brother Christian's 49ers on Monday Night Football, 19th Oct (49ers won 23-17)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 9,
+     "views": 142208,
+     "confidence": "md",
+     "anchor": "a6"
+    }
+   ]
+  },
+  {
+   "id": "m-ori-people",
+   "title": "Māori people",
+   "canonical": "Māori_people",
+   "url": "https://en.wikipedia.org/wiki/M%C4%81ori_people",
+   "type": "Ethnic group",
+   "first_charted": "2026-10-24",
+   "cause": {
+    "text": "No confirmed trigger (low confidence). One-day jump from 2,109 to 81,051 views with no edits and no news found; outside links and automated traffic not checked.",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-24",
+     "text": "No confirmed trigger (low confidence). One-day jump from 2,109 to 81,051 views with no edits and no news found; outside links and automated traffic not checked.",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-10-24",
+     "text": "No confirmed trigger (low confidence). One-day jump from 2,109 to 81,051 views with no edits and no news found; outside links and automated traffic not checked."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-24",
+     "rank": 23,
+     "views": 81051,
+     "confidence": "lo",
+     "anchor": "a20"
+    }
+   ]
+  },
+  {
+   "id": "miranda-hart",
+   "title": "Miranda Hart",
+   "canonical": "Miranda_Hart",
+   "url": "https://en.wikipedia.org/wiki/Miranda_Hart",
+   "type": "Comedian",
+   "first_charted": "2026-10-23",
+   "cause": {
+    "text": "Murdered by the Traitors in episode 8 of The Celebrity Traitors UK series 2. The show premiered 1st Oct on BBC One and airs Thursdays and Fridays. Related: Jerry Hall.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-23",
+     "text": "Murdered by the Traitors in episode 8 of The Celebrity Traitors UK series 2. The show premiered 1st Oct on BBC One and airs Thursdays and Fridays. Related: Jerry Hall.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hidden Remote",
+     "url": "https://hiddenremote.com/the-celebrity-traitors-uk-season-2-episode-8-results-recap-who-murdered-banished"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "text": "Murdered by the Traitors in episode 8 of The Celebrity Traitors UK series 2. The show premiered 1st Oct on BBC One and airs Thursdays and Fridays. Related: Jerry Hall."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-23",
+     "rank": 13,
+     "views": 100427,
+     "confidence": "hi",
+     "anchor": "a10"
+    }
+   ]
+  },
+  {
+   "id": "nathan-fielder",
+   "title": "Nathan Fielder",
+   "canonical": "Nathan_Fielder",
+   "url": "https://en.wikipedia.org/wiki/Nathan_Fielder",
+   "type": "Comedian",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "The documentary release, with views peaking three days after the opening",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-20",
+     "text": "The documentary release, with views peaking three days after the opening",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Daily Hive",
+     "url": "https://dailyhive.com/vancouver/nathan-fielder-vancouver-you-can-see-everything"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Comedian behind the Holmes documentary You Can See Everything, which opened 16th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 16,
+     "views": 98444,
+     "confidence": "hi",
+     "anchor": "a13"
+    }
+   ]
+  },
+  {
+   "id": "php",
+   "title": "PHP",
+   "canonical": "PHP",
+   "url": "https://en.wikipedia.org/wiki/PHP",
+   "type": "Programming language",
+   "first_charted": "2026-10-21",
+   "cause": {
+    "text": "Parent article of the PHP2Shell vulnerability; readers followed the disclosure (128.9x baseline on 21st Oct). Related: PHP2Shell.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "Parent article of the PHP2Shell vulnerability; readers followed the disclosure (128.9x baseline on 21st Oct). Related: PHP2Shell.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "text": "Parent article of the PHP2Shell vulnerability; readers followed the disclosure (128.9x baseline on 21st Oct). Related: PHP2Shell."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-21",
+     "rank": 23,
+     "views": 87141,
+     "confidence": "hi",
+     "anchor": "a20"
+    },
+    {
+     "date": "2026-10-22",
+     "rank": 20,
+     "views": 88570,
+     "confidence": "hi",
+     "anchor": "a17"
+    }
+   ]
+  },
+  {
+   "id": "php2shell",
+   "title": "PHP2Shell",
+   "canonical": "PHP2Shell",
+   "url": "https://en.wikipedia.org/wiki/PHP2Shell",
+   "type": "Security flaw",
+   "first_charted": "2026-10-21",
+   "cause": {
+    "text": "Two critical PHP remote-code-execution flaws (CVE-2026-109618, CVE-2026-109619) announced 20th Oct and patched 21st Oct; article created 21st Oct. Peak 238,212 on 21st Oct. Related: PHP.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "Two critical PHP remote-code-execution flaws (CVE-2026-109618, CVE-2026-109619) announced 20th Oct and patched 21st Oct; article created 21st Oct. Peak 238,212 on 21st Oct. Related: PHP.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Help Net Security",
+     "url": "https://www.helpnetsecurity.com/2026/10/21/php2shell-php-vulnerabilities-patched-cve-2026-109618-cve-2026-109619/"
+    },
+    {
+     "title": "BleepingComputer",
+     "url": "https://bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "text": "Two critical PHP remote-code-execution flaws (CVE-2026-109618, CVE-2026-109619) announced 20th Oct and patched 21st Oct; article created 21st Oct. Peak 238,212 on 21st Oct. Related: PHP."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-21",
+     "rank": 5,
+     "views": 238212,
+     "confidence": "hi",
+     "anchor": "a2"
+    },
+    {
+     "date": "2026-10-22",
+     "rank": 10,
+     "views": 153627,
+     "confidence": "hi",
+     "anchor": "a7"
+    },
+    {
+     "date": "2026-10-23",
+     "rank": 23,
+     "views": 76748,
+     "confidence": "hi",
+     "anchor": "a20"
+    }
+   ]
+  },
+  {
+   "id": "richard-riehle",
+   "title": "Richard Riehle",
+   "canonical": "Richard_Riehle",
+   "url": "https://en.wikipedia.org/wiki/Richard_Riehle",
+   "type": "Deceased actor",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "The report of his death on 19th Oct. Views were flat until 18th Oct and rose about 144 times in a day",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-20",
+     "text": "The report of his death on 19th Oct. Views were flat until 18th Oct and rose about 144 times in a day",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fox 7 Austin",
+     "url": "https://www.fox7austin.com/news/richard-riehle-smykowski-from-office-space-dies-78-report"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Actor (Tom Smykowski in Office Space). Died 15th Oct, aged 78; the death was reported on 19th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 15,
+     "views": 101727,
+     "confidence": "hi",
+     "anchor": "a12"
+    }
+   ]
+  },
+  {
+   "id": "ron-duguay",
+   "title": "Ron Duguay",
+   "canonical": "Ron_Duguay",
+   "url": "https://en.wikipedia.org/wiki/Ron_Duguay",
+   "type": "Deceased hockey player",
+   "first_charted": "2026-10-22",
+   "cause": {
+    "text": "Former New York Rangers player; the article records his death on 22nd Oct, and earlier reports said he was fighting cancer. No obituary was opened.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-22",
+     "text": "Former New York Rangers player; the article records his death on 22nd Oct, and earlier reports said he was fighting cancer. No obituary was opened.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Forever Blueshirts",
+     "url": "https://www.foreverblueshirts.com/new-york-rangers-news/ron-duguay-improving-collapse-home-cancer"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "text": "Former New York Rangers player; the article records his death on 22nd Oct, and earlier reports said he was fighting cancer. No obituary was opened."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-22",
+     "rank": 18,
+     "views": 92485,
+     "confidence": "hi",
+     "anchor": "a15"
+    }
+   ]
+  },
+  {
+   "id": "sean-hannity",
+   "title": "Sean Hannity",
+   "canonical": "Sean_Hannity",
+   "url": "https://en.wikipedia.org/wiki/Sean_Hannity",
+   "type": "TV host",
+   "first_charted": "2026-10-25",
+   "cause": {
+    "text": "Fox News host who married Ainsley Earhardt in Palm Beach on 24th Oct (high confidence). 72,232 views on 24th Oct and 93,887 on 25th Oct. Related: Ainsley Earhardt.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-25",
+     "text": "Fox News host who married Ainsley Earhardt in Palm Beach on 24th Oct (high confidence). 72,232 views on 24th Oct and 93,887 on 25th Oct. Related: Ainsley Earhardt.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Just Jared",
+     "url": "https://www.justjared.com/2026/10/25/sean-hannity-ainsley-earhardt-wedding-guest-list/"
+    },
+    {
+     "title": "TVLine",
+     "url": "https://tvline.com/news/sean-hannity-engaged-ainsley-earhardt-fox-news-1235393015"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "text": "Fox News host who married Ainsley Earhardt in Palm Beach on 24th Oct, per Just Jared; related to Earhardt."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-25",
+     "rank": 19,
+     "views": 93887,
+     "confidence": "hi",
+     "anchor": "a16"
+    }
+   ]
+  },
+  {
+   "id": "street-fighter-2026-film",
+   "title": "Street Fighter (2026 film)",
+   "canonical": "Street_Fighter_(2026_film)",
+   "url": "https://en.wikipedia.org/wiki/Street_Fighter_%282026_film%29",
+   "type": "Film",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "Paramount film topped the North American box office on 16th to 18th Oct with about $31 million. Peak 192,150 on 17th Oct; normal post-release decline.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "Paramount film topped the North American box office on 16th to 18th Oct with about $31 million. Peak 192,150 on 17th Oct; normal post-release decline.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Star",
+     "url": "https://www.thestar.com.my/news/world/2026/10/19/street-fighter-tops-north-american-box-office-in-opening-weekend"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "Paramount's film adaptation, released 16th Oct. $31M US opening; views are falling from the 17th Oct peak."
+    },
+    {
+     "date": "2026-10-21",
+     "text": "Paramount film topped the North American box office on 16th to 18th Oct with about $31 million. Peak 192,150 on 17th Oct; normal post-release decline."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 13,
+     "views": 110411,
+     "confidence": "hi",
+     "anchor": "a10"
+    },
+    {
+     "date": "2026-10-21",
+     "rank": 22,
+     "views": 88932,
+     "confidence": "hi",
+     "anchor": "a19"
+    }
+   ]
+  },
+  {
+   "id": "student-list",
+   "title": "Student List",
+   "canonical": "Student_List",
+   "url": "https://en.wikipedia.org/wiki/Student_List",
+   "type": "Political list",
+   "first_charted": "2026-10-25",
+   "cause": {
+    "text": "Serbian list that won the 25th Oct parliamentary election per Euronews (high confidence). 88,912 views, 68.4 times baseline. Related: 2026 Serbian parliamentary election.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-25",
+     "text": "Serbian list that won the 25th Oct parliamentary election per Euronews (high confidence). 88,912 views, 68.4 times baseline. Related: 2026 Serbian parliamentary election.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Euronews",
+     "url": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-25",
+     "text": "The list won the Serbian parliamentary election on 25th Oct, per Euronews; related to the Serbian election page."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-25",
+     "rank": 21,
+     "views": 88912,
+     "confidence": "hi",
+     "anchor": "a18"
+    }
+   ]
+  },
+  {
+   "id": "t-a-leoni",
+   "title": "Téa Leoni",
+   "canonical": "Téa_Leoni",
+   "url": "https://en.wikipedia.org/wiki/T%C3%A9a_Leoni",
+   "type": "Actor",
+   "first_charted": "2026-10-24",
+   "cause": {
+    "text": "No confirmed trigger (low confidence). Three-day climb from 11,310 to 88,011 views with 5 edits in the window and no dated news.",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-24",
+     "text": "No confirmed trigger (low confidence). Three-day climb from 11,310 to 88,011 views with 5 edits in the window and no dated news.",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-10-24",
+     "text": "No confirmed trigger (low confidence). Three-day climb from 11,310 to 88,011 views with 5 edits in the window and no dated news."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-24",
+     "rank": 16,
+     "views": 88011,
+     "confidence": "lo",
+     "anchor": "a13"
+    }
+   ]
+  },
+  {
+   "id": "tom-skerritt",
+   "title": "Tom Skerritt",
+   "canonical": "Tom_Skerritt",
+   "url": "https://en.wikipedia.org/wiki/Tom_Skerritt",
+   "type": "Deceased actor",
+   "first_charted": "2026-10-22",
+   "cause": {
+    "text": "Actor (Alien, Top Gun) died on 21st Oct aged 93, per his family to Fox News; readers arrived from 22nd Oct UTC. A hoax-tracker page reports a denial on 23rd Oct, which conflicts with Fox and is treated as unreliable.",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-22",
+     "text": "Actor (Alien, Top Gun) died on 21st Oct aged 93, per his family to Fox News; readers arrived from 22nd Oct UTC. A hoax-tracker page reports a denial on 23rd Oct, which conflicts with Fox and is treated as unreliable.",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fox News",
+     "url": "https://www.foxnews.com/entertainment/top-gun-star-tom-skerritt-dead-93"
+    },
+    {
+     "title": "mediamass",
+     "url": "https://en.mediamass.net/people/tom-skerritt/deathhoax.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "text": "Actor (Alien, Top Gun) died on 21st Oct aged 93, per his family to Fox News; readers arrived from 22nd Oct UTC. A hoax-tracker page reports a denial on 23rd Oct, which conflicts with Fox and is treated as unreliable."
+    },
+    {
+     "date": "2026-10-24",
+     "text": "decay to 88,131 views (peak 406,636 on 23rd Oct), no new trigger found."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-22",
+     "rank": 4,
+     "views": 371141,
+     "confidence": "hi",
+     "anchor": "a1"
+    },
+    {
+     "date": "2026-10-23",
+     "rank": 4,
+     "views": 406636,
+     "confidence": "hi",
+     "anchor": "a1"
+    },
+    {
+     "date": "2026-10-24",
+     "rank": 15,
+     "views": 88131,
+     "confidence": "md",
+     "anchor": "a12"
+    }
+   ]
+  },
+  {
+   "id": "ufc-333",
+   "title": "UFC 333",
+   "canonical": "UFC_333",
+   "url": "https://en.wikipedia.org/wiki/UFC_333",
+   "type": "MMA event",
+   "first_charted": "2026-10-24",
+   "cause": {
+    "text": "Abu Dhabi UFC card with two title fights; Volkanovski beat Evloev to retain the title and Petr Yan also retained his, per headlines (high confidence). Peak 224,691 on 24th Oct. Related: Alexander Volkanovski.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-24",
+     "text": "Abu Dhabi UFC card with two title fights; Volkanovski beat Evloev to retain the title and Petr Yan also retained his, per headlines (high confidence). Peak 224,691 on 24th Oct. Related: Alexander Volkanovski.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/mma/story/_/id/50220522/ufc-333-results-volkanovski-evloev"
+    },
+    {
+     "title": "CBS Sports",
+     "url": "https://www.cbssports.com/ufc/news/ufc-333-fight-results-live-updates-alexander-volkanovski-movsar-evloev-match-card/live/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-24",
+     "text": "Abu Dhabi UFC card with two title fights; Volkanovski beat Evloev to retain the title and Petr Yan also retained his, per headlines (high confidence). Peak 224,691 on 24th Oct. Related: Alexander Volkanovski."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-24",
+     "rank": 5,
+     "views": 224691,
+     "confidence": "hi",
+     "anchor": "a2"
+    }
+   ]
+  },
+  {
+   "id": "united-states",
+   "title": "United States",
+   "canonical": "United_States",
+   "url": "https://en.wikipedia.org/wiki/United_States",
+   "type": "Country",
+   "first_charted": "2026-10-23",
+   "cause": {
+    "text": "Evergreen page with an unexplained lift on 23rd Oct (1.6 times baseline); no cause found.",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-23",
+     "text": "Evergreen page with an unexplained lift on 23rd Oct (1.6 times baseline); no cause found.",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "text": "Evergreen page with an unexplained lift on 23rd Oct (1.6 times baseline); no cause found."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-23",
+     "rank": 19,
+     "views": 81754,
+     "confidence": "lo",
+     "anchor": "a16"
+    }
+   ]
+  },
+  {
+   "id": "visionquest",
+   "title": "VisionQuest",
+   "canonical": "VisionQuest",
+   "url": "https://en.wikipedia.org/wiki/VisionQuest",
+   "type": "TV series",
+   "first_charted": "2026-10-21",
+   "cause": {
+    "text": "Marvel Disney+ series premiered 13th Oct in North America (14th elsewhere); episodes 3 and 4 arrived 20th Oct in North America and 21st Oct elsewhere. Peaks 156,179 on 14th Oct and 123,339 on 21st Oct.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "Marvel Disney+ series premiered 13th Oct in North America (14th elsewhere); episodes 3 and 4 arrived 20th Oct in North America and 21st Oct elsewhere. Peaks 156,179 on 14th Oct and 123,339 on 21st Oct.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TechRadar",
+     "url": "https://www.techradar.com/streaming/disney-plus/visionquest-full-release-schedule"
+    },
+    {
+     "title": "Folha PE",
+     "url": "https://www.folhape.com.br/cultura/conheca-visionquest-nova-serie-da-marvel-que-estreia-no-disney/518081/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "text": "Marvel Disney+ series premiered 13th Oct in North America (14th elsewhere); episodes 3 and 4 arrived 20th Oct in North America and 21st Oct elsewhere. Peaks 156,179 on 14th Oct and 123,339 on 21st Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-21",
+     "rank": 17,
+     "views": 123339,
+     "confidence": "hi",
+     "anchor": "a14"
+    },
+    {
+     "date": "2026-10-22",
+     "rank": 22,
+     "views": 80967,
+     "confidence": "hi",
+     "anchor": "a19"
+    }
+   ]
+  },
+  {
+   "id": "vivek-ramaswamy",
+   "title": "Vivek Ramaswamy",
+   "canonical": "Vivek_Ramaswamy",
+   "url": "https://en.wikipedia.org/wiki/Vivek_Ramaswamy",
+   "type": "Politician",
+   "first_charted": "2026-10-21",
+   "cause": {
+    "text": "Ohio Republican governor candidate. Same ad controversy as Amy Acton; his campaign confirmed it made the ad on 20th Oct, and Trump defended it at an Iowa rally on 22nd Oct. Peak 126,859 on 21st Oct.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "Ohio Republican governor candidate. Same ad controversy as Amy Acton; his campaign confirmed it made the ad on 20th Oct, and Trump defended it at an Iowa rally on 22nd Oct. Peak 126,859 on 21st Oct.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Iowa Capital Dispatch",
+     "url": "https://iowacapitaldispatch.com/2026/10/22/trump-calls-for-omar-to-resign-defends-ramaswamy-campaign-ad-at-iowa-rally/"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/saradorn/2026/10/21/ramaswamys-campaign-admits-making-controversial-ad-featuring-amy-actons-mother-will-spend-4-million-airing-it/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-21",
+     "text": "Ohio Republican governor candidate. Same ad controversy as Amy Acton; his campaign confirmed it made the ad on 20th Oct, and Trump defended it at an Iowa rally on 22nd Oct. Peak 126,859 on 21st Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-21",
+     "rank": 16,
+     "views": 126859,
+     "confidence": "hi",
+     "anchor": "a13"
+    },
+    {
+     "date": "2026-10-22",
+     "rank": 16,
+     "views": 119711,
+     "confidence": "hi",
+     "anchor": "a13"
+    },
+    {
+     "date": "2026-10-23",
+     "rank": 16,
+     "views": 97367,
+     "confidence": "hi",
+     "anchor": "a13"
+    }
+   ]
+  },
+  {
+   "id": "wicker-film",
+   "title": "Wicker (film)",
+   "canonical": "Wicker_(film)",
+   "url": "https://en.wikipedia.org/wiki/Wicker_%28film%29",
+   "type": "Film",
+   "first_charted": "2026-10-24",
+   "cause": {
+    "text": "Olivia Colman and Alexander Skarsgard fantasy comedy; limited US cinema release on 23rd Oct after a Sundance premiere (medium-high confidence).",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-24",
+     "text": "Olivia Colman and Alexander Skarsgard fantasy comedy; limited US cinema release on 23rd Oct after a Sundance premiere (medium-high confidence).",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/movies/wicker-review-olivia-colman-alexander-skarsgard/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-24",
+     "text": "Olivia Colman and Alexander Skarsgard fantasy comedy; limited US cinema release on 23rd Oct after a Sundance premiere (medium-high confidence)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-24",
+     "rank": 20,
+     "views": 83719,
+     "confidence": "hi",
+     "anchor": "a17"
+    }
+   ]
+  },
+  {
+   "id": "wildwood-film",
+   "title": "Wildwood (film)",
+   "canonical": "Wildwood_(film)",
+   "url": "https://en.wikipedia.org/wiki/Wildwood_%28film%29",
+   "type": "Film",
+   "first_charted": "2026-10-23",
+   "cause": {
+    "text": "Laika stop-motion fantasy in the October release slate alongside Clayface; release date not confirmed (medium confidence).",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-23",
+     "text": "Laika stop-motion fantasy in the October release slate alongside Clayface; release date not confirmed (medium confidence).",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Box Office Pro",
+     "url": "https://www.boxofficepro.com/long-range-forecast-october-marches-on-with-wildwood-clayface-klara-and-the-sun-and-ali-g-who-iz-i/"
+    },
+    {
+     "title": "Business Wire (LAIKA)",
+     "url": "https://secure.businesswire.com/news/home/20260513726729/en/LAIKA-Debuts-Teaser-Trailer-for-Travis-Knights-Handcrafted-Epic-Fantasy-Wildwood-in-Theaters-October-23"
+    },
+    {
+     "title": "Hollywood Reporter",
+     "url": "https://www.hollywoodreporter.com/movies/movie-news/clayface-box-office-you-can-see-everything-wildwood-1236739530/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "text": "Laika stop-motion fantasy in the October release slate alongside Clayface; release date not confirmed (medium confidence)."
+    },
+    {
+     "date": "2026-10-24",
+     "text": "96,858 views, third daily rise; heavy Plot-section editing suggests viewers have seen the film."
+    },
+    {
+     "date": "2026-10-25",
+     "text": "118,435 views, the highest day of the window; the Laika announcement headline now supports a 23rd Oct release"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-23",
+     "rank": 21,
+     "views": 78675,
+     "confidence": "md",
+     "anchor": "a18"
+    },
+    {
+     "date": "2026-10-24",
+     "rank": 14,
+     "views": 96858,
+     "confidence": "md",
+     "anchor": "a11"
+    },
+    {
+     "date": "2026-10-25",
+     "rank": 14,
+     "views": 118435,
+     "confidence": "md",
+     "anchor": "a11"
+    }
+   ]
+  },
+  {
+   "id": "xxx",
+   "title": ".xxx",
+   "canonical": ".xxx",
+   "url": "https://en.wikipedia.org/wiki/.xxx",
+   "type": "Domain",
+   "first_charted": "2026-10-24",
+   "cause": {
+    "text": "No confirmed trigger (low confidence). Volatile views all month (peak 385,909 on 4th Oct), only 2 edits, no news found; automated traffic not checked.",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-24",
+     "text": "No confirmed trigger (low confidence). Volatile views all month (peak 385,909 on 4th Oct), only 2 edits, no news found; automated traffic not checked.",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-10-24",
+     "text": "No confirmed trigger (low confidence). Volatile views all month (peak 385,909 on 4th Oct), only 2 edits, no news found; automated traffic not checked."
+    },
+    {
+     "date": "2026-10-25",
+     "text": "175,999 views, a second day above 150,000 and still no trigger found"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-24",
+     "rank": 8,
+     "views": 155001,
+     "confidence": "lo",
+     "anchor": "a5"
+    },
+    {
+     "date": "2026-10-25",
+     "rank": 9,
+     "views": 175999,
+     "confidence": "lo",
+     "anchor": "a6"
+    }
+   ]
+  },
+  {
+   "id": "xxx-return-of-xander-cage",
+   "title": "XXX: Return of Xander Cage",
+   "canonical": "XXX:_Return_of_Xander_Cage",
+   "url": "https://en.wikipedia.org/wiki/XXX%3A_Return_of_Xander_Cage",
+   "type": "Film",
+   "first_charted": "2026-10-23",
+   "cause": {
+    "text": "No confirmed trigger (low confidence). Stop-start spikes may reflect streaming exposure, which is a guess; nothing dated 21st to 23rd Oct was found.",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-23",
+     "text": "No confirmed trigger (low confidence). Stop-start spikes may reflect streaming exposure, which is a guess; nothing dated 21st to 23rd Oct was found.",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Collider",
+     "url": "https://collider.com/vin-diesel-xxx-streaming-paramount-plus-july-2026/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-23",
+     "text": "No confirmed trigger (low confidence). Stop-start spikes may reflect streaming exposure, which is a guess; nothing dated 21st to 23rd Oct was found."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-23",
+     "rank": 18,
+     "views": 83223,
+     "confidence": "lo",
+     "anchor": "a15"
+    }
+   ]
+  },
+  {
+   "id": "yaxel-lendeborg",
+   "title": "Yaxel Lendeborg",
+   "canonical": "Yaxel_Lendeborg",
+   "url": "https://en.wikipedia.org/wiki/Yaxel_Lendeborg",
+   "type": "NBA player",
+   "first_charted": "2026-10-22",
+   "cause": {
+    "text": "Golden State Warriors rookie (11th pick); NBA debut around 21st to 22nd Oct inferred from an edit comment (medium confidence); only a preseason debut report was found.",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-22",
+     "text": "Golden State Warriors rookie (11th pick); NBA debut around 21st to 22nd Oct inferred from an edit comment (medium confidence); only a preseason debut report was found.",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "NBC Sports Bay Area",
+     "url": "https://www.nbcbayarea.com/nba/golden-state-warriors/yaxel-lendeborg-preseason-debut-steve-kerr/4153204/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-22",
+     "text": "Golden State Warriors rookie (11th pick); NBA debut around 21st to 22nd Oct inferred from an edit comment (medium confidence); only a preseason debut report was found."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-22",
+     "rank": 21,
+     "views": 86107,
+     "confidence": "md",
+     "anchor": "a18"
+    }
+   ]
+  },
+  {
+   "id": "you-can-see-everything",
+   "title": "You Can See Everything",
+   "canonical": "You_Can_See_Everything",
+   "url": "https://en.wikipedia.org/wiki/You_Can_See_Everything",
+   "type": "Documentary",
+   "first_charted": "2026-10-20",
+   "cause": {
+    "text": "A24 documentary by Nathan Fielder and Lance Oppenheim following Elizabeth Holmes. Released in US cinemas 16th Oct, second at the US box office with about $15 million. Peak 268,900 on 19th Oct; decaying until 23rd Oct; 24th Oct rose to 152,908 with no separate trigger found. Related: Billy Evans (businessman).",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-21",
+     "text": "A24 documentary by Nathan Fielder and Lance Oppenheim following Elizabeth Holmes. Released in US cinemas 16th Oct, second at the US box office with about $15 million. Peak 268,900 on 19th Oct; decaying until 23rd Oct; 24th Oct rose to 152,908 with no separate trigger found. Related: Billy Evans (businessman).",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "AP review",
+     "url": "https://abcnews.com/Entertainment/wireStory/movie-review-shows-elizabeth-holmes-nathan-fielders-singular-137265447"
+    },
+    {
+     "title": "TechRadar",
+     "url": "https://www.techradar.com/entertainment/how-to-watch/where-to-watch-you-can-see-everything"
+    },
+    {
+     "title": "KSL (Associated Press report)",
+     "url": "https://www.ksl.com/article/51640808/you-can-see-everything-surges-with-195m-at-box-office-clayface-takes-no-1"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-20",
+     "text": "The 174-minute Holmes documentary by Nathan Fielder and Lance Oppenheim; $15M US opening weekend."
+    },
+    {
+     "date": "2026-10-21",
+     "text": "A24 documentary by Nathan Fielder and Lance Oppenheim following Elizabeth Holmes. Released in US cinemas 16th Oct, second at the US box office with about $15 million. Peak 268,900 on 19th Oct; decaying until 23rd Oct; 24th Oct rose to 152,908 with no separate trigger found. Related: Billy Evans (businessman)."
+    },
+    {
+     "date": "2026-10-25",
+     "text": "159,715 views; second-weekend takings of about $19.5 million were reported, up from the first weekend"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-20",
+     "rank": 7,
+     "views": 206507,
+     "confidence": "hi",
+     "anchor": "a4"
+    },
+    {
+     "date": "2026-10-21",
+     "rank": 10,
+     "views": 170153,
+     "confidence": "hi",
+     "anchor": "a7"
+    },
+    {
+     "date": "2026-10-22",
+     "rank": 13,
+     "views": 138013,
+     "confidence": "md",
+     "anchor": "a10"
+    },
+    {
+     "date": "2026-10-23",
+     "rank": 10,
+     "views": 128351,
+     "confidence": "hi",
+     "anchor": "a7"
+    },
+    {
+     "date": "2026-10-24",
+     "rank": 9,
+     "views": 152908,
+     "confidence": "lo",
+     "anchor": "a6"
+    },
+    {
+     "date": "2026-10-25",
+     "rank": 10,
+     "views": 159715,
+     "confidence": "md",
+     "anchor": "a7"
+    }
+   ]
+  }
+ ]
+}

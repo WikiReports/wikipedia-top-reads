@@ -13,7 +13,7 @@
   h += '<a class="dn-btn latest" href="index.html">Latest report</a>';
   h += newer ? '<a class="dn-btn" href="' + href(newer) + '" rel="next">Newer <span aria-hidden="true">→</span><span class="dn-d">' + newer.label + '</span></a>'
              : '<span class="dn-btn off">Newer <span aria-hidden="true">→</span></span>';
-  h += '</div><details class="dn-all"><summary>All reports (' + days.length + ')</summary><ol>';
+  h += '</div><p class="dn-extra"><a class="dn-link" href="storylines.html">Storylines: follow articles across days <span aria-hidden="true">→</span></a></p><details class="dn-all"><summary>All reports (' + days.length + ')</summary><ol>';
   days.forEach(function (x) {
     h += '<li>' + (x.d === cur ? '<span aria-current="page">' + x.label + ' (this report)</span>' : '<a href="' + href(x) + '">' + x.label + '</a>') + '</li>';
   });
