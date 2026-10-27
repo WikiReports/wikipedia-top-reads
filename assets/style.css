@@ -294,3 +294,7 @@ mark.key { white-space: nowrap; }
 #detail h2 { color: light-dark(hsl(275 45% 38%), hsl(275 80% 80%)); border-bottom-color: light-dark(hsl(275 35% 76%), hsl(275 28% 36%)); }
 #method h2 { color: light-dark(hsl(175 70% 22%), hsl(175 60% 66%)); border-bottom-color: light-dark(hsl(175 35% 70%), hsl(175 30% 30%)); }
 #sources h2 { color: light-dark(hsl(25 80% 30%), hsl(28 90% 70%)); border-bottom-color: light-dark(hsl(25 50% 72%), hsl(28 35% 34%)); }
+
+/* Row labels: larger and in the card colour so they stand out from the values */
+.blk .k { color: var(--c); font-size: 1.02rem; font-weight: 800; letter-spacing: .01em; }
+.blk .k .term { color: inherit; }
