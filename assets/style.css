@@ -261,3 +261,6 @@ details.sl[hidden] { display: none !important; }
 .sl-link a { font-weight: 700; }
 .dn-extra { margin: 8px 0 0; }
 .dn-link { font-weight: 700; }
+
+.tl.tl-collapsed .tl-old { display: none; }
+button.tl-toggle { font: inherit; font-size: .95rem; font-weight: 700; min-height: 44px; margin-top: 10px; padding: 4px 16px; border-radius: 999px; border: 2px solid var(--accent); background: transparent; color: var(--accent); cursor: pointer; }

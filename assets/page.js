@@ -67,4 +67,23 @@
     });
     body.appendChild(b);
   });
+  // Long timelines: show the latest 3 entries, with a button for the earlier ones.
+  document.querySelectorAll('ol.tl').forEach(function (ol, n) {
+    var items = Array.prototype.slice.call(ol.children);
+    var extra = items.length - 3;
+    if (extra < 1) { return; }
+    items.slice(0, extra).forEach(function (li) { li.classList.add('tl-old'); });
+    if (!ol.id) { ol.id = 'tl' + n; }
+    var b = document.createElement('button');
+    b.type = 'button'; b.className = 'tl-toggle';
+    b.setAttribute('aria-controls', ol.id);
+    var set = function (open) {
+      ol.classList.toggle('tl-collapsed', !open);
+      b.setAttribute('aria-expanded', open ? 'true' : 'false');
+      b.textContent = open ? 'Show fewer' : 'Show ' + extra + ' earlier ' + (extra === 1 ? 'entry' : 'entries');
+    };
+    b.addEventListener('click', function () { set(ol.classList.contains('tl-collapsed')); });
+    set(false);
+    ol.parentNode.insertBefore(b, ol.nextSibling);
+  });
 })();
