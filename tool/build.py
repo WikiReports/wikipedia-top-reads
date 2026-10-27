@@ -292,7 +292,7 @@ page = '''<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wikipedia Top Reads: @@DS@@</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Lexend:wght@500;700&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=20261026b">
+<link rel="stylesheet" href="assets/style.css?v=20261026c">
 </head><body>
 <div id="daynav" data-day="%s"></div>
 <div class="wrap">
@@ -360,6 +360,7 @@ assert page.count(_m) == 1
 page = page.replace(_m, FOOT + _m)
 page = page.replace('@@DS@@', DATE_SHORT.split(' ',1)[1]).replace('@@DL@@', DATE_LONG)
 os.makedirs(OUT + '/assets', exist_ok=True)
+page = re.sub(r'(<mark class="key[^"]*">[^<]*</mark>)([)\].,;:]+)', r'<span class="nw">\1\2</span>', page)  # keep trailing punctuation with highlight
 open(OUT + '/%s.html' % DATE_ISO, 'w').write(page)
 open(OUT + '/index.html', 'w').write(page)
 # merge into the day list

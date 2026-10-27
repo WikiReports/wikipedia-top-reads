@@ -275,3 +275,4 @@ mark.key { white-space: nowrap; }
   .body { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .blk.talk { grid-column: span 2; }
 }
+.nw { white-space: nowrap; }
