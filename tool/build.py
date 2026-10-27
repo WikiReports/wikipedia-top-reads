@@ -184,6 +184,18 @@ def timeline_html(sub):
 
 LV = {}
 
+# Detail order inside each article: News, Likely cause, Timeline, then the data blocks.
+BLK_ORDER = ['news', 'cause', 'story']
+
+
+def order_blocks(html_blocks):
+    parts = re.findall(r'<section class="blk [^"]*">.*?</section>', html_blocks, re.S)
+    assert ''.join(parts) == html_blocks
+    def key(b):
+        c = re.match(r'<section class="blk ([a-z]+)', b).group(1)
+        return BLK_ORDER.index(c) if c in BLK_ORDER else len(BLK_ORDER)
+    return ''.join(sorted(parts, key=key))  # stable: other blocks keep their order
+
 
 def article_html(idx, head_text, lst, m):
     blocks = ''
@@ -215,6 +227,7 @@ def article_html(idx, head_text, lst, m):
         else:
             cls = BLK_CLS.get(label, 'misc')
             blocks += '<section class="blk %s"><h4>%s</h4>%s</section>' % (cls, E(label), list_html(sub, True, label))
+    blocks = order_blocks(blocks)
     tag_cls, tag_txt = m['tag']
     lvl = re.search(r'conf (hi|md|lo)"', cause_chip)
     lvl = lvl.group(1) if lvl else 'none'
