@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "groups": [
   {
    "id": "holmes-documentary",
@@ -95,6 +95,26 @@
     "christian-mccaffrey",
     "brock-purdy"
    ]
+  },
+  {
+   "id": "israel-election-2026",
+   "title": "2026 Israeli legislative election",
+   "summary": "The 27th Oct 2026 Israeli parliamentary election and challenger Gadi Eisenkot.",
+   "members": [
+    "2026-israeli-legislative-election",
+    "gadi-eisenkot"
+   ]
+  },
+  {
+   "id": "ballon-dor-2026",
+   "title": "2026 Ballon d'Or",
+   "summary": "The 2026 Ballon d'Or ceremony: Harry Kane's men's award and Alexia Putellas's women's award.",
+   "members": [
+    "harry-kane",
+    "alexia-putellas",
+    "2026-ballon-d-or",
+    "ballon-d-or"
+   ]
   }
  ],
  "aliases": {},
@@ -179,12 +199,28 @@
     {
      "title": "Yahoo Sports",
      "url": "https://sports.yahoo.com/articles/ballon-dor-winners-published-mistake-211503440.html"
+    },
+    {
+     "title": "Premier League",
+     "url": "https://www.premierleague.com/en/news/4749936/harry-kane-wins-ballon-dor-as-premier-league-stars-learn-rankings"
+    },
+    {
+     "title": "ClickOrlando (AP)",
+     "url": "https://www.clickorlando.com/sports/2026/10/26/ballon-dor-winners-published-by-mistake-hours-before-mens-award/"
+    },
+    {
+     "title": "TSN",
+     "url": "https://www.tsn.ca/soccer/article/london-citys-putellas-claims-2026-ballon-dor-feminin/"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-26",
      "text": "The ceremony was held at the London Palladium on the evening of 26th Oct; Harry Kane won the men's award."
+    },
+    {
+     "date": "2026-10-27",
+     "text": "237,598 views, 53% of the peak, a normal decay for a one-evening event as reaction coverage ran"
     }
    ],
    "charted": [
@@ -194,6 +230,13 @@
      "views": 452394,
      "confidence": "hi",
      "anchor": "a2"
+    },
+    {
+     "date": "2026-10-27",
+     "rank": 9,
+     "views": 237598,
+     "confidence": "hi",
+     "anchor": "a6"
     }
    ]
   },
@@ -335,6 +378,75 @@
      "views": 141044,
      "confidence": "hi",
      "anchor": "a8"
+    }
+   ]
+  },
+  {
+   "id": "2026-israeli-legislative-election",
+   "title": "2026 Israeli legislative election",
+   "canonical": "2026_Israeli_legislative_election",
+   "url": "https://en.wikipedia.org/wiki/2026_Israeli_legislative_election",
+   "type": "Election",
+   "first_charted": "2026-10-27",
+   "cause": {
+    "text": "The Israeli parliamentary election was held on 27th Oct 2026, with polls closing at 20:00 UTC, exit polls and fraud claims on the night; the earlier rise fits the final campaign days and the poll blackout",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-27",
+     "text": "The Israeli parliamentary election was held on 27th Oct 2026, with polls closing at 20:00 UTC, exit polls and fraud claims on the night; the earlier rise fits the final campaign days and the poll blackout",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/27/exit-polls-following-israeli-elections-indicate-no-clear-winner"
+    },
+    {
+     "title": "Israel Hayom",
+     "url": "https://www.israelhayom.com/2026/10/27/israel-election-2026-exit-polls-full-results/"
+    },
+    {
+     "title": "Times of Israel liveblog",
+     "url": "https://www.timesofisrael.com/liveblog-october-27-2026/"
+    },
+    {
+     "title": "Ynetnews",
+     "url": "https://www.ynetnews.com/article/skd97fc2gl"
+    },
+    {
+     "title": "Jerusalem Post",
+     "url": "https://www.jpost.com/israel-election-2026/article-912743"
+    },
+    {
+     "title": "Israel Hayom",
+     "url": "https://www.israelhayom.com/2026/10/20/israel-warns-of-illegal-election-polls-ahead-of-vote/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections"
+    },
+    {
+     "title": "Ynetnews",
+     "url": "https://www.ynetnews.com/article/hjnatbkaml"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-27",
+     "text": "Election day in Israel on 27th Oct: polls closed at 20:00 UTC and exit polls showed no bloc reaching 61 seats; the page was already rising from 18th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-27",
+     "rank": 4,
+     "views": 438729,
+     "confidence": "hi",
+     "anchor": "a1"
     }
    ]
   },
@@ -708,12 +820,28 @@
     {
      "title": "Sky Sports",
      "url": "https://www.skysports.com/football/news/13601952/alexia-putellas-wins-ballon-dor-how-the-womens-super-league-has-benefitted-from-the-midfielders-immense-influence"
+    },
+    {
+     "title": "TSN",
+     "url": "https://www.tsn.ca/soccer/article/london-citys-putellas-claims-2026-ballon-dor-feminin/"
+    },
+    {
+     "title": "Daily Star",
+     "url": "https://www.thedailystar.net/sports/football/news/injury-glory-putellas-claims-third-ballon-dor-4308561"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/perfect-story-alexia-putellas-her-185800393.html"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-26",
      "text": "Won her third women's Ballon d'Or at the ceremony on the evening of 26th Oct."
+    },
+    {
+     "date": "2026-10-27",
+     "text": "146,373 views, a new rise on follow-up coverage, as the first winner who plays in the English Women's Super League"
     }
    ],
    "charted": [
@@ -723,6 +851,13 @@
      "views": 125301,
      "confidence": "hi",
      "anchor": "a20"
+    },
+    {
+     "date": "2026-10-27",
+     "rank": 15,
+     "views": 146373,
+     "confidence": "hi",
+     "anchor": "a12"
     }
    ]
   },
@@ -883,12 +1018,28 @@
     {
      "title": "Sky Sports",
      "url": "https://www.skysports.com/football/news/13601934/harry-kane-wins-2026-ballon-dor-bayern-munich-striker-becomes-first-english-winner-of-award-in-25-years"
+    },
+    {
+     "title": "Premier League",
+     "url": "https://www.premierleague.com/en/news/4749936/harry-kane-wins-ballon-dor-as-premier-league-stars-learn-rankings"
+    },
+    {
+     "title": "ClickOrlando (AP)",
+     "url": "https://www.clickorlando.com/sports/2026/10/26/ballon-dor-winners-published-by-mistake-hours-before-mens-award/"
+    },
+    {
+     "title": "Sports Illustrated",
+     "url": "https://www.si.com/soccer/how-world-reacted-harry-kane-2026-ballon-dor-win"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-26",
      "text": "The general award article, read alongside the ceremony held in London on the evening of 26th Oct."
+    },
+    {
+     "date": "2026-10-27",
+     "text": "271,061 views, higher than the ceremony day, as reaction pieces and Kane's win kept the award in the news"
     }
    ],
    "charted": [
@@ -898,6 +1049,13 @@
      "views": 219157,
      "confidence": "md",
      "anchor": "a8"
+    },
+    {
+     "date": "2026-10-27",
+     "rank": 8,
+     "views": 271061,
+     "confidence": "md",
+     "anchor": "a5"
     }
    ]
   },
@@ -1167,7 +1325,7 @@
    "type": "AI chatbot",
    "first_charted": "2026-10-20",
    "cause": {
-    "text": "No confirmed trigger (low confidence); views jumped from about 33,000 to 100,000 on 19th Oct, and the earlier note that they stayed above 100,000 is corrected: they fell to 71,140 on 25th Oct before rising to 159,883 on 26th Oct; a GPT-6 rollout from 7th Oct and the Texas lawsuit of 23rd Oct predate the rise, and GPT-6.1 Terra was announced late on 26th Oct",
+    "text": "Revised from \"no confirmed trigger\" to a probable but unproven news cluster on 26th to 27th Oct (GPT-6.1 Terra, the Exponential Time Hypothesis claim, the Sweden block) on top of interest elevated since 19th Oct",
     "confidence": "lo"
    },
    "cause_history": [
@@ -1180,6 +1338,12 @@
     {
      "date": "2026-10-26",
      "text": "No confirmed trigger (low confidence); views jumped from about 33,000 to 100,000 on 19th Oct, and the earlier note that they stayed above 100,000 is corrected: they fell to 71,140 on 25th Oct before rising to 159,883 on 26th Oct; a GPT-6 rollout from 7th Oct and the Texas lawsuit of 23rd Oct predate the rise, and GPT-6.1 Terra was announced late on 26th Oct",
+     "confidence": "lo",
+     "note": "Cause revised"
+    },
+    {
+     "date": "2026-10-27",
+     "text": "Revised from \"no confirmed trigger\" to a probable but unproven news cluster on 26th to 27th Oct (GPT-6.1 Terra, the Exponential Time Hypothesis claim, the Sweden block) on top of interest elevated since 19th Oct",
      "confidence": "lo",
      "note": "Cause revised"
     }
@@ -1208,6 +1372,26 @@
     {
      "title": "Forbes",
      "url": "https://www.forbes.com/sites/conormurray/2026/10/03/chatgpts-traffic-roars-back-after-year-of-stagnation/"
+    },
+    {
+     "title": "BleepingComputer",
+     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/"
+    },
+    {
+     "title": "Online Tech Tips",
+     "url": "https://www.online-tech-tips.com/openai-gpt-6-1-terra-release-speed-lower-cost/"
+    },
+    {
+     "title": "Decrypt",
+     "url": "https://decrypt.co/381883/openai-launches-gpt-6-1-terra-half-good-half-price"
+    },
+    {
+     "title": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
+    },
+    {
+     "title": "Decrypt",
+     "url": "https://decrypt.co/381763/sweden-government-offices-block-chatgpt-claude"
     }
    ],
    "timeline": [
@@ -1222,6 +1406,10 @@
     {
      "date": "2026-10-26",
      "text": "159,883 views, a new rise from 71,140 on 25th Oct; the earlier note that views stayed above 100,000 is corrected; still no confirmed trigger"
+    },
+    {
+     "date": "2026-10-27",
+     "text": "183,795 views, the highest of the window, one day after GPT-6.1 Terra and the maths claims were released"
     }
    ],
    "charted": [
@@ -1259,6 +1447,13 @@
      "views": 159883,
      "confidence": "lo",
      "anchor": "a14"
+    },
+    {
+     "date": "2026-10-27",
+     "rank": 10,
+     "views": 183795,
+     "confidence": "lo",
+     "anchor": "a7"
     }
    ]
   },
@@ -1389,14 +1584,6 @@
    ],
    "sources": [
     {
-     "title": "ComicBookMovie",
-     "url": "https://comicbookmovie.com/batman/clayface/clayface-ticket-pre-sales-are-the-dcus-lowest-yet-as-it-eyes-opening-weekend-below-20-million-a230380"
-    },
-    {
-     "title": "Box Office Pro",
-     "url": "https://www.boxofficepro.com/?p=46370"
-    },
-    {
      "title": "Inquirer",
      "url": "https://usa.inquirer.net/213507/clayface-tops-north-american-box-office-with-24-million-debut"
     },
@@ -1435,6 +1622,14 @@
     {
      "title": "SlashFilm",
      "url": "https://www.slashfilm.com/2297132/clayface-box-office-james-gunn-dc-universe-future-meaning/"
+    },
+    {
+     "title": "Cosmic Book News",
+     "url": "https://cosmicbook.news/clayface-first-monday-dc-problem"
+    },
+    {
+     "title": "ComicBasics",
+     "url": "https://www.comicbasics.com/clayface-holds-strong-on-monday-as-dcs-r-rated-horror-film-posts-a-smaller-drop-than-most-genre-rivals/"
     }
    ],
    "timeline": [
@@ -1453,6 +1648,10 @@
     {
      "date": "2026-10-26",
      "text": "184,582 views, 11% below 25th Oct and 30% below the 23rd Oct peak, as weekend actuals ($24.0 million domestic, about $43 million worldwide) and DCU commentary ran; a decay with no new trigger"
+    },
+    {
+     "date": "2026-10-27",
+     "text": "128,749 views, 30% below 26th Oct, as first-Monday box-office reports ran with no new trigger"
     }
    ],
    "charted": [
@@ -1497,6 +1696,13 @@
      "views": 184582,
      "confidence": "hi",
      "anchor": "a10"
+    },
+    {
+     "date": "2026-10-27",
+     "rank": 20,
+     "views": 128749,
+     "confidence": "hi",
+     "anchor": "a17"
     }
    ]
   },
@@ -1703,6 +1909,18 @@
     {
      "title": "1News",
      "url": "https://www.1news.co.nz/2026/10/24/pauline-parker-killer-in-heavenly-creatures-case-dies-aged-88/"
+    },
+    {
+     "title": "ABC7 (AP)",
+     "url": "https://abc7.com/story/susan-saint-james-emmy-winning-actor-mcmillan-wife-kate-allie-dies-80/19985458/"
+    },
+    {
+     "title": "CBS Pittsburgh",
+     "url": "https://www.cbsnews.com/pittsburgh/news/donnie-iris-dies/"
+    },
+    {
+     "title": "TVLine",
+     "url": "https://www.tvline.com/2297663/walter-koenig-star-trek-actor-death-tributes-george-takei/"
     }
    ],
    "timeline": [
@@ -1725,6 +1943,10 @@
     {
      "date": "2026-10-26",
      "text": "153,423 views, 1.1 times its 28-day median and the highest of the window, on the day the deaths of Eric Bauza and Walter Koenig were reported"
+    },
+    {
+     "date": "2026-10-27",
+     "text": "144,961 views, 1.1 times the median, as the deaths of Susan Saint James and Donnie Iris were reported on top of the two from 26th Oct"
     }
    ],
    "charted": [
@@ -1776,6 +1998,70 @@
      "views": 153423,
      "confidence": "hi",
      "anchor": "a16"
+    },
+    {
+     "date": "2026-10-27",
+     "rank": 17,
+     "views": 144961,
+     "confidence": "hi",
+     "anchor": "a14"
+    }
+   ]
+  },
+  {
+   "id": "donnie-iris",
+   "title": "Donnie Iris",
+   "canonical": "Donnie_Iris",
+   "url": "https://en.wikipedia.org/wiki/Donnie_Iris",
+   "type": "Deceased singer",
+   "first_charted": "2026-10-27",
+   "cause": {
+    "text": "His death on 26th Oct, announced that day by his drummer and covered nationally on 27th Oct",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-27",
+     "text": "His death on 26th Oct, announced that day by his drummer and covered nationally on 27th Oct",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ultimate Classic Rock",
+     "url": "https://ultimateclassicrock.com/donnie-iris-dead/"
+    },
+    {
+     "title": "Men's Journal",
+     "url": "https://www.mensjournal.com/news/donnie-iris-cause-of-death"
+    },
+    {
+     "title": "AXS TV",
+     "url": "https://axs.tv/news-story/donnie-iris-pittsburgh-rock-icon-dies-at-83/"
+    },
+    {
+     "title": "CBS Pittsburgh",
+     "url": "https://www.cbsnews.com/pittsburgh/news/donnie-iris-dies/"
+    },
+    {
+     "title": "WPXI",
+     "url": "https://www.wpxi.com/news/local/pittsburgh-music-legend-donnie-iris-says-hes-retiring-live-performances/HJK66YSKGVBLZNKI3MKGHD7LIU/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-27",
+     "text": "Singer of \"Ah! Leah!\" died on 26th Oct aged 83 (bladder cancer), announced by his drummer; national coverage followed on 27th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-27",
+     "rank": 23,
+     "views": 115635,
+     "confidence": "hi",
+     "anchor": "a20"
     }
    ]
   },
@@ -1957,6 +2243,18 @@
     {
      "title": "Rotten Tomatoes editorial",
      "url": "https://editorial.rottentomatoes.com/article/weekend-box-office-clayface-you-can-see-everything/"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/annatong/2026/10/22/elizabeth-holmes-partners-blood-testing-startup-has-lost-its-cto-and-key-inventor/"
+    },
+    {
+     "title": "Fortune",
+     "url": "https://fortune.com/2026/10/25/elizabeth-holmes-partner-billy-evans-haemanthus-blood-testing-startup-theranos/"
+    },
+    {
+     "title": "The Ringer",
+     "url": "https://www.theringer.com/2026/10/26/oscars/you-can-see-everything-nathan-fielder-amanda-seyfried-oscar-odds-best-picture"
     }
    ],
    "timeline": [
@@ -1979,6 +2277,10 @@
     {
      "date": "2026-10-26",
      "text": "178,250 views, 8% below 25th Oct and 41% below the 19th Oct peak, with weekend box-office coverage and a talk-page debate about Billy Evans; a decay with no separate trigger"
+    },
+    {
+     "date": "2026-10-27",
+     "text": "143,754 views, 19% below 26th Oct, a continued decay with new reporting on the partner's startup and no separate trigger"
     }
    ],
    "charted": [
@@ -2030,6 +2332,13 @@
      "views": 178250,
      "confidence": "hi",
      "anchor": "a12"
+    },
+    {
+     "date": "2026-10-27",
+     "rank": 18,
+     "views": 143754,
+     "confidence": "hi",
+     "anchor": "a15"
     }
    ]
   },
@@ -2060,12 +2369,24 @@
     {
      "title": "TMZ",
      "url": "https://www.tmz.com/2026/10/26/eric-bauza-dead/"
+    },
+    {
+     "title": "CBS Los Angeles",
+     "url": "https://www.cbsnews.com/losangeles/news/eric-bauza-death-at-46-bugs-bunny-daffy-duck-looney-tunes/"
+    },
+    {
+     "title": "Fox8",
+     "url": "https://www.fox8live.com/2026/10/26/cause-death-revealed-eric-bauza-modern-voice-bugs-bunny-daffy-duck-more/"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-26",
      "text": "Voice of Bugs Bunny and Daffy Duck died aged 46; his family announced it on the night of 25th Oct and the news spread on 26th Oct."
+    },
+    {
+     "date": "2026-10-27",
+     "text": "156,871 views, 31% of the peak; a decay with no new trigger, after the medical examiner's cause was published"
     }
    ],
    "charted": [
@@ -2075,6 +2396,13 @@
      "views": 511715,
      "confidence": "hi",
      "anchor": "a1"
+    },
+    {
+     "date": "2026-10-27",
+     "rank": 13,
+     "views": 156871,
+     "confidence": "hi",
+     "anchor": "a10"
     }
    ]
   },
@@ -2124,6 +2452,63 @@
      "views": 147560,
      "confidence": "md",
      "anchor": "a17"
+    }
+   ]
+  },
+  {
+   "id": "gadi-eisenkot",
+   "title": "Gadi Eisenkot",
+   "canonical": "Gadi_Eisenkot",
+   "url": "https://en.wikipedia.org/wiki/Gadi_Eisenkot",
+   "type": "Politician",
+   "first_charted": "2026-10-27",
+   "cause": {
+    "text": "He was the main opposition candidate for prime minister in the 27th Oct election and claimed victory on the exit polls; the climb from 24th Oct fits final-days campaign coverage",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-27",
+     "text": "He was the main opposition candidate for prime minister in the 27th Oct election and claimed victory on the exit polls; the climb from 24th Oct fits final-days campaign coverage",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Jerusalem Post",
+     "url": "https://www.jpost.com/israel-election-2026/article-913070"
+    },
+    {
+     "title": "Gulf News",
+     "url": "https://gulfnews.com/world/mena/we-won-eisenkot-claims-victory-in-israel-as-exit-polls-show-netanyahus-bloc-collapsing-but-no-one-has-61-seat-majority-yet-1.500726234"
+    },
+    {
+     "title": "Times of Israel liveblog",
+     "url": "https://www.timesofisrael.com/liveblog-october-27-2026/"
+    },
+    {
+     "title": "Jerusalem Post",
+     "url": "https://www.jpost.com/israel-election-2026/article-912743"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/17/the-israeli-politicians-seeking-to-replace-netanyahu"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-27",
+     "text": "Main challenger to Netanyahu in the 27th Oct Israeli election; claimed victory on the exit polls."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-27",
+     "rank": 12,
+     "views": 179535,
+     "confidence": "hi",
+     "anchor": "a9"
     }
    ]
   },
@@ -2180,6 +2565,67 @@
      "views": 83511,
      "confidence": "hi",
      "anchor": "a18"
+    }
+   ]
+  },
+  {
+   "id": "harry-kane",
+   "title": "Harry Kane",
+   "canonical": "Harry_Kane",
+   "url": "https://en.wikipedia.org/wiki/Harry_Kane",
+   "type": "Footballer",
+   "first_charted": "2026-10-27",
+   "cause": {
+    "text": "The day-after news cycle following his 2026 Ballon d'Or win on the evening of 26th Oct (reaction, Bayern homecoming, Tottenham tribute, future talk)",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-27",
+     "text": "The day-after news cycle following his 2026 Ballon d'Or win on the evening of 26th Oct (reaction, Bayern homecoming, Tottenham tribute, future talk)",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sky Sports",
+     "url": "https://www.skysports.com/football/news/13601934/harry-kane-wins-2026-ballon-dor-bayern-munich-striker-becomes-first-english-winner-of-award-in-25-years"
+    },
+    {
+     "title": "Premier League",
+     "url": "https://www.premierleague.com/en/news/4749936/harry-kane-wins-ballon-dor-as-premier-league-stars-learn-rankings"
+    },
+    {
+     "title": "FC Bayern",
+     "url": "https://fcbayern.com/en/news/2026/10/press-reaction-to-kane-ballon-dor-win"
+    },
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/soccer/story/_/id/50301097/harry-kane-ballon-dor-award-bayern-munich-welcome"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/harry-kane-drops-big-hint-180500247.html"
+    },
+    {
+     "title": "Sports Mole",
+     "url": "https://www.sportsmole.co.uk/football/bayern-munich/ballon-dor/news/could-harry-kanes-ballon-dor-change-his-bayern-munich-future_607804.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-27",
+     "text": "Won the 2026 Ballon d'Or in London on the evening of 26th Oct; the main surge came in the next morning's news cycle (reaction, Bayern homecoming, future talk)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-27",
+     "rank": 6,
+     "views": 358958,
+     "confidence": "hi",
+     "anchor": "a3"
     }
    ]
   },
@@ -2482,10 +2928,6 @@
    ],
    "sources": [
     {
-     "title": "Sacnilk",
-     "url": "https://www.sacnilk.com/news/jailer-2-box-office-records-every-milestone-achieved-by-rajinikanths-blockbuster"
-    },
-    {
      "title": "The Week",
      "url": "https://www.theweek.in/news/entertainment/2026/10/19/jailer-2-500-crore-box-office-collection-worldwide.html"
     },
@@ -2520,6 +2962,18 @@
     {
      "title": "NewsX",
      "url": "https://www.newsx.com/entertainment/jailer-2-box-office-collection-day-11-rajinikanth-beats-20-record-as-film-crosses-rs-710-crore-worldwide-becomes-highest-grossing-tamil-film-287063/amp/"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/10/26/jailer-2-box-office-collection-day-12-india-gross.html"
+    },
+    {
+     "title": "ETV Bharat",
+     "url": "https://www.etvbharat.com/en/entertainment/jailer-2-box-office-collection-day-13-rajinikanths-film-slows-down-is-rs-1000-crore-still-possible-enn26102707037"
+    },
+    {
+     "title": "BusinessToday",
+     "url": "https://www.businesstoday.in/trending/box-office/story/jailer-2-box-office-collection-day-13-rajinikanth-led-crime-thriller-eyes-rs450-crore-in-india-becomes-kollywoods-first-rs700-crore-worldwide-grosser-564135-2026-10-28"
     }
    ],
    "timeline": [
@@ -2538,6 +2992,10 @@
     {
      "date": "2026-10-26",
      "text": "181,309 views, a small fall from 25th Oct; trade reports on 26th Oct said it was the first Tamil film past 700 crore rupees (710.35 crore by day 11) and the highest-grossing Tamil film; a decay with a news bump"
+    },
+    {
+     "date": "2026-10-27",
+     "text": "147,801 views, a fall of 18% from 26th Oct as day 13 collections slowed to about 7.5 crore rupees net"
     }
    ],
    "charted": [
@@ -2587,6 +3045,13 @@
      "date": "2026-10-26",
      "rank": 14,
      "views": 181309,
+     "confidence": "hi",
+     "anchor": "a11"
+    },
+    {
+     "date": "2026-10-27",
+     "rank": 14,
+     "views": 147801,
      "confidence": "hi",
      "anchor": "a11"
     }
@@ -2996,12 +3461,36 @@
     {
      "title": "Times of Israel (AFP)",
      "url": "https://www.timesofisrael.com/bolsonaros-party-concedes-brazil-election-loss-to-leftist-incumbent-lula/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/26/brazil-election-2026-key-takeaways-from-lulas-historic-win"
+    },
+    {
+     "title": "Salon",
+     "url": "https://www.salon.com/2026/10/27/bolsonaro-concedes-but-lulas-fight-has-just-begun/"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/news/brazil-flavio-bolsonaro-u-s-visa-presidential-election-loss/"
+    },
+    {
+     "title": "Globe TV",
+     "url": "https://globetv.app/news/lula-81-promises-the-best-term-in-brazils-history-6ae0e89635c22"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/world/2026/10/28/flavio-bolsonaro-lands-in-us-with-trumps-approval-why-he-left-brazil-after-losing-elections.html"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-26",
      "text": "Won a fourth term in the 25th Oct run-off; the winner linked to the election article above (rank 41 on 25th Oct)."
+    },
+    {
+     "date": "2026-10-27",
+     "text": "116,194 views, 29% of the peak, a decay, with his 81st birthday and the Flávio Bolsonaro visa and departure story on the same date"
     }
    ],
    "charted": [
@@ -3011,6 +3500,13 @@
      "views": 396488,
      "confidence": "hi",
      "anchor": "a4"
+    },
+    {
+     "date": "2026-10-27",
+     "rank": 22,
+     "views": 116194,
+     "confidence": "hi",
+     "anchor": "a19"
     }
    ]
   },
@@ -3176,8 +3672,8 @@
    "type": "Rapper",
    "first_charted": "2026-10-26",
    "cause": {
-    "text": "Her endorsement of Trump at the 25th Oct Michigan rally and Trump's remark about her, covered on 26th Oct",
-    "confidence": "hi"
+    "text": "Her endorsement of Trump at the 25th Oct Michigan rally and the press-secretary joke, with continued media pickup on 27th Oct",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -3185,6 +3681,12 @@
      "text": "Her endorsement of Trump at the 25th Oct Michigan rally and Trump's remark about her, covered on 26th Oct",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-10-27",
+     "text": "Her endorsement of Trump at the 25th Oct Michigan rally and the press-secretary joke, with continued media pickup on 27th Oct",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -3195,12 +3697,36 @@
     {
      "title": "Euronews",
      "url": "https://www.euronews.com/video/2026/10/26/us-nicki-minaj-endorses-trump-at-michigan-republican-rally"
+    },
+    {
+     "title": "Fox News",
+     "url": "https://www.foxnews.com/politics/nicki-minaj-pledges-support-donald-trump-michigan-republican-campaign-rally"
+    },
+    {
+     "title": "Fox10",
+     "url": "https://www.fox10tv.com/2026/10/26/trump-says-nicki-minaj-has-one-hell-beautiful-that-is-hard-miss-during-campaign-rally/"
+    },
+    {
+     "title": "TMZ",
+     "url": "https://www.tmz.com/2026/10/25/nicki-minaj-pitched-as-press-secretary-replacement/"
+    },
+    {
+     "title": "Dancehallmag",
+     "url": "https://www.dancehallmag.com/2026/10/27/news/nicki-minaj-backs-trump-at-michigan-rally-as-his-remark-about-her-body-draws-fire.html"
+    },
+    {
+     "title": "Black America Web",
+     "url": "https://blackamericaweb.com/2026/10/27/nicki-minaj-for-white-house-press-secretary-is-this-a-joke/"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-26",
      "text": "Endorsed Trump at a Michigan rally on 25th Oct (US time); Trump's remark about her drew wide coverage."
+    },
+    {
+     "date": "2026-10-27",
+     "text": "145,546 views, level with 26th Oct as new write-ups on the rally remark and the press-secretary joke ran"
     }
    ],
    "charted": [
@@ -3210,6 +3736,13 @@
      "views": 144476,
      "confidence": "hi",
      "anchor": "a18"
+    },
+    {
+     "date": "2026-10-27",
+     "rank": 16,
+     "views": 145546,
+     "confidence": "md",
+     "anchor": "a13"
     }
    ]
   },
@@ -3596,6 +4129,55 @@
    ]
   },
   {
+   "id": "susan-saint-james",
+   "title": "Susan Saint James",
+   "canonical": "Susan_Saint_James",
+   "url": "https://en.wikipedia.org/wiki/Susan_Saint_James",
+   "type": "Deceased actor",
+   "first_charted": "2026-10-27",
+   "cause": {
+    "text": "Her death on 26th Oct, reported on 27th Oct; her husband Dick Ebersol's page rose alongside hers",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-27",
+     "text": "Her death on 26th Oct, reported on 27th Oct; her husband Dick Ebersol's page rose alongside hers",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ABC7 (AP)",
+     "url": "https://abc7.com/story/susan-saint-james-emmy-winning-actor-mcmillan-wife-kate-allie-dies-80/19985458/"
+    },
+    {
+     "title": "Fox10",
+     "url": "https://www.fox10tv.com/2026/10/27/mcmillan-wife-actress-susan-saint-james-dies-80/"
+    },
+    {
+     "title": "RTE",
+     "url": "https://www.rte.ie/entertainment/2026/1027/1596993-actress-susan-saint-james-dies-aged-80/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-27",
+     "text": "Died on 26th Oct aged 80 after pancreatic cancer; People magazine reported it and AP followed on 27th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-27",
+     "rank": 7,
+     "views": 298410,
+     "confidence": "hi",
+     "anchor": "a4"
+    }
+   ]
+  },
+  {
    "id": "t-a-leoni",
    "title": "Téa Leoni",
    "canonical": "Téa_Leoni",
@@ -3628,6 +4210,67 @@
      "views": 88011,
      "confidence": "lo",
      "anchor": "a13"
+    }
+   ]
+  },
+  {
+   "id": "tanner-mckee",
+   "title": "Tanner McKee",
+   "canonical": "Tanner_McKee",
+   "url": "https://en.wikipedia.org/wiki/Tanner_McKee",
+   "type": "NFL player",
+   "first_charted": "2026-10-27",
+   "cause": {
+    "text": "He started at quarterback for the Eagles on nationally televised Monday Night Football against the Cowboys in place of the injured Jalen Hurts (23 of 35 for 211 yards, one touchdown, one interception)",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-27",
+     "text": "He started at quarterback for the Eagles on nationally televised Monday Night Football against the Cowboys in place of the injured Jalen Hurts (23 of 35 for 211 yards, one touchdown, one interception)",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Northeast Times",
+     "url": "https://northeasttimes.com/2026/10/27/eagles-cowboys-38-21-monday-night-football-recap/"
+    },
+    {
+     "title": "Sky Sports",
+     "url": "https://www.skysports.com/nfl/news/13604227/dallas-cowboys-beat-spiralling-philadelphia-eagles-as-dak-prescott-and-javonte-williams-star-amid-jalen-hurts-absence"
+    },
+    {
+     "title": "6abc",
+     "url": "https://6abc.com/post/philadelphia-eagles-trying-salvage-nfc-east-crown-hurts-host-cowboys-monday-night-football/19980427/"
+    },
+    {
+     "title": "Inquirer",
+     "url": "https://www.inquirer.com/eagles/tanner-mckee-start-quarterback-panthers-jalen-hurts-mormon-missle-20261015.html"
+    },
+    {
+     "title": "Inquirer",
+     "url": "https://www.inquirer.com/eagles/panthers-instant-analysis-loss-tanner-mckee-losing-streak-20261018.html"
+    },
+    {
+     "title": "Deseret News",
+     "url": "https://www.deseret.com/posts/sports/2026/10/26/who-is-tanner-mckee-starting-quarterback-for-the-eagles/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-27",
+     "text": "Started at quarterback for the Eagles on Monday Night Football (kickoff 00:15 UTC on 27th Oct), a 38-21 loss; Jalen Hurts is out with blood clots."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-27",
+     "rank": 19,
+     "views": 133210,
+     "confidence": "hi",
+     "anchor": "a16"
     }
    ]
   },
@@ -3921,12 +4564,28 @@
     {
      "title": "SlashFilm",
      "url": "https://www.slashfilm.com/2297443/george-takei-star-trek-co-star-walter-koenig-death-reaction/"
+    },
+    {
+     "title": "TVLine",
+     "url": "https://www.tvline.com/2297663/walter-koenig-star-trek-actor-death-tributes-george-takei/"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/tv-shows/william-shatner-pays-tribute-late-star-trek-co-star-walter-koenig/"
+    },
+    {
+     "title": "Bleeding Cool",
+     "url": "https://bleedingcool.com/tv/star-trek-william-shatner-george-takei-others-honor-walter-koenig/"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-26",
      "text": "Star Trek's Chekov died aged 90; his representatives announced the death on 26th Oct."
+    },
+    {
+     "date": "2026-10-27",
+     "text": "182,339 views, 66% of the peak, as tributes from the Star Trek cast ran on; natural causes at his North Hollywood home"
     }
    ],
    "charted": [
@@ -3936,6 +4595,13 @@
      "views": 276569,
      "confidence": "hi",
      "anchor": "a6"
+    },
+    {
+     "date": "2026-10-27",
+     "rank": 11,
+     "views": 182339,
+     "confidence": "hi",
+     "anchor": "a8"
     }
    ]
   },
@@ -4157,6 +4823,10 @@
     {
      "date": "2026-10-26",
      "text": "240,423 views, a third straight rise and 3.4 times the 28-day median; still no edits, no news and no confirmed trigger"
+    },
+    {
+     "date": "2026-10-27",
+     "text": "362,902 views, a fourth straight rise and 5.2 times baseline; still no edits, no news and no confirmed trigger"
     }
    ],
    "charted": [
@@ -4180,6 +4850,13 @@
      "views": 240423,
      "confidence": "lo",
      "anchor": "a7"
+    },
+    {
+     "date": "2026-10-27",
+     "rank": 5,
+     "views": 362902,
+     "confidence": "lo",
+     "anchor": "a2"
     }
    ]
   },
@@ -4292,18 +4969,6 @@
    ],
    "sources": [
     {
-     "title": "AP review",
-     "url": "https://abcnews.com/Entertainment/wireStory/movie-review-shows-elizabeth-holmes-nathan-fielders-singular-137265447"
-    },
-    {
-     "title": "TechRadar",
-     "url": "https://www.techradar.com/entertainment/how-to-watch/where-to-watch-you-can-see-everything"
-    },
-    {
-     "title": "KSL (Associated Press report)",
-     "url": "https://www.ksl.com/article/51640808/you-can-see-everything-surges-with-195m-at-box-office-clayface-takes-no-1"
-    },
-    {
      "title": "Fortune",
      "url": "https://fortune.com/2026/10/26/clayface-box-office-opening-weekend-street-fighter-drop-wildwood-you-can-see-everything/"
     },
@@ -4334,6 +4999,22 @@
     {
      "title": "Bleeding Cool",
      "url": "https://bleedingcool.com/movies/clayface-wins-the-weekend-box-office-fielder-doc-stays-impressive/"
+    },
+    {
+     "title": "The Ringer",
+     "url": "https://www.theringer.com/2026/10/26/oscars/you-can-see-everything-nathan-fielder-amanda-seyfried-oscar-odds-best-picture"
+    },
+    {
+     "title": "Kalshi News",
+     "url": "https://news.kalshi.com/p/you-can-see-everything-best-picture-odds-double-to-32"
+    },
+    {
+     "title": "Cosmic Book News",
+     "url": "https://cosmicbook.news/clayface-first-monday-dc-problem"
+    },
+    {
+     "title": "Tom's Guide",
+     "url": "https://www.tomsguide.com/entertainment/movies/when-is-you-can-see-everything-streaming-heres-our-best-guess"
     }
    ],
    "timeline": [
@@ -4352,6 +5033,10 @@
     {
      "date": "2026-10-26",
      "text": "159,492 views, level with 25th Oct and 41% below the 19th Oct peak, as second-weekend actuals and Oscar-front-runner coverage ran; a plateau with no separate trigger"
+    },
+    {
+     "date": "2026-10-27",
+     "text": "116,879 views, 27% below 26th Oct, the first clear drop after the plateau; a Monday gross of about $2.1 million"
     }
    ],
    "charted": [
@@ -4403,6 +5088,13 @@
      "views": 159492,
      "confidence": "hi",
      "anchor": "a15"
+    },
+    {
+     "date": "2026-10-27",
+     "rank": 21,
+     "views": 116879,
+     "confidence": "hi",
+     "anchor": "a18"
     }
    ]
   }
