@@ -58,16 +58,16 @@ def summary_html(page):
         ctr += ('<tr><th scope="row"><span class="chip conf %s"><span aria-hidden="true">%s</span> %s confidence</span></th>'
                 '<td class="num">%d</td><td class="arts">%s</td></tr>') % (
             k, {'hi': '●', 'md': '◐', 'lo': '○'}[k], label, len(byc[k]),
-            ' · '.join(_link(r) for r in byc[k]) if k == 'lo' else '')
+            ' · '.join(_link(r) for r in byc[k]))
     ctr = ctr.replace('<td class="arts"></td>', '<td class="arts muted">—</td>')
 
     return (
         '<div class="gsum" role="group" aria-label="Summary of the %d articles">'
         '<div class="gbar" role="img" aria-label="%s">%s</div>'
-        '<div class="tblwrap"><table class="gsumt"><caption>How the %d articles break down</caption>'
+        '<div class="tblwrap"><table class="gsumt"><caption>Breakdown</caption>'
         '<thead><tr><th scope="col">Group</th><th scope="col">Articles</th><th scope="col">Which ones</th></tr></thead><tbody>%s'
-        '<tr class="sep"><th scope="row" colspan="3">Confidence in the likely cause</th></tr>%s</tbody></table></div>'
-        '</div>') % (total, bar_label, bar, total, trs, ctr)
+        '<tr class="sep"><th scope="row" colspan="3">Confidence</th></tr>%s</tbody></table></div>'
+        '</div>') % (total, bar_label, bar, trs, ctr)
 
 
 def apply(page):
