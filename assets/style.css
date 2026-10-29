@@ -256,9 +256,9 @@ html { overflow-anchor: auto; }
 .guide-b dd { margin: 2px 0 0; color: var(--muted); }
 
 /* Collapse control at the end of an article */
-button.collapse-end { display: block; width: auto; margin: 12px 0 0 auto; padding: 8px 4px; min-height: 44px; font: inherit; font-size: 15px; font-weight: 400; color: var(--muted); background: none; border: 0; border-radius: 4px; box-shadow: none; cursor: pointer; }
-button.collapse-end:hover { color: var(--accent); background: none; text-decoration: underline; }
-button.collapse-end:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+button.collapse-end { grid-column: 1 / -1; display: flex; align-items: center; justify-content: center; gap: 6px; width: auto; margin: 4px -16px -18px; padding: 10px 16px; min-height: 48px; font: inherit; font-size: 15px; font-weight: 700; color: var(--muted); background: var(--surface-2); border: 0; border-top: 1px solid var(--line); border-radius: 0 0 10.5px 10.5px; box-shadow: none; cursor: pointer; }
+button.collapse-end:hover { color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, var(--surface-2)); }
+button.collapse-end:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
 
 /* Site footer */
 .site-foot { border-top: 2px solid var(--line); padding-top: 14px; color: var(--muted); font-size: .9rem; }
