@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "groups": [
   {
    "id": "holmes-documentary",
@@ -119,6 +119,51 @@
  ],
  "aliases": {},
  "storylines": [
+  {
+   "id": "2022-israeli-legislative-election",
+   "title": "2022 Israeli legislative election",
+   "canonical": "2022_Israeli_legislative_election",
+   "url": "https://en.wikipedia.org/wiki/2022_Israeli_legislative_election",
+   "type": "Election",
+   "first_charted": "2026-10-28",
+   "cause": {
+    "text": "Likely spillover from the 2026 Israeli election, with readers looking up the previous result for comparison; this is an inference, not a documented cause",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-28",
+     "text": "Likely spillover from the 2026 Israeli election, with readers looking up the previous result for comparison; this is an inference, not a documented cause",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections"
+    },
+    {
+     "title": "Ynetnews",
+     "url": "https://www.ynetnews.com/article/hym008yc3fe"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-28",
+     "text": "Likely spillover from the 2026 election (inference): readers comparing results and turnout with the previous Knesset election."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-28",
+     "rank": 16,
+     "views": 133655,
+     "confidence": "lo",
+     "anchor": "a13"
+    }
+   ]
+  },
   {
    "id": "2026-alberta-independence-referendum",
    "title": "2026 Alberta independence referendum",
@@ -432,12 +477,32 @@
     {
      "title": "Ynetnews",
      "url": "https://www.ynetnews.com/article/hjnatbkaml"
+    },
+    {
+     "title": "Times of Israel",
+     "url": "https://www.timesofisrael.com/with-85-of-votes-counted-netanyahu-bloc-has-53-seats-eisenkots-48-arab-parties-surge-to-19/"
+    },
+    {
+     "title": "Jerusalem Post",
+     "url": "https://www.jpost.com/israel-election-2026/article-913122"
+    },
+    {
+     "title": "Euronews",
+     "url": "https://www.euronews.com/2026/10/27/exit-polls-suggest-no-clear-victor-in-israeli-election"
+    },
+    {
+     "title": "ABC Australia",
+     "url": "https://www.abc.net.au/news/2026-10-29/herzog-netanyahu-israel-election/107321418"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-27",
      "text": "Election day in Israel on 27th Oct: polls closed at 20:00 UTC and exit polls showed no bloc reaching 61 seats; the page was already rising from 18th Oct."
+    },
+    {
+     "date": "2026-10-28",
+     "text": "925,801 views, the peak; the count showed Netanyahu bloc 53, Eisenkot bloc 48 and Arab parties 19 with about 90% counted, and neither side near 61"
     }
    ],
    "charted": [
@@ -445,6 +510,13 @@
      "date": "2026-10-27",
      "rank": 4,
      "views": 438729,
+     "confidence": "hi",
+     "anchor": "a1"
+    },
+    {
+     "date": "2026-10-28",
+     "rank": 2,
+     "views": 925801,
      "confidence": "hi",
      "anchor": "a1"
     }
@@ -1096,6 +1168,63 @@
    ]
   },
   {
+   "id": "benjamin-netanyahu",
+   "title": "Benjamin Netanyahu",
+   "canonical": "Benjamin_Netanyahu",
+   "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu",
+   "type": "Politician",
+   "first_charted": "2026-10-28",
+   "cause": {
+    "text": "The 27th Oct election left him caretaker prime minister at the head of the largest bloc but short of 61, and Likud's fraud allegation on 28th Oct added a second news line",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-28",
+     "text": "The 27th Oct election left him caretaker prime minister at the head of the largest bloc but short of 61, and Likud's fraud allegation on 28th Oct added a second news line",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Times of Israel",
+     "url": "https://www.timesofisrael.com/with-85-of-votes-counted-netanyahu-bloc-has-53-seats-eisenkots-48-arab-parties-surge-to-19/"
+    },
+    {
+     "title": "Ynetnews",
+     "url": "https://www.ynetnews.com/article/hjnatbkaml"
+    },
+    {
+     "title": "The New Arab",
+     "url": "https://www.newarab.com/news/netanyahus-likud-accuses-arab-parties-having-stolen-election"
+    },
+    {
+     "title": "RTE",
+     "url": "https://www.rte.ie/news/world/2026/1028/1597028-israel-election/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/29/no-clear-winner-in-israeli-election-with-nearly-90-percent-of-votes-counted"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-28",
+     "text": "His bloc finished about eight seats short of 61 in the 27th Oct election, leaving him caretaker prime minister; Likud called the vote \"stolen\" by Arab parties."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-28",
+     "rank": 20,
+     "views": 124772,
+     "confidence": "md",
+     "anchor": "a17"
+    }
+   ]
+  },
+  {
    "id": "billy-evans-businessman",
    "title": "Billy Evans (businessman)",
    "canonical": "Billy_Evans_(businessman)",
@@ -1350,22 +1479,6 @@
    ],
    "sources": [
     {
-     "title": "Courthouse News",
-     "url": "https://www.courthousenews.com/texas-attorney-general-accuses-openai-of-lying-about-chatgpt-safety-and-safeguards/"
-    },
-    {
-     "title": "Let's Data Science",
-     "url": "https://letsdatascience.com/news/openai-brings-gpt-6-and-intelligent-ui-to-chatgpt-4f0d797c"
-    },
-    {
-     "title": "Yahoo Tech",
-     "url": "https://tech.yahoo.com/ai/chatgpt/articles/gpt-6-1-terra-arrives-225051469.html"
-    },
-    {
-     "title": "Texas Tribune",
-     "url": "https://www.texastribune.org/2026/10/23/ken-paxton-chatgpt-openai-lawsuit-texas-attorney-general/"
-    },
-    {
      "title": "OpenAI Deployment Safety Hub",
      "url": "https://deploymentsafety.openai.com/gpt-6-october"
     },
@@ -1392,6 +1505,26 @@
     {
      "title": "Decrypt",
      "url": "https://decrypt.co/381763/sweden-government-offices-block-chatgpt-claude"
+    },
+    {
+     "title": "The Neuron",
+     "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-october-28-2026/"
+    },
+    {
+     "title": "Releasebot",
+     "url": "https://releasebot.io/updates/openai"
+    },
+    {
+     "title": "Hello Growth",
+     "url": "https://hellogrowth.ai/en/blog/ai-news-october-2026"
+    },
+    {
+     "title": "The Next Web",
+     "url": "https://thenextweb.com/news/sweden-government-blocks-chatgpt-claude"
+    },
+    {
+     "title": "The Next Web",
+     "url": "https://thenextweb.com/news/texas-openai-lawsuit-chatgpt-children-altman"
     }
    ],
    "timeline": [
@@ -1410,6 +1543,10 @@
     {
      "date": "2026-10-27",
      "text": "183,795 views, the highest of the window, one day after GPT-6.1 Terra and the maths claims were released"
+    },
+    {
+     "date": "2026-10-28",
+     "text": "172,227 views, 3.7 times baseline and 6% below 27th Oct; no distinct trigger found, with only small OpenAI news items on that date"
     }
    ],
    "charted": [
@@ -1454,6 +1591,13 @@
      "views": 183795,
      "confidence": "lo",
      "anchor": "a7"
+    },
+    {
+     "date": "2026-10-28",
+     "rank": 9,
+     "views": 172227,
+     "confidence": "lo",
+     "anchor": "a6"
     }
    ]
   },
@@ -1748,6 +1892,67 @@
    ]
   },
   {
+   "id": "cooper-pratt",
+   "title": "Cooper Pratt",
+   "canonical": "Cooper_Pratt",
+   "url": "https://en.wikipedia.org/wiki/Cooper_Pratt",
+   "type": "MLB player",
+   "first_charted": "2026-10-28",
+   "cause": {
+    "text": "Pratt's 4-for-5 night with a 12th-inning go-ahead home run in World Series Game 4 (early 28th Oct UTC), plus the run-up to the Game 5 clincher",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-28",
+     "text": "Pratt's 4-for-5 night with a 12th-inning go-ahead home run in World Series Game 4 (early 28th Oct UTC), plus the run-up to the Game 5 clincher",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "NBC Sports",
+     "url": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-10-28/cooper-pratts-go-ahead-hr-not-enough-as-brewers-fall"
+    },
+    {
+     "title": "Sports Illustrated",
+     "url": "https://www.si.com/mlb/brewers/onsi/cooper-pratt-heroics-spoiled-bullpen-meltdown-michael3"
+    },
+    {
+     "title": "MLB.com",
+     "url": "https://www.mlb.com/news/rays-win-world-series-game-4-2026"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/see-cooper-pratts-home-run-041954799.html"
+    },
+    {
+     "title": "Deseret News",
+     "url": "https://www.deseret.com/sports/2026/10/28/cooper-pratt-latter-day-saint-world-series-champion-milwaukee-brewers-2026/"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/brewers-win-first-world-series-032230850.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-28",
+     "text": "Milwaukee Brewers rookie shortstop went 4-for-5 with a go-ahead 12th-inning home run in World Series Game 4 (early 28th Oct UTC); the Rays won on a walk-off."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-28",
+     "rank": 22,
+     "views": 113736,
+     "confidence": "hi",
+     "anchor": "a19"
+    }
+   ]
+  },
+  {
    "id": "crystal-lake-tv-series",
    "title": "Crystal Lake (TV series)",
    "canonical": "Crystal_Lake_(TV_series)",
@@ -1811,12 +2016,32 @@
     {
      "title": "Good Morning America",
      "url": "https://goodmorningamerica.com/culture/story/julia-stiles-pay-tribute-heath-ledger-dedication-night-137296564"
+    },
+    {
+     "title": "Deseret News",
+     "url": "https://www.deseret.com/entertainment/2026/10/28/dancing-with-the-stars-double-elimination-jackson-tyler/"
+    },
+    {
+     "title": "DIRECTV Insider",
+     "url": "https://www.directv.com/insider/dwts-season-35-episode-7/"
+    },
+    {
+     "title": "Entertainment Now",
+     "url": "https://entertainmentnow.com/dancing-with-the-stars/dwts-horror-movie-night-week-seven/"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/tv-shows/dwts-season-35-dedication-night-ratings-viewership-abc/"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-21",
      "text": "Spikes each Wednesday UTC on episode night. 21st Oct (151,353 views, 10.9x baseline) was Dedication Night, including the Julia Stiles tribute to Heath Ledger. Related: Julia Stiles, Heath Ledger."
+    },
+    {
+     "date": "2026-10-28",
+     "text": "173,121 views, the peak of the window, on Horror Movie Night (broadcast 00:00 UTC), a double elimination with the first 40/40"
     }
    ],
    "charted": [
@@ -1826,6 +2051,13 @@
      "views": 151353,
      "confidence": "hi",
      "anchor": "a11"
+    },
+    {
+     "date": "2026-10-28",
+     "rank": 8,
+     "views": 173121,
+     "confidence": "hi",
+     "anchor": "a5"
     }
    ]
   },
@@ -1878,8 +2110,8 @@
    "type": "Deaths list",
    "first_charted": "2026-10-20",
    "cause": {
-    "text": "Evergreen list page that sits near the top every day, at about its 28-day median; no event needed.",
-    "confidence": "hi"
+    "text": "Continuing from 20th Oct: evergreen list page near the top every day, at 1.0 times baseline on 28th Oct; the deaths reported on 26th to 27th Oct (Bauza, Koenig, Saint James) fit the 26th Oct peak and the elevated tail",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -1887,6 +2119,12 @@
      "text": "Evergreen list page that sits near the top every day, at about its 28-day median; no event needed.",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-10-28",
+     "text": "Continuing from 20th Oct: evergreen list page near the top every day, at 1.0 times baseline on 28th Oct; the deaths reported on 26th to 27th Oct (Bauza, Koenig, Saint James) fit the 26th Oct peak and the elevated tail",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -1921,6 +2159,22 @@
     {
      "title": "TVLine",
      "url": "https://www.tvline.com/2297663/walter-koenig-star-trek-actor-death-tributes-george-takei/"
+    },
+    {
+     "title": "Good Morning America",
+     "url": "https://www.goodmorningamerica.com/culture/story/star-trek-actor-walter-koenig-dies-90-137576960"
+    },
+    {
+     "title": "WLOX",
+     "url": "https://www.wlox.com/2026/10/26/eric-bauza-modern-voice-bugs-bunny-daffy-duck-more-dies-46/?outputType=amp"
+    },
+    {
+     "title": "FOX 35 Orlando",
+     "url": "https://www.fox35orlando.com/news/susan-saint-james-kate-allie-mcmillan-wife-star-dies"
+    },
+    {
+     "title": "LiveNOW from FOX",
+     "url": "https://www.livenowfox.com/news/celebrity-deaths-2026-list"
     }
    ],
    "timeline": [
@@ -1947,6 +2201,10 @@
     {
      "date": "2026-10-27",
      "text": "144,961 views, 1.1 times the median, as the deaths of Susan Saint James and Donnie Iris were reported on top of the two from 26th Oct"
+    },
+    {
+     "date": "2026-10-28",
+     "text": "142,114 views, 1.0 times baseline and 7% below the 26th Oct peak, with 80 edits as new entries were added"
     }
    ],
    "charted": [
@@ -2005,6 +2263,13 @@
      "views": 144961,
      "confidence": "hi",
      "anchor": "a14"
+    },
+    {
+     "date": "2026-10-28",
+     "rank": 12,
+     "views": 142114,
+     "confidence": "md",
+     "anchor": "a9"
     }
    ]
   },
@@ -2209,22 +2474,6 @@
    ],
    "sources": [
     {
-     "title": "AP review",
-     "url": "https://abcnews.com/Entertainment/wireStory/movie-review-shows-elizabeth-holmes-nathan-fielders-singular-137265447"
-    },
-    {
-     "title": "Axios",
-     "url": "https://www.axios.com/2026/10/19/elizabeth-holmes-prison-documentary-release"
-    },
-    {
-     "title": "TechCrunch",
-     "url": "https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything/"
-    },
-    {
-     "title": "ABC30 wire story",
-     "url": "https://abc30.com/story/elizabeth-holmes-movie-can-see-everything-becomes-biggest-documentary-releases-decades/19955218/"
-    },
-    {
      "title": "Fortune",
      "url": "https://fortune.com/2026/10/26/clayface-box-office-opening-weekend-street-fighter-drop-wildwood-you-can-see-everything/"
     },
@@ -2255,6 +2504,22 @@
     {
      "title": "The Ringer",
      "url": "https://www.theringer.com/2026/10/26/oscars/you-can-see-everything-nathan-fielder-amanda-seyfried-oscar-odds-best-picture"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/annatong/2026/10/28/palantir-board-member-cofounded-elizabeth-holmes-partners-blood-testing-startup/"
+    },
+    {
+     "title": "Inc.",
+     "url": "https://www.inc.com/lucia-auerbach/errol-morris-2-hours-unseen-elizabeth-holmes-footage-not-only-theranos-interview/91426477"
+    },
+    {
+     "title": "Salon",
+     "url": "https://www.salon.com/2026/10/28/you-can-see-everything-leads-2026s-documentary-revolution/"
+    },
+    {
+     "title": "AV Club",
+     "url": "https://www.avclub.com/you-can-see-everything-billy-evans-lawyer"
     }
    ],
    "timeline": [
@@ -2281,6 +2546,10 @@
     {
      "date": "2026-10-27",
      "text": "143,754 views, 19% below 26th Oct, a continued decay with new reporting on the partner's startup and no separate trigger"
+    },
+    {
+     "date": "2026-10-28",
+     "text": "143,460 views, level with 27th Oct (143,754) and 52% below the 19th Oct peak; Errol Morris, Forbes and Salon stories gave fresh hooks"
     }
    ],
    "charted": [
@@ -2339,6 +2608,13 @@
      "views": 143754,
      "confidence": "hi",
      "anchor": "a15"
+    },
+    {
+     "date": "2026-10-28",
+     "rank": 10,
+     "views": 143460,
+     "confidence": "hi",
+     "anchor": "a7"
     }
    ]
   },
@@ -2414,8 +2690,8 @@
    "type": "Politician",
    "first_charted": "2026-10-26",
    "cause": {
-    "text": "He lost the 25th Oct run-off, refused to concede, and on 26th Oct reported a passport surrender",
-    "confidence": "md"
+    "text": "Revised: continuing from 26th Oct, he lost the 25th Oct run-off and rather than surrendering his passports left Brazil (Argentina, Ecuador, then Miami, landing on the morning of 28th Oct US time); the stored \"passport surrender\" wording is corrected",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -2423,6 +2699,12 @@
      "text": "He lost the 25th Oct run-off, refused to concede, and on 26th Oct reported a passport surrender",
      "confidence": "md",
      "note": "First stated"
+    },
+    {
+     "date": "2026-10-28",
+     "text": "Revised: continuing from 26th Oct, he lost the 25th Oct run-off and rather than surrendering his passports left Brazil (Argentina, Ecuador, then Miami, landing on the morning of 28th Oct US time); the stored \"passport surrender\" wording is corrected",
+     "confidence": "hi",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -2437,12 +2719,36 @@
     {
      "title": "Times of Israel (AFP)",
      "url": "https://www.timesofisrael.com/bolsonaros-party-concedes-brazil-election-loss-to-leftist-incumbent-lula/"
+    },
+    {
+     "title": "PBS NewsHour (AP)",
+     "url": "https://www.pbs.org/newshour/world/watch-defeated-brazilian-candidate-flavio-bolsonaro-arrives-in-u-s-amid-investigation"
+    },
+    {
+     "title": "Fortune (AP)",
+     "url": "https://fortune.com/2026/10/28/flavio-bolsonaro-trump-brazil-miami-corruption-investigation/"
+    },
+    {
+     "title": "Reuters via TimesLive",
+     "url": "https://www.timeslive.co.za/news/world/2026-10-27-flavio-bolsonaro-leaves-brazil-for-us-after-election-loss-sources-say/"
+    },
+    {
+     "title": "IBTimes UK",
+     "url": "https://www.ibtimes.co.uk/brazil-police-investigate-flavio-bolsonaro-exit-record-1828694"
+    },
+    {
+     "title": "Rio Times",
+     "url": "https://www.riotimesonline.com/brazil-flavio-bolsonaro-lands-in-miami/"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-26",
      "text": "Lost the 25th Oct run-off, said he would seek annulment, then reported a passport surrender; his party later recognised the result."
+    },
+    {
+     "date": "2026-10-28",
+     "text": "111,517 views, up 44% from 27th Oct (77,696), as the AP reported his flight and landing in Miami"
     }
    ],
    "charted": [
@@ -2452,6 +2758,13 @@
      "views": 147560,
      "confidence": "md",
      "anchor": "a17"
+    },
+    {
+     "date": "2026-10-28",
+     "rank": 23,
+     "views": 111517,
+     "confidence": "hi",
+     "anchor": "a20"
     }
    ]
   },
@@ -2494,12 +2807,32 @@
     {
      "title": "Al Jazeera",
      "url": "https://www.aljazeera.com/news/2026/10/17/the-israeli-politicians-seeking-to-replace-netanyahu"
+    },
+    {
+     "title": "Times of Israel",
+     "url": "https://www.timesofisrael.com/with-85-of-votes-counted-netanyahu-bloc-has-53-seats-eisenkots-48-arab-parties-surge-to-19/"
+    },
+    {
+     "title": "Ynetnews",
+     "url": "https://www.ynetnews.com/article/hjnatbkaml"
+    },
+    {
+     "title": "Jerusalem Post",
+     "url": "https://www.jpost.com/israel-election-2026/article-913164"
+    },
+    {
+     "title": "RTE",
+     "url": "https://www.rte.ie/news/world/2026/1028/1597028-israel-election/"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-27",
      "text": "Main challenger to Netanyahu in the 27th Oct Israeli election; claimed victory on the exit polls."
+    },
+    {
+     "date": "2026-10-28",
+     "text": "186,080 views, the peak, as the count showed his bloc on 48 seats against 53, with Yashar second on about 21"
     }
    ],
    "charted": [
@@ -2509,6 +2842,13 @@
      "views": 179535,
      "confidence": "hi",
      "anchor": "a9"
+    },
+    {
+     "date": "2026-10-28",
+     "rank": 7,
+     "views": 186080,
+     "confidence": "hi",
+     "anchor": "a4"
     }
    ]
   },
@@ -2929,22 +3269,6 @@
    "sources": [
     {
      "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/10/19/jailer-2-500-crore-box-office-collection-worldwide.html"
-    },
-    {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/10/19/jailer-2-500-crore-box-office-collection-worldwide.amp.html"
-    },
-    {
-     "title": "Sacnilk",
-     "url": "https://www.sacnilk.com/news/jailer-2-first-weekend-box-office-collection-will-it-cross-the-400-crore-mark-in-4-days"
-    },
-    {
-     "title": "Sacnilk",
-     "url": "https://www.sacnilk.com/news/Jailer_2_2026_Box_Office_Collection_Day_Wise_Worldwide"
-    },
-    {
-     "title": "The Week",
      "url": "https://www.theweek.in/news/entertainment/2026/10/25/jailer-2-day-10-box-office-collection-2026.html"
     },
     {
@@ -2974,6 +3298,22 @@
     {
      "title": "BusinessToday",
      "url": "https://www.businesstoday.in/trending/box-office/story/jailer-2-box-office-collection-day-13-rajinikanth-led-crime-thriller-eyes-rs450-crore-in-india-becomes-kollywoods-first-rs700-crore-worldwide-grosser-564135-2026-10-28"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/quicknews/Jailer_2_2026_Box_Office_Collection_Day_15"
+    },
+    {
+     "title": "ETV Bharat",
+     "url": "https://www.etvbharat.com/en/entertainment/jailer-2-box-office-collection-day-14-rajinikanth-film-slows-down-after-breaking-baahubali-2-s-kerala-record-enn26102806584"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/10/28/jailer-2-box-office-collection-day-14-gross-domestic-record.html"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/news/jailer-2-crosses-733-crore-worldwide-in-just-12-days-but-heres-why-1000-crore-looks-out-of-reach"
     }
    ],
    "timeline": [
@@ -2996,6 +3336,10 @@
     {
      "date": "2026-10-27",
      "text": "147,801 views, a fall of 18% from 26th Oct as day 13 collections slowed to about 7.5 crore rupees net"
+    },
+    {
+     "date": "2026-10-28",
+     "text": "134,068 views, down 9% from 27th Oct, as day 14 collections slowed and worldwide gross reached about 755 crore rupees"
     }
    ],
    "charted": [
@@ -3054,6 +3398,13 @@
      "views": 147801,
      "confidence": "hi",
      "anchor": "a11"
+    },
+    {
+     "date": "2026-10-28",
+     "rank": 15,
+     "views": 134068,
+     "confidence": "hi",
+     "anchor": "a12"
     }
    ]
   },
@@ -3200,6 +3551,67 @@
    ]
   },
   {
+   "id": "joint-list",
+   "title": "Joint List",
+   "canonical": "Joint_List",
+   "url": "https://en.wikipedia.org/wiki/Joint_List",
+   "type": "Political party",
+   "first_charted": "2026-10-28",
+   "cause": {
+    "text": "The record Arab seat total (19) and the Joint List's 12 seats made Arab parties potential kingmakers in the hung Knesset on 28th Oct, after the pre-election disqualification fight and Netanyahu's election-day claims",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-28",
+     "text": "The record Arab seat total (19) and the Joint List's 12 seats made Arab parties potential kingmakers in the hung Knesset on 28th Oct, after the pre-election disqualification fight and Netanyahu's election-day claims",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Jerusalem Post",
+     "url": "https://www.jpost.com/israel-election-2026/article-913122"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/28/arab-parties-could-win-18-seats-in-israeli-elections-exit-polls-suggest"
+    },
+    {
+     "title": "Ynetnews",
+     "url": "https://www.ynetnews.com/article/hym008yc3fe"
+    },
+    {
+     "title": "Arab News",
+     "url": "https://www.arabnews.com/middle-east/high-voter-turnout-boosts-arab-parties-as-israel-election-results-roll-in-3008590"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://aljazeera.com/news/2026/9/24/israel-moves-to-bar-both-main-arab-lists-from-october-election"
+    },
+    {
+     "title": "Ynetnews",
+     "url": "https://www.ynetnews.com/article/aizk67pp3"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-28",
+     "text": "The reunited Arab alliance won about 12 seats and, with Ra'am's 7, Arab parties took a record 19, making them potential kingmakers in a hung Knesset."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-28",
+     "rank": 21,
+     "views": 119100,
+     "confidence": "hi",
+     "anchor": "a18"
+    }
+   ]
+  },
+  {
    "id": "julia-stiles",
    "title": "Julia Stiles",
    "canonical": "Julia_Stiles",
@@ -3342,6 +3754,55 @@
    ]
   },
   {
+   "id": "lamprey",
+   "title": "Lamprey",
+   "canonical": "Lamprey",
+   "url": "https://en.wikipedia.org/wiki/Lamprey",
+   "type": "Fish",
+   "first_charted": "2026-10-28",
+   "cause": {
+    "text": "Unknown: no trigger found; the cause is outside Wikipedia (no edits) and was not identified",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-28",
+     "text": "Unknown: no trigger found; the cause is outside Wikipedia (no edits) and was not identified",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CTV News",
+     "url": "https://www.ctvnews.ca/northern-ontario/article/sea-lamprey-population-plunges-in-lake-superior-decline-in-most-great-lakes/"
+    },
+    {
+     "title": "Great Lakes Commission",
+     "url": "https://www.glc.org/dailynews/20261023-sea-lamprey"
+    },
+    {
+     "title": "Cascade Forest Conservancy",
+     "url": "https://cascadeforest.org/2026/10/23/for-the-sake-of-lamprey/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-28",
+     "text": "Unknown: no trigger found for a jump from about 700 to 127,597 views in one day, with no edits to the page."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-28",
+     "rank": 18,
+     "views": 127597,
+     "confidence": "lo",
+     "anchor": "a15"
+    }
+   ]
+  },
+  {
    "id": "limonene",
    "title": "Limonene",
    "canonical": "Limonene",
@@ -3360,11 +3821,24 @@
      "note": "First stated"
     }
    ],
-   "sources": [],
+   "sources": [
+    {
+     "title": "ITV News",
+     "url": "https://www.itv.com/news/2026-10-07/henri-b-kagan-and-kenso-soai-win-nobel-prize-in-chemistry-for-solving-century-old-mystery"
+    },
+    {
+     "title": "Alliance Chemical",
+     "url": "https://alliancechemical.com/blogs/news/nobel-prize-chemistry-2026-kagan-soai-chirality-limonene"
+    }
+   ],
    "timeline": [
     {
      "date": "2026-10-20",
      "text": "Citrus-scented compound. Views stepped up on 13th Oct and have held; no trigger found."
+    },
+    {
+     "date": "2026-10-28",
+     "text": "134,230 views, back in the top 20 after dropping out, more than double 27th Oct (59,358); still no edits and no trigger found"
     }
    ],
    "charted": [
@@ -3374,6 +3848,13 @@
      "views": 73917,
      "confidence": "lo",
      "anchor": "a20"
+    },
+    {
+     "date": "2026-10-28",
+     "rank": 14,
+     "views": 134230,
+     "confidence": "lo",
+     "anchor": "a11"
     }
    ]
   },
@@ -3579,6 +4060,63 @@
      "views": 81051,
      "confidence": "lo",
      "anchor": "a20"
+    }
+   ]
+  },
+  {
+   "id": "matthew-perry",
+   "title": "Matthew Perry",
+   "canonical": "Matthew_Perry",
+   "url": "https://en.wikipedia.org/wiki/Matthew_Perry",
+   "type": "Deceased actor",
+   "first_charted": "2026-10-28",
+   "cause": {
+    "text": "The Netflix docuseries The One About Matthew Perry (released 27th Oct), compounded by the third anniversary of his death on 28th Oct and the anniversary coverage that day",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-28",
+     "text": "The Netflix docuseries The One About Matthew Perry (released 27th Oct), compounded by the third anniversary of his death on 28th Oct and the anniversary coverage that day",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ABC News (GMA)",
+     "url": "https://abcnews.com/GMA/Culture/matthew-perrys-sister-remembers-3-years-after-death/story?id=137622501"
+    },
+    {
+     "title": "Parade",
+     "url": "https://parade.com/celebrities/the-one-about-matthew-perry-death-anniversary-netflix-documentary"
+    },
+    {
+     "title": "Newsweek",
+     "url": "https://www.newsweek.com/entertainment/matthew-perry-documentary-netflix-rehab-friends-death-funeral-12608081"
+    },
+    {
+     "title": "What's On Netflix",
+     "url": "https://www.whats-on-netflix.com/what-to-watch/the-one-about-matthew-perry-netflix-review/"
+    },
+    {
+     "title": "Tribune",
+     "url": "https://tribune.com.pk/story/2637178/why-did-the-friends-cast-decline-to-appear-in-matthew-perrys-netflix-documentary-director-explains"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-28",
+     "text": "Netflix's three-part documentary The One About Matthew Perry was released on 27th Oct, and 28th Oct was the third anniversary of his death."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-28",
+     "rank": 17,
+     "views": 127771,
+     "confidence": "hi",
+     "anchor": "a14"
     }
    ]
   },
@@ -4159,12 +4697,32 @@
     {
      "title": "RTE",
      "url": "https://www.rte.ie/entertainment/2026/1027/1596993-actress-susan-saint-james-dies-aged-80/"
+    },
+    {
+     "title": "AP via ABC11",
+     "url": "https://abc11.com/story/susan-saint-james-emmy-winning-actor-mcmillan-wife-kate-allie-dies-80/19985458/"
+    },
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/GMA/Culture/jane-curtin-pays-tribute-kate-allie-star-susan/story?id=137617978"
+    },
+    {
+     "title": "Global News",
+     "url": "https://globalnews.ca/news/12124018/susan-saint-james-dead/"
+    },
+    {
+     "title": "Yahoo (People)",
+     "url": "https://www.yahoo.com/entertainment/celebrity/articles/christa-miller-pays-tribute-aunt-213147270.html"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-27",
      "text": "Died on 26th Oct aged 80 after pancreatic cancer; People magazine reported it and AP followed on 27th Oct."
+    },
+    {
+     "date": "2026-10-28",
+     "text": "200,179 views, 67% of the 27th Oct peak, as tributes from Jamie Lee Curtis, Jane Curtin and Christa Miller ran on"
     }
    ],
    "charted": [
@@ -4174,6 +4732,13 @@
      "views": 298410,
      "confidence": "hi",
      "anchor": "a4"
+    },
+    {
+     "date": "2026-10-28",
+     "rank": 6,
+     "views": 200179,
+     "confidence": "hi",
+     "anchor": "a3"
     }
    ]
   },
@@ -4271,6 +4836,67 @@
      "views": 133210,
      "confidence": "hi",
      "anchor": "a16"
+    }
+   ]
+  },
+  {
+   "id": "ted-bundy",
+   "title": "Ted Bundy",
+   "canonical": "Ted_Bundy",
+   "url": "https://en.wikipedia.org/wiki/Ted_Bundy",
+   "type": "Serial killer",
+   "first_charted": "2026-10-28",
+   "cause": {
+    "text": "Utah authorities' announcement on 27th Oct that DNA links Ted Bundy to the 1974 murder of Melissa Ann Smith, followed by a full day of national coverage; no documentary or Halloween promotion was found as a rival cause",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-28",
+     "text": "Utah authorities' announcement on 27th Oct that DNA links Ted Bundy to the 1974 murder of Melissa Ann Smith, followed by a full day of national coverage; no documentary or Halloween promotion was found as a rival cause",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/news/ted-bundy-utah-teenager-cold-case-murder-dna/"
+    },
+    {
+     "title": "Deseret News (KSL)",
+     "url": "https://deseret.com/utah/2026/10/27/ted-bundy-tied-to-1974-cold-case-homicide"
+    },
+    {
+     "title": "Cowboy State Daily",
+     "url": "https://cowboystatedaily.com/2026/10/27/another-utah-bundy-victim-confirmed-using-breakthrough-dna-testing/"
+    },
+    {
+     "title": "AP via ABC News",
+     "url": "https://abcnews.com/US/wireStory/serial-killer-ted-bundy-rampage-violence-137619916"
+    },
+    {
+     "title": "IBTimes UK",
+     "url": "https://www.ibtimes.co.uk/utah-detective-ted-bundy-murder-case-breakthrough-1828434"
+    },
+    {
+     "title": "Fox News",
+     "url": "https://foxnews.com/us/ted-bundy-undiscovered-victims-dna-links-murder-chiefs-daughter-detective"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-28",
+     "text": "Utah authorities announced on 27th Oct that DNA ties Bundy to the 1974 murder of 17-year-old Melissa Ann Smith, closing a 52-year-old cold case."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-28",
+     "rank": 11,
+     "views": 143369,
+     "confidence": "hi",
+     "anchor": "a8"
     }
    ]
   },
@@ -4445,12 +5071,36 @@
     {
      "title": "Folha PE",
      "url": "https://www.folhape.com.br/cultura/conheca-visionquest-nova-serie-da-marvel-que-estreia-no-disney/518081/"
+    },
+    {
+     "title": "The Tab",
+     "url": "https://thetab.com/filmshrine/2026/10/27/heres-the-full-visionquest-release-schedule-as-episodes-5-and-6-drop-earlier-than-expected/"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/erikkain/2026/10/25/visionquest-episodes-5-6-release-date-time-disney-plus/"
+    },
+    {
+     "title": "TVLine",
+     "url": "https://www.tvline.com/2293754/what-to-watch-october-27-2026-tv-shows-movies/"
+    },
+    {
+     "title": "Den of Geek",
+     "url": "https://www.denofgeek.com/tv/visionquest-episode-6-review/"
+    },
+    {
+     "title": "The TV Cave",
+     "url": "https://www.thetvcave.com/post/visionquest-episodes-5-6-review"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-21",
      "text": "Marvel Disney+ series premiered 13th Oct in North America (14th elsewhere); episodes 3 and 4 arrived 20th Oct in North America and 21st Oct elsewhere. Peaks 156,179 on 14th Oct and 123,339 on 21st Oct."
+    },
+    {
+     "date": "2026-10-28",
+     "text": "136,851 views, up from 56,332 on 27th Oct, on the release of episodes 5 and 6"
     }
    ],
    "charted": [
@@ -4467,6 +5117,13 @@
      "views": 80967,
      "confidence": "hi",
      "anchor": "a19"
+    },
+    {
+     "date": "2026-10-28",
+     "rank": 13,
+     "views": 136851,
+     "confidence": "hi",
+     "anchor": "a10"
     }
    ]
   },
@@ -4827,6 +5484,10 @@
     {
      "date": "2026-10-27",
      "text": "362,902 views, a fourth straight rise and 5.2 times baseline; still no edits, no news and no confirmed trigger"
+    },
+    {
+     "date": "2026-10-28",
+     "text": "437,305 views, a fifth straight rise and 5.9 times baseline; still no edits, no news and no confirmed trigger"
     }
    ],
    "charted": [
@@ -4855,6 +5516,13 @@
      "date": "2026-10-27",
      "rank": 5,
      "views": 362902,
+     "confidence": "lo",
+     "anchor": "a2"
+    },
+    {
+     "date": "2026-10-28",
+     "rank": 5,
+     "views": 437305,
      "confidence": "lo",
      "anchor": "a2"
     }
@@ -4898,6 +5566,55 @@
      "views": 83223,
      "confidence": "lo",
      "anchor": "a15"
+    }
+   ]
+  },
+  {
+   "id": "yashar-political-party",
+   "title": "Yashar (political party)",
+   "canonical": "Yashar_(political_party)",
+   "url": "https://en.wikipedia.org/wiki/Yashar_%28political_party%29",
+   "type": "Political party",
+   "first_charted": "2026-10-28",
+   "cause": {
+    "text": "Yashar is Eisenkot's party and finished second with about 21 seats in the 27th Oct election; 28th Oct was the first full day of counted results",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-28",
+     "text": "Yashar is Eisenkot's party and finished second with about 21 seats in the 27th Oct election; 28th Oct was the first full day of counted results",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Jerusalem Post",
+     "url": "https://www.jpost.com/israel-election-2026/article-913122"
+    },
+    {
+     "title": "Times of Israel",
+     "url": "https://www.timesofisrael.com/with-85-of-votes-counted-netanyahu-bloc-has-53-seats-eisenkots-48-arab-parties-surge-to-19/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-28",
+     "text": "Gadi Eisenkot's party won about 21 seats in the 27th Oct election, second to Likud's 26, and anchors the 48-seat opposition bloc."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-28",
+     "rank": 19,
+     "views": 125428,
+     "confidence": "hi",
+     "anchor": "a16"
     }
    ]
   },
