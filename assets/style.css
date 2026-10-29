@@ -287,7 +287,7 @@ details.sl[hidden] { display: none !important; }
 .sl-chart { display: block; width: 100%; min-width: 260px; max-width: 520px; height: auto; }
 .blk.cause .more { margin: 8px 0 0; padding-left: 1.2em; color: var(--muted); font-size: .95rem; }
 .blk.days .k a { font-weight: 700; }
-.sl-link { grid-column: 1 / -1; margin: 0; text-align: right; }
+.sl-link { grid-column: 1 / -1; margin: 0; max-width: none; text-align: right; }
 .sl-link a { font-weight: 700; }
 .dn-extra { margin: 8px 0 0; }
 .dn-link { font-weight: 700; }
