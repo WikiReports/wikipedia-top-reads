@@ -171,6 +171,36 @@ details.ref h2::before { display: none; }
   details.art, .jump a { transition: border-color .15s; }
 }
 
+/* At a glance: summary bar and breakdown table (tool/glance_summary.py) */
+.gsum { margin: 0 0 18px; }
+.gbar { display: flex; gap: 3px; margin-bottom: 12px; }
+.gbar .seg { flex-basis: 0; min-width: 3.4rem; display: flex; flex-direction: column; justify-content: center; padding: 8px 10px; border-radius: 8px; line-height: 1.2; border: 1.5px solid transparent; }
+.gbar .seg b { font-family: var(--font-head); font-size: 1.5rem; font-variant-numeric: tabular-nums; }
+.gbar .seg span { font-size: .8rem; font-weight: 700; }
+.gbar .seg.cont { background: var(--cont-bg); color: var(--cont-fg); }
+.gbar .seg.evt { background: var(--evt-bg); color: var(--evt-fg); }
+.gbar .seg.unk { background: var(--unk-bg); color: var(--unk-fg); border: 1.5px dashed var(--muted); }
+table.gsumt caption { text-align: left; padding: 10px 12px; font-family: var(--font-head); font-weight: 700; background: var(--surface); border-bottom: 1px solid var(--line); }
+table.gsumt tbody th { text-transform: none; letter-spacing: 0; font-size: .95rem; background: transparent; border-bottom: 1px solid var(--line); vertical-align: top; width: 14rem; }
+table.gsumt tbody th small { display: block; margin-top: 4px; color: var(--muted); font-family: var(--font-body); font-weight: 400; font-size: .82rem; line-height: 1.3; }
+table.gsumt td.num { font-family: var(--font-head); font-weight: 700; font-size: 1.1rem; text-align: center; width: 5rem; }
+table.gsumt td.arts { line-height: 1.7; }
+table.gsumt td.arts.muted { color: var(--muted); }
+table.gsumt tr.sep th { background: var(--surface-2); font-family: var(--font-head); font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); width: auto; }
+table.gsumt tr.sep, table.gsumt tbody tr.sep:nth-child(even) { background: var(--surface-2); }
+table.gsumt tbody tr:nth-child(even):not(.sep) { background: transparent; }
+@media (max-width: 640px) {
+  .gbar { flex-wrap: wrap; }
+  .gbar .seg { flex-basis: 30%; flex-grow: 1 !important; min-width: 0; }
+  table.gsumt thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table.gsumt tbody th { width: auto; display: block; border: 0; padding-bottom: 0; }
+  table.gsumt tr { display: grid; grid-template-columns: 1fr auto; padding: 8px 0; border-bottom: 1px solid var(--line); }
+  table.gsumt tr th { grid-column: 1; }
+  table.gsumt tr td.num { grid-column: 2; grid-row: 1; width: auto; border: 0; padding: 10px 12px 0; }
+  table.gsumt tr td.arts { grid-column: 1 / -1; border: 0; padding: 4px 12px 8px; }
+  table.gsumt tr.sep { display: block; padding: 0; }
+}
+
 .filter { margin-bottom: 18px; padding: 12px 14px; background: var(--surface); border: 1.5px solid var(--line); border-radius: 12px; }
 .flabel { margin: 0 0 8px; font-family: var(--font-head); font-weight: 700; }
 .fhint { font-family: var(--font-body); font-weight: 400; color: var(--muted); font-size: .9rem; }

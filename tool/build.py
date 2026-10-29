@@ -360,6 +360,9 @@ assert page.count(_m) == 1
 page = page.replace(_m, FOOT + _m)
 page = page.replace('@@DS@@', DATE_SHORT.split(' ',1)[1]).replace('@@DL@@', DATE_LONG)
 os.makedirs(OUT + '/assets', exist_ok=True)
+sys.path.insert(0, HERE)
+from glance_summary import apply as _glance_summary
+page = _glance_summary(page)  # replaces the summary paragraph with a bar and breakdown table
 page = re.sub(r'(<mark class="key[^"]*">[^<]*</mark>)([)\].,;:]+)', r'<span class="nw">\1\2</span>', page)  # keep trailing punctuation with highlight
 open(OUT + '/%s.html' % DATE_ISO, 'w').write(page)
 open(OUT + '/index.html', 'w').write(page)
