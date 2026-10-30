@@ -1,4 +1,5 @@
 window.DAYS = [
+  { d: '2026-10-29', label: 'Thu 29th Oct 2026' },
   { d: '2026-10-28', label: 'Wed 28th Oct 2026' },
   { d: '2026-10-27', label: 'Tue 27th Oct 2026' },
   { d: '2026-10-26', label: 'Mon 26th Oct 2026' },

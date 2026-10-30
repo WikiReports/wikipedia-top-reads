@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "groups": [
   {
    "id": "holmes-documentary",
@@ -447,18 +447,6 @@
    ],
    "sources": [
     {
-     "title": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/10/27/exit-polls-following-israeli-elections-indicate-no-clear-winner"
-    },
-    {
-     "title": "Israel Hayom",
-     "url": "https://www.israelhayom.com/2026/10/27/israel-election-2026-exit-polls-full-results/"
-    },
-    {
-     "title": "Times of Israel liveblog",
-     "url": "https://www.timesofisrael.com/liveblog-october-27-2026/"
-    },
-    {
      "title": "Ynetnews",
      "url": "https://www.ynetnews.com/article/skd97fc2gl"
     },
@@ -493,6 +481,18 @@
     {
      "title": "ABC Australia",
      "url": "https://www.abc.net.au/news/2026-10-29/herzog-netanyahu-israel-election/107321418"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+    },
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/International/israel-election-partial-results-deadlock-netanyahu-alleges-fraud/story?id=137665276"
+    },
+    {
+     "title": "Jerusalem Post live updates",
+     "url": "https://www.jpost.com/israel-election-2026/2026-10-29/live-updates-913178"
     }
    ],
    "timeline": [
@@ -503,6 +503,10 @@
     {
      "date": "2026-10-28",
      "text": "925,801 views, the peak; the count showed Netanyahu bloc 53, Eisenkot bloc 48 and Arab parties 19 with about 90% counted, and neither side near 61"
+    },
+    {
+     "date": "2026-10-29",
+     "text": "363,543 views, 61% below the peak; the count finished with no 61-seat majority, Likud's \"stolen election\" claims continued and the first coalition meetings began"
     }
    ],
    "charted": [
@@ -519,6 +523,13 @@
      "views": 925801,
      "confidence": "hi",
      "anchor": "a1"
+    },
+    {
+     "date": "2026-10-29",
+     "rank": 6,
+     "views": 363543,
+     "confidence": "hi",
+     "anchor": "a3"
     }
    ]
   },
@@ -1132,6 +1143,51 @@
    ]
   },
   {
+   "id": "barbara-barrie",
+   "title": "Barbara Barrie",
+   "canonical": "Barbara_Barrie",
+   "url": "https://en.wikipedia.org/wiki/Barbara_Barrie",
+   "type": "Deceased actor",
+   "first_charted": "2026-10-29",
+   "cause": {
+    "text": "The report of her death on 28th Oct (late evening UTC), with 29th Oct the first full day of obituaries and tributes",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-29",
+     "text": "The report of her death on 28th Oct (late evening UTC), with 29th Oct the first full day of obituaries and tributes",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Just Jared",
+     "url": "https://www.justjared.com/2026/10/28/barbara-barrie-dies-at-95-oscar-nominated-actress-passes-away-in-medically-assisted-death/"
+    },
+    {
+     "title": "NBC News",
+     "url": "https://www.nbcnews.com/news/us-news/barbara-barrie-dies-medical-assistance-95-rcna606361"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-29",
+     "text": "Oscar-nominated actress died aged 95 on 28th Oct, reported that evening in UTC; first full day of coverage."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-29",
+     "rank": 15,
+     "views": 183737,
+     "confidence": "hi",
+     "anchor": "a12"
+    }
+   ]
+  },
+  {
    "id": "barbara-palvin",
    "title": "Barbara Palvin",
    "canonical": "Barbara_Palvin",
@@ -1349,6 +1405,63 @@
    ]
   },
   {
+   "id": "bob-uecker",
+   "title": "Bob Uecker",
+   "canonical": "Bob_Uecker",
+   "url": "https://en.wikipedia.org/wiki/Bob_Uecker",
+   "type": "Baseball broadcaster",
+   "first_charted": "2026-10-29",
+   "cause": {
+    "text": "The Brewers' first World Series title (about 03:13 UTC on 29th Oct) and the tributes to Uecker that followed, led by the Fox montage and Yelich's dedication, building on the Game 4 \"Ueck\" tributes of 28th Oct",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-29",
+     "text": "The Brewers' first World Series title (about 03:13 UTC on 29th Oct) and the tributes to Uecker that followed, led by the Fox montage and Yelich's dedication, building on the Game 4 \"Ueck\" tributes of 28th Oct",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "USA Today via Yahoo",
+     "url": "https://sports.yahoo.com/articles/watch-emotional-bob-uecker-tribute-050519528.html"
+    },
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/mlb/story/_/id/50318544/christian-yelich-honors-late-bob-uecker-brewers-title"
+    },
+    {
+     "title": "Spectrum News 1 Wisconsin",
+     "url": "https://spectrumnews1.com/wi/milwaukee/news/2026/10/28/stand-up-to-cancer-world-series-ueck"
+    },
+    {
+     "title": "Awful Announcing",
+     "url": "https://awfulannouncing.com/mlb/fox-puts-bob-uecker-calls-brewers-playoff-highlights-tribute.html"
+    },
+    {
+     "title": "MLB.com",
+     "url": "https://www.mlb.com/news/brewers-beat-rays-game-5-win-2026-world-series"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-29",
+     "text": "The late Brewers broadcaster was honoured after the title, including a Fox montage of his calls and Christian Yelich's dedication."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-29",
+     "rank": 11,
+     "views": 205548,
+     "confidence": "hi",
+     "anchor": "a8"
+    }
+   ]
+  },
+  {
    "id": "brock-purdy",
    "title": "Brock Purdy",
    "canonical": "Brock_Purdy",
@@ -1479,18 +1592,6 @@
    ],
    "sources": [
     {
-     "title": "OpenAI Deployment Safety Hub",
-     "url": "https://deploymentsafety.openai.com/gpt-6-october"
-    },
-    {
-     "title": "Forbes",
-     "url": "https://www.forbes.com/sites/conormurray/2026/10/03/chatgpts-traffic-roars-back-after-year-of-stagnation/"
-    },
-    {
-     "title": "BleepingComputer",
-     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/"
-    },
-    {
      "title": "Online Tech Tips",
      "url": "https://www.online-tech-tips.com/openai-gpt-6-1-terra-release-speed-lower-cost/"
     },
@@ -1525,6 +1626,18 @@
     {
      "title": "The Next Web",
      "url": "https://thenextweb.com/news/texas-openai-lawsuit-chatgpt-children-altman"
+    },
+    {
+     "title": "StudyFinds",
+     "url": "https://studyfinds.com/did-openai-disprove-exponential-time-hypothesis/"
+    },
+    {
+     "title": "ForkLog",
+     "url": "https://forklog.com/en/openai-says-its-ai-refuted-the-exponential-time-hypothesis/"
+    },
+    {
+     "title": "aiweekly.co OpenAI news listing",
+     "url": "https://aiweekly.co/ai-news-today/openai-news"
     }
    ],
    "timeline": [
@@ -1547,6 +1660,10 @@
     {
      "date": "2026-10-28",
      "text": "172,227 views, 3.7 times baseline and 6% below 27th Oct; no distinct trigger found, with only small OpenAI news items on that date"
+    },
+    {
+     "date": "2026-10-29",
+     "text": "197,747 views, the highest of the window; no new event dated 29th Oct, with the 26th to 28th Oct news cluster and the elevated level since 19th Oct still the best explanation"
     }
    ],
    "charted": [
@@ -1598,6 +1715,13 @@
      "views": 172227,
      "confidence": "lo",
      "anchor": "a6"
+    },
+    {
+     "date": "2026-10-29",
+     "rank": 12,
+     "views": 197747,
+     "confidence": "lo",
+     "anchor": "a9"
     }
    ]
   },
@@ -1934,12 +2058,32 @@
     {
      "title": "Yahoo Sports",
      "url": "https://sports.yahoo.com/articles/brewers-win-first-world-series-032230850.html"
+    },
+    {
+     "title": "MLB.com",
+     "url": "https://www.mlb.com/news/cooper-pratt-world-series-rookie-record-six-straight-hits"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/chuckmurr/2026/10/29/cooper-pratts-premature-payday-paid-off-big-for-milwaukee-brewers/"
+    },
+    {
+     "title": "Bleacher Report",
+     "url": "https://bleacherreport.com/articles/25526734-william-contreras-wins-2026-world-series-mvp-award-over-cooper-pratt-after-brewers-beat-rays"
+    },
+    {
+     "title": "ABC News / AP",
+     "url": "https://abcnews.com/Sports/wireStory/brewers-beat-rays-4-1-game-5-win-137662472"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-28",
      "text": "Milwaukee Brewers rookie shortstop went 4-for-5 with a go-ahead 12th-inning home run in World Series Game 4 (early 28th Oct UTC); the Rays won on a walk-off."
+    },
+    {
+     "date": "2026-10-29",
+     "text": "130,967 views, 15% above 28th Oct; a new rise with its own trigger, the Game 5 clincher with a rookie-record six straight hits, MVP runner-up and the contract story"
     }
    ],
    "charted": [
@@ -1949,6 +2093,13 @@
      "views": 113736,
      "confidence": "hi",
      "anchor": "a19"
+    },
+    {
+     "date": "2026-10-29",
+     "rank": 19,
+     "views": 130967,
+     "confidence": "hi",
+     "anchor": "a16"
     }
    ]
   },
@@ -2129,18 +2280,6 @@
    ],
    "sources": [
     {
-     "title": "Unilad",
-     "url": "https://www.unilad.com/celebrity/walter-koenig-star-trek-death-752477-20261026"
-    },
-    {
-     "title": "TVLine",
-     "url": "https://www.tvline.com/2106433/tv-stars-died-2026-celebrity-deaths/"
-    },
-    {
-     "title": "Forbes",
-     "url": "https://www.forbes.com/sites/timlammers/2026/10/26/eric-bauza-voice-of-bugs-bunny-and-other-looney-tunes-characters-dies-at-46/"
-    },
-    {
      "title": "TVLine",
      "url": "https://www.tvline.com/2297074/walter-koenig-dead-star-trek-chekov-obituary/"
     },
@@ -2175,6 +2314,18 @@
     {
      "title": "LiveNOW from FOX",
      "url": "https://www.livenowfox.com/news/celebrity-deaths-2026-list"
+    },
+    {
+     "title": "Just Jared",
+     "url": "https://www.justjared.com/2026/10/28/barbara-barrie-dies-at-95-oscar-nominated-actress-passes-away-in-medically-assisted-death/"
+    },
+    {
+     "title": "PinkNews",
+     "url": "https://www.thepinknews.com/2026/10/29/patrick-stewart-death-2026/"
+    },
+    {
+     "title": "dead-people.com",
+     "url": "https://www.dead-people.com/today"
     }
    ],
    "timeline": [
@@ -2205,6 +2356,10 @@
     {
      "date": "2026-10-28",
      "text": "142,114 views, 1.0 times baseline and 7% below the 26th Oct peak, with 80 edits as new entries were added"
+    },
+    {
+     "date": "2026-10-29",
+     "text": "174,215 views, the highest of the window and 1.3 times baseline, as the deaths of Patrick Stewart and Barbara Barrie were reported"
     }
    ],
    "charted": [
@@ -2270,6 +2425,13 @@
      "views": 142114,
      "confidence": "md",
      "anchor": "a9"
+    },
+    {
+     "date": "2026-10-29",
+     "rank": 16,
+     "views": 174215,
+     "confidence": "md",
+     "anchor": "a13"
     }
    ]
   },
@@ -2474,22 +2636,6 @@
    ],
    "sources": [
     {
-     "title": "Fortune",
-     "url": "https://fortune.com/2026/10/26/clayface-box-office-opening-weekend-street-fighter-drop-wildwood-you-can-see-everything/"
-    },
-    {
-     "title": "Fox 4 News",
-     "url": "https://www.fox4news.com/news/elizabeth-holmes-meme"
-    },
-    {
-     "title": "Fortune",
-     "url": "https://fortune.com/2026/10/26/elizabeth-holmes-you-can-see-everything-lying-expert-paltering-nathan-fielder/"
-    },
-    {
-     "title": "AP via ClickOrlando",
-     "url": "https://www.clickorlando.com/entertainment/2026/10/25/you-can-see-everything-surges-with-195m-at-box-office-clayface-takes-no-1/"
-    },
-    {
      "title": "Rotten Tomatoes editorial",
      "url": "https://editorial.rottentomatoes.com/article/weekend-box-office-clayface-you-can-see-everything/"
     },
@@ -2520,6 +2666,22 @@
     {
      "title": "AV Club",
      "url": "https://www.avclub.com/you-can-see-everything-billy-evans-lawyer"
+    },
+    {
+     "title": "Yahoo Entertainment",
+     "url": "https://www.yahoo.com/entertainment/movies/article/nathan-fielders-elizabeth-holmes-documentary-you-can-see-everything-ended-but-the-story-didnt-heres-whats-happened-since-142543564.html"
+    },
+    {
+     "title": "TMZ",
+     "url": "https://tmz.com/2026/10/26/elizabeth-holmes-look-alike-contest"
+    },
+    {
+     "title": "Reason",
+     "url": "https://reason.com/2026/10/26/nathan-fielder-made-a-dishonest-movie/"
+    },
+    {
+     "title": "Tom's Guide",
+     "url": "https://www.tomsguide.com/entertainment/movies/when-is-you-can-see-everything-streaming-heres-our-best-guess"
     }
    ],
    "timeline": [
@@ -2550,6 +2712,10 @@
     {
      "date": "2026-10-28",
      "text": "143,460 views, level with 27th Oct (143,754) and 52% below the 19th Oct peak; Errol Morris, Forbes and Salon stories gave fresh hooks"
+    },
+    {
+     "date": "2026-10-29",
+     "text": "140,836 views, 53% below the peak and 2% below 28th Oct, a continued decay with no separate trigger dated that day"
     }
    ],
    "charted": [
@@ -2615,6 +2781,13 @@
      "views": 143460,
      "confidence": "hi",
      "anchor": "a7"
+    },
+    {
+     "date": "2026-10-29",
+     "rank": 18,
+     "views": 140836,
+     "confidence": "hi",
+     "anchor": "a15"
     }
    ]
   },
@@ -3110,6 +3283,55 @@
    ]
   },
   {
+   "id": "ian-mckellen",
+   "title": "Ian McKellen",
+   "canonical": "Ian_McKellen",
+   "url": "https://en.wikipedia.org/wiki/Ian_McKellen",
+   "type": "Actor",
+   "first_charted": "2026-10-29",
+   "cause": {
+    "text": "Spillover from the announcement of Patrick Stewart's death; McKellen is his closest friend and X-Men co-star, and some readers appear to have checked on his status; his own tribute came after the UTC day ended",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-29",
+     "text": "Spillover from the announcement of Patrick Stewart's death; McKellen is his closest friend and X-Men co-star, and some readers appear to have checked on his status; his own tribute came after the UTC day ended",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Yahoo live blog",
+     "url": "https://www.yahoo.com/entertainment/celebrity/live/patrick-stewart-tributes-hollywood-celebrates-the-life-and-legacy-of-the-star-trek-star-following-his-death-at-86-204932222.html"
+    },
+    {
+     "title": "TMZ",
+     "url": "https://www.tmz.com/2026/10/29/patrick-stewart-honored-by-ian-mckellen/"
+    },
+    {
+     "title": "LADbible",
+     "url": "https://www.ladbible.com/entertainment/celebrity/sir-ian-mckellen-ays-tribute-sir-patrick-stewart-death-412690-20261030"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-29",
+     "text": "Stewart's close friend and co-star; readers looked him up after the news (he is alive, and posted a tribute just after midnight UTC)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-29",
+     "rank": 20,
+     "views": 127831,
+     "confidence": "hi",
+     "anchor": "a17"
+    }
+   ]
+  },
+  {
    "id": "ilhan-omar",
    "title": "Ilhan Omar",
    "canonical": "Ilhan_Omar",
@@ -3229,12 +3451,32 @@
     {
      "title": "Fox 6",
      "url": "https://www.fox6now.com/sports/brewers-world-series-rays-2026"
+    },
+    {
+     "title": "MLB.com",
+     "url": "https://www.mlb.com/news/jacob-misiorowski-2026-world-series-game-5-start"
+    },
+    {
+     "title": "CBS Sports",
+     "url": "https://www.cbssports.com/mlb/news/jacob-misiorowski-brewers-2026-world-series/"
+    },
+    {
+     "title": "USA Today via Yahoo",
+     "url": "https://sports.yahoo.com/articles/jacob-misiorowski-injury-brewers-ace-021854977.html"
+    },
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/mlb/story/_/id/50311560/murphy-defends-decision-save-ace-misiorowski-game-5"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-24",
      "text": "Brewers pitcher who started World Series Game 1 against the Rays on 23rd Oct (7 pm CT, 00:00 UTC on 24th Oct), per CBS Sports; earlier spikes fit his playoff starts (high confidence)."
+    },
+    {
+     "date": "2026-10-29",
+     "text": "212,900 views, a new peak, as he won the Game 5 clincher with 5 2/3 scoreless innings and left with a calf cramp"
     }
    ],
    "charted": [
@@ -3244,6 +3486,13 @@
      "views": 133083,
      "confidence": "hi",
      "anchor": "a7"
+    },
+    {
+     "date": "2026-10-29",
+     "rank": 9,
+     "views": 212900,
+     "confidence": "hi",
+     "anchor": "a6"
     }
    ]
   },
@@ -3267,10 +3516,6 @@
     }
    ],
    "sources": [
-    {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/10/25/jailer-2-day-10-box-office-collection-2026.html"
-    },
     {
      "title": "The Week",
      "url": "https://www.theweek.in/news/entertainment/2026/10/26/jailer-2-box-office-collection-record-rajinikanth-becomes-first-tamil-film-to-cross-the-indian-rupee700-crore.html"
@@ -3314,6 +3559,10 @@
     {
      "title": "Sacnilk",
      "url": "https://www.sacnilk.com/news/jailer-2-crosses-733-crore-worldwide-in-just-12-days-but-heres-why-1000-crore-looks-out-of-reach"
+    },
+    {
+     "title": "Sacnilk day-wise collection",
+     "url": "https://www.sacnilk.com/news/Jailer_2_2026_Box_Office_Collection_Day_Wise_Worldwide"
     }
    ],
    "timeline": [
@@ -3340,6 +3589,10 @@
     {
      "date": "2026-10-28",
      "text": "134,068 views, down 9% from 27th Oct, as day 14 collections slowed and worldwide gross reached about 755 crore rupees"
+    },
+    {
+     "date": "2026-10-29",
+     "text": "122,337 views, 9% below 28th Oct and 68% below the peak; day 15 collections fell to Rs 5.90 crore net"
     }
    ],
    "charted": [
@@ -3405,6 +3658,13 @@
      "views": 134068,
      "confidence": "hi",
      "anchor": "a12"
+    },
+    {
+     "date": "2026-10-29",
+     "rank": 22,
+     "views": 122337,
+     "confidence": "hi",
+     "anchor": "a19"
     }
    ]
   },
@@ -3450,6 +3710,59 @@
      "views": 172365,
      "confidence": "lo",
      "anchor": "a13"
+    }
+   ]
+  },
+  {
+   "id": "jeffery-simmons",
+   "title": "Jeffery Simmons",
+   "canonical": "Jeffery_Simmons",
+   "url": "https://en.wikipedia.org/wiki/Jeffery_Simmons",
+   "type": "NFL player",
+   "first_charted": "2026-10-29",
+   "cause": {
+    "text": "The Titans' trade of Simmons to the Bears, agreed on the morning of 29th Oct and reported from about 14:30 UTC",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-29",
+     "text": "The Titans' trade of Simmons to the Bears, agreed on the morning of 29th Oct and reported from about 14:30 UTC",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Titans.com",
+     "url": "https://www.tennesseetitans.com/news/titans-trade-dt-jeffery-simmons-to-the-chicago-bears-in-exchange-for-two-first-round-picks"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/nfl/breaking-news/article/bears-reportedly-acquiring-dt-jeffery-simmons-from-titans-142729326.html"
+    },
+    {
+     "title": "Pro Football Rumors",
+     "url": "https://www.profootballrumors.com/2026/10/titans-to-trade-jeffery-simmons-to-bears"
+    },
+    {
+     "title": "NBC Sports Pro Football Talk",
+     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-agree-to-trade-jeffery-simmons-to-bears"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-29",
+     "text": "The Titans agreed to trade him to the Bears for two first-round picks, reported from about 14:30 UTC."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-29",
+     "rank": 21,
+     "views": 122632,
+     "confidence": "hi",
+     "anchor": "a18"
     }
    ]
   },
@@ -3803,6 +4116,59 @@
    ]
   },
   {
+   "id": "lewy-body-dementia",
+   "title": "Lewy body dementia",
+   "canonical": "Lewy_body_dementia",
+   "url": "https://en.wikipedia.org/wiki/Lewy_body_dementia",
+   "type": "Medical condition",
+   "first_charted": "2026-10-29",
+   "cause": {
+    "text": "The family's statement naming Lewy body dementia as one of the two illnesses Patrick Stewart had, followed by explainers",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-29",
+     "text": "The family's statement naming Lewy body dementia as one of the two illnesses Patrick Stewart had, followed by explainers",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parade",
+     "url": "https://parade.com/news/patrick-stewarts-final-chapter-his-battle-with-alzheimers-lewy-body-dementia-and-the-family-he-leaves-behind-at-86"
+    },
+    {
+     "title": "Fox News",
+     "url": "https://www.foxnews.com/entertainment/patrick-stewart-legendary-star-trek-x-men-actor-dies-86"
+    },
+    {
+     "title": "PinkNews",
+     "url": "https://www.thepinknews.com/2026/10/29/patrick-stewart-death-2026/"
+    },
+    {
+     "title": "Yahoo / USA Today",
+     "url": "https://sg.news.yahoo.com/patrick-stewart-battled-lewy-body-215212354.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-29",
+     "text": "Named in the family's statement as one of two illnesses Stewart had; explainers followed."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-29",
+     "rank": 17,
+     "views": 161848,
+     "confidence": "hi",
+     "anchor": "a14"
+    }
+   ]
+  },
+  {
    "id": "limonene",
    "title": "Limonene",
    "canonical": "Limonene",
@@ -4121,6 +4487,55 @@
    ]
   },
   {
+   "id": "milwaukee-brewers",
+   "title": "Milwaukee Brewers",
+   "canonical": "Milwaukee_Brewers",
+   "url": "https://en.wikipedia.org/wiki/Milwaukee_Brewers",
+   "type": "MLB team",
+   "first_charted": "2026-10-29",
+   "cause": {
+    "text": "The franchise's first World Series title, won 4-1 in Game 5 and ended at about 03:13 UTC on 29th Oct",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-29",
+     "text": "The franchise's first World Series title, won 4-1 in Game 5 and ended at about 03:13 UTC on 29th Oct",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/mlb/story/_/id/50314424/brewers-william-contreras-earns-world-series-mvp-honors"
+    },
+    {
+     "title": "MLB.com",
+     "url": "https://www.mlb.com/news/brewers-beat-rays-game-5-win-2026-world-series"
+    },
+    {
+     "title": "ABC News / AP",
+     "url": "https://abcnews.com/Sports/wireStory/brewers-beat-rays-4-1-game-5-win-137662472"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-29",
+     "text": "Won the franchise's first World Series, 4-1 over the Rays in Game 5."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-29",
+     "rank": 14,
+     "views": 185722,
+     "confidence": "hi",
+     "anchor": "a11"
+    }
+   ]
+  },
+  {
    "id": "miranda-hart",
    "title": "Miranda Hart",
    "canonical": "Miranda_Hart",
@@ -4281,6 +4696,165 @@
      "views": 145546,
      "confidence": "md",
      "anchor": "a13"
+    }
+   ]
+  },
+  {
+   "id": "pat-murphy-baseball-manager",
+   "title": "Pat Murphy (baseball manager)",
+   "canonical": "Pat_Murphy_(baseball_manager)",
+   "url": "https://en.wikipedia.org/wiki/Pat_Murphy_%28baseball_manager%29",
+   "type": "MLB manager",
+   "first_charted": "2026-10-29",
+   "cause": {
+    "text": "Managing the Brewers to their first World Series title, then the viral post-game Yankees remark",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-29",
+     "text": "Managing the Brewers to their first World Series title, then the viral post-game Yankees remark",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/mlb/story/_/id/50317928/brewers-pat-murphy-rips-yankees-jake-bauers-exchange"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/brewers-manager-pat-murphy-jabs-145106677.html"
+    },
+    {
+     "title": "MLB.com",
+     "url": "https://www.mlb.com/news/brewers-beat-rays-game-5-win-2026-world-series"
+    },
+    {
+     "title": "Fox News via Yahoo",
+     "url": "https://sports.yahoo.com/articles/world-series-mvp-william-contreras-191347829.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-29",
+     "text": "Brewers manager who won the title and went viral for a profane clubhouse jab at the Yankees."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-29",
+     "rank": 13,
+     "views": 196456,
+     "confidence": "hi",
+     "anchor": "a10"
+    }
+   ]
+  },
+  {
+   "id": "patrick-stewart",
+   "title": "Patrick Stewart",
+   "canonical": "Patrick_Stewart",
+   "url": "https://en.wikipedia.org/wiki/Patrick_Stewart",
+   "type": "Deceased actor",
+   "first_charted": "2026-10-29",
+   "cause": {
+    "text": "The announcement of his death on 29th Oct, mainly in the last four and a half hours of the UTC day",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-29",
+     "text": "The announcement of his death on 29th Oct, mainly in the last four and a half hours of the UTC day",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TMZ",
+     "url": "https://www.tmz.com/2026/10/29/patrick-stewart-dead/"
+    },
+    {
+     "title": "Fox News",
+     "url": "https://www.foxnews.com/entertainment/patrick-stewart-legendary-star-trek-x-men-actor-dies-86"
+    },
+    {
+     "title": "PinkNews",
+     "url": "https://www.thepinknews.com/2026/10/29/patrick-stewart-death-2026/"
+    },
+    {
+     "title": "Parade",
+     "url": "https://parade.com/news/patrick-stewarts-final-chapter-his-battle-with-alzheimers-lewy-body-dementia-and-the-family-he-leaves-behind-at-86"
+    },
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/GMA/Culture/star-trek-star-patrick-stewart-dies-86/story?id=137684409"
+    },
+    {
+     "title": "TIME",
+     "url": "https://time.com/article/2026/10/29/patrick-stewart-death-tributes/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-29",
+     "text": "His family announced his death aged 86 on 29th Oct, around 19:30 UTC; 631.8 times baseline."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-29",
+     "rank": 2,
+     "views": 2356552,
+     "confidence": "hi",
+     "anchor": "a1"
+    }
+   ]
+  },
+  {
+   "id": "patrick-stewart-on-stage-and-screen",
+   "title": "Patrick Stewart on stage and screen",
+   "canonical": "Patrick_Stewart_on_stage_and_screen",
+   "url": "https://en.wikipedia.org/wiki/Patrick_Stewart_on_stage_and_screen",
+   "type": "Filmography",
+   "first_charted": "2026-10-29",
+   "cause": {
+    "text": "Spillover from the announcement of Patrick Stewart's death; readers went from the biography to his full filmography",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-29",
+     "text": "Spillover from the announcement of Patrick Stewart's death; readers went from the biography to his full filmography",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TMZ",
+     "url": "https://www.tmz.com/2026/10/29/patrick-stewart-dead/"
+    },
+    {
+     "title": "Fox News",
+     "url": "https://www.foxnews.com/entertainment/patrick-stewart-legendary-star-trek-x-men-actor-dies-86"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-29",
+     "text": "Spillover from the announcement of Stewart's death."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-29",
+     "rank": 10,
+     "views": 212550,
+     "confidence": "md",
+     "anchor": "a7"
     }
    ]
   },
@@ -4663,6 +5237,55 @@
      "views": 186420,
      "confidence": "hi",
      "anchor": "a9"
+    }
+   ]
+  },
+  {
+   "id": "sunny-ozell",
+   "title": "Sunny Ozell",
+   "canonical": "Sunny_Ozell",
+   "url": "https://en.wikipedia.org/wiki/Sunny_Ozell",
+   "type": "Musician",
+   "first_charted": "2026-10-29",
+   "cause": {
+    "text": "She is named in the announcement of Patrick Stewart's death as his wife and carer (married 7th Sept 2013)",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-29",
+     "text": "She is named in the announcement of Patrick Stewart's death as his wife and carer (married 7th Sept 2013)",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Parade",
+     "url": "https://parade.com/news/patrick-stewarts-final-chapter-his-battle-with-alzheimers-lewy-body-dementia-and-the-family-he-leaves-behind-at-86"
+    },
+    {
+     "title": "TMZ",
+     "url": "https://www.tmz.com/2026/10/29/patrick-stewart-dead/"
+    },
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/GMA/Culture/star-trek-star-patrick-stewart-dies-86/story?id=137684409"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-29",
+     "text": "Stewart's wife, named as his carer in the family's announcement of his death."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-29",
+     "rank": 7,
+     "views": 346682,
+     "confidence": "hi",
+     "anchor": "a4"
     }
    ]
   },
@@ -5263,6 +5886,51 @@
    ]
   },
   {
+   "id": "wendy-neuss",
+   "title": "Wendy Neuss",
+   "canonical": "Wendy_Neuss",
+   "url": "https://en.wikipedia.org/wiki/Wendy_Neuss",
+   "type": "TV producer",
+   "first_charted": "2026-10-29",
+   "cause": {
+    "text": "Readers looking up Patrick Stewart's former wife after the announcement of his death on 29th Oct",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-29",
+     "text": "Readers looking up Patrick Stewart's former wife after the announcement of his death on 29th Oct",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "PopTV Culture",
+     "url": "https://poptvculture.com/who-were-patrick-stewarts-ex-wives-meet-sheila-falconer-and-wendy-neuss/"
+    },
+    {
+     "title": "Parade",
+     "url": "https://parade.com/news/patrick-stewarts-final-chapter-his-battle-with-alzheimers-lewy-body-dementia-and-the-family-he-leaves-behind-at-86"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-29",
+     "text": "Stewart's second wife (married 2000, divorced 2003); \"ex-wives\" explainers followed his death."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-29",
+     "rank": 23,
+     "views": 113901,
+     "confidence": "md",
+     "anchor": "a20"
+    }
+   ]
+  },
+  {
    "id": "wicker-film",
    "title": "Wicker (film)",
    "canonical": "Wicker_(film)",
@@ -5428,6 +6096,59 @@
    ]
   },
   {
+   "id": "william-contreras",
+   "title": "William Contreras",
+   "canonical": "William_Contreras",
+   "url": "https://en.wikipedia.org/wiki/William_Contreras",
+   "type": "MLB player",
+   "first_charted": "2026-10-29",
+   "cause": {
+    "text": "World Series MVP award after the Brewers clinched their first title at about 03:13 UTC on 29th Oct",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-29",
+     "text": "World Series MVP award after the Brewers clinched their first title at about 03:13 UTC on 29th Oct",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/mlb/story/_/id/50314424/brewers-william-contreras-earns-world-series-mvp-honors"
+    },
+    {
+     "title": "Bleacher Report",
+     "url": "https://bleacherreport.com/articles/25526734-william-contreras-wins-2026-world-series-mvp-award-over-cooper-pratt-after-brewers-beat-rays"
+    },
+    {
+     "title": "Fox News via Yahoo",
+     "url": "https://sports.yahoo.com/articles/world-series-mvp-william-contreras-191347829.html"
+    },
+    {
+     "title": "MLB.com",
+     "url": "https://www.mlb.com/news/brewers-beat-rays-game-5-win-2026-world-series"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-29",
+     "text": "Named World Series MVP after the Brewers clinched their first title."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-29",
+     "rank": 8,
+     "views": 228487,
+     "confidence": "hi",
+     "anchor": "a5"
+    }
+   ]
+  },
+  {
    "id": "xxx",
    "title": ".xxx",
    "canonical": ".xxx",
@@ -5466,6 +6187,14 @@
     {
      "title": "Domain Name Wire",
      "url": "https://domainnamewire.com/2026/07/01/texas-gets-porn-site/"
+    },
+    {
+     "title": "Domain Name Wire",
+     "url": "https://domainnamewire.com/2026/10/07/identity-digital-applies-for-whopping-216-top-level-domain-names/"
+    },
+    {
+     "title": "Domain Incite, ICM Registry tag",
+     "url": "https://domainincite.com/tag/icm-registry"
     }
    ],
    "timeline": [
@@ -5488,6 +6217,10 @@
     {
      "date": "2026-10-28",
      "text": "437,305 views, a fifth straight rise and 5.9 times baseline; still no edits, no news and no confirmed trigger"
+    },
+    {
+     "date": "2026-10-29",
+     "text": "390,246 views, the first fall (11%) after five rises; still no trigger found, and no news or edits"
     }
    ],
    "charted": [
@@ -5523,6 +6256,13 @@
      "date": "2026-10-28",
      "rank": 5,
      "views": 437305,
+     "confidence": "lo",
+     "anchor": "a2"
+    },
+    {
+     "date": "2026-10-29",
+     "rank": 5,
+     "views": 390246,
      "confidence": "lo",
      "anchor": "a2"
     }
