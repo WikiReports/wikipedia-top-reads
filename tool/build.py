@@ -164,7 +164,7 @@ while i < len(exp):
         i += 2
     else:
         i += 1
-assert len(articles) == 20, len(articles)
+assert len(articles) >= 20, len(articles)   # 20 articles up to 31st Oct 2026, 42 from 1st Nov 2026
 
 BLK_CLS = {'Views': 'views', 'Rank history': 'rank', 'Edits': 'edits', 'Protection': 'prot', 'Talk page': 'talk', 'News': 'news'}
 
@@ -332,7 +332,7 @@ page = '''<!doctype html>
       <button type="button" class="chip conf lo fbtn" data-level="lo" aria-pressed="false"><span aria-hidden="true">○</span> Low <span class="n">%d</span></button>
       <button type="button" class="clear" id="clearF" hidden>Show all</button>
     </div>
-    <p class="fstatus" id="fstatus" role="status" aria-live="polite">Showing all 20 articles</p>
+    <p class="fstatus" id="fstatus" role="status" aria-live="polite">Showing all @@N@@ articles</p>
   </div>
   %s
 </section>
@@ -358,7 +358,7 @@ FOOT = (
 _m = '</div>\n<script src="assets/days.js">'
 assert page.count(_m) == 1
 page = page.replace(_m, FOOT + _m)
-page = page.replace('@@DS@@', DATE_SHORT.split(' ',1)[1]).replace('@@DL@@', DATE_LONG)
+page = page.replace('@@DS@@', DATE_SHORT.split(' ',1)[1]).replace('@@DL@@', DATE_LONG).replace('@@N@@', str(len(articles)))
 os.makedirs(OUT + '/assets', exist_ok=True)
 sys.path.insert(0, HERE)
 from glance_summary import apply as _glance_summary

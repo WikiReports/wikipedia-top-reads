@@ -26,6 +26,7 @@
   var apply = function () {
     var on = Object.keys(active).filter(function (k) { return active[k]; });
     var shown = 0;
+    var total = document.querySelectorAll('details.art').length;
     var flt = document.querySelector('.filter');
     var before = flt ? flt.getBoundingClientRect().top : 0;
     document.querySelectorAll('details.art, .jump li').forEach(function (el) {
@@ -36,8 +37,8 @@
     btns.forEach(function (b) { b.setAttribute('aria-pressed', active[b.getAttribute('data-level')] ? 'true' : 'false'); });
     if (clr) { clr.hidden = on.length === 0; }
     if (st) {
-      st.textContent = on.length === 0 ? 'Showing all 20 articles'
-        : 'Showing ' + shown + ' of 20 articles: ' + on.map(function (k) { return names[k]; }).join(' and ') + ' confidence';
+      st.textContent = on.length === 0 ? 'Showing all ' + total + ' articles'
+        : 'Showing ' + shown + ' of ' + total + ' articles: ' + on.map(function (k) { return names[k]; }).join(' and ') + ' confidence';
     }
     if (flt) {
       var delta = flt.getBoundingClientRect().top - before;
