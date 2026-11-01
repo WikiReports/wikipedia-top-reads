@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-30",
+ "updated": "2026-10-31",
  "groups": [
   {
    "id": "holmes-documentary",
@@ -114,6 +114,16 @@
     "alexia-putellas",
     "2026-ballon-d-or",
     "ballon-d-or"
+   ]
+  },
+  {
+   "id": "abdullah-razdan-marriage",
+   "title": "Omar Abdullah and Nidhi Razdan marriage",
+   "summary": "Announcement on 31st Oct of the marriage of Jammu and Kashmir Chief Minister Omar Abdullah and journalist Nidhi Razdan, with spillover to her first husband Neelesh Misra.",
+   "members": [
+    "omar-abdullah",
+    "nidhi-razdan",
+    "neelesh-misra"
    ]
   }
  ],
@@ -434,8 +444,8 @@
    "type": "Election",
    "first_charted": "2026-10-27",
    "cause": {
-    "text": "Continuing from 27th Oct: the election held on 27th Oct and the resulting deadlock with no 61-seat majority; on 30th Oct the page was in decay, kept up by the count, the fraud claims and coalition talk",
-    "confidence": "md"
+    "text": "Continuing from 27th Oct: the deadlocked election and coalition talks; a falling tail",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -449,25 +459,15 @@
      "text": "Continuing from 27th Oct: the election held on 27th Oct and the resulting deadlock with no 61-seat majority; on 30th Oct the page was in decay, kept up by the count, the fraud claims and coalition talk",
      "confidence": "md",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "Continuing from 27th Oct: the deadlocked election and coalition talks; a falling tail",
+     "confidence": "hi",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "Ynetnews",
-     "url": "https://www.ynetnews.com/article/hjnatbkaml"
-    },
-    {
-     "title": "Times of Israel",
-     "url": "https://www.timesofisrael.com/with-85-of-votes-counted-netanyahu-bloc-has-53-seats-eisenkots-48-arab-parties-surge-to-19/"
-    },
-    {
-     "title": "Jerusalem Post",
-     "url": "https://www.jpost.com/israel-election-2026/article-913122"
-    },
-    {
-     "title": "Euronews",
-     "url": "https://www.euronews.com/2026/10/27/exit-polls-suggest-no-clear-victor-in-israeli-election"
-    },
     {
      "title": "ABC Australia",
      "url": "https://www.abc.net.au/news/2026-10-29/herzog-netanyahu-israel-election/107321418"
@@ -499,6 +499,22 @@
     {
      "title": "i24NEWS final results page",
      "url": "https://www.i24news.tv/en/news/israel-election-s-2026/final-results"
+    },
+    {
+     "title": "OPB/NPR",
+     "url": "https://www.opb.org/article/2026/10/31/what-are-the-next-steps-after-israel-election-ends-in-deadlock/"
+    },
+    {
+     "title": "Kaieteur News",
+     "url": "https://kaieteurnewsonline.com/2026/10/31/israeli-opposition-parties-explore-coalition-as-no-party-secures-61-seats-for-parliamentary-majority/"
+    },
+    {
+     "title": "Fox News",
+     "url": "https://www.foxnews.com/world/netanyahus-bloc-falls-short-longtime-allies-reportedly-weigh-move-could-end-his-rule"
+    },
+    {
+     "title": "Spectrum News",
+     "url": "https://spectrumnews1.com/ca/la/international/2026/10/30/israel-election-netanyahu-eisenkot-no-majority"
     }
    ],
    "timeline": [
@@ -517,6 +533,10 @@
     {
      "date": "2026-10-30",
      "text": "152,854 views, 58% below 29th Oct; the same deadlock and claims, with official results still due on 4th Nov and no distinct event dated 30th Oct found"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "82,483 views, 91% below the peak: the tail of a deadlock"
     }
    ],
    "charted": [
@@ -547,6 +567,13 @@
      "views": 152854,
      "confidence": "md",
      "anchor": "a7"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 23,
+     "views": 82483,
+     "confidence": "hi",
+     "anchor": "a20"
     }
    ]
   },
@@ -642,8 +669,8 @@
    "type": "Politician",
    "first_charted": "2026-10-20",
    "cause": {
-    "text": "Democratic US Senate candidate in Michigan against Mike Rogers; election on 3rd Nov. The 25th Oct rise from 56,724 to 84,470 views followed Trump's Port Huron rally, which attacked his Muslim identity, and his same-day response in Grand Rapids.",
-    "confidence": "hi"
+    "text": "Continuing from 20th Oct: the Michigan Senate race (election on 3rd Nov), with final-weekend rallies and the Stevens rift as the new hooks on 31st Oct",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -651,6 +678,12 @@
      "text": "Democratic US Senate candidate in Michigan against Mike Rogers; election on 3rd Nov. The 25th Oct rise from 56,724 to 84,470 views followed Trump's Port Huron rally, which attacked his Muslim identity, and his same-day response in Grand Rapids.",
      "confidence": "hi",
      "note": "Revised after deeper research; replaces an earlier finding of no confirmed trigger"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "Continuing from 20th Oct: the Michigan Senate race (election on 3rd Nov), with final-weekend rallies and the Stevens rift as the new hooks on 31st Oct",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -685,6 +718,22 @@
     {
      "title": "Echo24",
      "url": "https://www.echo24.de/welt/abdul-el-sayed-geraet-mit-waehler-wegen-frage-zur-muslimbruderschaft-aneinander-zr-94547458.html"
+    },
+    {
+     "title": "Detroit News via Yahoo",
+     "url": "https://www.yahoo.com/news/politics/articles/el-sayed-rogers-exchange-barbs-190010296.html"
+    },
+    {
+     "title": "CBS Detroit",
+     "url": "https://www.cbsnews.com/detroit/news/el-sayed-widens-lead-rogers-michigan-senate-poll/"
+    },
+    {
+     "title": "Yahoo/NewsNation",
+     "url": "https://www.yahoo.com/news/politics/articles/michigan-senate-candidates-final-push-155459315.html"
+    },
+    {
+     "title": "WXYZ",
+     "url": "https://www.wxyz.com/news/final-push-for-votes-rogers-el-sayed-rally-supporters-across-michigan"
     }
    ],
    "timeline": [
@@ -695,6 +744,10 @@
     {
      "date": "2026-10-25",
      "text": "84,470 views, up from 56,724 on 24th Oct; Trump's Port Huron rally attacked his Muslim identity and he responded the same day in Grand Rapids (Al Jazeera)"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "96,048 views, up 17% on 30th Oct and the highest since 26th Oct, on the final weekend before the 3rd Nov election and the rift with Haley Stevens"
     }
    ],
    "charted": [
@@ -711,6 +764,13 @@
      "views": 84470,
      "confidence": "hi",
      "anchor": "a19"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 17,
+     "views": 96048,
+     "confidence": "md",
+     "anchor": "a14"
     }
    ]
   },
@@ -1055,6 +1115,10 @@
     {
      "title": "Westmoreland Museum of American Art",
      "url": "https://thewestmoreland.org/exhibitions/ansel-adams-majestic-lands/"
+    },
+    {
+     "title": "Victoria News",
+     "url": "https://vicnews.com/2026/10/31/matisse-to-ansel-adams-wosk-collection-adds-wonder-to-art-gallery-of-greater-victoria/"
     }
    ],
    "timeline": [
@@ -1073,6 +1137,10 @@
     {
      "date": "2026-10-30",
      "text": "98,266 views on a Friday, 1.3 times baseline and inside its usual weekly pattern; no edits and no trigger"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "123,576 views on a Saturday, level with the 24th Oct peak (the fourth Saturday in a row above the weekday level); still no edits and no news trigger"
     }
    ],
    "charted": [
@@ -1103,6 +1171,13 @@
      "views": 98266,
      "confidence": "lo",
      "anchor": "a19"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 14,
+     "views": 123576,
+     "confidence": "lo",
+     "anchor": "a11"
     }
    ]
   },
@@ -2323,14 +2398,6 @@
    ],
    "sources": [
     {
-     "title": "ABC7 (AP)",
-     "url": "https://abc7.com/story/susan-saint-james-emmy-winning-actor-mcmillan-wife-kate-allie-dies-80/19985458/"
-    },
-    {
-     "title": "CBS Pittsburgh",
-     "url": "https://www.cbsnews.com/pittsburgh/news/donnie-iris-dies/"
-    },
-    {
      "title": "TVLine",
      "url": "https://www.tvline.com/2297663/walter-koenig-star-trek-actor-death-tributes-george-takei/"
     },
@@ -2369,6 +2436,14 @@
     {
      "title": "Just Jared",
      "url": "https://www.justjared.com/2026/10/29/sir-patrick-stewart-dies-at-86-after-brief-battle-with-alzheimers-disease/"
+    },
+    {
+     "title": "Yahoo live blog",
+     "url": "https://www.yahoo.com/entertainment/celebrity/live/patrick-stewart-tributes-hollywood-celebrates-the-life-and-legacy-of-the-star-trek-star-following-his-death-at-86-204932222.html"
+    },
+    {
+     "title": "Broadway.com",
+     "url": "https://www.broadway.com/buzz/207896/barbara-barrie-tony-nominated-company-star-and-oscar-nominee-dies-at-95/"
     }
    ],
    "timeline": [
@@ -2407,6 +2482,10 @@
     {
      "date": "2026-10-30",
      "text": "152,362 views, 1.1 times baseline and 13% below 29th Oct, with 84 edits and no named death dated 30th Oct found"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "129,794 views, 1.0 times baseline and 15% below 30th Oct; the Stewart bump has faded and the 31st Oct entries are minor"
     }
    ],
    "charted": [
@@ -2484,6 +2563,13 @@
      "date": "2026-10-30",
      "rank": 12,
      "views": 152362,
+     "confidence": "md",
+     "anchor": "a9"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 12,
+     "views": 129794,
      "confidence": "md",
      "anchor": "a9"
     }
@@ -2671,8 +2757,8 @@
    "type": "Entrepreneur",
    "first_charted": "2026-10-20",
    "cause": {
-    "text": "Continuing interest from You Can See Everything, which expanded to about 2,655 theatres for the 23rd to 25th Oct weekend; 25th Oct is the tail of the 19th Oct peak with a small weekend rebound and no separate trigger dated 25th Oct",
-    "confidence": "hi"
+    "text": "Continuing from 20th Oct: interest from the documentary You Can See Everything; 31st Oct is a small weekend rebound on a decaying curve, not a new storyline",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -2686,25 +2772,15 @@
      "text": "Continuing interest from You Can See Everything, which expanded to about 2,655 theatres for the 23rd to 25th Oct weekend; 25th Oct is the tail of the 19th Oct peak with a small weekend rebound and no separate trigger dated 25th Oct",
      "confidence": "hi",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "Continuing from 20th Oct: interest from the documentary You Can See Everything; 31st Oct is a small weekend rebound on a decaying curve, not a new storyline",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "Fortune",
-     "url": "https://fortune.com/2026/10/25/elizabeth-holmes-partner-billy-evans-haemanthus-blood-testing-startup-theranos/"
-    },
-    {
-     "title": "The Ringer",
-     "url": "https://www.theringer.com/2026/10/26/oscars/you-can-see-everything-nathan-fielder-amanda-seyfried-oscar-odds-best-picture"
-    },
-    {
-     "title": "Forbes",
-     "url": "https://www.forbes.com/sites/annatong/2026/10/28/palantir-board-member-cofounded-elizabeth-holmes-partners-blood-testing-startup/"
-    },
-    {
-     "title": "Inc.",
-     "url": "https://www.inc.com/lucia-auerbach/errol-morris-2-hours-unseen-elizabeth-holmes-footage-not-only-theranos-interview/91426477"
-    },
     {
      "title": "Salon",
      "url": "https://www.salon.com/2026/10/28/you-can-see-everything-leads-2026s-documentary-revolution/"
@@ -2736,6 +2812,22 @@
     {
      "title": "SlashFilm",
      "url": "https://www.slashfilm.com/2292780/elizabeth-holmes-feelings-nathan-fielder-you-can-see-everything/"
+    },
+    {
+     "title": "Hollywood Outbreak",
+     "url": "https://www.hollywoodoutbreak.com/2026/10/31/you-can-see-everything-tops-friday-box-office-race/"
+    },
+    {
+     "title": "Daily Beast",
+     "url": "https://www.thedailybeast.com/obsessed/key-detail-missing-from-elizabeth-holmes-doc-revealed"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/movies/ny-times-reporter-elizabeth-holmes-quote-you-can-see-everything/"
+    },
+    {
+     "title": "Just Jared",
+     "url": "https://www.justjared.com/2026/10/19/has-elizabeth-holmes-seen-you-can-see-everything-october-2026-update-from-nathan-fielder/"
     }
    ],
    "timeline": [
@@ -2774,6 +2866,10 @@
     {
      "date": "2026-10-30",
      "text": "133,733 views, 5% below 29th Oct and 56% below the peak; a continued decay with no trigger dated 30th Oct"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "150,897 views, up 13% on 30th Oct, the first rise in four days: third weekend of the film (a Halloween Saturday) and new commentary on what it leaves out"
     }
    ],
    "charted": [
@@ -2853,6 +2949,13 @@
      "views": 133733,
      "confidence": "hi",
      "anchor": "a12"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 10,
+     "views": 150897,
+     "confidence": "md",
+     "anchor": "a7"
     }
    ]
   },
@@ -3147,6 +3250,55 @@
    ]
   },
   {
+   "id": "halloween",
+   "title": "Halloween",
+   "canonical": "Halloween",
+   "url": "https://en.wikipedia.org/wiki/Halloween",
+   "type": "Holiday",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "The holiday itself on 31st Oct, a Saturday, with a ramp from 29th Oct",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "The holiday itself on 31st Oct, a Saturday, with a ramp from 29th Oct",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Universal Time Date",
+     "url": "https://www.universaltimedate.com/articles/halloween-2026"
+    },
+    {
+     "title": "Sunday Guardian",
+     "url": "https://sundayguardianlive.com/world/halloween-2026-what-time-is-trick-or-treating-halloween-2026-start-times-end-times-and-clock-change-explained-314847/"
+    },
+    {
+     "title": "National Retail Federation",
+     "url": "https://nrf.com/media-center/press-releases/nrf-halloween-survey-shows-consumer-spending-expected-to-reach-13-5-billion"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Seasonal: the holiday fell on 31st Oct, a Saturday, after a ramp from 29th Oct; 19.7 times baseline."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 7,
+     "views": 202666,
+     "confidence": "hi",
+     "anchor": "a4"
+    }
+   ]
+  },
+  {
    "id": "harry-kane",
    "title": "Harry Kane",
    "canonical": "Harry_Kane",
@@ -3355,8 +3507,8 @@
    "type": "Actor",
    "first_charted": "2026-10-29",
    "cause": {
-    "text": "Continuing from 29th Oct: spillover from Stewart's death, with McKellen's tribute leading the 30th Oct coverage",
-    "confidence": "md"
+    "text": "Continuing from 29th Oct: spillover from Patrick Stewart's death; the tail of the confusion",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -3369,6 +3521,12 @@
      "date": "2026-10-30",
      "text": "Continuing from 29th Oct: spillover from Stewart's death, with McKellen's tribute leading the 30th Oct coverage",
      "confidence": "md",
+     "note": "Confidence changed"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "Continuing from 29th Oct: spillover from Patrick Stewart's death; the tail of the confusion",
+     "confidence": "hi",
      "note": "Confidence changed"
     }
    ],
@@ -3400,6 +3558,26 @@
     {
      "title": "BroBible",
      "url": "https://brobible.com/culture/article/patrick-stewart-dead/"
+    },
+    {
+     "title": "Reality Tea",
+     "url": "https://www.realitytea.com/2026/10/30/ian-mckellen-tribute-patrick-stewart-death/"
+    },
+    {
+     "title": "Irish Times",
+     "url": "https://www.irishtimes.com/culture/film/2026/10/30/ian-mckellen-leads-tributes-to-patrick-stewart-the-most-respected-and-beloved-actor-of-his-generation/"
+    },
+    {
+     "title": "RTÉ",
+     "url": "https://www.rte.ie/entertainment/television/2026/1030/1597302-ian-mckellen-leads-tributes-to-beloved-patrick-stewart/"
+    },
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/GMA/Culture/star-trek-star-patrick-stewart-dies-86/story?id=137684409"
+    },
+    {
+     "title": "PinkNews",
+     "url": "https://www.thepinknews.com/2026/10/29/patrick-stewart-death-2026/"
     }
    ],
    "timeline": [
@@ -3410,6 +3588,10 @@
     {
      "date": "2026-10-30",
      "text": "213,817 views, up 67% to a new peak, as the tribute headlined UK coverage and was widely shared"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "83,097 views, 61% below the peak"
     }
    ],
    "charted": [
@@ -3426,6 +3608,13 @@
      "views": 213817,
      "confidence": "md",
      "anchor": "a4"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 22,
+     "views": 83097,
+     "confidence": "hi",
+     "anchor": "a19"
     }
    ]
   },
@@ -3615,22 +3804,6 @@
    ],
    "sources": [
     {
-     "title": "Business Standard",
-     "url": "https://www.business-standard.com/entertainment/rajinikanth-s-jailer-2-becomes-highest-grossing-tamil-film-hits-700-crore-nc-126102600874_1.html"
-    },
-    {
-     "title": "NewsX",
-     "url": "https://www.newsx.com/entertainment/jailer-2-box-office-collection-day-11-rajinikanth-beats-20-record-as-film-crosses-rs-710-crore-worldwide-becomes-highest-grossing-tamil-film-287063/amp/"
-    },
-    {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/10/26/jailer-2-box-office-collection-day-12-india-gross.html"
-    },
-    {
-     "title": "ETV Bharat",
-     "url": "https://www.etvbharat.com/en/entertainment/jailer-2-box-office-collection-day-13-rajinikanths-film-slows-down-is-rs-1000-crore-still-possible-enn26102707037"
-    },
-    {
      "title": "BusinessToday",
      "url": "https://www.businesstoday.in/trending/box-office/story/jailer-2-box-office-collection-day-13-rajinikanth-led-crime-thriller-eyes-rs450-crore-in-india-becomes-kollywoods-first-rs700-crore-worldwide-grosser-564135-2026-10-28"
     },
@@ -3661,6 +3834,22 @@
     {
      "title": "Digit",
      "url": "https://www.digit.in/news/entertainment/jailer-2-ott-release-timeline-streaming-platform-and-more-details.html"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/10/31/jailer-2-day-16-worldwide-and-kerala-box-office-collection.html"
+    },
+    {
+     "title": "Asianet Newsable",
+     "url": "https://newsable.asianetnews.com/gallery/entertainment/jailer-2-box-office-collection-day-16-rajinikanth-film-nears-rs-800-crore-worldwide-q15o5zv"
+    },
+    {
+     "title": "Gulf News",
+     "url": "https://gulfnews.com/entertainment/rajinikanths-jailer-2-crosses-rs-73-billion-worldwide-becomes-highest-grossing-tamil-film-ever-1.500724926"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/news/every-major-box-office-record-broken-by-rajinikanths-jailer-2"
     }
    ],
    "timeline": [
@@ -3695,6 +3884,10 @@
     {
      "date": "2026-10-30",
      "text": "113,774 views, 7% below 29th Oct and 70% below the peak; a continued decay with only two edits and no dated trigger"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "113,592 views, level with 30th Oct; Day 16 worldwide about Rs 776.95 crore, with no dated trigger"
     }
    ],
    "charted": [
@@ -3774,6 +3967,13 @@
      "views": 113774,
      "confidence": "hi",
      "anchor": "a16"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 15,
+     "views": 113592,
+     "confidence": "hi",
+     "anchor": "a12"
     }
    ]
   },
@@ -4712,8 +4912,8 @@
    "type": "Deceased actor",
    "first_charted": "2026-10-28",
    "cause": {
-    "text": "The Netflix docuseries The One About Matthew Perry (released 27th Oct), compounded by the third anniversary of his death on 28th Oct and the anniversary coverage that day",
-    "confidence": "hi"
+    "text": "Continuing from 28th Oct: the documentary The One About Matthew Perry (released 27th Oct) and the anniversary; a slow decline",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -4721,6 +4921,12 @@
      "text": "The Netflix docuseries The One About Matthew Perry (released 27th Oct), compounded by the third anniversary of his death on 28th Oct and the anniversary coverage that day",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "Continuing from 28th Oct: the documentary The One About Matthew Perry (released 27th Oct) and the anniversary; a slow decline",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -4743,12 +4949,32 @@
     {
      "title": "Tribune",
      "url": "https://tribune.com.pk/story/2637178/why-did-the-friends-cast-decline-to-appear-in-matthew-perrys-netflix-documentary-director-explains"
+    },
+    {
+     "title": "Time",
+     "url": "https://time.com/article/2026/10/27/the-one-about-matthew-perry-review/"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/timlammers/2026/10/28/matthew-perry-docuseries-lands-stellar-rotten-tomatoes-critics-score/"
+    },
+    {
+     "title": "Gulf News",
+     "url": "https://gulfnews.com/entertainment/why-the-friends-cast-declined-to-join-netflixs-matthew-perry-docuseries-1.500726889"
+    },
+    {
+     "title": "ABC7 Chicago",
+     "url": "https://abc7chicago.com/post/matthew-perrys-friends-keepsakes-artwork-go-auction-foundation-named/19045451/"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-28",
      "text": "Netflix's three-part documentary The One About Matthew Perry was released on 27th Oct, and 28th Oct was the third anniversary of his death."
+    },
+    {
+     "date": "2026-10-31",
+     "text": "87,302 views, 32% below the peak and still 13.5 times baseline"
     }
    ],
    "charted": [
@@ -4758,6 +4984,13 @@
      "views": 127771,
      "confidence": "hi",
      "anchor": "a14"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 20,
+     "views": 87302,
+     "confidence": "md",
+     "anchor": "a17"
     }
    ]
   },
@@ -4784,12 +5017,32 @@
     {
      "title": "PinkNews",
      "url": "https://www.thepinknews.com/2026/10/30/celebrity-traitors-winners-2026/"
+    },
+    {
+     "title": "ITV News",
+     "url": "https://www.itv.com/news/2026-10-30/romesh-ranganathan-and-sebastian-croft-win-the-celebrity-traitors-as-faithfuls"
+    },
+    {
+     "title": "Yahoo News UK",
+     "url": "https://uk.news.yahoo.com/celebrity-traitors-2026-winners-revealed-220000023.html"
+    },
+    {
+     "title": "Hello",
+     "url": "https://www.hellomagazine.com/film/932392/celebrity-traitors-shocking-twist-final/"
+    },
+    {
+     "title": "RTÉ",
+     "url": "https://www.rte.ie/entertainment/2026/1031/1597478-celebrity-traitors/"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-30",
      "text": "A Traitor in The Celebrity Traitors series 2, banished at the last roundtable of the finale; 6.5 times baseline."
+    },
+    {
+     "date": "2026-10-31",
+     "text": "90,652 views, 35% below the 30th Oct peak; the tail of the finale"
     }
    ],
    "charted": [
@@ -4799,6 +5052,13 @@
      "views": 139120,
      "confidence": "hi",
      "anchor": "a11"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 19,
+     "views": 90652,
+     "confidence": "hi",
+     "anchor": "a16"
     }
    ]
   },
@@ -4934,6 +5194,51 @@
    ]
   },
   {
+   "id": "neelesh-misra",
+   "title": "Neelesh Misra",
+   "canonical": "Neelesh_Misra",
+   "url": "https://en.wikipedia.org/wiki/Neelesh_Misra",
+   "type": "Radio storyteller",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "Spillover from the announcement of Nidhi Razdan's marriage to Omar Abdullah, because he was her first husband",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "Spillover from the announcement of Nidhi Razdan's marriage to Omar Abdullah, because he was her first husband",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Jabalpurtoday",
+     "url": "https://jabalpurtoday.com/entertainment/who-is-nidhi-razdan-omar-abdullahs-wife-and-neelesh-misras-ex-wife/"
+    },
+    {
+     "title": "GMD Calibration blog",
+     "url": "https://gmdcalibration.in/blog/nidhi-razdan-ex-husband/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Radio storyteller and Nidhi Razdan's first husband, looked up after news of her marriage (spillover, medium confidence)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 16,
+     "views": 112170,
+     "confidence": "md",
+     "anchor": "a13"
+    }
+   ]
+  },
+  {
    "id": "nicki-minaj",
    "title": "Nicki Minaj",
    "canonical": "Nicki_Minaj",
@@ -5016,6 +5321,112 @@
    ]
   },
   {
+   "id": "nidhi-razdan",
+   "title": "Nidhi Razdan",
+   "canonical": "Nidhi_Razdan",
+   "url": "https://en.wikipedia.org/wiki/Nidhi_Razdan",
+   "type": "Journalist",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "The announcement on 31st Oct of her marriage to Jammu and Kashmir Chief Minister Omar Abdullah",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "The announcement on 31st Oct of her marriage to Jammu and Kashmir Chief Minister Omar Abdullah",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Business Today",
+     "url": "https://www.businesstoday.in/india/story/a-new-journey-began-yesterday-omar-abdullah-announces-marriage-to-nidhi-razdan-564939-2026-10-31"
+    },
+    {
+     "title": "ThePrint (PTI)",
+     "url": "https://theprint.in/india/omar-abdullah-marries-journalist-nidhi-razdan/3086995/"
+    },
+    {
+     "title": "Outlook India",
+     "url": "https://www.outlookindia.com/national/its-done-bro-nidhi-razdan-and-omar-abdullah-share-marriage-announcement-on-social-media"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "The journalist announced on 31st Oct that she had married Jammu and Kashmir Chief Minister Omar Abdullah the day before; 1,310 times baseline."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 5,
+     "views": 303902,
+     "confidence": "hi",
+     "anchor": "a2"
+    }
+   ]
+  },
+  {
+   "id": "omar-abdullah",
+   "title": "Omar Abdullah",
+   "canonical": "Omar_Abdullah",
+   "url": "https://en.wikipedia.org/wiki/Omar_Abdullah",
+   "type": "Politician",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "The announcement on 31st Oct of his marriage to journalist Nidhi Razdan",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "The announcement on 31st Oct of his marriage to journalist Nidhi Razdan",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Business Today",
+     "url": "https://www.businesstoday.in/india/story/a-new-journey-began-yesterday-omar-abdullah-announces-marriage-to-nidhi-razdan-564939-2026-10-31"
+    },
+    {
+     "title": "ThePrint (PTI)",
+     "url": "https://theprint.in/india/omar-abdullah-marries-journalist-nidhi-razdan/3086995/"
+    },
+    {
+     "title": "Outlook India",
+     "url": "https://www.outlookindia.com/national/its-done-bro-nidhi-razdan-and-omar-abdullah-share-marriage-announcement-on-social-media"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/india/2026/10/31/omar-abdullah-faces-revolt-from-own-party-what-24-rebel-mlas-are-demanding-from-jk-govt.html"
+    },
+    {
+     "title": "Organiser",
+     "url": "https://organiser.org/2026/10/27/421212/bharat/jk-cabinet-reshuffle-omar-abdullah-set-to-induct-new-ministers-as-congress-stays-out/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "The Jammu and Kashmir chief minister announced his marriage to Nidhi Razdan on 31st Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 9,
+     "views": 153421,
+     "confidence": "hi",
+     "anchor": "a6"
+    }
+   ]
+  },
+  {
    "id": "pat-murphy-baseball-manager",
    "title": "Pat Murphy (baseball manager)",
    "canonical": "Pat_Murphy_(baseball_manager)",
@@ -5089,26 +5500,6 @@
    ],
    "sources": [
     {
-     "title": "TMZ",
-     "url": "https://www.tmz.com/2026/10/29/patrick-stewart-dead/"
-    },
-    {
-     "title": "Fox News",
-     "url": "https://www.foxnews.com/entertainment/patrick-stewart-legendary-star-trek-x-men-actor-dies-86"
-    },
-    {
-     "title": "PinkNews",
-     "url": "https://www.thepinknews.com/2026/10/29/patrick-stewart-death-2026/"
-    },
-    {
-     "title": "Parade",
-     "url": "https://parade.com/news/patrick-stewarts-final-chapter-his-battle-with-alzheimers-lewy-body-dementia-and-the-family-he-leaves-behind-at-86"
-    },
-    {
-     "title": "ABC News",
-     "url": "https://abcnews.com/GMA/Culture/star-trek-star-patrick-stewart-dies-86/story?id=137684409"
-    },
-    {
      "title": "TIME",
      "url": "https://time.com/article/2026/10/29/patrick-stewart-death-tributes/"
     },
@@ -5135,6 +5526,26 @@
     {
      "title": "ITV Calendar",
      "url": "https://www.itv.com/news/calendar/2026-10-30/yorkshire-names-line-up-to-pay-tribute-to-son-of-mirfield-sir-patrick-stewart"
+    },
+    {
+     "title": "Kotaku",
+     "url": "https://kotaku.com/patrick-stewart-death-cause-announcement-x-men-star-trek-2000751164"
+    },
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/GMA/Culture/hollywood-mourns-patrick-stewart-after-death-86/story?id=137685272"
+    },
+    {
+     "title": "Yahoo live blog",
+     "url": "https://www.yahoo.com/entertainment/celebrity/live/patrick-stewart-tributes-hollywood-celebrates-the-life-and-legacy-of-the-star-trek-star-following-his-death-at-86-204932222.html"
+    },
+    {
+     "title": "Washington Post via DNYUZ",
+     "url": "https://dnyuz.com/2026/10/31/what-patrick-stewarts-brief-dementia-journey-reveals-about-lifespans-after-diagnosis/"
+    },
+    {
+     "title": "Shacknews",
+     "url": "https://www.shacknews.com/article/151224/weekend-discussion-october-31-2026-rip-sir-patrick-stewart"
     }
    ],
    "timeline": [
@@ -5145,6 +5556,10 @@
     {
      "date": "2026-10-30",
      "text": "1,882,386 views, 20% below 29th Oct but a full UTC day of obituaries, tributes and Marvel's confirmation of his final role"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "450,119 views, 76% below 30th Oct and 124 times baseline; dementia explainers and tribute posts, with no separate event dated 31st Oct"
     }
    ],
    "charted": [
@@ -5159,6 +5574,13 @@
      "date": "2026-10-30",
      "rank": 2,
      "views": 1882386,
+     "confidence": "hi",
+     "anchor": "a1"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 4,
+     "views": 450119,
      "confidence": "hi",
      "anchor": "a1"
     }
@@ -5418,6 +5840,55 @@
    ]
   },
   {
+   "id": "sanjay-gupta-director",
+   "title": "Sanjay Gupta (director)",
+   "canonical": "Sanjay_Gupta_(director)",
+   "url": "https://en.wikipedia.org/wiki/Sanjay_Gupta_%28director%29",
+   "type": "Deceased film director",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "His death after a fall at home in Mumbai, reported on the morning of 31st Oct; no link to the Abdullah-Razdan marriage news beyond the same date",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "His death after a fall at home in Mumbai, reported on the morning of 31st Oct; no link to the Abdullah-Razdan marriage news beyond the same date",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bollywood Bubble",
+     "url": "https://www.bollywoodbubble.com/bollywood-news/shootout-at-wadala-director-sanjay-gupta-passes-away-at-59-after-suffering-head-injury-at-home/"
+    },
+    {
+     "title": "Outlook India",
+     "url": "https://www.outlookindia.com/art-entertainment/sanjay-guptas-sudden-demise-explained-what-we-know-about-the-fatal-fall"
+    },
+    {
+     "title": "Nationpath India",
+     "url": "https://www.nationpathindia.com/national/sanjay-gupta-filmmaker-passes-away-mumbai-october-2026"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "The Indian director (Kaante, Kaabil) died after a fall at his Mumbai home, reported on 31st Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 8,
+     "views": 168695,
+     "confidence": "hi",
+     "anchor": "a5"
+    }
+   ]
+  },
+  {
    "id": "sean-hannity",
    "title": "Sean Hannity",
    "canonical": "Sean_Hannity",
@@ -5505,12 +5976,36 @@
     {
      "title": "The Tab",
      "url": "https://thetab.com/2026/10/22/traitors-sebastian-croft-seemingly-addresses-secret-relationship-with-co-star-in-new-music"
+    },
+    {
+     "title": "ITV News",
+     "url": "https://www.itv.com/news/2026-10-30/romesh-ranganathan-and-sebastian-croft-win-the-celebrity-traitors-as-faithfuls"
+    },
+    {
+     "title": "Yahoo News UK",
+     "url": "https://uk.news.yahoo.com/celebrity-traitors-2026-winners-revealed-220000023.html"
+    },
+    {
+     "title": "RTÉ",
+     "url": "https://www.rte.ie/entertainment/2026/1031/1597478-celebrity-traitors/"
+    },
+    {
+     "title": "Hello",
+     "url": "https://www.hellomagazine.com/film/932392/celebrity-traitors-shocking-twist-final/"
+    },
+    {
+     "title": "The Tab",
+     "url": "https://thetab.com/2026/10/15/celebrity-traitors-sebastian-croft-had-three-year-relationship-with-co-star-and-none-of-us-knew"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-30",
      "text": "Won The Celebrity Traitors series 2 with Romesh Ranganathan in the finale aired at 20:00 UTC on 30th Oct; 9.8 times baseline."
+    },
+    {
+     "date": "2026-10-31",
+     "text": "134,794 views, 12% below the 30th Oct peak; the first full day after the finale, with Radio 2 and charity coverage"
     }
    ],
    "charted": [
@@ -5518,6 +6013,13 @@
      "date": "2026-10-30",
      "rank": 11,
      "views": 152737,
+     "confidence": "hi",
+     "anchor": "a8"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 11,
+     "views": 134794,
      "confidence": "hi",
      "anchor": "a8"
     }
@@ -5698,6 +6200,18 @@
     {
      "title": "AOL",
      "url": "https://www.aol.com/articles/inside-patrick-stewarts-38-age-120000000.html"
+    },
+    {
+     "title": "Newsweek",
+     "url": "https://www.newsweek.com/who-is-patrick-stewarts-wife-sunny-ozell-marriage-history-explained-12638986"
+    },
+    {
+     "title": "Kotaku",
+     "url": "https://kotaku.com/patrick-stewart-death-cause-announcement-x-men-star-trek-2000751164"
+    },
+    {
+     "title": "Reality Tea",
+     "url": "https://www.realitytea.com/2026/10/30/ian-mckellen-tribute-patrick-stewart-death/"
     }
    ],
    "timeline": [
@@ -5708,6 +6222,10 @@
     {
      "date": "2026-10-30",
      "text": "488,907 views, up 41% to a new peak, as explainers about his wife kept appearing through the day"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "126,366 views, 74% below the 30th Oct peak; the same cause at a lower level, with no new event dated 31st Oct"
     }
    ],
    "charted": [
@@ -5724,6 +6242,13 @@
      "views": 488907,
      "confidence": "hi",
      "anchor": "a2"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 13,
+     "views": 126366,
+     "confidence": "hi",
+     "anchor": "a10"
     }
    ]
   },
@@ -5800,6 +6325,67 @@
      "views": 200179,
      "confidence": "hi",
      "anchor": "a3"
+    }
+   ]
+  },
+  {
+   "id": "suspension-of-bogdan-wi-czkowski",
+   "title": "Suspension of Bogdan Święczkowski",
+   "canonical": "Suspension_of_Bogdan_Święczkowski",
+   "url": "https://en.wikipedia.org/wiki/Suspension_of_Bogdan_%C5%9Awi%C4%99czkowski",
+   "type": "Constitutional crisis",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "The contested court suspension of the Constitutional Tribunal's president and the police operation",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "The contested court suspension of the Constitutional Tribunal's president and the police operation",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Euronews",
+     "url": "https://www.euronews.com/2026/10/30/polish-president-turns-back-mid-flight-amid-coup-detat-allegations"
+    },
+    {
+     "title": "Kyiv Post",
+     "url": "https://www.kyivpost.com/post/88734"
+    },
+    {
+     "title": "Kyiv Independent",
+     "url": "https://kyivindependent.com/protests-erupt-in-poland-over-composition/"
+    },
+    {
+     "title": "Fox News",
+     "url": "https://www.foxnews.com/world/polish-president-turns-plane-around-after-coup-at-nations-top-court"
+    },
+    {
+     "title": "RTÉ",
+     "url": "https://www.rte.ie/news/world/2026/1031/1597446-poland-courts/"
+    },
+    {
+     "title": "Brussels Signal",
+     "url": "https://brusselssignal.eu/2026/10/tusk-moves-to-take-over-constitutional-court-by-force/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Page created on 30th Oct after the suspension of Poland's Constitutional Tribunal president, with a police operation at the court and \"coup\" accusations."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 21,
+     "views": 84378,
+     "confidence": "hi",
+     "anchor": "a18"
     }
    ]
   },
@@ -6667,10 +7253,6 @@
    ],
    "sources": [
     {
-     "title": "ICANN",
-     "url": "https://www.icann.org/en/announcements/details/icann-reveals-2026-round-applications-for-new-generic-top-level-domains-07-10-2026-en"
-    },
-    {
      "title": "DomainIncite",
      "url": "https://domainincite.com/"
     },
@@ -6705,6 +7287,18 @@
     {
      "title": "DomainIncite",
      "url": "https://domainincite.com/27409-xxx-shows-up-in-botnet-top-five-tlds-for-the-first-time"
+    },
+    {
+     "title": "ICANN",
+     "url": "https://www.icann.org/en/announcements/details/icann-confirms-number-of-applications-proceeding-in-the-2026-round-22-09-2026-en"
+    },
+    {
+     "title": "Global Capital Domain",
+     "url": "https://gcd.com/early-news-and-highlights-from-the-2026-new-gtld-round/"
+    },
+    {
+     "title": "DomainIncite adult tag",
+     "url": "https://domainincite.com/tag/adult"
     }
    ],
    "timeline": [
@@ -6735,6 +7329,10 @@
     {
      "date": "2026-10-30",
      "text": "358,084 views, a second straight fall (8%), 5.0 times baseline; still no news, edits or trigger"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "296,412 views, a third straight fall (17% below 30th Oct), still with no news, edits or trigger"
     }
    ],
    "charted": [
@@ -6784,6 +7382,13 @@
      "date": "2026-10-30",
      "rank": 6,
      "views": 358084,
+     "confidence": "lo",
+     "anchor": "a3"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 6,
+     "views": 296412,
      "confidence": "lo",
      "anchor": "a3"
     }
@@ -6947,22 +7552,6 @@
    ],
    "sources": [
     {
-     "title": "HollywoodLife",
-     "url": "https://hollywoodlife.com/feature/when-will-you-can-see-everything-doc-streaming-5562522/"
-    },
-    {
-     "title": "The Daily Beast",
-     "url": "https://www.thedailybeast.com/obsessed/elizabeth-holmes-partner-billy-evans-breaks-silence-on-explosive-documentary"
-    },
-    {
-     "title": "Rotten Tomatoes editorial",
-     "url": "https://editorial.rottentomatoes.com/article/weekend-box-office-clayface-you-can-see-everything/"
-    },
-    {
-     "title": "ExtraTV",
-     "url": "https://extratv.com/2026/10/26/how-elizabeth-holmes-doc-you-can-see-everything-became-an-oscar-front-runner/"
-    },
-    {
      "title": "TMZ",
      "url": "https://www.tmz.com/2026/10/26/elizabeth-holmes-look-alike-contest/"
     },
@@ -6993,6 +7582,22 @@
     {
      "title": "The Week",
      "url": "https://www.theweek.in/news/entertainment/2026/10/24/you-can-see-everything-box-office-success.amp.html"
+    },
+    {
+     "title": "Hollywood Outbreak",
+     "url": "https://www.hollywoodoutbreak.com/2026/10/31/you-can-see-everything-tops-friday-box-office-race/"
+    },
+    {
+     "title": "Fortune",
+     "url": "https://fortune.com/2026/10/26/clayface-box-office-opening-weekend-street-fighter-drop-wildwood-you-can-see-everything/"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/industry-news/awards/oscar-chances-you-can-see-everything/"
+    },
+    {
+     "title": "Daily Beast",
+     "url": "https://www.thedailybeast.com/obsessed/key-detail-missing-from-elizabeth-holmes-doc-revealed"
     }
    ],
    "timeline": [
@@ -7019,6 +7624,10 @@
     {
      "date": "2026-10-30",
      "text": "90,084 views, 9% below 29th Oct and 66% below the peak; the film was below the top 20 on 28th and 29th Oct (109,799 and 99,486 views), and no trigger is dated 30th Oct"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "91,527 views, 2% up on 30th Oct: third weekend, first on Friday with $3.56 million"
     }
    ],
    "charted": [
@@ -7084,6 +7693,13 @@
      "views": 90084,
      "confidence": "hi",
      "anchor": "a20"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 18,
+     "views": 91527,
+     "confidence": "hi",
+     "anchor": "a15"
     }
    ]
   }
