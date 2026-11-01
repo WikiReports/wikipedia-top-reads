@@ -288,6 +288,9 @@ def cmd_build():
 <script src="assets/storylines.js"></script>
 </body></html>
 ''' % (len(S), len(dates), long_(latest), gh, cnt['Active'], cnt['Cooling'], cnt['Retired'], len(S), ''.join(card(s, latest, groups) for s in S2))
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from disclaimer import apply as _disclaimer
+    page = _disclaimer(page, 'storylines')  # AI-content disclaimer plus footer link
     open(os.path.join(ROOT, 'storylines.html'), 'w', encoding='utf-8').write(page)
     # link every daily page article to its storyline
     ids = {}

@@ -364,6 +364,8 @@ os.makedirs(OUT + '/assets', exist_ok=True)
 sys.path.insert(0, HERE)
 from glance_summary import apply as _glance_summary
 page = _glance_summary(page)  # replaces the summary paragraph with a bar and breakdown table
+from disclaimer import apply as _disclaimer
+page = _disclaimer(page, 'report')  # AI-content disclaimer under the generated-by line, plus footer link
 page = re.sub(r'(<mark class="key[^"]*">[^<]*</mark>)([)\].,;:]+)', r'<span class="nw">\1\2</span>', page)  # keep trailing punctuation with highlight
 open(OUT + '/%s.html' % DATE_ISO, 'w').write(page)
 open(OUT + '/index.html', 'w').write(page)
