@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-29",
+ "updated": "2026-10-30",
  "groups": [
   {
    "id": "holmes-documentary",
@@ -434,8 +434,8 @@
    "type": "Election",
    "first_charted": "2026-10-27",
    "cause": {
-    "text": "The Israeli parliamentary election was held on 27th Oct 2026, with polls closing at 20:00 UTC, exit polls and fraud claims on the night; the earlier rise fits the final campaign days and the poll blackout",
-    "confidence": "hi"
+    "text": "Continuing from 27th Oct: the election held on 27th Oct and the resulting deadlock with no 61-seat majority; on 30th Oct the page was in decay, kept up by the count, the fraud claims and coalition talk",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -443,25 +443,15 @@
      "text": "The Israeli parliamentary election was held on 27th Oct 2026, with polls closing at 20:00 UTC, exit polls and fraud claims on the night; the earlier rise fits the final campaign days and the poll blackout",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-10-30",
+     "text": "Continuing from 27th Oct: the election held on 27th Oct and the resulting deadlock with no 61-seat majority; on 30th Oct the page was in decay, kept up by the count, the fraud claims and coalition talk",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "Ynetnews",
-     "url": "https://www.ynetnews.com/article/skd97fc2gl"
-    },
-    {
-     "title": "Jerusalem Post",
-     "url": "https://www.jpost.com/israel-election-2026/article-912743"
-    },
-    {
-     "title": "Israel Hayom",
-     "url": "https://www.israelhayom.com/2026/10/20/israel-warns-of-illegal-election-polls-ahead-of-vote/"
-    },
-    {
-     "title": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections"
-    },
     {
      "title": "Ynetnews",
      "url": "https://www.ynetnews.com/article/hjnatbkaml"
@@ -493,6 +483,22 @@
     {
      "title": "Jerusalem Post live updates",
      "url": "https://www.jpost.com/israel-election-2026/2026-10-29/live-updates-913178"
+    },
+    {
+     "title": "Israel Hayom",
+     "url": "https://www.israelhayom.com/2026/10/27/israel-election-2026-exit-polls-full-results/"
+    },
+    {
+     "title": "Jewish News live blog",
+     "url": "https://www.jewishnews.co.uk/liveblog_entry/netanyahus-likud-party-claims-election-was-stolen-by-arab-parties/"
+    },
+    {
+     "title": "UNI",
+     "url": "https://www.uniindia.com/world/israel-prez-herzog-political-deadlock/228846"
+    },
+    {
+     "title": "i24NEWS final results page",
+     "url": "https://www.i24news.tv/en/news/israel-election-s-2026/final-results"
     }
    ],
    "timeline": [
@@ -507,6 +513,10 @@
     {
      "date": "2026-10-29",
      "text": "363,543 views, 61% below the peak; the count finished with no 61-seat majority, Likud's \"stolen election\" claims continued and the first coalition meetings began"
+    },
+    {
+     "date": "2026-10-30",
+     "text": "152,854 views, 58% below 29th Oct; the same deadlock and claims, with official results still due on 4th Nov and no distinct event dated 30th Oct found"
     }
    ],
    "charted": [
@@ -530,6 +540,13 @@
      "views": 363543,
      "confidence": "hi",
      "anchor": "a3"
+    },
+    {
+     "date": "2026-10-30",
+     "rank": 10,
+     "views": 152854,
+     "confidence": "md",
+     "anchor": "a7"
     }
    ]
   },
@@ -1034,6 +1051,10 @@
     {
      "title": "Fstoppers",
      "url": "https://fstoppers.com/originals/even-ansel-adams-isnt-sacred-anymore-902660"
+    },
+    {
+     "title": "Westmoreland Museum of American Art",
+     "url": "https://thewestmoreland.org/exhibitions/ansel-adams-majestic-lands/"
     }
    ],
    "timeline": [
@@ -1048,6 +1069,10 @@
     {
      "date": "2026-10-25",
      "text": "102,028 views, down from the 124,107 peak on 24th Oct; still no trigger found"
+    },
+    {
+     "date": "2026-10-30",
+     "text": "98,266 views on a Friday, 1.3 times baseline and inside its usual weekly pattern; no edits and no trigger"
     }
    ],
    "charted": [
@@ -1071,6 +1096,13 @@
      "views": 102028,
      "confidence": "lo",
      "anchor": "a14"
+    },
+    {
+     "date": "2026-10-30",
+     "rank": 22,
+     "views": 98266,
+     "confidence": "lo",
+     "anchor": "a19"
     }
    ]
   },
@@ -1592,14 +1624,6 @@
    ],
    "sources": [
     {
-     "title": "Online Tech Tips",
-     "url": "https://www.online-tech-tips.com/openai-gpt-6-1-terra-release-speed-lower-cost/"
-    },
-    {
-     "title": "Decrypt",
-     "url": "https://decrypt.co/381883/openai-launches-gpt-6-1-terra-half-good-half-price"
-    },
-    {
      "title": "TechCrunch",
      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/"
     },
@@ -1638,6 +1662,14 @@
     {
      "title": "aiweekly.co OpenAI news listing",
      "url": "https://aiweekly.co/ai-news-today/openai-news"
+    },
+    {
+     "title": "Business Today",
+     "url": "https://businesstoday.in/technology/news/story/openai-faces-lawsuit-over-claims-chatgpt-advised-amazon-engineer-to-stop-seizure-medication-all-details-564223-2026-10-28"
+    },
+    {
+     "title": "Tech Insider",
+     "url": "https://tech-insider.org/sweden-government-blocks-chatgpt-claude-copilot-2026/"
     }
    ],
    "timeline": [
@@ -1664,6 +1696,10 @@
     {
      "date": "2026-10-29",
      "text": "197,747 views, the highest of the window; no new event dated 29th Oct, with the 26th to 28th Oct news cluster and the elevated level since 19th Oct still the best explanation"
+    },
+    {
+     "date": "2026-10-30",
+     "text": "104,010 views, 47% below 29th Oct and the lowest since 25th Oct; still no event dated 30th Oct"
     }
    ],
    "charted": [
@@ -1722,6 +1758,13 @@
      "views": 197747,
      "confidence": "lo",
      "anchor": "a9"
+    },
+    {
+     "date": "2026-10-30",
+     "rank": 20,
+     "views": 104010,
+     "confidence": "lo",
+     "anchor": "a17"
     }
    ]
   },
@@ -2280,14 +2323,6 @@
    ],
    "sources": [
     {
-     "title": "TVLine",
-     "url": "https://www.tvline.com/2297074/walter-koenig-dead-star-trek-chekov-obituary/"
-    },
-    {
-     "title": "1News",
-     "url": "https://www.1news.co.nz/2026/10/24/pauline-parker-killer-in-heavenly-creatures-case-dies-aged-88/"
-    },
-    {
      "title": "ABC7 (AP)",
      "url": "https://abc7.com/story/susan-saint-james-emmy-winning-actor-mcmillan-wife-kate-allie-dies-80/19985458/"
     },
@@ -2326,6 +2361,14 @@
     {
      "title": "dead-people.com",
      "url": "https://www.dead-people.com/today"
+    },
+    {
+     "title": "Fox 29 celebrity deaths list",
+     "url": "https://fox29.com/news/celebrity-deaths-2026-list"
+    },
+    {
+     "title": "Just Jared",
+     "url": "https://www.justjared.com/2026/10/29/sir-patrick-stewart-dies-at-86-after-brief-battle-with-alzheimers-disease/"
     }
    ],
    "timeline": [
@@ -2360,6 +2403,10 @@
     {
      "date": "2026-10-29",
      "text": "174,215 views, the highest of the window and 1.3 times baseline, as the deaths of Patrick Stewart and Barbara Barrie were reported"
+    },
+    {
+     "date": "2026-10-30",
+     "text": "152,362 views, 1.1 times baseline and 13% below 29th Oct, with 84 edits and no named death dated 30th Oct found"
     }
    ],
    "charted": [
@@ -2432,6 +2479,13 @@
      "views": 174215,
      "confidence": "md",
      "anchor": "a13"
+    },
+    {
+     "date": "2026-10-30",
+     "rank": 12,
+     "views": 152362,
+     "confidence": "md",
+     "anchor": "a9"
     }
    ]
   },
@@ -2636,14 +2690,6 @@
    ],
    "sources": [
     {
-     "title": "Rotten Tomatoes editorial",
-     "url": "https://editorial.rottentomatoes.com/article/weekend-box-office-clayface-you-can-see-everything/"
-    },
-    {
-     "title": "Forbes",
-     "url": "https://www.forbes.com/sites/annatong/2026/10/22/elizabeth-holmes-partners-blood-testing-startup-has-lost-its-cto-and-key-inventor/"
-    },
-    {
      "title": "Fortune",
      "url": "https://fortune.com/2026/10/25/elizabeth-holmes-partner-billy-evans-haemanthus-blood-testing-startup-theranos/"
     },
@@ -2682,6 +2728,14 @@
     {
      "title": "Tom's Guide",
      "url": "https://www.tomsguide.com/entertainment/movies/when-is-you-can-see-everything-streaming-heres-our-best-guess"
+    },
+    {
+     "title": "MIT Technology Review",
+     "url": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/amp/"
+    },
+    {
+     "title": "SlashFilm",
+     "url": "https://www.slashfilm.com/2292780/elizabeth-holmes-feelings-nathan-fielder-you-can-see-everything/"
     }
    ],
    "timeline": [
@@ -2716,6 +2770,10 @@
     {
      "date": "2026-10-29",
      "text": "140,836 views, 53% below the peak and 2% below 28th Oct, a continued decay with no separate trigger dated that day"
+    },
+    {
+     "date": "2026-10-30",
+     "text": "133,733 views, 5% below 29th Oct and 56% below the peak; a continued decay with no trigger dated 30th Oct"
     }
    ],
    "charted": [
@@ -2788,6 +2846,13 @@
      "views": 140836,
      "confidence": "hi",
      "anchor": "a15"
+    },
+    {
+     "date": "2026-10-30",
+     "rank": 15,
+     "views": 133733,
+     "confidence": "hi",
+     "anchor": "a12"
     }
    ]
   },
@@ -3290,8 +3355,8 @@
    "type": "Actor",
    "first_charted": "2026-10-29",
    "cause": {
-    "text": "Spillover from the announcement of Patrick Stewart's death; McKellen is his closest friend and X-Men co-star, and some readers appear to have checked on his status; his own tribute came after the UTC day ended",
-    "confidence": "hi"
+    "text": "Continuing from 29th Oct: spillover from Stewart's death, with McKellen's tribute leading the 30th Oct coverage",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -3299,6 +3364,12 @@
      "text": "Spillover from the announcement of Patrick Stewart's death; McKellen is his closest friend and X-Men co-star, and some readers appear to have checked on his status; his own tribute came after the UTC day ended",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-10-30",
+     "text": "Continuing from 29th Oct: spillover from Stewart's death, with McKellen's tribute leading the 30th Oct coverage",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -3313,12 +3384,32 @@
     {
      "title": "LADbible",
      "url": "https://www.ladbible.com/entertainment/celebrity/sir-ian-mckellen-ays-tribute-sir-patrick-stewart-death-412690-20261030"
+    },
+    {
+     "title": "ITV News",
+     "url": "https://www.itv.com/news/2026-10-30/sir-ian-mckellen-leads-tributes-to-respected-and-beloved-sir-patrick-stewart"
+    },
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/GMA/Culture/hollywood-mourns-patrick-stewart-after-death-86/story?id=137685272"
+    },
+    {
+     "title": "Yahoo / Snopes fact check",
+     "url": "https://www.yahoo.com/entertainment/celebrity/articles/fact-check-ian-mckellen-wrote-185800784.html"
+    },
+    {
+     "title": "BroBible",
+     "url": "https://brobible.com/culture/article/patrick-stewart-dead/"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-29",
      "text": "Stewart's close friend and co-star; readers looked him up after the news (he is alive, and posted a tribute just after midnight UTC)."
+    },
+    {
+     "date": "2026-10-30",
+     "text": "213,817 views, up 67% to a new peak, as the tribute headlined UK coverage and was widely shared"
     }
    ],
    "charted": [
@@ -3328,6 +3419,13 @@
      "views": 127831,
      "confidence": "hi",
      "anchor": "a17"
+    },
+    {
+     "date": "2026-10-30",
+     "rank": 7,
+     "views": 213817,
+     "confidence": "md",
+     "anchor": "a4"
     }
    ]
   },
@@ -3517,14 +3615,6 @@
    ],
    "sources": [
     {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/10/26/jailer-2-box-office-collection-record-rajinikanth-becomes-first-tamil-film-to-cross-the-indian-rupee700-crore.html"
-    },
-    {
-     "title": "Esquire India",
-     "url": "https://www.esquireindia.co.in/entertainment/at-the-movies/jailer-2-ott-release-where-to-watch-rajinikanths-movie-after-its-theatrical-run"
-    },
-    {
      "title": "Business Standard",
      "url": "https://www.business-standard.com/entertainment/rajinikanth-s-jailer-2-becomes-highest-grossing-tamil-film-hits-700-crore-nc-126102600874_1.html"
     },
@@ -3563,6 +3653,14 @@
     {
      "title": "Sacnilk day-wise collection",
      "url": "https://www.sacnilk.com/news/Jailer_2_2026_Box_Office_Collection_Day_Wise_Worldwide"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/quicknews/Jailer_2_2026_Box_Office_Collection_Day_14"
+    },
+    {
+     "title": "Digit",
+     "url": "https://www.digit.in/news/entertainment/jailer-2-ott-release-timeline-streaming-platform-and-more-details.html"
     }
    ],
    "timeline": [
@@ -3593,6 +3691,10 @@
     {
      "date": "2026-10-29",
      "text": "122,337 views, 9% below 28th Oct and 68% below the peak; day 15 collections fell to Rs 5.90 crore net"
+    },
+    {
+     "date": "2026-10-30",
+     "text": "113,774 views, 7% below 29th Oct and 70% below the peak; a continued decay with only two edits and no dated trigger"
     }
    ],
    "charted": [
@@ -3665,6 +3767,13 @@
      "views": 122337,
      "confidence": "hi",
      "anchor": "a19"
+    },
+    {
+     "date": "2026-10-30",
+     "rank": 19,
+     "views": 113774,
+     "confidence": "hi",
+     "anchor": "a16"
     }
    ]
   },
@@ -3710,6 +3819,55 @@
      "views": 172365,
      "confidence": "lo",
      "anchor": "a13"
+    }
+   ]
+  },
+  {
+   "id": "james-blunt",
+   "title": "James Blunt",
+   "canonical": "James_Blunt",
+   "url": "https://en.wikipedia.org/wiki/James_Blunt",
+   "type": "Singer",
+   "first_charted": "2026-10-30",
+   "cause": {
+    "text": "The finale of The Celebrity Traitors series 2 on 30th Oct, in which he was the last player voted out",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-30",
+     "text": "The finale of The Celebrity Traitors series 2 on 30th Oct, in which he was the last player voted out",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "PinkNews",
+     "url": "https://www.thepinknews.com/2026/10/30/celebrity-traitors-winners-2026/"
+    },
+    {
+     "title": "PinkNews",
+     "url": "https://www.thepinknews.com/2026/10/14/celebrity-traitors-james-blunt-real-name-reprimanded-bbc/"
+    },
+    {
+     "title": "Tixel",
+     "url": "https://tixel.com/uk/news/2026/10/01/james-blunt-announces-new-album-airplane-mode"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-30",
+     "text": "The last player voted out in The Celebrity Traitors series 2 finale; 5.6 times baseline."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-30",
+     "rank": 17,
+     "views": 123236,
+     "confidence": "hi",
+     "anchor": "a14"
     }
    ]
   },
@@ -3763,6 +3921,51 @@
      "views": 122632,
      "confidence": "hi",
      "anchor": "a18"
+    }
+   ]
+  },
+  {
+   "id": "jennifer-hetrick",
+   "title": "Jennifer Hetrick",
+   "canonical": "Jennifer_Hetrick",
+   "url": "https://en.wikipedia.org/wiki/Jennifer_Hetrick",
+   "type": "Actress",
+   "first_charted": "2026-10-30",
+   "cause": {
+    "text": "Spillover from the announcement of Stewart's death, with readers looking up his Star Trek co-star and former partner",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-30",
+     "text": "Spillover from the announcement of Stewart's death, with readers looking up his Star Trek co-star and former partner",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Soap Central",
+     "url": "https://www.soapcentral.com/entertainment/what-jennifer-hetrick-now-sir-patrick-stewart-wrote-relatively-short-affair-star-trek-s-vash-memoir"
+    },
+    {
+     "title": "TVLine",
+     "url": "https://www.tvline.com/2301630/patrick-stewart-dead-star-trek-jean-luc-picard-obituary/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-30",
+     "text": "Played Vash opposite Stewart's Picard in Star Trek: The Next Generation; \"former partner\" explainers followed his death; 478.6 times baseline."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-30",
+     "rank": 16,
+     "views": 125642,
+     "confidence": "md",
+     "anchor": "a13"
     }
    ]
   },
@@ -3921,6 +4124,59 @@
      "views": 119100,
      "confidence": "hi",
      "anchor": "a18"
+    }
+   ]
+  },
+  {
+   "id": "jonestown",
+   "title": "Jonestown",
+   "canonical": "Jonestown",
+   "url": "https://en.wikipedia.org/wiki/Jonestown",
+   "type": "Historical event",
+   "first_charted": "2026-10-30",
+   "cause": {
+    "text": "A viral Fox News clip, published on 29th Oct, of a Trump rally attendee comparing the rally to Jonestown, with follow-up coverage on 30th Oct",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-30",
+     "text": "A viral Fox News clip, published on 29th Oct, of a Trump rally attendee comparing the rally to Jonestown, with follow-up coverage on 30th Oct",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TMZ",
+     "url": "https://www.tmz.com/2026/10/29/trump-rally-attendee-compares-maga-to-jonestown-massacre/"
+    },
+    {
+     "title": "Joe.My.God",
+     "url": "https://www.joemygod.com/2026/10/rally-attendee-floors-fox-reporter-i-was-too-young-for-jonestown-so-im-here-to-see-a-cult-in-person/"
+    },
+    {
+     "title": "RealClearPolitics",
+     "url": "https://www.realclearpolitics.com/video/2026/10/29/man_at_trump_rally_i_was_too_young_for_the_jonestown_massacre_theres_nothing_like_seeing_a_cult_right_up_front.html"
+    },
+    {
+     "title": "TV Insider",
+     "url": "https://www.tvinsider.com/1300786/trump-rally-jonestown-massacre-tom-hoyle-fox-news-interview/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-30",
+     "text": "A viral Fox News clip from 29th Oct in which a Trump rally attendee compared the rally to Jonestown; 45.1 times baseline on the second day."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-30",
+     "rank": 13,
+     "views": 143302,
+     "confidence": "md",
+     "anchor": "a10"
     }
    ]
   },
@@ -4150,12 +4406,24 @@
     {
      "title": "Yahoo / USA Today",
      "url": "https://sg.news.yahoo.com/patrick-stewart-battled-lewy-body-215212354.html"
+    },
+    {
+     "title": "Alzheimer's Research UK",
+     "url": "https://www.alzheimersresearchuk.org/news/sir-patrick-stewart-dies-with-alzheimers-disease-and-lewy-body-dementia/"
+    },
+    {
+     "title": "Yahoo Lifestyle",
+     "url": "https://www.yahoo.com/lifestyle/article/patrick-stewart-died-after-a-brief-and-poignant-journey-with-lewy-body-dementia-and-alzheimers-what-to-know-about-2-of-the-most-common-causes-of-memory-loss-214446695.html"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-29",
      "text": "Named in the family's statement as one of two illnesses Stewart had; explainers followed."
+    },
+    {
+     "date": "2026-10-30",
+     "text": "160,656 views, 1% below 29th Oct and still 72.6 times baseline, with further explainers and a UK charity item on 30th Oct"
     }
    ],
    "charted": [
@@ -4165,6 +4433,13 @@
      "views": 161848,
      "confidence": "hi",
      "anchor": "a14"
+    },
+    {
+     "date": "2026-10-30",
+     "rank": 9,
+     "views": 160656,
+     "confidence": "hi",
+     "anchor": "a6"
     }
    ]
   },
@@ -4487,6 +4762,47 @@
    ]
   },
   {
+   "id": "maya-jama",
+   "title": "Maya Jama",
+   "canonical": "Maya_Jama",
+   "url": "https://en.wikipedia.org/wiki/Maya_Jama",
+   "type": "TV presenter",
+   "first_charted": "2026-10-30",
+   "cause": {
+    "text": "Her part as a Traitor in the finale of The Celebrity Traitors series 2, which aired on 30th Oct",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-30",
+     "text": "Her part as a Traitor in the finale of The Celebrity Traitors series 2, which aired on 30th Oct",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "PinkNews",
+     "url": "https://www.thepinknews.com/2026/10/30/celebrity-traitors-winners-2026/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-30",
+     "text": "A Traitor in The Celebrity Traitors series 2, banished at the last roundtable of the finale; 6.5 times baseline."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-30",
+     "rank": 14,
+     "views": 139120,
+     "confidence": "hi",
+     "anchor": "a11"
+    }
+   ]
+  },
+  {
    "id": "milwaukee-brewers",
    "title": "Milwaukee Brewers",
    "canonical": "Milwaukee_Brewers",
@@ -4795,12 +5111,40 @@
     {
      "title": "TIME",
      "url": "https://time.com/article/2026/10/29/patrick-stewart-death-tributes/"
+    },
+    {
+     "title": "ITV News",
+     "url": "https://www.itv.com/news/2026-10-30/sir-ian-mckellen-leads-tributes-to-respected-and-beloved-sir-patrick-stewart"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/paultassi/2026/10/30/patrick-stewarts-26-year-professor-x-run-ends-with-avengers-doomsday-marvel-confirms/"
+    },
+    {
+     "title": "Alzheimer's Research UK",
+     "url": "https://www.alzheimersresearchuk.org/news/sir-patrick-stewart-dies-with-alzheimers-disease-and-lewy-body-dementia/"
+    },
+    {
+     "title": "UNILAD",
+     "url": "https://www.unilad.com/celebrity/patrick-stewart-dead-aged-86-222352-20261029"
+    },
+    {
+     "title": "Hello! Magazine",
+     "url": "https://www.hellomagazine.com/us/932146/patrick-stewart-dead-at-86/"
+    },
+    {
+     "title": "ITV Calendar",
+     "url": "https://www.itv.com/news/calendar/2026-10-30/yorkshire-names-line-up-to-pay-tribute-to-son-of-mirfield-sir-patrick-stewart"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-29",
      "text": "His family announced his death aged 86 on 29th Oct, around 19:30 UTC; 631.8 times baseline."
+    },
+    {
+     "date": "2026-10-30",
+     "text": "1,882,386 views, 20% below 29th Oct but a full UTC day of obituaries, tributes and Marvel's confirmation of his final role"
     }
    ],
    "charted": [
@@ -4808,6 +5152,13 @@
      "date": "2026-10-29",
      "rank": 2,
      "views": 2356552,
+     "confidence": "hi",
+     "anchor": "a1"
+    },
+    {
+     "date": "2026-10-30",
+     "rank": 2,
+     "views": 1882386,
      "confidence": "hi",
      "anchor": "a1"
     }
@@ -4840,12 +5191,24 @@
     {
      "title": "Fox News",
      "url": "https://www.foxnews.com/entertainment/patrick-stewart-legendary-star-trek-x-men-actor-dies-86"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/paultassi/2026/10/30/patrick-stewarts-26-year-professor-x-run-ends-with-avengers-doomsday-marvel-confirms/"
+    },
+    {
+     "title": "TVLine",
+     "url": "https://www.tvline.com/2301630/patrick-stewart-dead-star-trek-jean-luc-picard-obituary/"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-29",
      "text": "Spillover from the announcement of Stewart's death."
+    },
+    {
+     "date": "2026-10-30",
+     "text": "119,754 views, 44% below 29th Oct but still 426.2 times baseline, with the filmography updated 21 times"
     }
    ],
    "charted": [
@@ -4855,6 +5218,13 @@
      "views": 212550,
      "confidence": "md",
      "anchor": "a7"
+    },
+    {
+     "date": "2026-10-30",
+     "rank": 18,
+     "views": 119754,
+     "confidence": "md",
+     "anchor": "a15"
     }
    ]
   },
@@ -5109,6 +5479,51 @@
    ]
   },
   {
+   "id": "sebastian-croft",
+   "title": "Sebastian Croft",
+   "canonical": "Sebastian_Croft",
+   "url": "https://en.wikipedia.org/wiki/Sebastian_Croft",
+   "type": "Actor and singer",
+   "first_charted": "2026-10-30",
+   "cause": {
+    "text": "He won The Celebrity Traitors series 2 in the finale on 30th Oct, which aired on BBC One from 20:00 UTC",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-30",
+     "text": "He won The Celebrity Traitors series 2 in the finale on 30th Oct, which aired on BBC One from 20:00 UTC",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "PinkNews",
+     "url": "https://www.thepinknews.com/2026/10/30/celebrity-traitors-winners-2026/"
+    },
+    {
+     "title": "The Tab",
+     "url": "https://thetab.com/2026/10/22/traitors-sebastian-croft-seemingly-addresses-secret-relationship-with-co-star-in-new-music"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-30",
+     "text": "Won The Celebrity Traitors series 2 with Romesh Ranganathan in the finale aired at 20:00 UTC on 30th Oct; 9.8 times baseline."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-30",
+     "rank": 11,
+     "views": 152737,
+     "confidence": "hi",
+     "anchor": "a8"
+    }
+   ]
+  },
+  {
    "id": "street-fighter-2026-film",
    "title": "Street Fighter (2026 film)",
    "canonical": "Street_Fighter_(2026_film)",
@@ -5271,12 +5686,28 @@
     {
      "title": "ABC News",
      "url": "https://abcnews.com/GMA/Culture/star-trek-star-patrick-stewart-dies-86/story?id=137684409"
+    },
+    {
+     "title": "Hello! Magazine",
+     "url": "https://www.hellomagazine.com/us/932146/patrick-stewart-dead-at-86/"
+    },
+    {
+     "title": "Yahoo Entertainment",
+     "url": "https://www.yahoo.com/entertainment/celebrity/articles/star-trek-actor-patrick-stewart-202954696.html"
+    },
+    {
+     "title": "AOL",
+     "url": "https://www.aol.com/articles/inside-patrick-stewarts-38-age-120000000.html"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-29",
      "text": "Stewart's wife, named as his carer in the family's announcement of his death."
+    },
+    {
+     "date": "2026-10-30",
+     "text": "488,907 views, up 41% to a new peak, as explainers about his wife kept appearing through the day"
     }
    ],
    "charted": [
@@ -5286,6 +5717,13 @@
      "views": 346682,
      "confidence": "hi",
      "anchor": "a4"
+    },
+    {
+     "date": "2026-10-30",
+     "rank": 5,
+     "views": 488907,
+     "confidence": "hi",
+     "anchor": "a2"
     }
    ]
   },
@@ -5520,6 +5958,51 @@
      "views": 143369,
      "confidence": "hi",
      "anchor": "a8"
+    }
+   ]
+  },
+  {
+   "id": "the-celebrity-traitors-series-2",
+   "title": "The Celebrity Traitors series 2",
+   "canonical": "The_Celebrity_Traitors_series_2",
+   "url": "https://en.wikipedia.org/wiki/The_Celebrity_Traitors_series_2",
+   "type": "TV series",
+   "first_charted": "2026-10-30",
+   "cause": {
+    "text": "The finale of the BBC One series, broadcast on 30th Oct",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-30",
+     "text": "The finale of the BBC One series, broadcast on 30th Oct",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "PinkNews",
+     "url": "https://www.thepinknews.com/2026/10/30/celebrity-traitors-winners-2026/"
+    },
+    {
+     "title": "Woman&Home",
+     "url": "https://www.womanandhome.com/life/news-entertainment/when-is-the-celebrity-traitors-final-2026-/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-30",
+     "text": "The BBC One finale aired at 20:00 UTC on 30th Oct; 3.2 times baseline and the highest day of the month."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-30",
+     "rank": 21,
+     "views": 100276,
+     "confidence": "hi",
+     "anchor": "a18"
     }
    ]
   },
@@ -5912,12 +6395,20 @@
     {
      "title": "Parade",
      "url": "https://parade.com/news/patrick-stewarts-final-chapter-his-battle-with-alzheimers-lewy-body-dementia-and-the-family-he-leaves-behind-at-86"
+    },
+    {
+     "title": "Yahoo Entertainment",
+     "url": "https://www.yahoo.com/entertainment/celebrity/articles/patrick-stewart-wife-kids-past-211045296.html"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-29",
      "text": "Stewart's second wife (married 2000, divorced 2003); \"ex-wives\" explainers followed his death."
+    },
+    {
+     "date": "2026-10-30",
+     "text": "163,945 views, up 44% to a new peak, with \"past marriages\" explainers still being published"
     }
    ],
    "charted": [
@@ -5927,6 +6418,13 @@
      "views": 113901,
      "confidence": "md",
      "anchor": "a20"
+    },
+    {
+     "date": "2026-10-30",
+     "rank": 8,
+     "views": 163945,
+     "confidence": "md",
+     "anchor": "a5"
     }
    ]
   },
@@ -6195,6 +6693,18 @@
     {
      "title": "Domain Incite, ICM Registry tag",
      "url": "https://domainincite.com/tag/icm-registry"
+    },
+    {
+     "title": "DomainNameWire",
+     "url": "https://domainnamewire.com/tag/xxx/"
+    },
+    {
+     "title": "TheDomains",
+     "url": "https://www.thedomains.com/category/xxx"
+    },
+    {
+     "title": "DomainIncite",
+     "url": "https://domainincite.com/27409-xxx-shows-up-in-botnet-top-five-tlds-for-the-first-time"
     }
    ],
    "timeline": [
@@ -6221,6 +6731,10 @@
     {
      "date": "2026-10-29",
      "text": "390,246 views, the first fall (11%) after five rises; still no trigger found, and no news or edits"
+    },
+    {
+     "date": "2026-10-30",
+     "text": "358,084 views, a second straight fall (8%), 5.0 times baseline; still no news, edits or trigger"
     }
    ],
    "charted": [
@@ -6265,6 +6779,13 @@
      "views": 390246,
      "confidence": "lo",
      "anchor": "a2"
+    },
+    {
+     "date": "2026-10-30",
+     "rank": 6,
+     "views": 358084,
+     "confidence": "lo",
+     "anchor": "a3"
     }
    ]
   },
@@ -6426,14 +6947,6 @@
    ],
    "sources": [
     {
-     "title": "Fortune",
-     "url": "https://fortune.com/2026/10/26/clayface-box-office-opening-weekend-street-fighter-drop-wildwood-you-can-see-everything/"
-    },
-    {
-     "title": "ABC News (AP)",
-     "url": "https://abcnews.com/Entertainment/wireStory/box-office-elizabeth-holmes-movie-now-hit-theaters-137363778"
-    },
-    {
      "title": "HollywoodLife",
      "url": "https://hollywoodlife.com/feature/when-will-you-can-see-everything-doc-streaming-5562522/"
     },
@@ -6472,6 +6985,14 @@
     {
      "title": "Tom's Guide",
      "url": "https://www.tomsguide.com/entertainment/movies/when-is-you-can-see-everything-streaming-heres-our-best-guess"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/movies/you-can-see-everything-why-box-office-success/"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/10/24/you-can-see-everything-box-office-success.amp.html"
     }
    ],
    "timeline": [
@@ -6494,6 +7015,10 @@
     {
      "date": "2026-10-27",
      "text": "116,879 views, 27% below 26th Oct, the first clear drop after the plateau; a Monday gross of about $2.1 million"
+    },
+    {
+     "date": "2026-10-30",
+     "text": "90,084 views, 9% below 29th Oct and 66% below the peak; the film was below the top 20 on 28th and 29th Oct (109,799 and 99,486 views), and no trigger is dated 30th Oct"
     }
    ],
    "charted": [
@@ -6552,6 +7077,13 @@
      "views": 116879,
      "confidence": "hi",
      "anchor": "a18"
+    },
+    {
+     "date": "2026-10-30",
+     "rank": 23,
+     "views": 90084,
+     "confidence": "hi",
+     "anchor": "a20"
     }
    ]
   }
