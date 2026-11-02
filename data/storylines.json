@@ -662,6 +662,42 @@
    ]
   },
   {
+   "id": "2026-united-states-elections",
+   "title": "2026 United States elections",
+   "canonical": "2026_United_States_elections",
+   "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+   "type": "Election",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "Readers looking up the midterm elections in the final days before 3rd Nov; the level has been flat since 26th Oct, so no single event on 31st Oct explains it",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "Readers looking up the midterm elections in the final days before 3rd Nov; the level has been flat since 26th Oct, so no single event on 31st Oct explains it",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "The build-up to the US midterm elections on 3rd Nov: steady at 66,000 to 80,000 views a day since 26th Oct, 2.1 times baseline."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 25,
+     "views": 71088,
+     "confidence": "lo",
+     "anchor": "a22"
+    }
+   ]
+  },
+  {
    "id": "abdul-el-sayed",
    "title": "Abdul El-Sayed",
    "canonical": "Abdul_El-Sayed",
@@ -1182,6 +1218,47 @@
    ]
   },
   {
+   "id": "avatar-seven-havens",
+   "title": "Avatar: Seven Havens",
+   "canonical": "Avatar:_Seven_Havens",
+   "url": "https://en.wikipedia.org/wiki/Avatar:_Seven_Havens",
+   "type": "TV series",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "The release of the final episodes (10 to 13) on 30th Oct; views jumped from 19,532 on 29th Oct to 69,241 and fell to 47,842",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "The release of the final episodes (10 to 13) on 30th Oct; views jumped from 19,532 on 29th Oct to 69,241 and fell to 47,842",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/tv-shows/avatar-seven-havens-release-schedule-when-do-new-episodes-come-out/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Paramount+ series whose episodes 10 to 13 were released on 30th Oct: 47,842 views, 1.7 times baseline, down from 69,241 on 30th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 46,
+     "views": 47842,
+     "confidence": "hi",
+     "anchor": "a42"
+    }
+   ]
+  },
+  {
    "id": "ballon-d-or",
    "title": "Ballon d'Or",
    "canonical": "Ballon_d'Or",
@@ -1331,6 +1408,47 @@
    ]
   },
   {
+   "id": "baththa",
+   "title": "Baththa",
+   "canonical": "Baththa",
+   "url": "https://en.wikipedia.org/wiki/Baththa",
+   "type": "Film",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "The Netflix streaming premiere on 29th Oct; views rose from 16,545 on 28th Oct to 55,094, 62,247 and 68,012 on the next three days",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "The Netflix streaming premiere on 29th Oct; views rose from 16,545 on 28th Oct to 55,094, 62,247 and 68,012 on the next three days",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/10/25/vijay-sethupathi-baththa-ott-release.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Tamil film starring Vijay Sethupathi, streaming on Netflix from 29th Oct after its 1st Oct cinema release: 68,012 views, 4.4 times baseline, a third day of rises."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 28,
+     "views": 68012,
+     "confidence": "hi",
+     "anchor": "a25"
+    }
+   ]
+  },
+  {
    "id": "benjamin-netanyahu",
    "title": "Benjamin Netanyahu",
    "canonical": "Benjamin_Netanyahu",
@@ -1395,8 +1513,8 @@
    "type": "Businessman",
    "first_charted": "2026-10-24",
    "cause": {
-    "text": "Elizabeth Holmes's partner, who features in You Can See Everything; article created 20th Oct (medium confidence). Related: Elizabeth Holmes, You Can See Everything.",
-    "confidence": "md"
+    "text": "Continued interest from the documentary You Can See Everything and Elizabeth Holmes coverage; the 31st Oct rise matches the film's third weekend and Holmes's own 13% rise",
+    "confidence": "lo"
    },
    "cause_history": [
     {
@@ -1404,6 +1522,12 @@
      "text": "Elizabeth Holmes's partner, who features in You Can See Everything; article created 20th Oct (medium confidence). Related: Elizabeth Holmes, You Can See Everything.",
      "confidence": "md",
      "note": "First stated"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "Continued interest from the documentary You Can See Everything and Elizabeth Holmes coverage; the 31st Oct rise matches the film's third weekend and Holmes's own 13% rise",
+     "confidence": "lo",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -1440,6 +1564,10 @@
     {
      "date": "2026-10-25",
      "text": "95,566 views, the peak so far; Fortune and SanDiegoVille published pieces on his startup and family on this date, in the film's second weekend"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "57,522 views, up 31% on 30th Oct and 40% below the peak, on the third weekend of the film"
     }
    ],
    "charted": [
@@ -1456,6 +1584,13 @@
      "views": 95566,
      "confidence": "md",
      "anchor": "a15"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 36,
+     "views": 57522,
+     "confidence": "lo",
+     "anchor": "a33"
     }
    ]
   },
@@ -1667,11 +1802,56 @@
    ]
   },
   {
+   "id": "canelo-lvarez",
+   "title": "Canelo Álvarez",
+   "canonical": "Canelo_Álvarez",
+   "url": "https://en.wikipedia.org/wiki/Canelo_%C3%81lvarez",
+   "type": "Boxer",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "The WBC super middleweight title fight against Christian Mbilli in Riyadh on the night of 31st Oct; views rose from 11,690 on 30th Oct to 58,360",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "The WBC super middleweight title fight against Christian Mbilli in Riyadh on the night of 31st Oct; views rose from 11,690 on 30th Oct to 58,360",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/sports/2026/10/12/alvarez-vs-mbilli-boxing-bout-to-go-ahead-in-saudi-arabia-despite-attacks"
+    },
+    {
+     "title": "The National",
+     "url": "https://www.thenationalnews.com/sport/combat-sports/2026/10/29/i-love-to-be-in-riyadh-canelo-alvarez-rejects-security-fears-and-retirement-talk/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Boxer who fought Christian Mbilli for the WBC super middleweight title in Riyadh on the night of 31st Oct: 58,360 views, 14 times baseline."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 35,
+     "views": 58360,
+     "confidence": "hi",
+     "anchor": "a32"
+    }
+   ]
+  },
+  {
    "id": "chatgpt",
    "title": "ChatGPT",
    "canonical": "ChatGPT",
    "url": "https://en.wikipedia.org/wiki/ChatGPT",
-   "type": "AI chatbot",
+   "type": "Software",
    "first_charted": "2026-10-20",
    "cause": {
     "text": "Revised from \"no confirmed trigger\" to a probable but unproven news cluster on 26th to 27th Oct (GPT-6.1 Terra, the Exponential Time Hypothesis claim, the Sweden block) on top of interest elevated since 19th Oct",
@@ -1775,6 +1955,10 @@
     {
      "date": "2026-10-30",
      "text": "104,010 views, 47% below 29th Oct and the lowest since 25th Oct; still no event dated 30th Oct"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "60,225 views, 42% below 30th Oct and 1.3 times baseline; the elevated run has ended"
     }
    ],
    "charted": [
@@ -1840,6 +2024,13 @@
      "views": 104010,
      "confidence": "lo",
      "anchor": "a17"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 33,
+     "views": 60225,
+     "confidence": "lo",
+     "anchor": "a30"
     }
    ]
   },
@@ -1909,6 +2100,96 @@
    ]
   },
   {
+   "id": "christa-pike",
+   "title": "Christa Pike",
+   "canonical": "Christa_Pike",
+   "url": "https://en.wikipedia.org/wiki/Christa_Pike",
+   "type": "Death-row inmate",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "Coverage of her statement through her lawyers, published on 30th Oct, and of her court request and appeal to the governor, reported on 31st Oct",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "Coverage of her statement through her lawyers, published on 30th Oct, and of her court request and appeal to the governor, reported on 31st Oct",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "WVLT",
+     "url": "https://www.wvlt.tv/2026/10/30/christa-pike-releases-statement-after-botched-tennessee-execution/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/10/31/us-execution-survivor-christa-pike-says-she-is-now-in-constant"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Tennessee death-row inmate who survived a failed execution on 30th Sep; her statement through lawyers was published on 30th Oct: 55,683 views, down 36% from 87,060."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 38,
+     "views": 55683,
+     "confidence": "hi",
+     "anchor": "a35"
+    }
+   ]
+  },
+  {
+   "id": "christian-m-billi",
+   "title": "Christian M'billi",
+   "canonical": "Christian_M'billi",
+   "url": "https://en.wikipedia.org/wiki/Christian_M'billi",
+   "type": "Boxer",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "The title fight against Canelo Álvarez on the night of 31st Oct; views rose from 12,995 on 30th Oct to 63,614",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "The title fight against Canelo Álvarez on the night of 31st Oct; views rose from 12,995 on 30th Oct to 63,614",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/sports/2026/10/12/alvarez-vs-mbilli-boxing-bout-to-go-ahead-in-saudi-arabia-despite-attacks"
+    },
+    {
+     "title": "The National",
+     "url": "https://www.thenationalnews.com/sport/combat-sports/2026/10/29/i-love-to-be-in-riyadh-canelo-alvarez-rejects-security-fears-and-retirement-talk/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Boxer who fought Canelo Álvarez for the WBC super middleweight title in Riyadh on the night of 31st Oct: 63,614 views, 52 times baseline."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 32,
+     "views": 63614,
+     "confidence": "hi",
+     "anchor": "a29"
+    }
+   ]
+  },
+  {
    "id": "christian-mccaffrey",
    "title": "Christian McCaffrey",
    "canonical": "Christian_McCaffrey",
@@ -1957,8 +2238,8 @@
    "type": "Film",
    "first_charted": "2026-10-21",
    "cause": {
-    "text": "DC Studios film. International releases from 21st Oct, review embargo and Rotten Tomatoes score before the US release on 23rd Oct; presales reported as the DCU's lowest.",
-    "confidence": "hi"
+    "text": "The long tail of interest in the film after its 23rd Oct US release, with a small Saturday rise; no separate event dated 31st Oct was found",
+    "confidence": "lo"
    },
    "cause_history": [
     {
@@ -1966,6 +2247,12 @@
      "text": "DC Studios film. International releases from 21st Oct, review embargo and Rotten Tomatoes score before the US release on 23rd Oct; presales reported as the DCU's lowest.",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "The long tail of interest in the film after its 23rd Oct US release, with a small Saturday rise; no separate event dated 31st Oct was found",
+     "confidence": "lo",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -2038,6 +2325,10 @@
     {
      "date": "2026-10-27",
      "text": "128,749 views, 30% below 26th Oct, as first-Monday box-office reports ran with no new trigger"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "79,199 views, up 6% on 30th Oct on a Saturday and 70% below the 23rd Oct peak; no dated trigger found"
     }
    ],
    "charted": [
@@ -2089,6 +2380,13 @@
      "views": 128749,
      "confidence": "hi",
      "anchor": "a17"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 24,
+     "views": 79199,
+     "confidence": "lo",
+     "anchor": "a21"
     }
    ]
   },
@@ -2572,6 +2870,47 @@
      "views": 129794,
      "confidence": "md",
      "anchor": "a9"
+    }
+   ]
+  },
+  {
+   "id": "donald-tusk",
+   "title": "Donald Tusk",
+   "canonical": "Donald_Tusk",
+   "url": "https://en.wikipedia.org/wiki/Donald_Tusk",
+   "type": "Politician",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "Spillover from the Polish Constitutional Tribunal crisis (see Suspension of Bogdan Święczkowski, ranked 21st), with Tusk looked up as head of the government",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "Spillover from the Polish Constitutional Tribunal crisis (see Suspension of Bogdan Święczkowski, ranked 21st), with Tusk looked up as head of the government",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Euronews",
+     "url": "https://www.euronews.com/2026/10/30/polish-president-turns-back-mid-flight-amid-coup-detat-allegations"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Polish prime minister, looked up during the Constitutional Tribunal crisis: 69,471 views, 66 times baseline, after 25,358 on 30th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 27,
+     "views": 69471,
+     "confidence": "md",
+     "anchor": "a24"
     }
    ]
   },
@@ -3246,6 +3585,51 @@
      "views": 83511,
      "confidence": "hi",
      "anchor": "a18"
+    }
+   ]
+  },
+  {
+   "id": "haley-stevens",
+   "title": "Haley Stevens",
+   "canonical": "Haley_Stevens",
+   "url": "https://en.wikipedia.org/wiki/Haley_Stevens",
+   "type": "Politician",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "Coverage of her fiancé's vote for Mike Rogers and of her support for El-Sayed in the last days before the 3rd Nov election; the link to 31st Oct itself is an inference",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "Coverage of her fiancé's vote for Mike Rogers and of her support for El-Sayed in the last days before the 3rd Nov election; the link to 31st Oct itself is an inference",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Newsweek",
+     "url": "https://newsweek.com/haley-stevens-backs-abdul-el-sayed-despite-fiances-rogers-endorsement-12633427"
+    },
+    {
+     "title": "Jewish Insider",
+     "url": "https://jewishinsider.com/2026/10/haley-stevens-fiancee-says-hes-voting-for-mike-rogers/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Michigan congresswoman who lost the Democratic Senate primary to Abdul El-Sayed: 53,379 views, 31 times baseline, up from 18,004, during coverage of her fiancé's vote for Republican Mike Rogers."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 41,
+     "views": 53379,
+     "confidence": "lo",
+     "anchor": "a38"
     }
    ]
   },
@@ -4059,6 +4443,10 @@
     {
      "date": "2026-10-30",
      "text": "The last player voted out in The Celebrity Traitors series 2 finale; 5.6 times baseline."
+    },
+    {
+     "date": "2026-10-31",
+     "text": "64,109 views, 48% below 30th Oct, the tail of the finale"
     }
    ],
    "charted": [
@@ -4068,6 +4456,54 @@
      "views": 123236,
      "confidence": "hi",
      "anchor": "a14"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 31,
+     "views": 64109,
+     "confidence": "hi",
+     "anchor": "a28"
+    }
+   ]
+  },
+  {
+   "id": "james-talarico",
+   "title": "James Talarico",
+   "canonical": "James_Talarico",
+   "url": "https://en.wikipedia.org/wiki/James_Talarico",
+   "type": "Politician",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "The final weekend of the Texas Senate race before the 3rd Nov election, after a poll published on 30th Oct showed Paxton narrowly ahead; the 31st Oct rise has no single dated trigger",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "The final weekend of the Texas Senate race before the 3rd Nov election, after a poll published on 30th Oct showed Paxton narrowly ahead; the 31st Oct rise has no single dated trigger",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fox 4",
+     "url": "https://www.fox4news.com/news/paxton-slips-past-talarico-latest-poll-senate-race-enters-final-days"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Democratic nominee for the Texas US Senate seat against Ken Paxton, with the election on 3rd Nov: 49,602 views, up 17% on 30th Oct after a poll showed Paxton ahead."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 44,
+     "views": 49602,
+     "confidence": "lo",
+     "anchor": "a40"
     }
    ]
   },
@@ -5370,6 +5806,88 @@
    ]
   },
   {
+   "id": "nocturne-tv-series",
+   "title": "Nocturne (TV series)",
+   "canonical": "Nocturne_(TV_series)",
+   "url": "https://en.wikipedia.org/wiki/Nocturne_(TV_series)",
+   "type": "TV series",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "The series premiere on 30th Oct; views rose from 13,064 on 29th Oct to 53,400 and then 64,594",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "The series premiere on 30th Oct; views rose from 13,064 on 29th Oct to 53,400 and then 64,594",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "MacTech",
+     "url": "https://www.mactech.com/2026/07/07/apple-tvs-crime-drama-nocturne-will-debut-october-30/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Apple TV crime drama that premiered on 30th Oct: 64,594 views, 39 times baseline, up from 53,400 on 30th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 30,
+     "views": 64594,
+     "confidence": "hi",
+     "anchor": "a27"
+    }
+   ]
+  },
+  {
+   "id": "obsession-2025-film",
+   "title": "Obsession (2025 film)",
+   "canonical": "Obsession_(2025_film)",
+   "url": "https://en.wikipedia.org/wiki/Obsession_(2025_film)",
+   "type": "Film",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "Halloween-weekend interest in a horror film on 31st Oct (a Saturday), after a three-day rise from 29,994; this is an inference, not a documented cause",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "Halloween-weekend interest in a horror film on 31st Oct (a Saturday), after a three-day rise from 29,994; this is an inference, not a documented cause",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "What's on Netflix",
+     "url": "https://www.whats-on-netflix.com/news/obsession-netflix-release-date/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Horror film on the Halloween Saturday: the highest day in the window (69,897), up 47% on 30th Oct; a Netflix US date of 17th Nov was announced on 18th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 26,
+     "views": 69897,
+     "confidence": "lo",
+     "anchor": "a23"
+    }
+   ]
+  },
+  {
    "id": "omar-abdullah",
    "title": "Omar Abdullah",
    "canonical": "Omar_Abdullah",
@@ -5758,6 +6276,47 @@
    ]
   },
   {
+   "id": "ramayana-part-1",
+   "title": "Ramayana: Part 1",
+   "canonical": "Ramayana:_Part_1",
+   "url": "https://en.wikipedia.org/wiki/Ramayana:_Part_1",
+   "type": "Film",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "The build-up to the 5th Nov worldwide release, with advance-booking coverage; views stepped up on 28th Oct and have stayed level since",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "The build-up to the 5th Nov worldwide release, with advance-booking coverage; views stepped up on 28th Oct and have stayed level since",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Telangana Today",
+     "url": "https://telanganatoday.com/ramayana-part-1-release-date-confirmed-for-november-5-2026"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Indian epic film due for worldwide release on 5th Nov: 52,126 views, 6.8 times baseline, steady at 49,000 to 52,000 since 28th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 43,
+     "views": 52126,
+     "confidence": "md",
+     "anchor": "a39"
+    }
+   ]
+  },
+  {
    "id": "richard-riehle",
    "title": "Richard Riehle",
    "canonical": "Richard_Riehle",
@@ -5836,6 +6395,42 @@
      "views": 92485,
      "confidence": "hi",
      "anchor": "a15"
+    }
+   ]
+  },
+  {
+   "id": "samhain",
+   "title": "Samhain",
+   "canonical": "Samhain",
+   "url": "https://en.wikipedia.org/wiki/Samhain",
+   "type": "Festival",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "The festival date: Samhain is observed at the start of November, so readers looked it up around Halloween (31st Oct, a Saturday); this is an inference, not a documented cause",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "The festival date: Samhain is observed at the start of November, so readers looked it up around Halloween (31st Oct, a Saturday); this is an inference, not a documented cause",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "The Gaelic festival marked around Halloween: 56,929 views, 19 times baseline, up from 22,025 on 30th Oct after a five-day rise."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 37,
+     "views": 56929,
+     "confidence": "md",
+     "anchor": "a34"
     }
    ]
   },
@@ -6580,6 +7175,10 @@
     {
      "date": "2026-10-30",
      "text": "The BBC One finale aired at 20:00 UTC on 30th Oct; 3.2 times baseline and the highest day of the month."
+    },
+    {
+     "date": "2026-10-31",
+     "text": "54,413 views, 46% below the finale day, the tail of the series"
     }
    ],
    "charted": [
@@ -6589,6 +7188,13 @@
      "views": 100276,
      "confidence": "hi",
      "anchor": "a18"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 40,
+     "views": 54413,
+     "confidence": "hi",
+     "anchor": "a37"
     }
    ]
   },
@@ -6733,6 +7339,51 @@
      "views": 81754,
      "confidence": "lo",
      "anchor": "a16"
+    }
+   ]
+  },
+  {
+   "id": "verity-film",
+   "title": "Verity (film)",
+   "canonical": "Verity_(film)",
+   "url": "https://en.wikipedia.org/wiki/Verity_(film)",
+   "type": "Film",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "The digital release on Prime Video on 27th Oct; views rose from 17,523 on 26th Oct to 28,497, 41,741, 51,022, 45,268 and 47,843",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "The digital release on Prime Video on 27th Oct; views rose from 17,523 on 26th Oct to 28,497, 41,741, 51,022, 45,268 and 47,843",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "JoBlo",
+     "url": "https://www.joblo.com/verity-digital/"
+    },
+    {
+     "title": "Time Out",
+     "url": "https://www.timeout.com/usa/news/how-to-stream-verity-at-home-102626"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Amazon MGM thriller (in cinemas from 2nd Oct) on Prime Video to buy or rent since 27th Oct: 47,843 views, 1.6 times baseline, after a rise from 17,523 on 26th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 45,
+     "views": 47843,
+     "confidence": "hi",
+     "anchor": "a41"
     }
    ]
   },
@@ -7022,8 +7673,8 @@
    "type": "Film",
    "first_charted": "2026-10-24",
    "cause": {
-    "text": "Olivia Colman and Alexander Skarsgard fantasy comedy; limited US cinema release on 23rd Oct after a Sundance premiere (medium-high confidence).",
-    "confidence": "hi"
+    "text": "The continuing interest after the 23rd Oct limited release; no separate event dated 31st Oct was found",
+    "confidence": "lo"
    },
    "cause_history": [
     {
@@ -7031,6 +7682,12 @@
      "text": "Olivia Colman and Alexander Skarsgard fantasy comedy; limited US cinema release on 23rd Oct after a Sundance premiere (medium-high confidence).",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "The continuing interest after the 23rd Oct limited release; no separate event dated 31st Oct was found",
+     "confidence": "lo",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -7043,6 +7700,10 @@
     {
      "date": "2026-10-24",
      "text": "Olivia Colman and Alexander Skarsgard fantasy comedy; limited US cinema release on 23rd Oct after a Sundance premiere (medium-high confidence)."
+    },
+    {
+     "date": "2026-10-31",
+     "text": "60,027 views, 28% below the peak and 2.9 times baseline; level with the 60,000 to 65,000 range of 28th to 30th Oct"
     }
    ],
    "charted": [
@@ -7052,6 +7713,13 @@
      "views": 83719,
      "confidence": "hi",
      "anchor": "a17"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 34,
+     "views": 60027,
+     "confidence": "lo",
+     "anchor": "a31"
     }
    ]
   },
@@ -7063,8 +7731,8 @@
    "type": "Film",
    "first_charted": "2026-10-23",
    "cause": {
-    "text": "Laika stop-motion fantasy released 23rd Oct in the October slate alongside Clayface; opening weekend of about $11.6 million to $12.2 million in third place, with strong reviews and an Oscar-versus-bomb debate on 26th Oct",
-    "confidence": "hi"
+    "text": "The tail of interest in the film after its 23rd Oct release, with a small Saturday rise; no separate event dated 31st Oct was found",
+    "confidence": "lo"
    },
    "cause_history": [
     {
@@ -7077,6 +7745,12 @@
      "date": "2026-10-26",
      "text": "Laika stop-motion fantasy released 23rd Oct in the October slate alongside Clayface; opening weekend of about $11.6 million to $12.2 million in third place, with strong reviews and an Oscar-versus-bomb debate on 26th Oct",
      "confidence": "hi",
+     "note": "Confidence changed"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "The tail of interest in the film after its 23rd Oct release, with a small Saturday rise; no separate event dated 31st Oct was found",
+     "confidence": "lo",
      "note": "Confidence changed"
     }
    ],
@@ -7146,6 +7820,10 @@
     {
      "date": "2026-10-26",
      "text": "126,098 views, a new peak 6% above 25th Oct, as post-weekend reports covered the $11.6 million to $12.2 million opening, strong reviews and an Oscar-contender versus box-office-bomb debate; a new rise, not a decay"
+    },
+    {
+     "date": "2026-10-31",
+     "text": "65,299 views, 48% below the peak and up 7% on 30th Oct on a Saturday; no dated trigger found"
     }
    ],
    "charted": [
@@ -7176,6 +7854,13 @@
      "views": 126098,
      "confidence": "hi",
      "anchor": "a19"
+    },
+    {
+     "date": "2026-10-31",
+     "rank": 29,
+     "views": 65299,
+     "confidence": "lo",
+     "anchor": "a26"
     }
    ]
   },
@@ -7229,6 +7914,42 @@
      "views": 228487,
      "confidence": "hi",
      "anchor": "a5"
+    }
+   ]
+  },
+  {
+   "id": "xnxx",
+   "title": "XNXX",
+   "canonical": "XNXX",
+   "url": "https://en.wikipedia.org/wiki/XNXX",
+   "type": "Website",
+   "first_charted": "2026-10-31",
+   "cause": {
+    "text": "Unknown: no news, edit or talk-page trigger was found; the rise resembles that of .xxx in the same days",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-10-31",
+     "text": "Unknown: no news, edit or talk-page trigger was found; the rise resembles that of .xxx in the same days",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-10-31",
+     "text": "Unknown: an adult website with 55,581 views, 2.2 times baseline, after a rise from 26,037 on 25th Oct to 62,792 on 30th Oct."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-10-31",
+     "rank": 39,
+     "views": 55581,
+     "confidence": "lo",
+     "anchor": "a36"
     }
    ]
   },
