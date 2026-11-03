@@ -71,7 +71,7 @@ def li_html(li, kv_ok, label):
                 vh = '<mark class="key big">%s</mark>' % vh
             elif re.match(r'^\d[\d,]*', v) and k not in ('Baseline',):
                 vh = re.sub(r'^(\d[\d,]*)', r'<b>\1</b>', vh)
-        return '<li class="kv"><span class="k">%s</span><span class="v">%s</span></li>' % (E(k), vh)
+        return '<li class="kv"><span class="k">%s</span><span class="v">%s</span></li>' % (E('Reverts' if (label == 'Edits' and k == 'Revert-tagged') else k), vh)
     inner = para_html(p) if p is not None else ''
     if label == 'Views':
         inner = hl_numbers(inner)
@@ -148,7 +148,7 @@ for r in rows:
     if why_t.startswith('Continuing from'):
         tag = ('cont', 'Continuing')
     elif why_t.startswith('Unknown') or (os.environ.get('LEGACY') and re.search(r'(?i)no confirmed trigger|no trigger|trigger unknown|unknown|no event found|no cause found|evergreen|unconfirmed|not confirmed', why_t)):
-        tag = ('unk', 'No trigger found')
+        tag = ('unk', 'No trigger')
     else:
         tag = ('evt', 'New event')
     meta.append(dict(rank=cell_text(rank), name=cell_text(art), url=a.get('href') if a is not None else '#',
@@ -209,7 +209,7 @@ def article_html(idx, head_text, lst, m):
         label = para_text(p)
         sub = li.find('list')
         if label.startswith('Storyline so far'):
-            blocks += '<section class="blk story"><h4>%s</h4>%s</section>' % (E(label), timeline_html(sub))
+            blocks += '<section class="blk story"><h4>%s</h4>%s</section>' % (E(re.sub(r'^Storyline so far \(continuing from ([^)]+)\)$', r'Storyline since \1', label)), timeline_html(sub))
         elif label.startswith('Likely cause'):
             cause = ''
             conf = ''
@@ -253,7 +253,7 @@ jump = ''.join('<li data-conf="%s"><a href="#a%d"><span class="jr">%s</span><spa
 CNT = {k: sum(1 for v in LV.values() if v == k) for k in ('hi', 'md', 'lo')}
 
 # ---- glance table (responsive)
-gt = '<div class="tblwrap"><table class="glance"><thead><tr><th>Rank</th><th>Article</th><th>Type</th><th>Views</th><th>What it is and why it is up</th></tr></thead><tbody>'
+gt = '<div class="tblwrap"><table class="glance"><thead><tr><th>Rank</th><th>Article</th><th>Type</th><th>Views</th><th>Why it&rsquo;s up</th></tr></thead><tbody>'
 for n, m in enumerate(meta):
     gt += ('<tr><td data-label="Rank" class="num"><b>%s</b></td><td data-label="Article"><a href="#a%d">%s</a></td>'
            '<td data-label="Type"><span class="chip typ">%s</span></td><td data-label="Views" class="num"><mark class="key">%s</mark></td>'
@@ -290,6 +290,8 @@ banner_html = ''.join(para_html(p) for p in banner.findall('paragraph')) or inli
 gen_html = para_html(gen)
 
 
+EXPANDED_INTRO = 'Open an article for the news, likely cause, storyline and Wikipedia data (views, rank, edits, protection, talk page).'
+
 page = '''<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -301,7 +303,7 @@ page = '''<!doctype html>
 <div id="daynav" data-day="%s"></div>
 <div class="wrap">
 <header class="top">
-  <p class="eyebrow">English Wikipedia · most-read articles</p>
+  <p class="eyebrow">English Wikipedia</p>
   <h1>Wikipedia Top Reads</h1>
   <p class="date">@@DL@@ (UTC)</p>
   <p class="gen">%s</p>
@@ -309,7 +311,7 @@ page = '''<!doctype html>
 <aside class="banner" aria-label="Main Page summary"><h2 class="sr">Main Page</h2><p>%s</p></aside>
 
 <nav class="jump" aria-label="Jump to an article">
-  <h2>Jump to an article</h2>
+  <h2>Jump to</h2>
   <ol>%s</ol>
 </nav>
 
@@ -329,7 +331,7 @@ page = '''<!doctype html>
     <button type="button" id="collapseAll">Collapse all</button>
   </div>
   <div class="filter" role="group" aria-label="Filter articles by confidence">
-    <p class="flabel" id="flabel">Filter by confidence <span class="fhint">(select one or more)</span></p>
+    <p class="flabel" id="flabel">Filter by confidence</p>
     <div class="fbtns">
       <button type="button" class="chip conf hi fbtn" data-level="hi" aria-pressed="false"><span aria-hidden="true">●</span> High <span class="n">%d</span></button>
       <button type="button" class="chip conf md fbtn" data-level="md" aria-pressed="false"><span aria-hidden="true">◐</span> Medium <span class="n">%d</span></button>
@@ -351,8 +353,8 @@ page = '''<!doctype html>
 <script src="assets/nav.js"></script>
 <script src="assets/page.js?v=20261026b"></script>
 </body></html>
-''' % (DATE_ISO, gen_html, banner_html, jump, g_first, g_lead, gt, g_note, para_html(intro_p), CNT['hi'], CNT['md'], CNT['lo'], arts_html,
-       method, sources, ('<details class="ref"><summary><h2>Hidden pages in the ranking</h2></summary><div class="refbody">%s</div></details>' % hidden) if hidden else '<p class="note">This earlier report did not include a list of hidden pages.</p>')
+''' % (DATE_ISO, gen_html, banner_html, jump, g_first, g_lead, gt, g_note, EXPANDED_INTRO, CNT['hi'], CNT['md'], CNT['lo'], arts_html,
+       method, sources, ('<details class="ref"><summary><h2>Hidden pages</h2></summary><div class="refbody">%s</div></details>' % hidden) if hidden else '<p class="note">This earlier report did not include a list of hidden pages.</p>')
 
 FOOT = (
     '<footer class="site-foot">\n'

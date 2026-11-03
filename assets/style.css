@@ -378,3 +378,114 @@ mark.key { white-space: nowrap; }
 .foot-about { font-weight: 700; }
 .about-list { margin: 0 0 1em; padding-left: 1.3em; max-width: 68ch; }
 .about-list li { margin-bottom: .6em; }
+
+/* ===== Layout refresh (preview) =====
+   Wider page, better-balanced fact cards on desktop, compact phone layout,
+   tighter navigation. Appended after the existing rules so it overrides them. */
+
+/* --- Page width and navigation: align both to the same wider column --- */
+.wrap { max-width: 78rem; gap: 32px; }
+.daynav { max-width: 78rem; padding: 0; margin: 0 auto 20px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 24px; }
+.dn-row { flex: 1 1 100%; display: grid; grid-template-columns: 1fr auto 1fr; gap: 8px; }
+.dn-btn { flex-direction: row; align-items: center; gap: 10px; min-height: 42px; padding: 6px 14px; }
+.dn-btn:last-child { justify-content: flex-end; text-align: right; }
+.dn-btn.latest { justify-content: center; padding: 6px 22px; }
+.dn-d { font-size: 13px; }
+.dn-extra { margin: 0; }
+.dn-all { margin: 0; }
+.dn-all[open] { flex: 1 1 100%; }
+p { max-width: 75ch; }
+.banner p { max-width: 100ch; }
+.disclaimer { font-size: .92rem; padding: 8px 12px; }
+
+/* --- Article fact cards: roomier labels and values, no stretched blank boxes --- */
+.v { min-width: 0; overflow-wrap: anywhere; }
+.v .nw { white-space: normal; }
+li.kv { grid-template-columns: minmax(4.5rem, 7rem) minmax(0, 1fr); gap: 8px; padding: 3px 0; }
+.blk.rank ul.kvlist li.kv { grid-template-columns: minmax(4.5rem, 7rem) minmax(0, 1fr); }
+.gbar .seg { min-width: 5rem; }
+
+@media (min-width: 900px) {
+  .body { grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-flow: row dense; gap: 12px 14px; }
+  .blk.views { grid-column: 1; grid-row: span 2; }
+  .blk.rank, .blk.prot { grid-column: 2; }
+  .blk.edits { grid-column: 3; grid-row: span 2; }
+  .blk.talk { grid-column: 1 / -1; }
+  .tl li { grid-template-columns: minmax(7rem, 9rem) minmax(0, 1fr); }
+  /* Storylines page cards */
+  .blk.chart, .blk.days, .blk.src { align-self: start; }
+  .blk.days li.kv { grid-template-columns: 4.5rem minmax(0, 1fr); }
+}
+@media (min-width: 640px) and (max-width: 899px) {
+  .body { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* Storylines: long linked-article names must wrap instead of widening the page */
+.glist a.chip { white-space: normal; max-width: 100%; text-align: left; }
+.glist .gm { min-width: 0; }
+
+/* --- Phones --- */
+@media (max-width: 640px) {
+  body { font-size: 16.5px; padding-left: max(12px, env(safe-area-inset-left, 0px)); padding-right: max(12px, env(safe-area-inset-right, 0px)); padding-block: 10px 56px; }
+  .wrap { gap: 24px; }
+  h1 { font-size: 2rem; }
+  .top { gap: 4px; }
+  .banner { padding: 12px 14px; }
+  h2 { font-size: 1.45rem; padding-bottom: 8px; margin-bottom: 10px; }
+
+  /* navigation: one compact row */
+  .daynav { margin-bottom: 14px; gap: 4px 16px; }
+  .dn-row { grid-template-columns: 1fr auto 1fr; gap: 6px; }
+  .dn-btn { min-height: 40px; padding: 6px 10px; font-size: .95rem; }
+  .dn-btn.latest { grid-column: auto; order: 0; padding: 6px 14px; }
+  .dn-d { display: none; }
+  .dn-all summary, .dn-link { font-size: .95rem; }
+
+  /* jump list: two columns */
+  .jump ol { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+  .jump a { padding: 6px 8px; gap: 8px; min-height: 48px; font-size: .9rem; }
+  .jy { font-size: .78rem; }
+
+  /* At a glance rows: rank, name and views on one line, type and reason below */
+  .tblwrap { border-radius: 8px; }
+  table.glance tr { display: grid; grid-template-columns: 2.2rem minmax(0, 1fr) auto; column-gap: 8px; row-gap: 2px; padding: 8px 10px; align-items: baseline; }
+  table.glance td { display: block; padding: 0; }
+  table.glance td::before { display: none; }
+  table.glance td:nth-child(1) { grid-column: 1; grid-row: 1; text-align: right; color: var(--accent); }
+  table.glance td:nth-child(2) { grid-column: 2; grid-row: 1; min-width: 0; overflow-wrap: anywhere; }
+  table.glance td:nth-child(4) { grid-column: 3; grid-row: 1; }
+  table.glance td:nth-child(3) { grid-column: 2 / -1; grid-row: 2; }
+  table.glance td:nth-child(5) { grid-column: 1 / -1; grid-row: 3; font-size: .92rem; color: var(--muted); padding-top: 2px; }
+  table.glance .chip { font-size: .78rem; padding: 0 8px; }
+
+  /* article header: rank + name on top, reason full width, chips and views below */
+  details.art > summary { grid-template-columns: auto minmax(0, 1fr) auto; gap: 6px 10px; padding: 10px 12px; align-items: start; }
+  .ttl { display: contents; }
+  .rk { grid-row: 1; grid-column: 1; min-width: 2.7rem; padding: 4px 6px; font-size: 1.2rem; border-radius: 8px; }
+  .nm { grid-row: 1; grid-column: 2; align-self: center; font-size: 1.1rem; }
+  details.art > summary::after { grid-row: 1; grid-column: 3; align-self: center; }
+  .why { grid-row: 2; grid-column: 1 / -1; }
+  .chips { grid-row: 3; grid-column: 1 / 3; }
+  .vw { grid-row: 3; grid-column: 3; align-self: end; }
+
+  /* article body: use the full width */
+  .body { grid-template-columns: minmax(0, 1fr); padding: 2px 8px 12px; gap: 10px; }
+  .blk { padding: 10px 12px; }
+  button.collapse-end { margin: 2px -8px -12px; }
+  li.kv, .blk.rank ul.kvlist li.kv { grid-template-columns: minmax(4.2rem, 5.6rem) minmax(0, 1fr); gap: 8px; }
+  .blk.days li.kv { grid-template-columns: 4.2rem minmax(0, 1fr); }
+  .tl { padding-left: 16px; }
+  .tl li { grid-template-columns: minmax(0, 1fr); }
+  .filter { padding: 10px 12px; }
+
+  /* Display button: icon only (still announced as "Display") */
+  .disp-btn { padding: 0 11px; }
+  .disp-btn > span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  /* Breakdown table rows (existing layout kept, slightly tighter) */
+  table.gsumt tr td.arts { padding: 2px 10px 8px; }
+}
+
+/* The "generated using Claude" line under the title repeats the disclaimer box, so it is not shown.
+   It stays in the HTML because the research and publish checks look for that exact sentence once per page. */
+.gen { display: none; }

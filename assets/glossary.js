@@ -95,11 +95,11 @@
   var jump = document.querySelector('nav.jump');
   if (jump) {
     var g = document.createElement('details'); g.className = 'guide';
-    var h = '<summary>New here? What the terms mean</summary><div class="guide-b"><p>Tap any dotted-underline word in an article’s details for a short explanation. The same terms are listed here.</p><dl>';
+    var h = '<summary>Glossary</summary><div class="guide-b"><p>Tap any dotted-underline word in an article’s details for a short explanation. The same terms are listed here.</p><dl>';
     G.forEach(function (x) { h += '<dt>' + x.t + '</dt><dd>' + x.d + '</dd>'; });
     ['hi', 'md', 'lo'].forEach(function (k) { h += '<dt>' + CONF[k][0] + '</dt><dd>' + CONF[k][1] + '</dd>'; });
     h += '<dt>' + CAUSE[0] + '</dt><dd>' + CAUSE[1] + '</dd>';
-    h += '<dt>New event / Continuing / No trigger found</dt><dd>New event: something that happened around that date explains the surge. Continuing: the story began on an earlier day and is still drawing readers. No trigger found: nothing explaining the surge was found.</dd></dl></div>';
+    h += '<dt>New event / Continuing / No trigger</dt><dd>New event: something that happened around that date explains the surge. Continuing: the story began on an earlier day and is still drawing readers. No trigger: nothing explaining the surge was found.</dd></dl></div>';
     g.innerHTML = h; jump.parentNode.insertBefore(g, jump);
   }
 })();

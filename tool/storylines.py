@@ -205,12 +205,12 @@ def card(s, latest, groups):
     b += '</section>'
     b += '<section class="blk story"><h4>Timeline</h4><ol class="tl">' + ''.join(
         '<li><span class="when">%s</span><span class="what">%s</span></li>' % (E(short(t['date'])), E(t['text'])) for t in s['timeline']) + '</ol></section>'
-    b += '<section class="blk chart"><h4>Views on days charted</h4><div class="chartwrap">%s</div></section>' % chart(s)
-    b += '<section class="blk days"><h4>Reports it appears in</h4><ul class="kvlist">' + ''.join(
+    b += '<section class="blk chart"><h4>Views by day</h4><div class="chartwrap">%s</div></section>' % chart(s)
+    b += '<section class="blk days"><h4>Appears in</h4><ul class="kvlist">' + ''.join(
         '<li class="kv"><span class="k"><a href="%s.html#%s">%s</a></span><span class="v">rank <b>%d</b>, <b>%s</b> views</span></li>' % (
             p['date'], p.get('anchor', ''), E(short(p['date'])), p['rank'], format(p['views'], ',')) for p in reversed(pts)) + '</ul></section>'
     if s['sources']:
-        b += '<section class="blk src"><h4>Key sources</h4><ul>' + ''.join('<li><a href="%s">%s</a></li>' % (E(x['url'], quote=True), E(x['title'])) for x in reversed(s['sources'][-8:])) + '</ul></section>'
+        b += '<section class="blk src"><h4>Sources</h4><ul>' + ''.join('<li><a href="%s">%s</a></li>' % (E(x['url'], quote=True), E(x['title'])) for x in reversed(s['sources'][-8:])) + '</ul></section>'
     gl = [g for g in groups if s['id'] in g['members']]
     if gl:
         b += '<section class="blk group"><h4>Linked storylines</h4><ul>' + ''.join(
@@ -219,7 +219,7 @@ def card(s, latest, groups):
             '<span class="rk" aria-label="%d days charted"><small>Days</small>%d</span>'
             '<span class="ttl"><span class="nm"><a href="%s">%s</a></span><span class="why">%s</span></span>'
             '<span class="chips"><span class="chip st %s">%s</span><span class="chip typ">%s</span>%s</span>'
-            '<span class="vw"><small>Top day</small><mark class="key">%s</mark></span></summary><div class="body">%s</div></details>') % (
+            '<span class="vw"><small>Peak</small><mark class="key">%s</mark></span></summary><div class="body">%s</div></details>') % (
         s['id'], st.lower(), conf or 'none', E((s['title'] + ' ' + s.get('type', '') + ' ' + s['cause']['text']).lower(), quote=True), len(pts), len(pts), E(s['url'], quote=True), E(s['title']),
         E(why), st.lower(), st, E(s.get('type', '')), cchip, format(peak, ','), b)
 
@@ -253,20 +253,20 @@ def cmd_build():
 <link rel="stylesheet" href="assets/style.css?v=20261101a">
 <script src="assets/theme.js?v=20261101a"></script>
 </head><body>
-<nav class="daynav" aria-label="Site"><div class="dn-row"><a class="dn-btn" href="index.html"><span aria-hidden="true">←</span> Latest report</a><span class="dn-btn latest">Storylines</span><span></span></div></nav>
+<nav class="daynav" aria-label="Site"><div class="dn-row"><a class="dn-btn" href="index.html"><span aria-hidden="true">←</span> Latest</a><span class="dn-btn latest">Storylines</span><span></span></div></nav>
 <div class="wrap">
 <header class="top">
-  <p class="eyebrow">English Wikipedia · most-read articles</p>
+  <p class="eyebrow">English Wikipedia</p>
   <h1>Storylines</h1>
   <p class="date">%d articles tracked across %d reports, through %s (UTC)</p>
   <p class="gen"><em>This page was generated using Claude.</em></p>
 </header>
-<section id="how"><p class="intro">Each storyline follows one article through the daily reports: its verified cause, a dated timeline, and its rank and views on each day it charted. A storyline is <strong>Active</strong> if it charted on the latest report, <strong>Cooling</strong> if it charted in the 14 days before, and <strong>Retired</strong> after that. Tap a title to expand it.</p></section>
+<section id="how"><p class="intro">One entry per article, followed across the daily reports. <strong>Active</strong>: charted on the latest report. <strong>Cooling</strong>: charted in the 14 days before. <strong>Retired</strong>: older. Tap a title to expand it.</p></section>
 %s
 <section id="all">
   <h2>All storylines</h2>
   <div class="filter" role="group" aria-label="Filter storylines">
-    <p class="flabel">Filter by status <span class="fhint">(select one or more)</span></p>
+    <p class="flabel">Filter by status</p>
     <div class="fbtns">
       <button type="button" class="chip st active sfbtn" data-status="active" aria-pressed="false">Active <span class="n">%d</span></button>
       <button type="button" class="chip st cooling sfbtn" data-status="cooling" aria-pressed="false">Cooling <span class="n">%d</span></button>
@@ -311,7 +311,7 @@ def cmd_build():
             u = re.search(r'<span class="nm"><a href="([^"]+)"', global_blk)
             sid = ids.get(canon(html.unescape(u.group(1)))) if u else None
             if not sid: return global_blk
-            return global_blk[:-len('</div></details>')] + '<p class="sl-link"><a href="storylines.html#%s">See this storyline across all reports <span aria-hidden="true">→</span></a></p></div></details>' % sid
+            return global_blk[:-len('</div></details>')] + '<p class="sl-link"><a href="storylines.html#%s">Full storyline <span aria-hidden="true">→</span></a></p></div></details>' % sid
         h2 = re.sub(r'<details class="art" id="a\d+".*?</div></details>(?=<details class="art"|\s*</section>)', fix, h, flags=re.S)
         if h2 != h:
             open(p, 'w', encoding='utf-8').write(h2); linked += 1

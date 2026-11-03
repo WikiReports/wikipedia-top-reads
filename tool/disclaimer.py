@@ -15,7 +15,7 @@ import re
 import sys
 
 ABOUT = 'about.html'
-VER = '20261101b'
+VER = '20261103a'
 
 TEXT = {
     'report': 'This report is generated using Claude (AI). Do not trust summaries. Confirm and verify sources independently.',
@@ -54,10 +54,10 @@ ABOUT_PAGE = '''<!doctype html>
 <link rel="stylesheet" href="assets/style.css?v=@@VER@@">
 <script src="assets/theme.js?v=20261101a"></script>
 </head><body>
-<nav class="daynav" aria-label="Site" style="margin-bottom:24px"><div class="dn-row"><a class="dn-btn" href="index.html"><span aria-hidden="true">←</span> Latest report</a><span class="dn-btn latest">About this content</span><a class="dn-btn" href="storylines.html">Storylines</a></div></nav>
+<nav class="daynav" aria-label="Site" style="margin-bottom:24px"><div class="dn-row"><a class="dn-btn" href="index.html"><span aria-hidden="true">←</span> Latest</a><span class="dn-btn latest">About this content</span><a class="dn-btn" href="storylines.html">Storylines</a></div></nav>
 <div class="wrap">
 <header class="top">
-  <p class="eyebrow">English Wikipedia · most-read articles</p>
+  <p class="eyebrow">English Wikipedia</p>
   <h1>About this content</h1>
   <p class="gen"><em>This page was generated using Claude.</em></p>
   <p class="disclaimer" role="note"><strong>Disclaimer:</strong> @@TEXT@@</p>
