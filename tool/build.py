@@ -8,6 +8,9 @@ try:
     x = json.loads(x)['data']['xml']
 except Exception:
     pass
+if re.search(r"<gap[^>]*cap=['\"]true", x) or '<pending' in x or "complete='false'" in x:
+    sys.exit('INCOMPLETE REPORT XML: the Docs read was capped (gap cap=true) or the Doc still has pending blocks. '
+             'Run tool/assemble.py on the saved reads until it exits 0, then build from its output file.')
 _d = datetime.date.fromisoformat(DATE_ISO)
 def _ord(n): return '%d%s' % (n, 'th' if 11 <= n % 100 <= 13 else {1:'st',2:'nd',3:'rd'}.get(n % 10, 'th'))
 DAY_ORD = _ord(_d.day)
