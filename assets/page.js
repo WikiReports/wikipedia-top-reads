@@ -88,3 +88,70 @@
     ol.parentNode.insertBefore(b, ol.nextSibling);
   });
 })();
+
+/* Main Page views chart: draws the data in <figure class="mpchart" data-series="YYYY-MM-DD:views;..."> as an SVG at the real width
+   of the screen (tool/mainpage_chart.py writes the figure; the colors come from the page's theme variables). */
+(function () {
+  var figs = document.querySelectorAll('figure.mpchart');
+  if (!figs.length) { return; }
+  var NS = 'http://www.w3.org/2000/svg';
+  var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  function ord(n) { var t = n % 100; return n + ((t >= 11 && t <= 13) ? 'th' : ({ 1: 'st', 2: 'nd', 3: 'rd' }[n % 10] || 'th')); }
+  function lab(iso) { return ord(parseInt(iso.slice(8, 10), 10)) + ' ' + MON[parseInt(iso.slice(5, 7), 10) - 1]; }
+  function el(name, attrs, text) {
+    var e = document.createElementNS(NS, name);
+    for (var k in attrs) { if (attrs.hasOwnProperty(k)) { e.setAttribute(k, attrs[k]); } }
+    if (text != null) { e.textContent = text; }
+    return e;
+  }
+  function fmtM(v) { var m = v / 1e6; return (m % 1 === 0 ? m.toFixed(0) : m.toFixed(1)) + 'M'; }
+  function niceStep(max) {
+    var steps = [0.5, 1, 2, 2.5, 5, 10, 20, 50], i;
+    for (i = 0; i < steps.length; i++) { if (max / (steps[i] * 1e6) <= 4) { return steps[i] * 1e6; } }
+    return 50e6;
+  }
+  function draw(fig) {
+    var host = fig.querySelector('.mpc-plot');
+    var pts = (fig.getAttribute('data-series') || '').split(';').map(function (s) {
+      var p = s.split(':'); return { d: p[0], v: parseInt(p[1], 10) };
+    }).filter(function (p) { return p.d && p.v > 0; });
+    if (!host || pts.length < 2) { return; }
+    var W = Math.max(host.clientWidth, 260), H = W < 520 ? 170 : 220;
+    var L = 40, R = 46, T = 14, B = 28;
+    var max = Math.max.apply(null, pts.map(function (p) { return p.v; }));
+    var step = niceStep(max), top = Math.ceil(max / step) * step;
+    var x = function (i) { return L + (W - L - R) * i / (pts.length - 1); };
+    var y = function (v) { return T + (H - T - B) * (1 - v / top); };
+    var svg = el('svg', { width: W, height: H, viewBox: '0 0 ' + W + ' ' + H, 'class': 'mpc-svg' });
+    var t;
+    for (t = 0; t <= top + 1; t += step) {
+      svg.appendChild(el('line', { x1: L, x2: W - R, y1: y(t), y2: y(t), 'class': 'mpc-grid' }));
+      svg.appendChild(el('text', { x: L - 6, y: y(t) + 4, 'text-anchor': 'end', 'class': 'mpc-tick' }, t === 0 ? '0' : fmtM(t)));
+    }
+    var every = Math.max(1, Math.ceil(pts.length / Math.max(2, Math.floor((W - L - R) / 62))));
+    pts.forEach(function (p, i) {
+      if ((pts.length - 1 - i) % every === 0) {
+        svg.appendChild(el('text', { x: x(i), y: H - 8, 'text-anchor': i === 0 ? 'start' : (i === pts.length - 1 ? 'end' : 'middle'), 'class': 'mpc-tick' }, lab(p.d)));
+      }
+    });
+    var line = pts.map(function (p, i) { return (i ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(p.v).toFixed(1); }).join(' ');
+    svg.appendChild(el('path', { d: line + ' L' + x(pts.length - 1).toFixed(1) + ' ' + y(0) + ' L' + x(0).toFixed(1) + ' ' + y(0) + ' Z', 'class': 'mpc-area' }));
+    svg.appendChild(el('path', { d: line, 'class': 'mpc-line' }));
+    pts.forEach(function (p, i) {
+      var c = el('circle', { cx: x(i), cy: y(p.v), r: i === pts.length - 1 ? 5 : 3.5, 'class': i === pts.length - 1 ? 'mpc-dot last' : 'mpc-dot' });
+      c.appendChild(el('title', {}, lab(p.d) + ': ' + p.v.toLocaleString('en-US') + ' views'));
+      svg.appendChild(c);
+    });
+    var last = pts[pts.length - 1];
+    svg.appendChild(el('text', { x: x(pts.length - 1) + 9, y: y(last.v) + 4, 'class': 'mpc-val' }, fmtM(last.v)));
+    host.textContent = '';
+    host.appendChild(svg);
+  }
+  function all() { Array.prototype.forEach.call(figs, draw); }
+  all();
+  var w = window.innerWidth, timer = null;
+  window.addEventListener('resize', function () {
+    if (window.innerWidth === w) { return; }
+    w = window.innerWidth; clearTimeout(timer); timer = setTimeout(all, 120);
+  });
+})();

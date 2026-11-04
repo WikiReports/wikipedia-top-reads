@@ -523,3 +523,16 @@ details.art > summary[data-n] > .rk { grid-row: 2; align-self: start; }
   details.art > summary[data-n] .why { grid-row: 2; grid-column: 2 / -1; }
 }
 button.collapse-end > span { font-size: .7em; }
+
+/* Main Page views chart (tool/mainpage_chart.py writes the figure, assets/page.js draws it) */
+figure.mpchart { margin: 14px 0 0; padding: 12px 0 0; border-top: 1px solid var(--line); }
+figure.mpchart figcaption { font-family: var(--font-head); font-weight: 700; font-size: .95rem; margin-bottom: 4px; }
+.mpc-plot { width: 100%; min-height: 170px; }
+.mpc-svg { display: block; max-width: 100%; overflow: visible; font-family: var(--font-body); }
+.mpc-grid { stroke: var(--line); stroke-width: 1; }
+.mpc-tick { fill: var(--muted); font-size: 12px; }
+.mpc-line { fill: none; stroke: var(--accent); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+.mpc-area { fill: color-mix(in srgb, var(--accent) 12%, transparent); stroke: none; }
+.mpc-dot { fill: var(--surface); stroke: var(--accent); stroke-width: 2; }
+.mpc-dot.last { fill: var(--accent); }
+.mpc-val { fill: var(--fg); font-size: 13px; font-weight: 700; }

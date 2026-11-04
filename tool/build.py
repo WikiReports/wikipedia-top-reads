@@ -286,7 +286,11 @@ sources = generic(sections['Sources'])
 hidden_els = sections.get('Hidden pages in the ranking')
 hidden = generic(hidden_els) if hidden_els else None
 
-banner_html = ''.join(para_html(p) for p in banner.findall('paragraph')) or inline(banner)
+sys.path.insert(0, HERE)
+from mainpage_chart import take_series as _take_series
+_banner_pars = banner.findall('paragraph')
+_banner_show, MAINPAGE_SERIES = _take_series(_banner_pars)  # the "Main Page daily views" paragraph feeds the chart, it is not shown
+banner_html = ''.join(para_html(p) for p in _banner_show) or (inline(banner) if not _banner_pars else '')
 gen_html = para_html(gen)
 
 
@@ -297,8 +301,8 @@ page = '''<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wikipedia Top Reads: @@DS@@</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Lexend:wght@500;700&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=20261103b">
-<script src="assets/theme.js?v=20261103b"></script>
+<link rel="stylesheet" href="assets/style.css?v=20261103c">
+<script src="assets/theme.js?v=20261103c"></script>
 </head><body>
 <div id="daynav" data-day="%s"></div>
 <div class="wrap">
@@ -351,7 +355,7 @@ page = '''<!doctype html>
 </div>
 <script src="assets/days.js"></script>
 <script src="assets/nav.js"></script>
-<script src="assets/page.js?v=20261103b"></script>
+<script src="assets/page.js?v=20261103c"></script>
 </body></html>
 ''' % (DATE_ISO, gen_html, banner_html, jump, g_first, g_lead, gt, g_note, EXPANDED_INTRO, CNT['hi'], CNT['md'], CNT['lo'], arts_html,
        method, sources, ('<details class="ref"><summary><h2>Hidden pages</h2></summary><div class="refbody">%s</div></details>' % hidden) if hidden else '<p class="note">This earlier report did not include a list of hidden pages.</p>')
@@ -371,6 +375,8 @@ from glance_summary import apply as _glance_summary
 page = _glance_summary(page)  # replaces the summary paragraph with a bar and breakdown table
 from disclaimer import apply as _disclaimer
 page = _disclaimer(page, 'report')  # AI-content disclaimer under the generated-by line, plus footer link
+from mainpage_chart import apply as _mainpage_chart
+page = _mainpage_chart(page, OUT, DATE_ISO, MAINPAGE_SERIES)  # Main Page views trend under the Main Page summary (drawn by assets/page.js)
 page = re.sub(r'(<mark class="key[^"]*">[^<]*</mark>)([)\].,;:]+)', r'<span class="nw">\1\2</span>', page)  # keep trailing punctuation with highlight
 open(OUT + '/%s.html' % DATE_ISO, 'w').write(page)
 open(OUT + '/index.html', 'w').write(page)

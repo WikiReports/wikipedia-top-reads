@@ -15,7 +15,7 @@ import re
 import sys
 
 ABOUT = 'about.html'
-VER = '20261103b'
+VER = '20261103c'
 
 TEXT = {
     'report': 'This report is generated using Claude (AI). Do not trust summaries. Confirm and verify sources independently.',
@@ -52,7 +52,7 @@ ABOUT_PAGE = '''<!doctype html>
 <title>Wikipedia Top Reads: About this content</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Lexend:wght@500;700&display=swap">
 <link rel="stylesheet" href="assets/style.css?v=@@VER@@">
-<script src="assets/theme.js?v=20261103b"></script>
+<script src="assets/theme.js?v=20261103c"></script>
 </head><body>
 <nav class="daynav" aria-label="Site" style="margin-bottom:24px"><div class="dn-row"><a class="dn-btn" href="index.html"><span aria-hidden="true">←</span> Latest</a><span class="dn-btn latest">About this content</span><a class="dn-btn" href="storylines.html">Storylines</a></div></nav>
 <div class="wrap">
