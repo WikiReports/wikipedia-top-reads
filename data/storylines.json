@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "groups": [
   {
    "id": "holmes-documentary",
@@ -143,6 +143,16 @@
    "members": [
     "2026-formula-one-world-championship",
     "kimi-antonelli"
+   ]
+  },
+  {
+   "id": "de-miguel-collision",
+   "title": "Jesús de Miguel collision",
+   "summary": "The CD Tenerife forward who died on 3rd Nov after colliding with the FC Andorra goalkeeper on 2nd Nov, and the people and club involved.",
+   "members": [
+    "jes-s-de-miguel",
+    "jes-s-owono",
+    "cd-tenerife"
    ]
   }
  ],
@@ -685,6 +695,10 @@
     {
      "date": "2026-11-02",
      "text": "71,016 views, 6.5 times baseline and 5% above 1st Nov, the first rise since the peak, as Arab parties signalled support for Eisenkot"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "60,786 views, 15% below 2nd Nov; a falling tail."
     }
    ],
    "charted": [
@@ -736,6 +750,13 @@
      "views": 71016,
      "confidence": "hi",
      "anchor": "a29"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 38,
+     "views": 60786,
+     "confidence": "hi",
+     "anchor": "a34"
     }
    ]
   },
@@ -784,6 +805,10 @@
     {
      "date": "2026-11-02",
      "text": "Learjet 60 from Austin crashed at Greenacres on 1st Nov, nine dead; NTSB briefing and victim names came on 2nd Nov"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "132,447 views, 40% below 2nd Nov, with the second NTSB briefing."
     }
    ],
    "charted": [
@@ -793,6 +818,13 @@
      "views": 220959,
      "confidence": "hi",
      "anchor": "a5"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 14,
+     "views": 132447,
+     "confidence": "hi",
+     "anchor": "a11"
     }
    ]
   },
@@ -943,6 +975,10 @@
     {
      "date": "2026-11-02",
      "text": "new high of 201,102 views on the last full day before voting, with over 54 million early votes"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "Continuing from 31st Oct: US midterm election day, 3rd Nov (High)."
     }
    ],
    "charted": [
@@ -966,6 +1002,13 @@
      "views": 201102,
      "confidence": "hi",
      "anchor": "a7"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 5,
+     "views": 455194,
+     "confidence": "hi",
+     "anchor": "a2"
     }
    ]
   },
@@ -1030,8 +1073,8 @@
    "type": "Election",
    "first_charted": "2026-11-02",
    "cause": {
-    "text": "Election eve interest in which party would control the Senate, with the Michigan endorsement story and final campaign events in the news",
-    "confidence": "md"
+    "text": "Election day and the question of which party would control the Senate.",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -1039,6 +1082,12 @@
      "text": "Election eve interest in which party would control the Senate, with the Michigan endorsement story and final campaign events in the news",
      "confidence": "md",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "Election day and the question of which party would control the Senate.",
+     "confidence": "hi",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -1055,6 +1104,10 @@
     {
      "date": "2026-11-02",
      "text": "Senate control on the eve of the 3rd Nov election; views nearly doubled"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "90,787 views, 5.3 times baseline, on election day."
     }
    ],
    "charted": [
@@ -1064,6 +1117,13 @@
      "views": 61876,
      "confidence": "md",
      "anchor": "a40"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 23,
+     "views": 90787,
+     "confidence": "hi",
+     "anchor": "a20"
     }
    ]
   },
@@ -1168,6 +1228,10 @@
     {
      "date": "2026-11-02",
      "text": "new rise to 243,340 views, 6.6 times baseline, after a record $2.4 million fundraising day and the eve of the election"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "271,285 views, 6.7 times baseline, on election day."
     }
    ],
    "charted": [
@@ -1203,6 +1267,13 @@
      "date": "2026-11-02",
      "rank": 7,
      "views": 243340,
+     "confidence": "hi",
+     "anchor": "a4"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 7,
+     "views": 271285,
      "confidence": "hi",
      "anchor": "a4"
     }
@@ -1587,6 +1658,10 @@
     {
      "date": "2026-11-02",
      "text": "84,438 views on a Monday, 1.2 times baseline, inside the same weekly pattern"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "87,663 views on a Tuesday, 1.4 times baseline, in the same pattern; no edits or news."
     }
    ],
    "charted": [
@@ -1638,6 +1713,13 @@
      "views": 84438,
      "confidence": "lo",
      "anchor": "a23"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 24,
+     "views": 87663,
+     "confidence": "lo",
+     "anchor": "a21"
     }
    ]
   },
@@ -1678,6 +1760,10 @@
     {
      "date": "2026-11-02",
      "text": "The fan fiction site has been offline since 29th Oct after a security incident, with weeks of outage expected"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "85,012 views, 8% above 2nd Nov, with the site still down."
     }
    ],
    "charted": [
@@ -1687,6 +1773,13 @@
      "views": 78713,
      "confidence": "hi",
      "anchor": "a24"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 26,
+     "views": 85012,
+     "confidence": "hi",
+     "anchor": "a23"
     }
    ]
   },
@@ -2237,6 +2330,42 @@
    ]
   },
   {
+   "id": "callum-turner",
+   "title": "Callum Turner",
+   "canonical": "Callum_Turner",
+   "url": "https://en.wikipedia.org/wiki/Callum_Turner",
+   "type": "Actor",
+   "first_charted": "2026-11-03",
+   "cause": {
+    "text": "Speculation that he will play James Bond.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-03",
+     "text": "Speculation that he will play James Bond.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-11-03",
+     "text": "New. James Bond casting speculation; unconfirmed (High that this drives the traffic)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-03",
+     "rank": 33,
+     "views": 70043,
+     "confidence": "hi",
+     "anchor": "a29"
+    }
+   ]
+  },
+  {
    "id": "candice-swanepoel",
    "title": "Candice Swanepoel",
    "canonical": "Candice_Swanepoel",
@@ -2358,6 +2487,42 @@
    ]
   },
   {
+   "id": "cd-tenerife",
+   "title": "CD Tenerife",
+   "canonical": "CD_Tenerife",
+   "url": "https://en.wikipedia.org/wiki/CD_Tenerife",
+   "type": "Football club",
+   "first_charted": "2026-11-03",
+   "cause": {
+    "text": "Readers looking up de Miguel's club after his death.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-03",
+     "text": "Readers looking up de Miguel's club after his death.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-11-03",
+     "text": "New. The club of Jesús de Miguel, who died on 3rd Nov (High)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-03",
+     "rank": 32,
+     "views": 70752,
+     "confidence": "hi",
+     "anchor": "a28"
+    }
+   ]
+  },
+  {
    "id": "chatgpt",
    "title": "ChatGPT",
    "canonical": "ChatGPT",
@@ -2474,6 +2639,10 @@
     {
      "date": "2026-11-02",
      "text": "96,729 views, 1.9 times baseline, nearly double 1st Nov, on the day of the desktop-app announcement"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "117,118 views, 2.6 times baseline and up 21% on 2nd Nov; no confirmed trigger."
     }
    ],
    "charted": [
@@ -2553,6 +2722,13 @@
      "views": 96729,
      "confidence": "lo",
      "anchor": "a22"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 16,
+     "views": 117118,
+     "confidence": "lo",
+     "anchor": "a13"
     }
    ]
   },
@@ -2990,6 +3166,10 @@
     {
      "date": "2026-11-02",
      "text": "73,486 views, 3.0 times baseline and 12% below 1st Nov, with weekend-actuals coverage published"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "56,783 views, 23% below 2nd Nov; a decay."
     }
    ],
    "charted": [
@@ -3062,6 +3242,13 @@
      "views": 73486,
      "confidence": "md",
      "anchor": "a27"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 41,
+     "views": 56783,
+     "confidence": "md",
+     "anchor": "a37"
     }
    ]
   },
@@ -3284,6 +3471,10 @@
     {
      "date": "2026-10-28",
      "text": "173,121 views, the peak of the window, on Horror Movie Night (broadcast 00:00 UTC), a double elimination with the first 40/40"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "135,810 views, 12.7 times baseline, for Disney Night and the Stiles elimination. Views follow episode nights counted in UTC."
     }
    ],
    "charted": [
@@ -3300,6 +3491,49 @@
      "views": 173121,
      "confidence": "hi",
      "anchor": "a5"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 12,
+     "views": 135810,
+     "confidence": "hi",
+     "anchor": "a9"
+    }
+   ]
+  },
+  {
+   "id": "david-walliams",
+   "title": "David Walliams",
+   "canonical": "David_Walliams",
+   "url": "https://en.wikipedia.org/wiki/David_Walliams",
+   "type": "Author and presenter",
+   "first_charted": "2026-11-03",
+   "cause": {
+    "text": "The closure of the Alton Towers attraction, possibly together with another cause for such a large jump.",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-03",
+     "text": "The closure of the Alton Towers attraction, possibly together with another cause for such a large jump.",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-11-03",
+     "text": "New. Alton Towers permanently closed The World of David Walliams on 3rd Nov; the scale of the jump may have another cause (Medium)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-03",
+     "rank": 18,
+     "views": 110365,
+     "confidence": "md",
+     "anchor": "a15"
     }
    ]
   },
@@ -3541,6 +3775,10 @@
     {
      "date": "2026-11-02",
      "text": "140,295 views, 1.0 times baseline; evergreen level with recent deaths listed"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "140,654 views, 1.1 times baseline; no event needed."
     }
    ],
    "charted": [
@@ -3641,6 +3879,13 @@
      "views": 140295,
      "confidence": "md",
      "anchor": "a11"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 11,
+     "views": 140654,
+     "confidence": "md",
+     "anchor": "a8"
     }
    ]
   },
@@ -3682,6 +3927,42 @@
      "views": 106158,
      "confidence": "lo",
      "anchor": "a17"
+    }
+   ]
+  },
+  {
+   "id": "donald-trump",
+   "title": "Donald Trump",
+   "canonical": "Donald_Trump",
+   "url": "https://en.wikipedia.org/wiki/Donald_Trump",
+   "type": "Politician",
+   "first_charted": "2026-11-03",
+   "cause": {
+    "text": "The aid-to-Israel remark, with election day as a second factor.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-03",
+     "text": "The aid-to-Israel remark, with election day as a second factor.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-11-03",
+     "text": "New. Said on Fox & Friends that US aid to Israel \"gets cut off at the end of the year\"; also election day (High)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-03",
+     "rank": 28,
+     "views": 75990,
+     "confidence": "hi",
+     "anchor": "a25"
     }
    ]
   },
@@ -4041,6 +4322,10 @@
     {
      "date": "2026-11-02",
      "text": "127,361 views, 5.1 times baseline; a decay from the 19th Oct peak with box-office coverage and no new Holmes event"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "87,659 views, 31% below 2nd Nov and 71% below the peak."
     }
    ],
    "charted": [
@@ -4141,6 +4426,13 @@
      "views": 127361,
      "confidence": "md",
      "anchor": "a15"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 25,
+     "views": 87659,
+     "confidence": "md",
+     "anchor": "a22"
     }
    ]
   },
@@ -4664,6 +4956,10 @@
     {
      "date": "2026-11-02",
      "text": "first full news day of the fallout (staff exits, calls to punish her, record El-Sayed fundraising); 548,345 views, 340 times baseline"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "208,194 views, 62% below the peak and 129 times baseline; a decay with new interviews, not a new trigger."
     }
    ],
    "charted": [
@@ -4687,6 +4983,13 @@
      "views": 548345,
      "confidence": "hi",
      "anchor": "a1"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 10,
+     "views": 208194,
+     "confidence": "hi",
+     "anchor": "a7"
     }
    ]
   },
@@ -5546,6 +5849,10 @@
     {
      "date": "2026-11-02",
      "text": "111,475 views; worldwide total reported at Rs 808 crore, first Tamil film past Rs 800 crore"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "96,128 views, 14% below 2nd Nov, 75% below the peak; a slow decay."
     }
    ],
    "charted": [
@@ -5646,6 +5953,13 @@
      "views": 111475,
      "confidence": "md",
      "anchor": "a16"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 21,
+     "views": 96128,
+     "confidence": "md",
+     "anchor": "a18"
     }
    ]
   },
@@ -5823,6 +6137,10 @@
     {
      "date": "2026-11-02",
      "text": "62,655 views, 2.1 times baseline and 11% above 1st Nov, on the final day of the race"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "105,766 views, 3.5 times baseline, on election day."
     }
    ],
    "charted": [
@@ -5846,6 +6164,49 @@
      "views": 62655,
      "confidence": "hi",
      "anchor": "a39"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 19,
+     "views": 105766,
+     "confidence": "hi",
+     "anchor": "a16"
+    }
+   ]
+  },
+  {
+   "id": "jeff-bezos",
+   "title": "Jeff Bezos",
+   "canonical": "Jeff_Bezos",
+   "url": "https://en.wikipedia.org/wiki/Jeff_Bezos",
+   "type": "Businessman",
+   "first_charted": "2026-11-03",
+   "cause": {
+    "text": "Unknown; the fake image is a possible small factor.",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-03",
+     "text": "Unknown; the fake image is a possible small factor.",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-11-03",
+     "text": "Unknown. No trigger found; a viral fake image of him is a possible small factor (Low)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-03",
+     "rank": 45,
+     "views": 53845,
+     "confidence": "lo",
+     "anchor": "a41"
     }
    ]
   },
@@ -5890,6 +6251,10 @@
     {
      "date": "2026-10-29",
      "text": "The Titans agreed to trade him to the Bears for two first-round picks, reported from about 14:30 UTC."
+    },
+    {
+     "date": "2026-11-03",
+     "text": "111,232 views after a quiet few days (6,542 on 2nd Nov); a new rise with its own trigger, his Bears debut."
     }
    ],
    "charted": [
@@ -5899,6 +6264,49 @@
      "views": 122632,
      "confidence": "hi",
      "anchor": "a18"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 17,
+     "views": 111232,
+     "confidence": "hi",
+     "anchor": "a14"
+    }
+   ]
+  },
+  {
+   "id": "jenna-dewan",
+   "title": "Jenna Dewan",
+   "canonical": "Jenna_Dewan",
+   "url": "https://en.wikipedia.org/wiki/Jenna_Dewan",
+   "type": "Actress",
+   "first_charted": "2026-11-03",
+   "cause": {
+    "text": "Her perfect score on the Disney Night episode.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-03",
+     "text": "Her perfect score on the Disney Night episode.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-11-03",
+     "text": "New. A perfect 40 on Dancing with the Stars Disney Night, aired on 2nd Nov (3rd Nov UTC) (High)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-03",
+     "rank": 35,
+     "views": 64103,
+     "confidence": "hi",
+     "anchor": "a31"
     }
    ]
   },
@@ -5989,6 +6397,78 @@
      "views": 138456,
      "confidence": "lo",
      "anchor": "a9"
+    }
+   ]
+  },
+  {
+   "id": "jes-s-de-miguel",
+   "title": "Jesús de Miguel",
+   "canonical": "Jesús_de_Miguel",
+   "url": "https://en.wikipedia.org/wiki/Jes%C3%BAs_de_Miguel",
+   "type": "Footballer",
+   "first_charted": "2026-11-03",
+   "cause": {
+    "text": "News of the footballer's death after the on-pitch collision.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-03",
+     "text": "News of the footballer's death after the on-pitch collision.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-11-03",
+     "text": "New. The CD Tenerife forward died on 3rd Nov after colliding with the FC Andorra goalkeeper in a league match on 2nd Nov (High)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-03",
+     "rank": 3,
+     "views": 585060,
+     "confidence": "hi",
+     "anchor": "a1"
+    }
+   ]
+  },
+  {
+   "id": "jes-s-owono",
+   "title": "Jesús Owono",
+   "canonical": "Jesús_Owono",
+   "url": "https://en.wikipedia.org/wiki/Jes%C3%BAs_Owono",
+   "type": "Footballer",
+   "first_charted": "2026-11-03",
+   "cause": {
+    "text": "US midterm election day itself.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-03",
+     "text": "US midterm election day itself.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-11-03",
+     "text": "455,194 views, 14.2 times baseline, on election day."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-03",
+     "rank": 6,
+     "views": 297789,
+     "confidence": "hi",
+     "anchor": "a3"
     }
    ]
   },
@@ -6281,6 +6761,10 @@
     {
      "date": "2026-11-02",
      "text": "Finished his 28-year walk around the world at his mother's home in Hull on 2nd Nov"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "135,687 views, 8% below the peak, the second day of coverage."
     }
    ],
    "charted": [
@@ -6288,6 +6772,13 @@
      "date": "2026-11-02",
      "rank": 13,
      "views": 147561,
+     "confidence": "hi",
+     "anchor": "a10"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 13,
+     "views": 135687,
      "confidence": "hi",
      "anchor": "a10"
     }
@@ -6443,6 +6934,10 @@
     {
      "date": "2026-11-02",
      "text": "views doubled to 206,706 on the first full day of worldwide and Italian reaction"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "59,325 views, 71% below 2nd Nov; a decay."
     }
    ],
    "charted": [
@@ -6459,6 +6954,13 @@
      "views": 206706,
      "confidence": "hi",
      "anchor": "a6"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 39,
+     "views": 59325,
+     "confidence": "hi",
+     "anchor": "a35"
     }
    ]
   },
@@ -6597,6 +7099,10 @@
     {
      "date": "2026-11-02",
      "text": "Aircraft type of the jet that crashed in Greenacres, Florida on 1st Nov, killing all nine aboard; first full news day of the crash"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "121,648 views, 54% below the peak."
     }
    ],
    "charted": [
@@ -6606,6 +7112,13 @@
      "views": 263003,
      "confidence": "hi",
      "anchor": "a2"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 15,
+     "views": 121648,
+     "confidence": "hi",
+     "anchor": "a12"
     }
    ]
   },
@@ -7086,6 +7599,10 @@
     {
      "date": "2026-11-02",
      "text": "75,181 views, 12.2 times baseline and 17% below 1st Nov, with a review and an essay published"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "58,678 views, 22% below 2nd Nov."
     }
    ],
    "charted": [
@@ -7116,6 +7633,13 @@
      "views": 75181,
      "confidence": "md",
      "anchor": "a26"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 40,
+     "views": 58678,
+     "confidence": "md",
+     "anchor": "a36"
     }
    ]
   },
@@ -7243,6 +7767,10 @@
     {
      "date": "2026-11-02",
      "text": "Republican Michigan Senate nominee, who received Stevens's endorsement; final campaign day"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "55,411 views, 8.2 times baseline, on election day."
     }
    ],
    "charted": [
@@ -7252,6 +7780,49 @@
      "views": 77353,
      "confidence": "hi",
      "anchor": "a25"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 43,
+     "views": 55411,
+     "confidence": "hi",
+     "anchor": "a39"
+    }
+   ]
+  },
+  {
+   "id": "mike-santana",
+   "title": "Mike Santana",
+   "canonical": "Mike_Santana",
+   "url": "https://en.wikipedia.org/wiki/Mike_Santana",
+   "type": "Wrestler",
+   "first_charted": "2026-11-03",
+   "cause": {
+    "text": "His WWE debut as Cruz Montana on Raw.",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-03",
+     "text": "His WWE debut as Cruz Montana on Raw.",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-11-03",
+     "text": "New. Appeared on WWE Raw on 2nd Nov as Cruz Montana, attacking Roman Reigns (Medium to High)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-03",
+     "rank": 36,
+     "views": 61576,
+     "confidence": "md",
+     "anchor": "a32"
     }
    ]
   },
@@ -7961,8 +8532,8 @@
    "type": "Deceased actor",
    "first_charted": "2026-10-29",
    "cause": {
-    "text": "The announcement of his death on 29th Oct, mainly in the last four and a half hours of the UTC day",
-    "confidence": "hi"
+    "text": "The tail of the tributes after his death; no new event found.",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -7970,6 +8541,12 @@
      "text": "The announcement of his death on 29th Oct, mainly in the last four and a half hours of the UTC day",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "The tail of the tributes after his death; no new event found.",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -8042,6 +8619,10 @@
     {
      "date": "2026-11-02",
      "text": "132,688 views, 36.6 times baseline; fourth day of decay, with tribute coverage and no new event found"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "82,458 views, 38% below 2nd Nov and 24.6 times baseline."
     }
    ],
    "charted": [
@@ -8079,6 +8660,13 @@
      "views": 132688,
      "confidence": "hi",
      "anchor": "a12"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 27,
+     "views": 82458,
+     "confidence": "md",
+     "anchor": "a24"
     }
    ]
   },
@@ -8261,8 +8849,8 @@
    "type": "Film",
    "first_charted": "2026-10-31",
    "cause": {
-    "text": "The build-up to the 5th Nov worldwide release, with advance-booking coverage; views stepped up on 28th Oct and have stayed level since",
-    "confidence": "md"
+    "text": "The build-up to the 5th Nov release, with the Rs 100 crore advance-booking milestone.",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -8270,6 +8858,12 @@
      "text": "The build-up to the 5th Nov worldwide release, with advance-booking coverage; views stepped up on 28th Oct and have stayed level since",
      "confidence": "md",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "The build-up to the 5th Nov release, with the Rs 100 crore advance-booking milestone.",
+     "confidence": "hi",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -8298,6 +8892,10 @@
     {
      "date": "2026-11-02",
      "text": "60,024 views, 8.7 times baseline and 8% above 1st Nov, with advance-booking milestones reported"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "72,890 views, 9.0 times baseline, 21% above 2nd Nov."
     }
    ],
    "charted": [
@@ -8314,6 +8912,49 @@
      "views": 60024,
      "confidence": "md",
      "anchor": "a42"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 29,
+     "views": 72890,
+     "confidence": "hi",
+     "anchor": "a26"
+    }
+   ]
+  },
+  {
+   "id": "resident-evil-2026-film",
+   "title": "Resident Evil (2026 film)",
+   "canonical": "Resident_Evil_(2026_film)",
+   "url": "https://en.wikipedia.org/wiki/Resident_Evil_%282026_film%29",
+   "type": "Film",
+   "first_charted": "2026-11-03",
+   "cause": {
+    "text": "The reported digital release on 3rd Nov.",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-03",
+     "text": "The reported digital release on 3rd Nov.",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-11-03",
+     "text": "New. A reported digital release on 3rd Nov, from a single origin (Medium)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-03",
+     "rank": 37,
+     "views": 61374,
+     "confidence": "md",
+     "anchor": "a33"
     }
    ]
   },
@@ -8500,6 +9141,42 @@
      "views": 98434,
      "confidence": "hi",
      "anchor": "a16"
+    }
+   ]
+  },
+  {
+   "id": "scott-parker",
+   "title": "Scott Parker",
+   "canonical": "Scott_Parker",
+   "url": "https://en.wikipedia.org/wiki/Scott_Parker",
+   "type": "Football manager",
+   "first_charted": "2026-11-03",
+   "cause": {
+    "text": "Reports that Parker will be West Ham's next manager.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-03",
+     "text": "Reports that Parker will be West Ham's next manager.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-11-03",
+     "text": "New. Reported as West Ham's new manager after Nuno's sacking on 3rd Nov (High)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-03",
+     "rank": 34,
+     "views": 65446,
+     "confidence": "hi",
+     "anchor": "a30"
     }
    ]
   },
@@ -9551,6 +10228,10 @@
     {
      "date": "2026-11-02",
      "text": "views doubled to 131,229 on the eve of the election"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "244,478 views, 12.4 times baseline, on election day."
     }
    ],
    "charted": [
@@ -9567,6 +10248,13 @@
      "views": 131229,
      "confidence": "hi",
      "anchor": "a13"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 9,
+     "views": 244478,
+     "confidence": "hi",
+     "anchor": "a6"
     }
    ]
   },
@@ -9623,8 +10311,8 @@
    "type": "TV series",
    "first_charted": "2026-10-21",
    "cause": {
-    "text": "Marvel Disney+ series premiered 13th Oct in North America (14th elsewhere); episodes 3 and 4 arrived 20th Oct in North America and 21st Oct elsewhere. Peaks 156,179 on 14th Oct and 123,339 on 21st Oct.",
-    "confidence": "hi"
+    "text": "The weekly series level, ahead of an episode released after 00:00 UTC on 4th Nov.",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -9632,6 +10320,12 @@
      "text": "Marvel Disney+ series premiered 13th Oct in North America (14th elsewhere); episodes 3 and 4 arrived 20th Oct in North America and 21st Oct elsewhere. Peaks 156,179 on 14th Oct and 123,339 on 21st Oct.",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "The weekly series level, ahead of an episode released after 00:00 UTC on 4th Nov.",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -9672,6 +10366,10 @@
     {
      "date": "2026-10-28",
      "text": "136,851 views, up from 56,332 on 27th Oct, on the release of episodes 5 and 6"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "55,043 views, 1.4 times baseline, before the next episode."
     }
    ],
    "charted": [
@@ -9695,6 +10393,13 @@
      "views": 136851,
      "confidence": "hi",
      "anchor": "a10"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 44,
+     "views": 55043,
+     "confidence": "md",
+     "anchor": "a40"
     }
    ]
   },
@@ -10099,6 +10804,10 @@
     {
      "date": "2026-11-02",
      "text": "69,768 views, 8.6 times baseline and 2% below 1st Nov, with second-weekend coverage published"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "56,175 views, 19% below 2nd Nov; a tail."
     }
    ],
    "charted": [
@@ -10150,6 +10859,13 @@
      "views": 69768,
      "confidence": "md",
      "anchor": "a31"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 42,
+     "views": 56175,
+     "confidence": "md",
+     "anchor": "a38"
     }
    ]
   },
@@ -10238,6 +10954,10 @@
     {
      "date": "2026-11-02",
      "text": "97,222 views, a new high for the window, still no trigger and no news or edits"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "92,646 views, 5% below 2nd Nov; still no trigger."
     }
    ],
    "charted": [
@@ -10261,6 +10981,13 @@
      "views": 97222,
      "confidence": "lo",
      "anchor": "a21"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 22,
+     "views": 92646,
+     "confidence": "lo",
+     "anchor": "a19"
     }
    ]
   },
@@ -10373,6 +11100,10 @@
     {
      "date": "2026-11-02",
      "text": "172,419 views, a fifth straight fall, still no news or edits"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "255,014 views, up 48% on 2nd Nov, the first rise after five falls; still no edits, news or trigger."
     }
    ],
    "charted": [
@@ -10445,6 +11176,13 @@
      "views": 172419,
      "confidence": "lo",
      "anchor": "a8"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 8,
+     "views": 255014,
+     "confidence": "lo",
+     "anchor": "a5"
     }
    ]
   },
@@ -10490,6 +11228,42 @@
    ]
   },
   {
+   "id": "xxxx-beer",
+   "title": "XXXX (beer)",
+   "canonical": "XXXX_(beer)",
+   "url": "https://en.wikipedia.org/wiki/XXXX_%28beer%29",
+   "type": "Beer brand",
+   "first_charted": "2026-11-03",
+   "cause": {
+    "text": "Unknown; the page is within its normal range.",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-03",
+     "text": "Unknown; the page is within its normal range.",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-11-03",
+     "text": "Unknown. Normal evergreen level, 1.3 times baseline (Low)."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-03",
+     "rank": 46,
+     "views": 51094,
+     "confidence": "lo",
+     "anchor": "a42"
+    }
+   ]
+  },
+  {
    "id": "xyz",
    "title": ".xyz",
    "canonical": ".xyz",
@@ -10522,6 +11296,10 @@
     {
      "date": "2026-11-02",
      "text": "Unknown: 1.2 times baseline of a very volatile page; no trigger found"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "104,155 views, a new window high; still no edit, news or talk trigger."
     }
    ],
    "charted": [
@@ -10531,6 +11309,13 @@
      "views": 65692,
      "confidence": "lo",
      "anchor": "a36"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 20,
+     "views": 104155,
+     "confidence": "lo",
+     "anchor": "a17"
     }
    ]
   },
@@ -10770,6 +11555,10 @@
     {
      "date": "2026-11-02",
      "text": "99,891 views, 4.6 times baseline; Monday coverage of the $11.4 million number-one weekend"
+    },
+    {
+     "date": "2026-11-03",
+     "text": "70,756 views, 29% below 2nd Nov; a decay."
     }
    ],
    "charted": [
@@ -10856,6 +11645,13 @@
      "views": 99891,
      "confidence": "md",
      "anchor": "a19"
+    },
+    {
+     "date": "2026-11-03",
+     "rank": 31,
+     "views": 70756,
+     "confidence": "md",
+     "anchor": "a27"
     }
    ]
   }
