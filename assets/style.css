@@ -331,28 +331,28 @@ mark.key { white-space: nowrap; }
 
 /* Display settings: color themes. The default (Ocean) is the :root and dark rules above; other themes are chosen with
    data-palette on <html> by assets/theme.js. Mode is data-theme (light/dark), or absent to follow the device. */
-:root[data-palette="forest"] { --bg: #F2F7F3; --surface: #FFFFFF; --surface-2: #E7F0E9; --line: #BFD2C4; --accent: #1B6B3A; --accent-fg: #FFFFFF; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
-:root[data-palette="sunset"] { --bg: #FBF5F0; --surface: #FFFFFF; --surface-2: #F5E9DF; --line: #DDC8B8; --accent: #A93E0C; --accent-fg: #FFFFFF; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
 :root[data-palette="violet"] { --bg: #F6F3FB; --surface: #FFFFFF; --surface-2: #ECE7F6; --line: #D0C6E6; --accent: #6A3FB5; --accent-fg: #FFFFFF; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
-:root[data-palette="rose"] { --bg: #FBF3F6; --surface: #FFFFFF; --surface-2: #F5E6EC; --line: #E2C6D2; --accent: #B02358; --accent-fg: #FFFFFF; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
 :root[data-palette="contrast"] { --bg: #FFFFFF; --surface: #FFFFFF; --surface-2: #F0F0F0; --line: #4D4D4D; --accent: #0033CC; --accent-fg: #FFFFFF; --fg: #000000; --muted: #2B2B2B; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
+:root[data-palette="pink"] { --bg: #FEF2F8; --surface: #FFFFFF; --surface-2: #FADFEC; --line: #EDBAD3; --accent: #B3125B; --accent-fg: #FFFFFF; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
+:root[data-palette="crimson"] { --bg: #FBF3F2; --surface: #FFFFFF; --surface-2: #F5E4E2; --line: #E3C4C1; --accent: #A61B1B; --accent-fg: #FFFFFF; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
+:root[data-palette="graphite"] { --bg: #F3F4F6; --surface: #FFFFFF; --surface-2: #E5E7EB; --line: #C4C8CF; --accent: #374151; --accent-fg: #FFFFFF; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
 @media (prefers-color-scheme: dark) {
-  :root[data-palette="forest"]:not([data-theme="light"]) { --bg: #0E1612; --surface: #15201A; --surface-2: #1C2A22; --line: #2F4337; --accent: #7FD6A0; --accent-fg: #0E1612; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
-  :root[data-palette="sunset"]:not([data-theme="light"]) { --bg: #181210; --surface: #211916; --surface-2: #2B201C; --line: #44342C; --accent: #FFA36B; --accent-fg: #181210; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
   :root[data-palette="violet"]:not([data-theme="light"]) { --bg: #141120; --surface: #1C1830; --surface-2: #251F3D; --line: #3B3359; --accent: #B9A0FF; --accent-fg: #141120; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
-  :root[data-palette="rose"]:not([data-theme="light"]) { --bg: #1A1116; --surface: #241921; --surface-2: #2E2029; --line: #473340; --accent: #FF8FB5; --accent-fg: #1A1116; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
   :root[data-palette="contrast"]:not([data-theme="light"]) { --bg: #000000; --surface: #0A0A0A; --surface-2: #171717; --line: #9A9A9A; --accent: #8CBBFF; --accent-fg: #000000; --fg: #FFFFFF; --muted: #E0E0E0; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
+  :root[data-palette="pink"]:not([data-theme="light"]) { --bg: #1B0F16; --surface: #261520; --surface-2: #331A2B; --line: #522D44; --accent: #FF8EC7; --accent-fg: #1B0F16; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
+  :root[data-palette="crimson"]:not([data-theme="light"]) { --bg: #190F0F; --surface: #241515; --surface-2: #2F1C1C; --line: #4A2F2F; --accent: #FF8A80; --accent-fg: #190F0F; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
+  :root[data-palette="graphite"]:not([data-theme="light"]) { --bg: #121315; --surface: #1B1C1F; --surface-2: #25272B; --line: #3A3D43; --accent: #D1D5DB; --accent-fg: #121315; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
 }
-:root[data-palette="forest"][data-theme="dark"] { --bg: #0E1612; --surface: #15201A; --surface-2: #1C2A22; --line: #2F4337; --accent: #7FD6A0; --accent-fg: #0E1612; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
-:root[data-palette="sunset"][data-theme="dark"] { --bg: #181210; --surface: #211916; --surface-2: #2B201C; --line: #44342C; --accent: #FFA36B; --accent-fg: #181210; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
 :root[data-palette="violet"][data-theme="dark"] { --bg: #141120; --surface: #1C1830; --surface-2: #251F3D; --line: #3B3359; --accent: #B9A0FF; --accent-fg: #141120; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
-:root[data-palette="rose"][data-theme="dark"] { --bg: #1A1116; --surface: #241921; --surface-2: #2E2029; --line: #473340; --accent: #FF8FB5; --accent-fg: #1A1116; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
 :root[data-palette="contrast"][data-theme="dark"] { --bg: #000000; --surface: #0A0A0A; --surface-2: #171717; --line: #9A9A9A; --accent: #8CBBFF; --accent-fg: #000000; --fg: #FFFFFF; --muted: #E0E0E0; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
+:root[data-palette="pink"][data-theme="dark"] { --bg: #1B0F16; --surface: #261520; --surface-2: #331A2B; --line: #522D44; --accent: #FF8EC7; --accent-fg: #1B0F16; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
+:root[data-palette="crimson"][data-theme="dark"] { --bg: #190F0F; --surface: #241515; --surface-2: #2F1C1C; --line: #4A2F2F; --accent: #FF8A80; --accent-fg: #190F0F; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
+:root[data-palette="graphite"][data-theme="dark"] { --bg: #121315; --surface: #1B1C1F; --surface-2: #25272B; --line: #3A3D43; --accent: #D1D5DB; --accent-fg: #121315; --cont-bg: color-mix(in srgb, var(--accent) 14%, var(--surface)); --cont-fg: color-mix(in srgb, var(--accent) 75%, var(--fg)); }
 
 /* Display settings control (assets/theme.js) */
 .disp { position: fixed; right: max(16px, env(safe-area-inset-right, 0px)); bottom: max(16px, env(safe-area-inset-bottom, 0px)); z-index: 1000; display: flex; flex-direction: column; align-items: flex-end; gap: 10px; font-size: 16px; line-height: 1.4; }
 .disp-btn { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; font: inherit; font-weight: 700; color: var(--fg); background: var(--surface); border: 2px solid var(--accent); border-radius: 999px; box-shadow: 0 4px 16px rgba(0,0,0,.22); cursor: pointer; }
-.disp-btn:hover { background: var(--surface-2); }
+.disp-btn:hover { background: var(--surface-2); color: var(--fg); }
 .disp-btn svg { color: var(--accent); }
 .disp-panel { width: min(21rem, calc(100vw - 32px)); max-height: calc(100vh - 100px); overflow-y: auto; padding: 14px 16px 12px; color: var(--fg); background: var(--surface); border: 2px solid var(--accent); border-radius: 14px; box-shadow: 0 8px 28px rgba(0,0,0,.28); }
 .disp-panel[hidden] { display: none; }
@@ -489,3 +489,37 @@ li.kv { grid-template-columns: minmax(4.5rem, 7rem) minmax(0, 1fr); gap: 8px; pa
 /* The "generated using Claude" line under the title repeats the disclaimer box, so it is not shown.
    It stays in the HTML because the research and publish checks look for that exact sentence once per page. */
 .gen { display: none; }
+
+
+/* At a glance on wide screens: breakdown in three columns, ranked list in two */
+@media (min-width: 1000px) {
+  table.gsumt thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table.gsumt tbody { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  table.gsumt tbody tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-content: start; padding: 10px 0; border-bottom: 1px solid var(--line); border-right: 1px solid var(--line); }
+  table.gsumt tbody tr:nth-child(3n) { border-right: 0; }
+  table.gsumt tbody tr.sep { grid-column: 1 / -1; display: block; padding: 0; border-right: 0; }
+  table.gsumt tbody th { width: auto; display: block; border: 0; padding: 0 12px; }
+  table.gsumt tr td.num { grid-column: 2; grid-row: 1; width: auto; border: 0; padding: 0 12px; }
+  table.gsumt tr td.arts { grid-column: 1 / -1; border: 0; padding: 6px 12px 0; font-size: .9rem; line-height: 1.6; }
+  table.glance thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table.glance tbody { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  table.glance tbody tr { display: grid; grid-template-columns: 2.2rem minmax(0, 1fr) auto auto; column-gap: 10px; row-gap: 4px; padding: 10px 14px; align-items: baseline; border-bottom: 1px solid var(--line); background: transparent; align-content: start; }
+  table.glance tbody tr:nth-child(odd) { border-right: 1px solid var(--line); }
+  table.glance td { display: block; padding: 0; border: 0; }
+  table.glance td:nth-child(1) { grid-column: 1; grid-row: 1; text-align: right; color: var(--accent); }
+  table.glance td:nth-child(2) { grid-column: 2; grid-row: 1; min-width: 0; overflow-wrap: anywhere; }
+  table.glance td:nth-child(3) { grid-column: 3; grid-row: 1; }
+  table.glance td:nth-child(4) { grid-column: 4; grid-row: 1; }
+  table.glance td:nth-child(5) { grid-column: 2 / -1; grid-row: 2; font-size: .92rem; color: var(--muted); }
+}
+
+
+/* Report order number: a second box above the rank box (the number is set by assets/nav.js) */
+details.art > summary[data-n]::before { content: attr(data-n); grid-column: 1; grid-row: 1; align-self: end; justify-self: stretch; display: flex; align-items: center; justify-content: center; min-width: 3.6rem; min-height: 2.2rem; padding: 4px 8px; border: 2px solid var(--accent); color: var(--accent); border-radius: 10px; font-family: var(--font-head); font-weight: 700; font-size: 1.5rem; line-height: 1.1; font-variant-numeric: tabular-nums; }
+details.art > summary[data-n] > .rk { grid-row: 2; align-self: start; }
+@media (max-width: 640px) {
+  details.art > summary[data-n]::before { grid-row: 1; grid-column: 1; align-self: start; min-width: 2.7rem; min-height: 0; padding: 4px 6px; font-size: 1.2rem; border-width: 1.5px; border-radius: 8px; }
+  details.art > summary[data-n] > .rk { grid-row: 2; grid-column: 1; align-self: start; }
+  details.art > summary[data-n] .why { grid-row: 2; grid-column: 2 / -1; }
+}
+button.collapse-end > span { font-size: .7em; }

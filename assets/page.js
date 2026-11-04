@@ -59,7 +59,7 @@
     if (!body) { return; }
     var b = document.createElement('button');
     b.type = 'button'; b.className = 'collapse-end';
-    b.innerHTML = '<span aria-hidden="true">\u2191</span> Collapse';
+    b.innerHTML = '<span aria-hidden="true">\u25B2</span> Collapse';
     b.setAttribute('aria-label', 'Collapse this article');
     b.addEventListener('click', function () {
       d.open = false;

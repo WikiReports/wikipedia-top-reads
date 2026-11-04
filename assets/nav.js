@@ -1,4 +1,12 @@
 (function () {
+  /* Number each article box in report order (used by the number box in the article header). */
+  var list = document.querySelectorAll('details.art > summary');
+  for (var k = 0; k < list.length; k++) { list[k].setAttribute('data-n', String(k + 1)); }
+  /* The Jump to list shows the same report-order numbers instead of ranks. */
+  var jr = document.querySelectorAll('.jump li .jr');
+  for (var j = 0; j < jr.length; j++) { jr[j].textContent = String(j + 1); }
+})();
+(function () {
   var host = document.getElementById('daynav');
   if (!host || !window.DAYS) { return; }
   var days = window.DAYS.slice().sort(function (a, b) { return a.d < b.d ? 1 : -1; });

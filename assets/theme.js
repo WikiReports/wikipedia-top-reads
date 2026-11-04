@@ -6,12 +6,12 @@
   var MODES = [['auto', 'Auto'], ['light', 'Light'], ['dark', 'Dark']];
   // id, label, swatch accent, swatch background (light-mode colors, only used for the little swatches)
   var PALETTES = [
+    ['contrast', 'Contrast', '#0033CC', '#FFFFFF'],
     ['ocean', 'Ocean', '#1A4B9C', '#F4F6FA'],
-    ['forest', 'Forest', '#1B6B3A', '#F2F7F3'],
-    ['sunset', 'Sunset', '#B3430F', '#FBF5F0'],
+    ['pink', 'Pink', '#B3125B', '#FEF2F8'],
     ['violet', 'Violet', '#6A3FB5', '#F6F3FB'],
-    ['rose', 'Rose', '#B02358', '#FBF3F6'],
-    ['contrast', 'High contrast', '#0033CC', '#FFFFFF']
+    ['crimson', 'Crimson', '#A61B1B', '#FBF3F2'],
+    ['graphite', 'Graphite', '#374151', '#F3F4F6']
   ];
   var root = document.documentElement;
 
