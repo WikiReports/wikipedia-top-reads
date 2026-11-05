@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "groups": [
   {
    "id": "holmes-documentary",
@@ -153,6 +153,48 @@
     "jes-s-de-miguel",
     "jes-s-owono",
     "cd-tenerife"
+   ]
+  },
+  {
+   "id": "us-midterms-2026",
+   "title": "2026 US midterm elections",
+   "summary": "The 3rd Nov 2026 midterm results: control of Congress, Senate and governor races, and the people and parties involved.",
+   "members": [
+    "2026-united-states-house-of-representatives-elections",
+    "united-states-house-of-representatives",
+    "united-states-senate",
+    "hakeem-jeffries",
+    "democratic-party-united-states",
+    "republican-party-united-states",
+    "red-states-and-blue-states",
+    "2026-united-states-senate-election-in-mississippi",
+    "scott-colom",
+    "annie-andrews-pediatrician",
+    "darline-graham",
+    "chris-pappas-american-politician",
+    "dan-osborn",
+    "jon-ossoff",
+    "josh-turek",
+    "susan-collins",
+    "byron-donalds",
+    "ron-desantis",
+    "keisha-lance-bottoms",
+    "xavier-becerra",
+    "2028-united-states-senate-elections"
+   ]
+  },
+  {
+   "id": "texas-election-2026",
+   "title": "Texas election night",
+   "summary": "The Texas governor and Senate results and the people tied to them.",
+   "members": [
+    "2026-texas-gubernatorial-election",
+    "2026-united-states-senate-election-in-texas",
+    "gina-hinojosa",
+    "gilberto-hinojosa",
+    "greg-abbott",
+    "ken-paxton",
+    "ann-richards"
    ]
   }
  ],
@@ -913,6 +955,55 @@
    ]
   },
   {
+   "id": "2026-texas-gubernatorial-election",
+   "title": "2026 Texas gubernatorial election",
+   "canonical": "2026_Texas_gubernatorial_election",
+   "url": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+   "type": "Election",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Election result for the Texas governor race",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Election result for the Texas governor race",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Texas Tribune",
+     "url": "https://www.texastribune.org/2026/11/03/texas-governor-greg-abbott-gina-hinojosa-election/"
+    },
+    {
+     "title": "Texas Public Radio",
+     "url": "https://www.tpr.org/2026-11-03/gina-hinojosa-defeats-gov-greg-abbott-ending-decades-of-republican-control-of-texas-governors-office"
+    },
+    {
+     "title": "The O'Colly",
+     "url": "https://www.ocolly.com/news/texas-democrats-claim-historic-victories-in-2026-midterm-election/article_b41b0804-8eae-4002-867c-182823bd3a83.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Race page for Hinojosa's win over Abbott"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 38,
+     "views": 158747,
+     "confidence": "hi",
+     "anchor": "a35"
+    }
+   ]
+  },
+  {
    "id": "2026-united-states-elections",
    "title": "2026 United States elections",
    "canonical": "2026_United_States_elections",
@@ -961,6 +1052,18 @@
     {
      "title": "The Intercept",
      "url": "https://theintercept.com/2026/10/29/aipac-israel-midterms-spending-elections-congress/"
+    },
+    {
+     "title": "Yahoo News",
+     "url": "https://www.yahoo.com/news/politics/live/midterms-2026-live-updates-election-day-voters-head-to-the-polls-as-democrats-look-to-flip-gop-control-of-the-house-and-senate-110000715.html"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/"
     }
    ],
    "timeline": [
@@ -979,6 +1082,10 @@
     {
      "date": "2026-11-03",
      "text": "Continuing from 31st Oct: US midterm election day, 3rd Nov (High)."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "Day after the midterms: Democrats won the House and Senate; 1,153,444 views"
     }
    ],
    "charted": [
@@ -1009,6 +1116,62 @@
      "views": 455194,
      "confidence": "hi",
      "anchor": "a2"
+    },
+    {
+     "date": "2026-11-04",
+     "rank": 5,
+     "views": 1153444,
+     "confidence": "hi",
+     "anchor": "a4"
+    }
+   ]
+  },
+  {
+   "id": "2026-united-states-house-of-representatives-elections",
+   "title": "2026 United States House of Representatives elections",
+   "canonical": "2026_United_States_House_of_Representatives_elections",
+   "url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections",
+   "type": "Election",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "House control flipped to Democrats in the night of 3rd to 4th Nov",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "House control flipped to Democrats in the night of 3rd to 4th Nov",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/4/democratic-party-gains-us-house-majority-in-2026-midterm-elections"
+    },
+    {
+     "title": "KSLA (Louisiana)",
+     "url": "https://www.ksla.com/2026/11/05/johnson-wins-sixth-term-house-majority-flips/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "House control flipped to Democrats, called around 03:15 to 03:29 UTC"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 18,
+     "views": 249406,
+     "confidence": "hi",
+     "anchor": "a15"
     }
    ]
   },
@@ -1066,6 +1229,104 @@
    ]
   },
   {
+   "id": "2026-united-states-senate-election-in-mississippi",
+   "title": "2026 United States Senate election in Mississippi",
+   "canonical": "2026_United_States_Senate_election_in_Mississippi",
+   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Mississippi",
+   "type": "Election",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "The uncalled, razor-thin Hyde-Smith v Colom Senate result on 4th Nov",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "The uncalled, razor-thin Hyde-Smith v Colom Senate result on 4th Nov",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Newsweek",
+     "url": "https://www.newsweek.com/midterm-results-tracker-senate-live-updates-election-2026-12637517"
+    },
+    {
+     "title": "Mississippi Free Press",
+     "url": "https://www.mississippifreepress.org/liveblog-mississippis-2026-u-s-senate-election-results/"
+    },
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/Politics/recounts-mississippi-razor-thin-margin-senate-race/story?id=137844445"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Race page for the uncalled Hyde-Smith v Colom contest"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 42,
+     "views": 141842,
+     "confidence": "hi",
+     "anchor": "a39"
+    }
+   ]
+  },
+  {
+   "id": "2026-united-states-senate-election-in-texas",
+   "title": "2026 United States Senate election in Texas",
+   "canonical": "2026_United_States_Senate_election_in_Texas",
+   "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Texas",
+   "type": "Election",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Race result on election night",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Race result on election night",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "KPRC",
+     "url": "https://www.click2houston.com/decision-2026/2026/11/04/nbc-news-projects-james-talarico-as-winner-of-texas-us-senate-race-defeating-ken-paxton/"
+    },
+    {
+     "title": "Time",
+     "url": "https://time.com/article/2026/11/04/talarico-wins-texas-senate-race-first-democrat-to-win-statewide-in-more-than-30-years/"
+    },
+    {
+     "title": "Texas Tribune",
+     "url": "https://www.texastribune.org/2026/11/03/texas-midterms-2026-elections-live-blog/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Race page for Talarico's win over Paxton"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 31,
+     "views": 192509,
+     "confidence": "hi",
+     "anchor": "a28"
+    }
+   ]
+  },
+  {
    "id": "2026-united-states-senate-elections",
    "title": "2026 United States Senate elections",
    "canonical": "2026_United_States_Senate_elections",
@@ -1098,6 +1359,18 @@
     {
      "title": "Texas Tribune",
      "url": "https://www.texastribune.org/2026/11/02/texas-senate-ken-paxton-james-talarico-2026-election-day-eve/"
+    },
+    {
+     "title": "Texas Tribune",
+     "url": "https://www.texastribune.org/2026/11/03/texas-ken-paxton-james-talarico-us-senate-elections-2026/"
+    },
+    {
+     "title": "KPRC/Click2Houston",
+     "url": "https://www.click2houston.com/decision-2026/2026/11/04/ken-paxton-concedes-texas-us-senate-race-to-james-talarico/"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/"
     }
    ],
    "timeline": [
@@ -1108,6 +1381,10 @@
     {
      "date": "2026-11-03",
      "text": "90,787 views, 5.3 times baseline, on election day."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "Democrats won Senate control with at least 54 seats; 493,851 views"
     }
    ],
    "charted": [
@@ -1124,6 +1401,58 @@
      "views": 90787,
      "confidence": "hi",
      "anchor": "a20"
+    },
+    {
+     "date": "2026-11-04",
+     "rank": 10,
+     "views": 493851,
+     "confidence": "hi",
+     "anchor": "a7"
+    }
+   ]
+  },
+  {
+   "id": "2028-united-states-senate-elections",
+   "title": "2028 United States Senate elections",
+   "canonical": "2028_United_States_Senate_elections",
+   "url": "https://en.wikipedia.org/wiki/2028_United_States_Senate_elections",
+   "type": "Election",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Not established; the surge coincides with the Democratic Senate win but no source explains this page specifically. Plausible inference only: readers searching \"next Senate election\" after the results",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Not established; the surge coincides with the Democratic Senate win but no source explains this page specifically. Plausible inference only: readers searching \"next Senate election\" after the results",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ballotpedia",
+     "url": "https://ballotpedia.org/United_States_Senate_elections,_2028"
+    },
+    {
+     "title": "Political Wire (citing Axios)",
+     "url": "https://politicalwire.com/2026/10/13/democrats-eye-a-bigger-2028-battleground-map/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Biggest multiple in the list; no source links this page to the news (low confidence)"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 19,
+     "views": 244552,
+     "confidence": "lo",
+     "anchor": "a16"
     }
    ]
   },
@@ -1160,18 +1489,6 @@
    ],
    "sources": [
     {
-     "title": "Detroit News via Yahoo",
-     "url": "https://www.yahoo.com/news/politics/articles/el-sayed-rogers-exchange-barbs-190010296.html"
-    },
-    {
-     "title": "CBS Detroit",
-     "url": "https://www.cbsnews.com/detroit/news/el-sayed-widens-lead-rogers-michigan-senate-poll/"
-    },
-    {
-     "title": "Yahoo/NewsNation",
-     "url": "https://www.yahoo.com/news/politics/articles/michigan-senate-candidates-final-push-155459315.html"
-    },
-    {
      "title": "WXYZ",
      "url": "https://www.wxyz.com/news/final-push-for-votes-rogers-el-sayed-rally-supporters-across-michigan"
     },
@@ -1206,6 +1523,18 @@
     {
      "title": "Newsweek",
      "url": "https://www.newsweek.com/mike-rogers-scrutinized-over-muslim-brotherhood-amid-el-sayed-attacks-12616180"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/4/el-sayed-defeats-rogers-to-win-senate-seat-in-michigan"
+    },
+    {
+     "title": "PBS NewsHour (AP)",
+     "url": "https://www.pbs.org/newshour/politics/democrat-abdul-el-sayed-wins-election-to-u-s-senate-from-michigan"
+    },
+    {
+     "title": "The Intercept",
+     "url": "https://theintercept.com/2026/11/04/el-sayed-michigan-senate-win-democrats/"
     }
    ],
    "timeline": [
@@ -1232,6 +1561,10 @@
     {
      "date": "2026-11-03",
      "text": "271,285 views, 6.7 times baseline, on election day."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "Won the Michigan Senate race over Mike Rogers, called overnight; first Muslim US senator-elect (1,413,749 views)"
     }
    ],
    "charted": [
@@ -1276,6 +1609,13 @@
      "views": 271285,
      "confidence": "hi",
      "anchor": "a4"
+    },
+    {
+     "date": "2026-11-04",
+     "rank": 2,
+     "views": 1413749,
+     "confidence": "hi",
+     "anchor": "a1"
     }
    ]
   },
@@ -1553,12 +1893,28 @@
     {
      "title": "WOSU",
      "url": "https://www.wosu.org/politics-government/2026-10-20/amy-acton-responds-to-viral-video-where-her-estranged-mother-accuses-her-of-lying"
+    },
+    {
+     "title": "OPB (AP)",
+     "url": "https://www.opb.org/article/2026/11/03/democrat-amy-acton-defeats-vivek-ramaswamy-in-ohio-governors-race/"
+    },
+    {
+     "title": "PBS NewsHour",
+     "url": "https://www.pbs.org/newshour/politics/live-results-ohio-governor-midterm-election"
+    },
+    {
+     "title": "Newsweek",
+     "url": "https://www.newsweek.com/vivek-ramaswamys-concession-to-amy-acton-went-to-voicemail-12660888"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-21",
      "text": "Ohio Democratic governor candidate. The Ramaswamy campaign ad featuring her estranged mother leaked 19th Oct, went public 20th Oct and is backed by about $4 million of airtime; Gov. Mike DeWine called it deeply troubling on 22nd Oct. Peak 158,230 on 21st Oct. Related: Vivek Ramaswamy."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "Won the Ohio governor's race over Vivek Ramaswamy, about 51% to 46% (231,084 views)"
     }
    ],
    "charted": [
@@ -1582,6 +1938,111 @@
      "views": 97593,
      "confidence": "hi",
      "anchor": "a12"
+    },
+    {
+     "date": "2026-11-04",
+     "rank": 22,
+     "views": 231084,
+     "confidence": "hi",
+     "anchor": "a19"
+    }
+   ]
+  },
+  {
+   "id": "ann-richards",
+   "title": "Ann Richards",
+   "canonical": "Ann_Richards",
+   "url": "https://en.wikipedia.org/wiki/Ann_Richards",
+   "type": "Former governor",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Hinojosa's win ended the Republican hold on the governorship that began after Richards, and coverage cited her",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Hinojosa's win ended the Republican hold on the governorship that began after Richards, and coverage cited her",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Texas Public Radio",
+     "url": "https://www.tpr.org/2026-11-03/gina-hinojosa-defeats-gov-greg-abbott-ending-decades-of-republican-control-of-texas-governors-office"
+    },
+    {
+     "title": "CBS Texas",
+     "url": "https://www.cbsnews.com/texas/news/texas-governor-election-2026-greg-abbott-gina-hinojosa-results/"
+    },
+    {
+     "title": "Texas Tribune",
+     "url": "https://www.texastribune.org/2026/11/04/gina-hinojosa-first-latina-governor-texas/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Last Democratic governor of Texas, cited in coverage of Hinojosa's win"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 44,
+     "views": 133555,
+     "confidence": "hi",
+     "anchor": "a41"
+    }
+   ]
+  },
+  {
+   "id": "annie-andrews-pediatrician",
+   "title": "Annie Andrews (pediatrician)",
+   "canonical": "Annie_Andrews_(pediatrician)",
+   "url": "https://en.wikipedia.org/wiki/Annie_Andrews_(pediatrician)",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Her win in the 3rd Nov US Senate election in South Carolina (race called late evening US time, i.e. early on 4th Nov UTC), an upset flip of a deep-red seat that also helped give Democrats the Senate",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Her win in the 3rd Nov US Senate election in South Carolina (race called late evening US time, i.e. early on 4th Nov UTC), an upset flip of a deep-red seat that also helped give Democrats the Senate",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Time",
+     "url": "https://time.com/article/2026/11/04/south-carolina-senate-results-darline-graham-democrat-annie-andrews-republican/"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/news/south-carolina-2026-senate-annie-andrews-darline-graham/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/4/democrat-annie-andrews-flips-south-carolinas-senate-seat"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Won the South Carolina Senate race over Darline Graham, an upset flip"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 21,
+     "views": 238020,
+     "confidence": "hi",
+     "anchor": "a18"
     }
    ]
   },
@@ -2330,6 +2791,55 @@
    ]
   },
   {
+   "id": "byron-donalds",
+   "title": "Byron Donalds",
+   "canonical": "Byron_Donalds",
+   "url": "https://en.wikipedia.org/wiki/Byron_Donalds",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "His win in Florida's governor election, called on the night of 3rd Nov 2026, with the first-Black-Republican-governor milestone",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "His win in Florida's governor election, called on the night of 3rd Nov 2026, with the first-Black-Republican-governor milestone",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "WCTV (AP)",
+     "url": "https://www.wctv.tv/2026/11/04/ap-projects-byron-donalds-history-making-victory-next-florida-governor/"
+    },
+    {
+     "title": "CBS Miami",
+     "url": "https://www.cbsnews.com/miami/news/florida-governor-election-2026-results-byron-donalds-david-jolly/"
+    },
+    {
+     "title": "MultiState",
+     "url": "https://www.multistate.us/elections/governor-race/florida-2026"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Won the Florida governor's race over David Jolly; first Black Republican elected governor"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 12,
+     "views": 362265,
+     "confidence": "hi",
+     "anchor": "a9"
+    }
+   ]
+  },
+  {
    "id": "callum-turner",
    "title": "Callum Turner",
    "canonical": "Callum_Turner",
@@ -2866,6 +3376,55 @@
      "views": 68807,
      "confidence": "hi",
      "anchor": "a33"
+    }
+   ]
+  },
+  {
+   "id": "chris-pappas-american-politician",
+   "title": "Chris Pappas (American politician)",
+   "canonical": "Chris_Pappas_(American_politician)",
+   "url": "https://en.wikipedia.org/wiki/Chris_Pappas_(American_politician)",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "His 3rd Nov US Senate election win (called 01:23 UTC on 4th Nov), a milestone (first openly gay man elected to the Senate) in a night where Democrats took the Senate",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "His 3rd Nov US Senate election win (called 01:23 UTC on 4th Nov), a milestone (first openly gay man elected to the Senate) in a night where Democrats took the Senate",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "NHPR",
+     "url": "https://www.nhpr.org/nh-news/2026-11-03/pappas-wins-u-s-senate-race-defeating-sununu-in-marquee-matchup"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/"
+    },
+    {
+     "title": "Roll Call",
+     "url": "https://rollcall.com/2026/11/04/senate-democrats-majority-midterm-elections-2/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Won the New Hampshire Senate seat over John E. Sununu; called 01:23 UTC"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 30,
+     "views": 194250,
+     "confidence": "hi",
+     "anchor": "a27"
     }
    ]
   },
@@ -3423,6 +3982,55 @@
    ]
   },
   {
+   "id": "dan-osborn",
+   "title": "Dan Osborn",
+   "canonical": "Dan_Osborn",
+   "url": "https://en.wikipedia.org/wiki/Dan_Osborn",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Loss to Ricketts and concession on 4th Nov, ending a high-profile independent bid; also notable that Nebraska bucked the Democratic wave",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Loss to Ricketts and concession on 4th Nov, ending a high-profile independent bid; also notable that Nebraska bucked the Democratic wave",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "WOWT",
+     "url": "https://www.wowt.com/2026/11/03/election-night-2026-nebraska-senate-race-updates/"
+    },
+    {
+     "title": "WAFB (AP)",
+     "url": "https://www.wafb.com/2026/11/04/republican-pete-ricketts-wins-reelection-us-senate-over-independent-challenger-nebraska/"
+    },
+    {
+     "title": "3 News Now",
+     "url": "https://www.3newsnow.com/papillion-lavista-ralston-bellevue/sen-pete-ricketts-claims-victory-in-nebraska-senate-race-over-dan-osborn"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Independent lost the Nebraska Senate race to Pete Ricketts and conceded on 4th Nov"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 14,
+     "views": 273151,
+     "confidence": "hi",
+     "anchor": "a11"
+    }
+   ]
+  },
+  {
    "id": "dancing-with-the-stars-american-tv-series-season-35",
    "title": "Dancing with the Stars (American TV series) season 35",
    "canonical": "Dancing_with_the_Stars_(American_TV_series)_season_35",
@@ -3498,6 +4106,55 @@
      "views": 135810,
      "confidence": "hi",
      "anchor": "a9"
+    }
+   ]
+  },
+  {
+   "id": "darline-graham",
+   "title": "Darline Graham",
+   "canonical": "Darline_Graham",
+   "url": "https://en.wikipedia.org/wiki/Darline_Graham",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Her loss to Annie Andrews in the 3rd Nov election and concession (early 4th Nov UTC); a rare incumbent defeat for a Trump-endorsed appointee in a state Trump won by about 18 in 2024",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Her loss to Annie Andrews in the 3rd Nov election and concession (early 4th Nov UTC); a rare incumbent defeat for a Trump-endorsed appointee in a state Trump won by about 18 in 2024",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Time",
+     "url": "https://time.com/article/2026/11/04/south-carolina-senate-results-darline-graham-democrat-annie-andrews-republican/"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/news/south-carolina-2026-senate-annie-andrews-darline-graham/"
+    },
+    {
+     "title": "Yahoo News (Tuesday night concession)",
+     "url": "https://www.yahoo.com/news/politics/articles/darline-graham-concedes-senate-race-044532627.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Lost the South Carolina Senate race to Annie Andrews and conceded"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 37,
+     "views": 162062,
+     "confidence": "hi",
+     "anchor": "a34"
     }
    ]
   },
@@ -3679,10 +4336,6 @@
    ],
    "sources": [
     {
-     "title": "FOX 35 Orlando",
-     "url": "https://www.fox35orlando.com/news/susan-saint-james-kate-allie-mcmillan-wife-star-dies"
-    },
-    {
      "title": "LiveNOW from FOX",
      "url": "https://www.livenowfox.com/news/celebrity-deaths-2026-list"
     },
@@ -3725,6 +4378,10 @@
     {
      "title": "Screen Rant",
      "url": "https://screenrant.com/john-leeson-death-obituary/"
+    },
+    {
+     "title": "ITV News",
+     "url": "https://www.itv.com/news/2026-10-29/star-trek-actor-sir-patrick-stewart-dies-aged-86"
     }
    ],
    "timeline": [
@@ -3779,6 +4436,10 @@
     {
      "date": "2026-11-03",
      "text": "140,654 views, 1.1 times baseline; no event needed."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "140,436 views, 1.1 times baseline; evergreen list, no specific death identified as a driver"
     }
    ],
    "charted": [
@@ -3886,6 +4547,62 @@
      "views": 140654,
      "confidence": "md",
      "anchor": "a8"
+    },
+    {
+     "date": "2026-11-04",
+     "rank": 43,
+     "views": 140436,
+     "confidence": "md",
+     "anchor": "a40"
+    }
+   ]
+  },
+  {
+   "id": "democratic-party-united-states",
+   "title": "Democratic Party (United States)",
+   "canonical": "Democratic_Party_(United_States)",
+   "url": "https://en.wikipedia.org/wiki/Democratic_Party_(United_States)",
+   "type": "Political party",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "The Democratic wins in the 3rd Nov midterms (House and Senate control) as reported on 4th Nov",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "The Democratic wins in the 3rd Nov midterms (House and Senate control) as reported on 4th Nov",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/4/democrats-win-control-of-house-and-senate-key-us-midterms-takeaways"
+    },
+    {
+     "title": "NBC Washington",
+     "url": "https://www.nbcwashington.com/elections/election-day-after-2026-midterms-congress-results-live-updates/4177248/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Democrats won the House and Senate; party at the centre of results coverage"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 15,
+     "views": 256501,
+     "confidence": "hi",
+     "anchor": "a12"
     }
    ]
   },
@@ -3949,11 +4666,28 @@
      "note": "First stated"
     }
    ],
-   "sources": [],
+   "sources": [
+    {
+     "title": "Times of Israel",
+     "url": "https://www.timesofisrael.com/trump-says-us-to-end-4-billion-in-annual-military-aid-to-israel-by-end-of-2026/"
+    },
+    {
+     "title": "PBS NewsHour",
+     "url": "https://www.pbs.org/newshour/world/trump-says-u-s-will-stop-giving-4-billion-in-aid-to-israel-next-year"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/3/trump-announces-that-us-will-stop-paying-israel-after-year-end"
+    }
+   ],
    "timeline": [
     {
      "date": "2026-11-03",
      "text": "New. Said on Fox & Friends that US aid to Israel \"gets cut off at the end of the year\"; also election day (High)."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "Midterm loss and Trump's post-election remarks; 239,807 views, 6.7 times baseline"
     }
    ],
    "charted": [
@@ -3963,6 +4697,13 @@
      "views": 75990,
      "confidence": "hi",
      "anchor": "a25"
+    },
+    {
+     "date": "2026-11-04",
+     "rank": 20,
+     "views": 239807,
+     "confidence": "hi",
+     "anchor": "a17"
     }
    ]
   },
@@ -4773,6 +5514,100 @@
    ]
   },
   {
+   "id": "gilberto-hinojosa",
+   "title": "Gilberto Hinojosa",
+   "canonical": "Gilberto_Hinojosa",
+   "url": "https://en.wikipedia.org/wiki/Gilberto_Hinojosa",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Spillover from his daughter's election win as Texas governor-elect",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Spillover from his daughter's election win as Texas governor-elect",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Texas Tribune",
+     "url": "https://www.texastribune.org/2026/11/04/gina-hinojosa-first-latina-governor-texas/"
+    },
+    {
+     "title": "Newsweek",
+     "url": "https://www.newsweek.com/texas-governor-election-abbott-hinojosa-2026-who-won-12635954"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Father of governor-elect Gina Hinojosa; spillover from her win"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 41,
+     "views": 146352,
+     "confidence": "md",
+     "anchor": "a38"
+    }
+   ]
+  },
+  {
+   "id": "gina-hinojosa",
+   "title": "Gina Hinojosa",
+   "canonical": "Gina_Hinojosa",
+   "url": "https://en.wikipedia.org/wiki/Gina_Hinojosa",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Her election-night win over Abbott, a historic first for a Latina and the first Democratic governor in about three decades",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Her election-night win over Abbott, a historic first for a Latina and the first Democratic governor in about three decades",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Texas Public Radio",
+     "url": "https://www.tpr.org/2026-11-03/gina-hinojosa-defeats-gov-greg-abbott-ending-decades-of-republican-control-of-texas-governors-office"
+    },
+    {
+     "title": "Texas Tribune",
+     "url": "https://www.texastribune.org/2026/11/03/texas-governor-greg-abbott-gina-hinojosa-election/"
+    },
+    {
+     "title": "KPRC Click2Houston",
+     "url": "https://www.click2houston.com/news/texas/2026/11/04/democrat-gina-hinojosa-topples-greg-abbott-to-become-first-latina-governor-of-texas/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Won the Texas governor's race over Greg Abbott; first Latina governor of Texas"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 4,
+     "views": 1242354,
+     "confidence": "hi",
+     "anchor": "a3"
+    }
+   ]
+  },
+  {
    "id": "golden-state-valkyries",
    "title": "Golden State Valkyries",
    "canonical": "Golden_State_Valkyries",
@@ -4822,6 +5657,55 @@
      "views": 78369,
      "confidence": "hi",
      "anchor": "a27"
+    }
+   ]
+  },
+  {
+   "id": "greg-abbott",
+   "title": "Greg Abbott",
+   "canonical": "Greg_Abbott",
+   "url": "https://en.wikipedia.org/wiki/Greg_Abbott",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "He lost re-election to Hinojosa on the night of 3rd Nov Central",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "He lost re-election to Hinojosa on the night of 3rd Nov Central",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Texas Tribune",
+     "url": "https://www.texastribune.org/2026/11/03/texas-governor-greg-abbott-gina-hinojosa-election/"
+    },
+    {
+     "title": "Texas Public Radio",
+     "url": "https://www.tpr.org/2026-11-03/gina-hinojosa-defeats-gov-greg-abbott-ending-decades-of-republican-control-of-texas-governors-office"
+    },
+    {
+     "title": "KUT",
+     "url": "https://www.kut.org/politics/2026-11-03/texas-governor-election-2026-hinojosa-early-results"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Lost his bid for a fourth term as Texas governor to Gina Hinojosa; conceded on election night"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 13,
+     "views": 327943,
+     "confidence": "hi",
+     "anchor": "a10"
     }
    ]
   },
@@ -4878,6 +5762,55 @@
      "views": 83511,
      "confidence": "hi",
      "anchor": "a18"
+    }
+   ]
+  },
+  {
+   "id": "hakeem-jeffries",
+   "title": "Hakeem Jeffries",
+   "canonical": "Hakeem_Jeffries",
+   "url": "https://en.wikipedia.org/wiki/Hakeem_Jeffries",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "House Democrats' midterm win and Jeffries' 4th Nov speakership announcement (first Black Speaker if elected)",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "House Democrats' midterm win and Jeffries' 4th Nov speakership announcement (first Black Speaker if elected)",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/4/hakeem-jeffries-promises-affordability-focus-after-democratic-midterm-win"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
+    },
+    {
+     "title": "Fox News",
+     "url": "https://www.foxnews.com/politics/hakeem-jeffries-declares-bid-house-speaker-after-gops-midterm-massacre"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Led House Democrats to a majority and declared his bid for Speaker"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 25,
+     "views": 214253,
+     "confidence": "hi",
+     "anchor": "a22"
     }
    ]
   },
@@ -4960,6 +5893,10 @@
     {
      "date": "2026-11-03",
      "text": "208,194 views, 62% below the peak and 129 times baseline; a decay with new interviews, not a new trigger."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "165,950 views, tail of the endorsement row after El-Sayed won; down from 208,194"
     }
    ],
    "charted": [
@@ -4990,6 +5927,13 @@
      "views": 208194,
      "confidence": "hi",
      "anchor": "a7"
+    },
+    {
+     "date": "2026-11-04",
+     "rank": 36,
+     "views": 165950,
+     "confidence": "hi",
+     "anchor": "a33"
     }
    ]
   },
@@ -6123,6 +7067,18 @@
     {
      "title": "Yahoo",
      "url": "https://www.yahoo.com/news/politics/articles/james-talaricos-chances-beating-ken-114222741.html"
+    },
+    {
+     "title": "KPRC Click2Houston (NBC News projection)",
+     "url": "https://www.click2houston.com/decision-2026/2026/11/04/nbc-news-projects-james-talarico-as-winner-of-texas-us-senate-race-defeating-ken-paxton/"
+    },
+    {
+     "title": "Time",
+     "url": "https://time.com/article/2026/11/04/talarico-wins-texas-senate-race-first-democrat-to-win-statewide-in-more-than-30-years/"
+    },
+    {
+     "title": "Texas Tribune",
+     "url": "https://www.texastribune.org/2026/11/04/ken-paxton-political-future-texas-gop-senate-loss/"
     }
    ],
    "timeline": [
@@ -6141,6 +7097,10 @@
     {
      "date": "2026-11-03",
      "text": "105,766 views, 3.5 times baseline, on election day."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "Won the Texas Senate race over Ken Paxton (1,256,040 views, 35.9 times baseline)"
     }
    ],
    "charted": [
@@ -6171,6 +7131,13 @@
      "views": 105766,
      "confidence": "hi",
      "anchor": "a16"
+    },
+    {
+     "date": "2026-11-04",
+     "rank": 3,
+     "views": 1256040,
+     "confidence": "hi",
+     "anchor": "a2"
     }
    ]
   },
@@ -6419,11 +7386,28 @@
      "note": "First stated"
     }
    ],
-   "sources": [],
+   "sources": [
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/sports/2026/11/3/footballer-dies-after-on-field-collision"
+    },
+    {
+     "title": "ABC News (Australia)",
+     "url": "https://www.abc.net.au/news/2026-11-04/football-jesus-de-miguel-dead-after-goalkeeper-clash-police/107343990"
+    },
+    {
+     "title": "ESPN (AP)",
+     "url": "https://www.espn.com/soccer/story/_/id/50366968/tenerife-forward-jesus-de-miguel-dies-game-cardiac-arrest"
+    }
+   ],
    "timeline": [
     {
      "date": "2026-11-03",
      "text": "New. The CD Tenerife forward died on 3rd Nov after colliding with the FC Andorra goalkeeper in a league match on 2nd Nov (High)."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "Day after the peak: tributes, police inquiry and UEFA minute of silence (224,585 views)"
     }
    ],
    "charted": [
@@ -6433,6 +7417,13 @@
      "views": 585060,
      "confidence": "hi",
      "anchor": "a1"
+    },
+    {
+     "date": "2026-11-04",
+     "rank": 24,
+     "views": 224585,
+     "confidence": "hi",
+     "anchor": "a21"
     }
    ]
   },
@@ -6631,6 +7622,55 @@
    ]
   },
   {
+   "id": "jon-ossoff",
+   "title": "Jon Ossoff",
+   "canonical": "Jon_Ossoff",
+   "url": "https://en.wikipedia.org/wiki/Jon_Ossoff",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Ossoff's re-election win in Georgia's Senate race, called on the night of 3rd Nov 2026 (about 00:35 UTC on 4th Nov)",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Ossoff's re-election win in Georgia's Senate race, called on the night of 3rd Nov 2026 (about 00:35 UTC on 4th Nov)",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "OPB (AP)",
+     "url": "https://www.opb.org/article/2026/11/03/georgia-sen-jon-ossoff-wins-reelection-defeating-rep-mike-collins-to-hold-a-key-democratic-seat/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/amp/news/2026/11/4/democrat-jon-ossoff-wins-georgia-us-senate-race"
+    },
+    {
+     "title": "Atlanta Journal-Constitution",
+     "url": "https://www.ajc.com/politics/2026/11/how-jon-ossoff-turned-the-tables-on-georgia-republicans/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Won re-election in the Georgia Senate race over Mike Collins; renewed 2028 talk"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 7,
+     "views": 611863,
+     "confidence": "hi",
+     "anchor": "a5"
+    }
+   ]
+  },
+  {
    "id": "jonestown",
    "title": "Jonestown",
    "canonical": "Jonestown",
@@ -6680,6 +7720,55 @@
      "views": 143302,
      "confidence": "md",
      "anchor": "a10"
+    }
+   ]
+  },
+  {
+   "id": "josh-turek",
+   "title": "Josh Turek",
+   "canonical": "Josh_Turek",
+   "url": "https://en.wikipedia.org/wiki/Josh_Turek",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Winning the Iowa Senate race (flipping a GOP seat), called late on 3rd Nov US time so the global audience arrived on 4th Nov",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Winning the Iowa Senate race (flipping a GOP seat), called late on 3rd Nov US time so the global audience arrived on 4th Nov",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "OPB (AP)",
+     "url": "https://www.opb.org/article/2026/11/03/democrat-josh-turek-wins-election-to-the-us-senate-from-iowa-as-democrats-win-us-senate/"
+    },
+    {
+     "title": "WOWT (AP)",
+     "url": "https://www.wowt.com/2026/11/04/democrat-josh-turek-wins-election-us-senate-iowa-democrats-win-us-senate/"
+    },
+    {
+     "title": "Daily Caller",
+     "url": "https://dailycaller.com/2026/11/03/iowa-senate-race-midterm-joni-ernst-josh-turek-ashley-hinson/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Won the Iowa Senate race over Ashley Hinson, flipping a Republican seat"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 45,
+     "views": 130512,
+     "confidence": "hi",
+     "anchor": "a42"
     }
    ]
   },
@@ -6826,6 +7915,104 @@
      "views": 110874,
      "confidence": "hi",
      "anchor": "a10"
+    }
+   ]
+  },
+  {
+   "id": "keisha-lance-bottoms",
+   "title": "Keisha Lance Bottoms",
+   "canonical": "Keisha_Lance_Bottoms",
+   "url": "https://en.wikipedia.org/wiki/Keisha_Lance_Bottoms",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Her election as Georgia governor, with a historic first, declared on the night of 3rd Nov 2026",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Her election as Georgia governor, with a historic first, declared on the night of 3rd Nov 2026",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "OPB (AP)",
+     "url": "https://www.opb.org/article/2026/11/03/democrat-keisha-lance-bottoms-makes-history-as-1st-black-woman-to-be-elected-georgia-governor/"
+    },
+    {
+     "title": "CBS News Atlanta",
+     "url": "https://www.cbsnews.com/atlanta/news/georgia-governor-election-2026-results-rick-jackson-keisha-lance-bottoms/"
+    },
+    {
+     "title": "Local 3 News (NBC affiliate content)",
+     "url": "https://www.local3news.com/local-news/decision-2026-keisha-lance-bottoms-wins-georgia-governors-race/article_539fe6c5-f303-4c4d-a80c-22c4058339f3.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Won the Georgia governor's race; first Black woman governor of Georgia"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 11,
+     "views": 431379,
+     "confidence": "hi",
+     "anchor": "a8"
+    }
+   ]
+  },
+  {
+   "id": "ken-paxton",
+   "title": "Ken Paxton",
+   "canonical": "Ken_Paxton",
+   "url": "https://en.wikipedia.org/wiki/Ken_Paxton",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "His Senate loss on election night",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "His Senate loss on election night",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Texas Tribune",
+     "url": "https://www.texastribune.org/2026/11/04/ken-paxton-political-future-texas-gop-senate-loss/"
+    },
+    {
+     "title": "Time",
+     "url": "https://time.com/article/2026/11/04/talarico-wins-texas-senate-race-first-democrat-to-win-statewide-in-more-than-30-years/"
+    },
+    {
+     "title": "Lead Stories via Yahoo",
+     "url": "https://www.yahoo.com/news/politics/articles/fact-check-ken-paxton-did-022610198.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Lost the Texas Senate race to James Talarico, his first electoral defeat"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 29,
+     "views": 197914,
+     "confidence": "hi",
+     "anchor": "a26"
     }
    ]
   },
@@ -8923,6 +10110,104 @@
    ]
   },
   {
+   "id": "red-states-and-blue-states",
+   "title": "Red states and blue states",
+   "canonical": "Red_states_and_blue_states",
+   "url": "https://en.wikipedia.org/wiki/Red_states_and_blue_states",
+   "type": "Political term",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Democratic wins in traditionally Republican (\"red\") states in the 3rd Nov midterms; inferred, no source discusses the Wikipedia article itself",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Democratic wins in traditionally Republican (\"red\") states in the 3rd Nov midterms; inferred, no source discusses the Wikipedia article itself",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "NBC Washington",
+     "url": "https://www.nbcwashington.com/elections/election-day-after-2026-midterms-congress-results-live-updates/4177248/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/4/democrats-win-control-of-house-and-senate-key-us-midterms-takeaways"
+    },
+    {
+     "title": "PBS NewsHour",
+     "url": "https://www.pbs.org/newshour/politics/vance-blames-iran-war-for-gop-midterm-losses"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Readers looking up red and blue states after Democratic wins in Trump-won states"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 26,
+     "views": 214095,
+     "confidence": "md",
+     "anchor": "a23"
+    }
+   ]
+  },
+  {
+   "id": "republican-party-united-states",
+   "title": "Republican Party (United States)",
+   "canonical": "Republican_Party_(United_States)",
+   "url": "https://en.wikipedia.org/wiki/Republican_Party_(United_States)",
+   "type": "Political party",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Republican losses of both chambers in the 3rd Nov midterms and the immediate intra-party fallout (Vance post-mortem, Johnson leadership news)",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Republican losses of both chambers in the 3rd Nov midterms and the immediate intra-party fallout (Vance post-mortem, Johnson leadership news)",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "JTA",
+     "url": "https://www.jta.org/2026/11/04/politics/jd-vance-blames-israel-and-iran-war-for-gops-crushing-defeats"
+    },
+    {
+     "title": "Times of Israel",
+     "url": "https://www.timesofisrael.com/vance-gop-lost-midterms-due-to-iran-war-voters-want-change-in-israel-relationship/"
+    },
+    {
+     "title": "PBS NewsHour",
+     "url": "https://www.pbs.org/newshour/politics/vance-blames-iran-war-for-gop-midterm-losses"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Republicans lost both chambers; Vance and Trump post-mortem on the Iran war"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 32,
+     "views": 179463,
+     "confidence": "hi",
+     "anchor": "a29"
+    }
+   ]
+  },
+  {
    "id": "resident-evil-2026-film",
    "title": "Resident Evil (2026 film)",
    "canonical": "Resident_Evil_(2026_film)",
@@ -8996,6 +10281,55 @@
      "views": 101727,
      "confidence": "hi",
      "anchor": "a12"
+    }
+   ]
+  },
+  {
+   "id": "ron-desantis",
+   "title": "Ron DeSantis",
+   "canonical": "Ron_DeSantis",
+   "url": "https://en.wikipedia.org/wiki/Ron_DeSantis",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Combination of the 3rd Nov midterm results (Donalds' win succeeding him) and his 4th Nov press conference/\"extinction-level event\" comments; no single trigger isolated",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Combination of the 3rd Nov midterm results (Donalds' win succeeding him) and his 4th Nov press conference/\"extinction-level event\" comments; no single trigger isolated",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fox News",
+     "url": "https://www.foxnews.com/politics/florida-desantis-describes-gop-midterms-wipeout-close-extinction-level-event-republicans"
+    },
+    {
+     "title": "News4JAX",
+     "url": "https://www.news4jax.com/news/local/2026/11/04/live-desantis-to-hold-press-conference-in-tallahassee-after-midterm-elections/"
+    },
+    {
+     "title": "FOX 13",
+     "url": "https://www.fox13news.com/news/ron-desantis-warns-republicans-nationally-florida-2026-election"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Succeeded by Donalds; held a press conference on the GOP losses"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 40,
+     "views": 155958,
+     "confidence": "md",
+     "anchor": "a37"
     }
    ]
   },
@@ -9141,6 +10475,55 @@
      "views": 98434,
      "confidence": "hi",
      "anchor": "a16"
+    }
+   ]
+  },
+  {
+   "id": "scott-colom",
+   "title": "Scott Colom",
+   "canonical": "Scott_Colom",
+   "url": "https://en.wikipedia.org/wiki/Scott_Colom",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "A too-close-to-call Senate race in which the Democratic challenger took the lead overnight on 3rd/4th Nov, with national attention on a possible upset in a state Trump won by about 23 points",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "A too-close-to-call Senate race in which the Democratic challenger took the lead overnight on 3rd/4th Nov, with national attention on a possible upset in a state Trump won by about 23 points",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Mississippi Independent",
+     "url": "https://msindy.org/p/colom-pulls-ahead-of-hyde-smith-by"
+    },
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/Politics/recounts-mississippi-razor-thin-margin-senate-race/story?id=137844445"
+    },
+    {
+     "title": "Mississippi Free Press",
+     "url": "https://www.mississippifreepress.org/liveblog-mississippis-2026-u-s-senate-election-results/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Mississippi Senate challenger took a narrow lead overnight; race uncalled"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 35,
+     "views": 171635,
+     "confidence": "hi",
+     "anchor": "a32"
     }
    ]
   },
@@ -9593,6 +10976,55 @@
      "views": 126366,
      "confidence": "hi",
      "anchor": "a10"
+    }
+   ]
+  },
+  {
+   "id": "susan-collins",
+   "title": "Susan Collins",
+   "canonical": "Susan_Collins",
+   "url": "https://en.wikipedia.org/wiki/Susan_Collins",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Her defeat by Troy Jackson in the 3rd Nov Maine Senate election (called early on 4th Nov UTC), ending a nearly 30-year Senate career and part of the Democratic Senate takeover",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Her defeat by Troy Jackson in the 3rd Nov Maine Senate election (called early on 4th Nov UTC), ending a nearly 30-year Senate career and part of the Democratic Senate takeover",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Maine Public",
+     "url": "https://www.mainepublic.org/politics/2026-11-04/susan-collins-concedes-to-troy-jackson-in-maine-senate-race"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/"
+    },
+    {
+     "title": "Roll Call",
+     "url": "https://rollcall.com/2026/11/04/senate-democrats-majority-midterm-elections-2/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Lost the Maine Senate race to Troy Jackson after nearly 30 years in the Senate"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 34,
+     "views": 174062,
+     "confidence": "hi",
+     "anchor": "a31"
     }
    ]
   },
@@ -10174,6 +11606,55 @@
    ]
   },
   {
+   "id": "united-states-house-of-representatives",
+   "title": "United States House of Representatives",
+   "canonical": "United_States_House_of_Representatives",
+   "url": "https://en.wikipedia.org/wiki/United_States_House_of_Representatives",
+   "type": "Legislature",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Democrats winning the House and the Speaker succession story",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Democrats winning the House and the Speaker succession story",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/4/democratic-party-gains-us-house-majority-in-2026-midterm-elections"
+    },
+    {
+     "title": "KSLA",
+     "url": "https://www.ksla.com/2026/11/05/johnson-wins-sixth-term-house-majority-flips/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Democrats won control; Speaker Johnson leaving leadership, Jeffries likely next Speaker"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 28,
+     "views": 199639,
+     "confidence": "hi",
+     "anchor": "a25"
+    }
+   ]
+  },
+  {
    "id": "united-states-midterm-election",
    "title": "United States midterm election",
    "canonical": "United_States_midterm_election",
@@ -10218,6 +11699,18 @@
     {
      "title": "voz.us",
      "url": "https://voz.us/en/politics/261030/1000205/early-voting-midterms-2026-breaks-the-record.html"
+    },
+    {
+     "title": "Yahoo News",
+     "url": "https://www.yahoo.com/news/politics/live/midterms-2026-live-updates-election-day-voters-head-to-the-polls-as-democrats-look-to-flip-gop-control-of-the-house-and-senate-110000715.html"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/"
     }
    ],
    "timeline": [
@@ -10232,6 +11725,10 @@
     {
      "date": "2026-11-03",
      "text": "244,478 views, 12.4 times baseline, on election day."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "Generic midterms page reached 523,575 views after Democrats won both chambers"
     }
    ],
    "charted": [
@@ -10255,6 +11752,62 @@
      "views": 244478,
      "confidence": "hi",
      "anchor": "a6"
+    },
+    {
+     "date": "2026-11-04",
+     "rank": 9,
+     "views": 523575,
+     "confidence": "hi",
+     "anchor": "a6"
+    }
+   ]
+  },
+  {
+   "id": "united-states-senate",
+   "title": "United States Senate",
+   "canonical": "United_States_Senate",
+   "url": "https://en.wikipedia.org/wiki/United_States_Senate",
+   "type": "Legislature",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "Democrats winning Senate control",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "Democrats winning Senate control",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/"
+    },
+    {
+     "title": "PBS NewsHour (AP)",
+     "url": "https://www.pbs.org/newshour/politics/democrats-take-control-of-the-senate-after-winning-key-midterm-races"
+    },
+    {
+     "title": "Texas Tribune",
+     "url": "https://www.texastribune.org/2026/11/03/texas-ken-paxton-james-talarico-us-senate-elections-2026/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Democrats retook the Senate; Schumer expected to lead; Trump spoke to Thune"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 16,
+     "views": 255791,
+     "confidence": "hi",
+     "anchor": "a13"
     }
    ]
   },
@@ -10311,8 +11864,8 @@
    "type": "TV series",
    "first_charted": "2026-10-21",
    "cause": {
-    "text": "The weekly series level, ahead of an episode released after 00:00 UTC on 4th Nov.",
-    "confidence": "md"
+    "text": "Continuing from 21st Oct: weekly episode release (episode 7, penultimate) at about 02:00 UTC on 4th Nov",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -10325,6 +11878,12 @@
      "date": "2026-11-03",
      "text": "The weekly series level, ahead of an episode released after 00:00 UTC on 4th Nov.",
      "confidence": "md",
+     "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-04",
+     "text": "Continuing from 21st Oct: weekly episode release (episode 7, penultimate) at about 02:00 UTC on 4th Nov",
+     "confidence": "hi",
      "note": "Confidence changed"
     }
    ],
@@ -10356,6 +11915,18 @@
     {
      "title": "The TV Cave",
      "url": "https://www.thetvcave.com/post/visionquest-episodes-5-6-review"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/what-to-watch/visionquest-release-schedule-when-do-new-episodes-come-out/"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/erikkain/2026/10/17/visionquest-episodes-3-4-release-date-time-disney-plus-schedule/"
+    },
+    {
+     "title": "Comic Basics",
+     "url": "https://www.comicbasics.com/?p=199560"
     }
    ],
    "timeline": [
@@ -10370,6 +11941,10 @@
     {
      "date": "2026-11-03",
      "text": "55,043 views, 1.4 times baseline, before the next episode."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "Episode 7 released at about 02:00 UTC; 157,657 views"
     }
    ],
    "charted": [
@@ -10400,6 +11975,13 @@
      "views": 55043,
      "confidence": "md",
      "anchor": "a40"
+    },
+    {
+     "date": "2026-11-04",
+     "rank": 39,
+     "views": 157657,
+     "confidence": "hi",
+     "anchor": "a36"
     }
    ]
   },
@@ -10430,12 +12012,28 @@
     {
      "title": "Forbes",
      "url": "https://www.forbes.com/sites/saradorn/2026/10/21/ramaswamys-campaign-admits-making-controversial-ad-featuring-amy-actons-mother-will-spend-4-million-airing-it/"
+    },
+    {
+     "title": "OPB (AP)",
+     "url": "https://www.opb.org/article/2026/11/03/democrat-amy-acton-defeats-vivek-ramaswamy-in-ohio-governors-race/"
+    },
+    {
+     "title": "Newsweek",
+     "url": "https://www.newsweek.com/vivek-ramaswamys-concession-to-amy-acton-went-to-voicemail-12660888"
+    },
+    {
+     "title": "American Bazaar",
+     "url": "https://americanbazaaronline.com/2026/11/04/news-analysis-trumps-sinks-vivek-ramaswamys-bid-for-ohio-governor-491449/"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-21",
      "text": "Ohio Republican governor candidate. Same ad controversy as Amy Acton; his campaign confirmed it made the ad on 20th Oct, and Trump defended it at an Iowa rally on 22nd Oct. Peak 126,859 on 21st Oct."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "Lost the Ohio governor's race to Acton and conceded (226,620 views)"
     }
    ],
    "charted": [
@@ -10459,6 +12057,13 @@
      "views": 97367,
      "confidence": "hi",
      "anchor": "a13"
+    },
+    {
+     "date": "2026-11-04",
+     "rank": 23,
+     "views": 226620,
+     "confidence": "hi",
+     "anchor": "a20"
     }
    ]
   },
@@ -10923,6 +12528,55 @@
    ]
   },
   {
+   "id": "xavier-becerra",
+   "title": "Xavier Becerra",
+   "canonical": "Xavier_Becerra",
+   "url": "https://en.wikipedia.org/wiki/Xavier_Becerra",
+   "type": "Politician",
+   "first_charted": "2026-11-04",
+   "cause": {
+    "text": "His election as California governor in the 3rd Nov vote, called about 04:02 UTC on 4th Nov (first Latino governor in about 150 years, one of Democrats' wins on a nationwide Democratic night)",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-04",
+     "text": "His election as California governor in the 3rd Nov vote, called about 04:02 UTC on 4th Nov (first Latino governor in about 150 years, one of Democrats' wins on a nationwide Democratic night)",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CBS Los Angeles",
+     "url": "https://www.cbsnews.com/losangeles/live-updates/live-updates-california-midterm-election-results-for-key-2026-races/"
+    },
+    {
+     "title": "CalMatters",
+     "url": "https://calmatters.org/politics/2026/11/california-election-2026-governor-race/"
+    },
+    {
+     "title": "MultiState",
+     "url": "https://www.multistate.us/elections/governor-race/california-2026"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-04",
+     "text": "Won the California governor's race over Steve Hilton"
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-04",
+     "rank": 27,
+     "views": 202392,
+     "confidence": "hi",
+     "anchor": "a24"
+    }
+   ]
+  },
+  {
    "id": "xnxx",
    "title": "XNXX",
    "canonical": "XNXX",
@@ -11012,18 +12666,6 @@
    ],
    "sources": [
     {
-     "title": "ICANNWiki, ICM Registry",
-     "url": "https://icannwiki.org/ICM_Registry"
-    },
-    {
-     "title": "ICANN",
-     "url": "https://www.icann.org/es/announcements/details/icann-reveals-2026-round-applications-for-new-generic-top-level-domains-07-10-2026-es"
-    },
-    {
-     "title": "Domain Name Wire",
-     "url": "https://domainnamewire.com/2026/07/01/texas-gets-porn-site/"
-    },
-    {
      "title": "Domain Name Wire",
      "url": "https://domainnamewire.com/2026/10/07/identity-digital-applies-for-whopping-216-top-level-domain-names/"
     },
@@ -11058,6 +12700,18 @@
     {
      "title": "Domain Name Wire",
      "url": "https://domainnamewire.com/2025/10/02/xxx-gets-more-expensive-next-month/"
+    },
+    {
+     "title": "abtdomain.com",
+     "url": "https://abtdomain.com/periodic-reports/2026-11/domain-intelligence-weekly-2026-11-03/"
+    },
+    {
+     "title": "ICANN",
+     "url": "https://www.icann.org/en/announcements/details/icann-reveals-2026-round-applications-for-new-generic-top-level-domains-07-10-2026-en"
+    },
+    {
+     "title": "Domain Name Wire",
+     "url": "https://domainnamewire.com/2026/09/30/new-top-level-domain-reveal-day-set-for-october-8/"
     }
    ],
    "timeline": [
@@ -11104,6 +12758,10 @@
     {
      "date": "2026-11-03",
      "text": "255,014 views, up 48% on 2nd Nov, the first rise after five falls; still no edits, news or trigger."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "174,839 views, 2.9 times baseline, down from 255,014; still no trigger found"
     }
    ],
    "charted": [
@@ -11183,6 +12841,13 @@
      "views": 255014,
      "confidence": "lo",
      "anchor": "a5"
+    },
+    {
+     "date": "2026-11-04",
+     "rank": 33,
+     "views": 174839,
+     "confidence": "lo",
+     "anchor": "a30"
     }
    ]
   },
@@ -11290,6 +12955,14 @@
     {
      "title": "PR Newswire",
      "url": "https://www.prnewswire.com/news-releases/xyz-turns-12-celebrating-10-million-domains-and-the-next-generation-building-on-xyz-302788078.html"
+    },
+    {
+     "title": "abtdomain.com",
+     "url": "https://abtdomain.com/periodic-reports/2026-11/domain-intelligence-weekly-2026-11-03/"
+    },
+    {
+     "title": "abtdomain.com",
+     "url": "https://abtdomain.com/periodic-reports/2026-10/domain-intelligence-weekly-2026-10-13/"
     }
    ],
    "timeline": [
@@ -11300,6 +12973,10 @@
     {
      "date": "2026-11-03",
      "text": "104,155 views, a new window high; still no edit, news or talk trigger."
+    },
+    {
+     "date": "2026-11-04",
+     "text": "254,329 views, 6.7 times baseline and a new window high; still no news, edit or talk trigger found"
     }
    ],
    "charted": [
@@ -11316,6 +12993,13 @@
      "views": 104155,
      "confidence": "lo",
      "anchor": "a17"
+    },
+    {
+     "date": "2026-11-04",
+     "rank": 17,
+     "views": 254329,
+     "confidence": "lo",
+     "anchor": "a14"
     }
    ]
   },
