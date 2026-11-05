@@ -53,6 +53,9 @@ ABOUT_PAGE = '''<!doctype html>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Lexend:wght@500;700&display=swap">
 <link rel="stylesheet" href="assets/style.css?v=@@VER@@">
 <script src="assets/theme.js?v=20261103c"></script>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 </head><body>
 <nav class="daynav" aria-label="Site" style="margin-bottom:24px"><div class="dn-row"><a class="dn-btn" href="index.html"><span aria-hidden="true">←</span> Latest</a><span class="dn-btn latest">About this content</span><a class="dn-btn" href="storylines.html">Storylines</a></div></nav>
 <div class="wrap">
