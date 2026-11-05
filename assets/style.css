@@ -575,3 +575,10 @@ button.mpc-zoom[aria-pressed="true"] { background: var(--accent); color: var(--a
   table.glance td:nth-child(2) { min-width: 0; overflow-wrap: anywhere; }
   table.glance td, table.glance th { padding-left: 10px; padding-right: 10px; }
 }
+
+/* Numbered news sources (5th Nov 2026): a news line that starts with a source link is a numbered, clickable source */
+.blk.news ul { counter-reset: src; }
+.blk.news li.src { counter-increment: src; position: relative; list-style: none; padding-left: 2.1rem; margin: 6px 0; }
+.blk.news li.src::before { content: counter(src); position: absolute; left: 0; top: .12em; width: 1.5rem; height: 1.5rem; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: .8rem; font-weight: 800; line-height: 1; color: var(--surface); background: var(--c); }
+.blk.news li.src > a:first-child { font-weight: 700; }
+.blk.news li.kv { margin-top: 6px; }
