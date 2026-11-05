@@ -527,12 +527,51 @@ button.collapse-end > span { font-size: .7em; }
 /* Main Page views chart (tool/mainpage_chart.py writes the figure, assets/page.js draws it) */
 figure.mpchart { margin: 14px 0 0; padding: 12px 0 0; border-top: 1px solid var(--line); }
 figure.mpchart figcaption { font-family: var(--font-head); font-weight: 700; font-size: .95rem; margin-bottom: 4px; }
-.mpc-plot { width: 100%; min-height: 170px; }
-.mpc-svg { display: block; max-width: 100%; overflow: visible; font-family: var(--font-body); }
+.mpc-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; margin: 2px 0 6px; }
+button.mpc-zoom { font-size: .85rem; min-height: 36px; padding: 2px 12px; border-width: 1.5px; }
+button.mpc-zoom[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); }
+.mpc-hint { font-size: .85rem; color: var(--muted); }
+.mpc-plot { position: relative; width: 100%; min-height: 200px; }
+.mpc-svg { display: block; max-width: 100%; overflow: visible; font-family: var(--font-body); touch-action: pan-y; -webkit-tap-highlight-color: transparent; }
+.mpc-svg:focus { outline: none; }
+.mpc-svg:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
 .mpc-grid { stroke: var(--line); stroke-width: 1; }
+.mpc-xtick { stroke: var(--muted); stroke-width: 1; }
 .mpc-tick { fill: var(--muted); font-size: 12px; }
+.mpc-dow { font-size: 11px; }
+.mpc-wkend { fill: color-mix(in srgb, var(--muted) 14%, transparent); }
 .mpc-line { fill: none; stroke: var(--accent); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
 .mpc-area { fill: color-mix(in srgb, var(--accent) 12%, transparent); stroke: none; }
 .mpc-dot { fill: var(--surface); stroke: var(--accent); stroke-width: 2; }
 .mpc-dot.last { fill: var(--accent); }
 .mpc-val { fill: var(--fg); font-size: 13px; font-weight: 700; }
+.mpc-cross { stroke: var(--fg); stroke-width: 1; stroke-dasharray: 3 3; }
+.mpc-sel { fill: none; stroke: var(--fg); stroke-width: 2; }
+.mpc-hit { fill: transparent; cursor: crosshair; }
+.mpc-tip { display: none; position: absolute; z-index: 2; pointer-events: none; background: var(--surface); color: var(--fg); border: 1.5px solid var(--fg); border-radius: 8px; padding: 6px 10px; font-size: .9rem; line-height: 1.35; white-space: nowrap; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
+.mpc-tip strong, .mpc-tip span { display: block; }
+.mpc-tipchg { color: var(--muted); font-size: .85rem; }
+
+/* At a glance list between phone and wide-desktop layouts: the reason gets the full row width */
+@media (min-width: 641px) and (max-width: 899px) {
+  table.glance thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table.glance, table.glance tbody { display: block; }
+  table.glance tr { display: grid; grid-template-columns: 2.6rem minmax(0, 1fr) auto auto; column-gap: 12px; row-gap: 3px; padding: 10px 14px; align-items: baseline; border-bottom: 1px solid var(--line); }
+  table.glance td { display: block; padding: 0; border: 0; }
+  table.glance td::before { display: none; }
+  table.glance td:nth-child(1) { grid-column: 1; grid-row: 1; text-align: right; color: var(--accent); }
+  table.glance td:nth-child(2) { grid-column: 2; grid-row: 1; min-width: 0; overflow-wrap: anywhere; }
+  table.glance td:nth-child(3) { grid-column: 3; grid-row: 1; }
+  table.glance td:nth-child(4) { grid-column: 4; grid-row: 1; }
+  table.glance td:nth-child(5) { grid-column: 2 / -1; grid-row: 2; font-size: .95rem; }
+}
+/* Wide tablet and small laptop (about 900px to 999px): fixed columns so the reason column gets the spare room */
+@media (min-width: 900px) and (max-width: 999px) {
+  table.glance { table-layout: fixed; }
+  table.glance th:nth-child(1) { width: 3.6rem; }
+  table.glance th:nth-child(2) { width: 22%; }
+  table.glance th:nth-child(3) { width: 8.5rem; }
+  table.glance th:nth-child(4) { width: 6.6rem; }
+  table.glance td:nth-child(2) { min-width: 0; overflow-wrap: anywhere; }
+  table.glance td, table.glance th { padding-left: 10px; padding-right: 10px; }
+}

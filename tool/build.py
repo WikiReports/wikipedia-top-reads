@@ -301,8 +301,8 @@ page = '''<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wikipedia Top Reads: @@DS@@</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Lexend:wght@500;700&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=20261103c">
-<script src="assets/theme.js?v=20261103c"></script>
+<link rel="stylesheet" href="assets/style.css?v=20261104a">
+<script src="assets/theme.js?v=20261104a"></script>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon.ico" sizes="48x48">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -358,7 +358,7 @@ page = '''<!doctype html>
 </div>
 <script src="assets/days.js"></script>
 <script src="assets/nav.js"></script>
-<script src="assets/page.js?v=20261103c"></script>
+<script src="assets/page.js?v=20261104a"></script>
 </body></html>
 ''' % (DATE_ISO, gen_html, banner_html, jump, g_first, g_lead, gt, g_note, EXPANDED_INTRO, CNT['hi'], CNT['md'], CNT['lo'], arts_html,
        method, sources, ('<details class="ref"><summary><h2>Hidden pages</h2></summary><div class="refbody">%s</div></details>' % hidden) if hidden else '<p class="note">This earlier report did not include a list of hidden pages.</p>')

@@ -90,65 +90,186 @@
 })();
 
 /* Main Page views chart: draws the data in <figure class="mpchart" data-series="YYYY-MM-DD:views;..."> as an SVG at the real width
-   of the screen (tool/mainpage_chart.py writes the figure; the colors come from the page's theme variables). */
+   of the screen (tool/mainpage_chart.py writes the figure; the colors come from the page's theme variables).
+   Reading a day: hover, tap or drag on the chart, or focus it and use the arrow keys, Home, End and Escape. Weekends are shaded,
+   every day has a tick, and a button switches the axis between "from 0" and "zoom to the range". */
 (function () {
   var figs = document.querySelectorAll('figure.mpchart');
   if (!figs.length) { return; }
   var NS = 'http://www.w3.org/2000/svg';
   var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var DOW = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   function ord(n) { var t = n % 100; return n + ((t >= 11 && t <= 13) ? 'th' : ({ 1: 'st', 2: 'nd', 3: 'rd' }[n % 10] || 'th')); }
   function lab(iso) { return ord(parseInt(iso.slice(8, 10), 10)) + ' ' + MON[parseInt(iso.slice(5, 7), 10) - 1]; }
+  function dow(iso) { return new Date(Date.UTC(+iso.slice(0, 4), +iso.slice(5, 7) - 1, +iso.slice(8, 10))).getUTCDay(); }
   function el(name, attrs, text) {
     var e = document.createElementNS(NS, name);
     for (var k in attrs) { if (attrs.hasOwnProperty(k)) { e.setAttribute(k, attrs[k]); } }
     if (text != null) { e.textContent = text; }
     return e;
   }
-  function fmtM(v) { var m = v / 1e6; return (m % 1 === 0 ? m.toFixed(0) : m.toFixed(1)) + 'M'; }
-  function niceStep(max) {
-    var steps = [0.5, 1, 2, 2.5, 5, 10, 20, 50], i;
-    for (i = 0; i < steps.length; i++) { if (max / (steps[i] * 1e6) <= 4) { return steps[i] * 1e6; } }
+  function html(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) { e.className = cls; }
+    if (text != null) { e.textContent = text; }
+    return e;
+  }
+  function fmtM(v, step) {
+    var m = v / 1e6, dec = (step % 1e6 === 0) ? 0 : ((step % 1e5 === 0) ? 1 : 2);
+    return m.toFixed(dec) + 'M';
+  }
+  function niceStep(range) {
+    var steps = [0.05, 0.1, 0.2, 0.25, 0.5, 1, 2, 2.5, 5, 10, 20, 50], i;
+    for (i = 0; i < steps.length; i++) { if (range / (steps[i] * 1e6) <= 5) { return Math.round(steps[i] * 1e6); } }
     return 50e6;
   }
-  function draw(fig) {
+  function pct(a, b) {
+    var d = (a - b) / b * 100;
+    return (d >= 0 ? '+' : '−') + Math.abs(d).toFixed(1) + '%';
+  }
+  var state = [];
+  function draw(fig, st) {
     var host = fig.querySelector('.mpc-plot');
+    var pts = st.pts;
+    if (!host || pts.length < 2) { return; }
+    var n = pts.length;
+    var W = Math.max(host.clientWidth, 260), H = W < 520 ? 200 : (W > 900 ? 290 : 250);
+    var L = 52, R = 46, T = 14, B = 42;
+    var vals = pts.map(function (p) { return p.v; });
+    var max = Math.max.apply(null, vals), min = Math.min.apply(null, vals);
+    var lo = 0, hi, step;
+    if (st.fit) {
+      step = niceStep(max - min);
+      lo = Math.floor(min / step) * step; hi = Math.ceil(max / step) * step;
+      if (hi === lo) { hi = lo + step; }
+    } else {
+      step = niceStep(max); hi = Math.ceil(max / step) * step;
+    }
+    var dx = (W - L - R) / (n - 1);
+    var x = function (i) { return L + dx * i; };
+    var y = function (v) { return T + (H - T - B) * (1 - (v - lo) / (hi - lo)); };
+    var svg = el('svg', { width: W, height: H, viewBox: '0 0 ' + W + ' ' + H, 'class': 'mpc-svg', role: 'group', tabindex: '0',
+      'aria-label': 'Main Page views per day. Use the left and right arrow keys to read each day.' });
+    var i, k, cnt = Math.round((hi - lo) / step);
+    pts.forEach(function (p, j) {
+      var w = dow(p.d);
+      if (w === 0 || w === 6) {
+        var x0 = Math.max(L, x(j) - dx / 2), x1 = Math.min(W - R, x(j) + dx / 2);
+        svg.appendChild(el('rect', { x: x0, y: T, width: x1 - x0, height: H - T - B, 'class': 'mpc-wkend' }));
+      }
+    });
+    for (k = 0; k <= cnt; k++) {
+      var t = lo + k * step;
+      svg.appendChild(el('line', { x1: L, x2: W - R, y1: y(t), y2: y(t), 'class': 'mpc-grid' }));
+      svg.appendChild(el('text', { x: L - 8, y: y(t) + 4, 'text-anchor': 'end', 'class': 'mpc-tick' }, (t === 0 && !st.fit) ? '0' : fmtM(t, step)));
+    }
+    var every = Math.max(1, Math.ceil(58 / dx));
+    pts.forEach(function (p, j) {
+      svg.appendChild(el('line', { x1: x(j), x2: x(j), y1: H - B, y2: H - B + 4, 'class': 'mpc-xtick' }));
+      if ((n - 1 - j) % every === 0) {
+        var anchor = 'middle';
+        svg.appendChild(el('text', { x: x(j), y: H - B + 18, 'text-anchor': anchor, 'class': 'mpc-tick' }, lab(p.d)));
+        svg.appendChild(el('text', { x: x(j), y: H - B + 33, 'text-anchor': anchor, 'class': 'mpc-tick mpc-dow' }, DOW[dow(p.d)].slice(0, 3)));
+      }
+    });
+    var line = pts.map(function (p, j) { return (j ? 'L' : 'M') + x(j).toFixed(1) + ' ' + y(p.v).toFixed(1); }).join(' ');
+    svg.appendChild(el('path', { d: line + ' L' + x(n - 1).toFixed(1) + ' ' + y(lo) + ' L' + x(0).toFixed(1) + ' ' + y(lo) + ' Z', 'class': 'mpc-area' }));
+    svg.appendChild(el('path', { d: line, 'class': 'mpc-line' }));
+    var cross = el('line', { x1: 0, x2: 0, y1: T, y2: H - B, 'class': 'mpc-cross', visibility: 'hidden' });
+    svg.appendChild(cross);
+    pts.forEach(function (p, j) {
+      svg.appendChild(el('circle', { cx: x(j), cy: y(p.v), r: j === n - 1 ? 5 : 3, 'class': j === n - 1 ? 'mpc-dot last' : 'mpc-dot' }));
+    });
+    var halo = el('circle', { cx: 0, cy: 0, r: 7.5, 'class': 'mpc-sel', visibility: 'hidden' });
+    svg.appendChild(halo);
+    var lastP = pts[n - 1];
+    var lastLab = el('text', { x: x(n - 1) + 9, y: y(lastP.v) + 4, 'class': 'mpc-val' }, fmtM(lastP.v, 1e5));
+    svg.appendChild(lastLab);
+    var hit = el('rect', { x: L - dx / 2, y: T, width: W - L - R + dx, height: H - T - B, 'class': 'mpc-hit' });
+    svg.appendChild(hit);
+
+    host.textContent = '';
+    host.appendChild(svg);
+    var tip = html('div', 'mpc-tip');
+    tip.setAttribute('aria-hidden', 'true');
+    var tDay = html('strong'), tViews = html('span'), tChg = html('span', 'mpc-tipchg');
+    tip.appendChild(tDay); tip.appendChild(tViews); tip.appendChild(tChg);
+    host.appendChild(tip);
+    var live = html('div', 'sr');
+    live.setAttribute('aria-live', 'polite');
+    host.appendChild(live);
+
+    function show(j, speak) {
+      j = Math.max(0, Math.min(n - 1, j));
+      st.sel = j;
+      var p = pts[j];
+      cross.setAttribute('x1', x(j)); cross.setAttribute('x2', x(j)); cross.setAttribute('visibility', 'visible');
+      halo.setAttribute('cx', x(j)); halo.setAttribute('cy', y(p.v)); halo.setAttribute('visibility', 'visible');
+      lastLab.setAttribute('visibility', j === n - 1 ? 'visible' : 'hidden');
+      tDay.textContent = DOW[dow(p.d)] + ' ' + lab(p.d);
+      tViews.textContent = p.v.toLocaleString('en-US') + ' views';
+      tChg.textContent = j ? pct(p.v, pts[j - 1].v) + ' vs ' + lab(pts[j - 1].d) : 'First day shown';
+      tip.style.display = 'block';
+      var tw = tip.offsetWidth, th = tip.offsetHeight;
+      var left = Math.min(Math.max(x(j) - tw / 2, 0), W - tw);
+      var top = y(p.v) - th - 14;
+      if (top < 0) { top = y(p.v) + 16; }
+      if (top + th > H - B) { top = Math.max(0, H - B - th); }
+      tip.style.left = left + 'px'; tip.style.top = top + 'px';
+      if (speak) { live.textContent = tDay.textContent + ': ' + tViews.textContent + ', ' + tChg.textContent; }
+    }
+    function clear() {
+      st.sel = null;
+      cross.setAttribute('visibility', 'hidden'); halo.setAttribute('visibility', 'hidden');
+      lastLab.setAttribute('visibility', 'visible');
+      tip.style.display = 'none';
+    }
+    function idxAt(e) {
+      var r = svg.getBoundingClientRect();
+      var px = (e.clientX - r.left) * (W / (r.width || W));
+      return Math.round((px - L) / dx);
+    }
+    hit.addEventListener('pointermove', function (e) { show(idxAt(e), false); });
+    hit.addEventListener('pointerdown', function (e) { show(idxAt(e), true); });
+    hit.addEventListener('pointerleave', function (e) { if (e.pointerType === 'mouse' && document.activeElement !== svg) { clear(); } });
+    svg.addEventListener('focus', function () { if (st.sel == null) { show(n - 1, true); } });
+    svg.addEventListener('blur', function () { clear(); });
+    svg.addEventListener('keydown', function (e) {
+      var j = st.sel == null ? n - 1 : st.sel, key = e.key;
+      if (key === 'ArrowLeft') { j -= 1; } else if (key === 'ArrowRight') { j += 1; }
+      else if (key === 'Home') { j = 0; } else if (key === 'End') { j = n - 1; }
+      else if (key === 'Escape') { clear(); return; } else { return; }
+      e.preventDefault();
+      show(j, true);
+    });
+    if (st.sel != null) { show(st.sel, false); }
+  }
+  function setup(fig) {
     var pts = (fig.getAttribute('data-series') || '').split(';').map(function (s) {
       var p = s.split(':'); return { d: p[0], v: parseInt(p[1], 10) };
     }).filter(function (p) { return p.d && p.v > 0; });
+    var host = fig.querySelector('.mpc-plot');
     if (!host || pts.length < 2) { return; }
-    var W = Math.max(host.clientWidth, 260), H = W < 520 ? 170 : 220;
-    var L = 40, R = 46, T = 14, B = 28;
-    var max = Math.max.apply(null, pts.map(function (p) { return p.v; }));
-    var step = niceStep(max), top = Math.ceil(max / step) * step;
-    var x = function (i) { return L + (W - L - R) * i / (pts.length - 1); };
-    var y = function (v) { return T + (H - T - B) * (1 - v / top); };
-    var svg = el('svg', { width: W, height: H, viewBox: '0 0 ' + W + ' ' + H, 'class': 'mpc-svg' });
-    var t;
-    for (t = 0; t <= top + 1; t += step) {
-      svg.appendChild(el('line', { x1: L, x2: W - R, y1: y(t), y2: y(t), 'class': 'mpc-grid' }));
-      svg.appendChild(el('text', { x: L - 6, y: y(t) + 4, 'text-anchor': 'end', 'class': 'mpc-tick' }, t === 0 ? '0' : fmtM(t)));
-    }
-    var every = Math.max(1, Math.ceil(pts.length / Math.max(2, Math.floor((W - L - R) / 62))));
-    pts.forEach(function (p, i) {
-      if ((pts.length - 1 - i) % every === 0) {
-        svg.appendChild(el('text', { x: x(i), y: H - 8, 'text-anchor': i === 0 ? 'start' : (i === pts.length - 1 ? 'end' : 'middle'), 'class': 'mpc-tick' }, lab(p.d)));
-      }
+    host.removeAttribute('aria-hidden');
+    var st = { pts: pts, fit: false, sel: null };
+    var bar = html('div', 'mpc-bar');
+    var btn = html('button', 'mpc-zoom', 'Zoom to range');
+    btn.type = 'button';
+    btn.setAttribute('aria-pressed', 'false');
+    btn.addEventListener('click', function () {
+      st.fit = !st.fit;
+      btn.setAttribute('aria-pressed', st.fit ? 'true' : 'false');
+      btn.textContent = st.fit ? 'Start axis at 0' : 'Zoom to range';
+      draw(fig, st);
     });
-    var line = pts.map(function (p, i) { return (i ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(p.v).toFixed(1); }).join(' ');
-    svg.appendChild(el('path', { d: line + ' L' + x(pts.length - 1).toFixed(1) + ' ' + y(0) + ' L' + x(0).toFixed(1) + ' ' + y(0) + ' Z', 'class': 'mpc-area' }));
-    svg.appendChild(el('path', { d: line, 'class': 'mpc-line' }));
-    pts.forEach(function (p, i) {
-      var c = el('circle', { cx: x(i), cy: y(p.v), r: i === pts.length - 1 ? 5 : 3.5, 'class': i === pts.length - 1 ? 'mpc-dot last' : 'mpc-dot' });
-      c.appendChild(el('title', {}, lab(p.d) + ': ' + p.v.toLocaleString('en-US') + ' views'));
-      svg.appendChild(c);
-    });
-    var last = pts[pts.length - 1];
-    svg.appendChild(el('text', { x: x(pts.length - 1) + 9, y: y(last.v) + 4, 'class': 'mpc-val' }, fmtM(last.v)));
-    host.textContent = '';
-    host.appendChild(svg);
+    bar.appendChild(btn);
+    bar.appendChild(html('span', 'mpc-hint', 'Hover, tap or use the arrow keys to read a day. Shaded columns are weekends.'));
+    host.parentNode.insertBefore(bar, host);
+    state.push({ fig: fig, st: st });
+    draw(fig, st);
   }
-  function all() { Array.prototype.forEach.call(figs, draw); }
-  all();
+  Array.prototype.forEach.call(figs, setup);
+  function all() { state.forEach(function (s) { draw(s.fig, s.st); }); }
   var w = window.innerWidth, timer = null;
   window.addEventListener('resize', function () {
     if (window.innerWidth === w) { return; }
