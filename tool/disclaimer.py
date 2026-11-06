@@ -15,7 +15,7 @@ import re
 import sys
 
 ABOUT = 'about.html'
-VER = '20261104b'
+VER = '20261105e'
 
 TEXT = {
     'report': 'This report is generated using Claude (AI). Do not trust summaries. Confirm and verify sources independently.',
@@ -52,7 +52,7 @@ ABOUT_PAGE = '''<!doctype html>
 <title>Wikipedia Top Reads: About this content</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Lexend:wght@500;700&display=swap">
 <link rel="stylesheet" href="assets/style.css?v=@@VER@@">
-<script src="assets/theme.js?v=20261104b"></script>
+<script src="assets/theme.js?v=20261105e"></script>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon.ico" sizes="48x48">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">

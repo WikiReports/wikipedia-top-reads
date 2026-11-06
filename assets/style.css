@@ -582,3 +582,133 @@ button.mpc-zoom[aria-pressed="true"] { background: var(--accent); color: var(--a
 .blk.news li.src::before { content: counter(src); position: absolute; left: 0; top: .12em; width: 1.5rem; height: 1.5rem; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: .8rem; font-weight: 800; line-height: 1; color: var(--surface); background: var(--c); }
 .blk.news li.src > a:first-child { font-weight: 700; }
 .blk.news li.kv { margin-top: 6px; }
+
+/* Back-to-top button (sits above the Display button; arrow only) */
+.to-top { position: fixed; right: max(16px, env(safe-area-inset-right, 0px)); bottom: calc(max(16px, env(safe-area-inset-bottom, 0px)) + 54px); z-index: 999; display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; padding: 0; color: var(--accent); background: var(--surface); border: 2px solid var(--accent); border-radius: 999px; box-shadow: 0 4px 16px rgba(0,0,0,.22); cursor: pointer; }
+.to-top[hidden] { display: none; }
+.to-top:hover { background: var(--surface-2); color: var(--accent); }
+.to-top:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
+@media print { .to-top { display: none; } }
+
+/* Breakdown: article names as small bubbles */
+.gnames { display: flex; flex-wrap: wrap; gap: 4px 5px; }
+.chip.nm { display: inline-flex; align-items: center; padding: 0 8px; font-size: .78rem; font-weight: 600; line-height: 1.5; white-space: normal; text-decoration: none; color: var(--accent); background: var(--surface-2); border: 1px solid var(--line); }
+.chip.nm:hover { text-decoration: underline; border-color: var(--accent); }
+.chip.nm:focus-visible { outline: 3px solid var(--fg); outline-offset: 1px; }
+table.gsumt td.arts { padding-top: 4px; }
+@media (min-width: 1000px) {
+  table.gsumt tr td.arts { padding: 6px 12px 0; }
+}
+
+/* ===== 5th Nov 2026 (later): linked articles, report-order numbers in At a glance, date bar links, chart ranges ===== */
+
+/* Linked articles: chip in the article header and in the At a glance row (tool/storylines.py build adds them from the
+   linked-storyline groups in data/storylines.json), and a "Linked articles" card in the opened article. */
+.chip.lk { gap: 4px; color: light-dark(hsl(40 85% 22%), hsl(45 90% 72%)); background: light-dark(hsl(45 90% 90%), hsl(42 45% 18%)); border-color: light-dark(hsl(42 70% 62%), hsl(42 45% 38%)); text-decoration: none; }
+.chip.lk svg { flex: none; }
+.chip.lk b { font-weight: 800; }
+a.chip.lk { margin-left: 6px; padding: 0 8px; font-size: .78rem; vertical-align: .08em; }
+a.chip.lk:hover { border-color: currentColor; background: light-dark(hsl(45 90% 84%), hsl(42 45% 24%)); }
+a.chip.lk:focus-visible { outline: 3px solid var(--fg); outline-offset: 1px; }
+.blk.linked { --c: light-dark(hsl(40 85% 26%), hsl(45 90% 70%)); grid-column: 1 / -1; }
+.blk.linked .lk-intro { margin: 0 0 6px; color: var(--muted); font-size: .9rem; }
+.blk.linked ul { list-style: none; margin: 0; padding: 0; }
+.blk.linked .lkgroups { display: flex; flex-direction: column; gap: 8px; }
+.blk.linked .lkt { font-weight: 700; color: var(--fg); }
+.blk.linked .lkg > ul { display: flex; flex-wrap: wrap; gap: 6px 8px; margin-top: 6px; }
+.blk.linked .lkg li { display: inline-flex; align-items: baseline; gap: 6px; padding: 3px 10px 3px 4px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); font-size: .9rem; }
+.blk.linked .lkg li.lk-out { padding-left: 10px; border-style: dashed; }
+.blk.linked .lkg li a { font-weight: 700; text-decoration: none; display: inline-flex; align-items: baseline; gap: 6px; }
+.blk.linked .lkg li a:hover { text-decoration: underline; }
+.blk.linked .lkn { display: inline-flex; align-items: center; justify-content: center; min-width: 1.6em; height: 1.5em; padding: 0 4px; border: 1.5px solid var(--c); border-radius: 6px; color: var(--c); font: 700 .78rem/1 var(--font-head); }
+.blk.linked .lkr { color: var(--muted); font-size: .82rem; }
+
+/* At a glance: the position in this report (1, 2, 3 ...) in an outlined box before the Wikipedia rank, as in the article header */
+table.glance tbody { counter-reset: gn; }
+table.glance tbody tr { counter-increment: gn; }
+table.glance td[data-label="Rank"] { white-space: nowrap; }
+table.glance td[data-label="Rank"] b::before { content: counter(gn); display: inline-flex; align-items: center; justify-content: center; min-width: 1.7em; height: 1.55em; padding: 0 3px; margin-right: 6px; border: 1.5px solid var(--accent); border-radius: 6px; color: var(--accent); font: 700 .78rem/1 var(--font-head); vertical-align: .12em; }
+@media (max-width: 640px) { table.glance tr { grid-template-columns: auto minmax(0, 1fr) auto; } }
+@media (min-width: 641px) and (max-width: 899px) { table.glance tr { grid-template-columns: auto minmax(0, 1fr) auto auto; } }
+@media (min-width: 900px) and (max-width: 999px) { table.glance th:nth-child(1) { width: 5.6rem; } }
+@media (min-width: 1000px) { table.glance tbody tr { grid-template-columns: auto minmax(0, 1fr) auto auto; } }
+
+/* Date bar: Storylines and All reports as quiet buttons that match the Older / Latest / Newer row */
+.daynav { row-gap: 8px; }
+.dn-extra { margin: 0; display: flex; }
+.dn-link, .dn-all > summary { display: inline-flex; align-items: center; gap: 8px; min-height: 38px; padding: 4px 14px; border: 1.5px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--fg); font-family: var(--font-head); font-weight: 700; font-size: .92rem; text-decoration: none; cursor: pointer; list-style: none; box-sizing: border-box; }
+.dn-link > span[aria-hidden], .dn-all > summary::after { color: var(--accent); }
+.dn-link:hover, .dn-all > summary:hover { border-color: var(--accent); color: var(--accent); background: var(--surface); }
+.dn-link:focus-visible, .dn-all > summary:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
+.dn-all > summary::-webkit-details-marker { display: none; }
+.dn-all > summary::marker { content: ""; }
+.dn-all > summary::after { content: "\25BE"; font-size: 1.05em; line-height: 1; transition: transform .15s; }
+.dn-all[open] > summary { border-color: var(--accent); }
+.dn-all[open] > summary::after { transform: rotate(180deg); }
+.daynav { position: relative; }
+.dn-all, .dn-all[open] { flex: 0 1 auto; position: static; }
+.dn-all ol { position: absolute; left: 0; right: 0; top: 100%; z-index: 30; box-shadow: 0 10px 28px rgba(0,0,0,.18); max-height: min(60vh, 26rem); overflow-y: auto; list-style: none; margin: 6px 0 0; padding: 8px; display: grid; grid-template-columns: repeat(auto-fill, minmax(12.5rem, 1fr)); gap: 2px 10px; background: var(--surface); border: 1.5px solid var(--line); border-radius: 10px; }
+.dn-all li { padding: 0; }
+.dn-all li > a, .dn-all li > span { display: block; padding: 6px 10px; border-radius: 6px; text-decoration: none; }
+.dn-all li > a:hover { background: var(--surface-2); text-decoration: underline; }
+.dn-all li > span[aria-current] { font-weight: 700; color: var(--accent); background: var(--surface-2); }
+@media (max-width: 640px) { .dn-link, .dn-all > summary { min-height: 36px; padding: 4px 12px; font-size: .9rem; } }
+
+/* Main Page chart: range buttons (days from the report, months and year to date loaded live), total line */
+.mpc-ranges { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin: 6px 0 4px; }
+.mpc-lbl { font-size: .78rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.mpc-lbl + .mpc-seg { margin-right: 8px; }
+.mpc-seg { display: inline-flex; border: 1.5px solid var(--line); border-radius: 999px; overflow: hidden; background: var(--surface); }
+button.mpc-r { min-height: 34px; min-width: 2.8rem; padding: 2px 12px; border: 0; border-radius: 0; background: transparent; color: var(--fg); font: 700 .85rem/1 var(--font-head); cursor: pointer; }
+button.mpc-r + button.mpc-r { border-left: 1px solid var(--line); }
+button.mpc-r:hover { background: var(--surface-2); color: var(--fg); }
+button.mpc-r[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); }
+button.mpc-r:disabled { opacity: .55; cursor: progress; }
+button.mpc-r:focus-visible { outline: 3px solid var(--fg); outline-offset: -3px; }
+.mpc-sum { margin: 4px 0 0; font-size: .92rem; max-width: none; }
+.mpc-sum strong { font-family: var(--font-head); }
+.mpc-note { margin: 2px 0 0; font-size: .85rem; color: var(--muted); max-width: none; }
+.mpc-note:empty { display: none; }
+.mpc-mline { stroke: var(--line); stroke-width: 1; }
+.mpc-svg.dense .mpc-line { stroke-width: 1.8; }
+.mpc-sub { color: var(--muted); }
+
+/* Breakdown: group label and count on one line, the article bubbles underneath, no column headers (all widths) */
+table.gsumt thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+table.gsumt tbody th small { display: inline; margin: 0 0 0 8px; vertical-align: middle; }
+@media (max-width: 999px) {
+  table.gsumt, table.gsumt tbody { display: block; }
+  table.gsumt caption { display: block; }
+  table.gsumt tbody tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; padding: 10px 0 12px; border-bottom: 1px solid var(--line); }
+  table.gsumt tbody th { display: block; width: auto; border: 0; padding: 0 14px; }
+  table.gsumt tr td.num { grid-column: 2; grid-row: 1; width: auto; border: 0; padding: 0 16px; font-size: 1.25rem; }
+  table.gsumt tr td.arts { grid-column: 1 / -1; border: 0; padding: 8px 14px 0; }
+  table.gsumt tbody tr.sep { display: block; padding: 0; }
+  table.gsumt tbody tr.sep th { padding: 6px 14px; }
+}
+@media (min-width: 1000px) { table.gsumt tbody tr { align-items: center; } table.gsumt tr td.arts { align-self: start; } }
+
+/* Breakdown: High confidence names behind a "Show N names" button */
+details.gexp > summary { display: inline-flex; align-items: center; gap: 6px; min-height: 32px; padding: 2px 12px; border: 1.5px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--accent); font: 700 .85rem/1.2 var(--font-head); cursor: pointer; list-style: none; }
+details.gexp > summary::-webkit-details-marker { display: none; }
+details.gexp > summary::marker { content: ""; }
+details.gexp > summary::before { content: "\25B8"; transition: transform .15s; }
+details.gexp[open] > summary::before { transform: rotate(90deg); }
+details.gexp > summary:hover { border-color: var(--accent); }
+details.gexp > summary:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
+details.gexp .gx-hide, details.gexp[open] .gx-show { display: none; }
+details.gexp[open] .gx-hide { display: inline; }
+details.gexp > .gnames { margin-top: 8px; }
+
+/* Paper background (Display, then Background, then Paper): a cream paper look with a faint grain, independent of the colour
+   theme (which keeps its accent) and following Mode: light paper, dark paper, or the device setting for Auto.
+   theme.js sets data-paper="on" on <html>. These rules sit after the theme rules on purpose so they win. */
+:root[data-paper="on"] { --bg: #EFE3C8; --surface: #F7EEDB; --surface-2: #E6D6B4; --line: #CDB78C; --fg: #2A2216; --muted: #5A4C34; --paper-tex: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .36 0 0 0 0 .27 0 0 0 0 .14 0 0 0 .11 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+@media (prefers-color-scheme: dark) {
+  :root[data-paper="on"]:not([data-theme="light"]) { --bg: #1D1913; --surface: #27211A; --surface-2: #312A21; --line: #4B3F2E; --fg: #EEE3CC; --muted: #BCAD90; --paper-tex: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .93 0 0 0 0 .8 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); color-scheme: dark; }
+}
+:root[data-paper="on"][data-theme="dark"] { --bg: #1D1913; --surface: #27211A; --surface-2: #312A21; --line: #4B3F2E; --fg: #EEE3CC; --muted: #BCAD90; --paper-tex: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .93 0 0 0 0 .8 0 0 0 .05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); color-scheme: dark; }
+:root[data-paper="on"] body,
+:root[data-paper="on"] :is(.banner, .disclaimer, .tblwrap, details.art, .blk, .filter, .jump a, .dn-btn, .dn-link, .dn-all > summary, .dn-all ol, .disp-panel, .disp-btn, .to-top) { background-image: var(--paper-tex); }
+:root[data-paper="on"] body { background-attachment: fixed; }
+.disp-bgs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; }

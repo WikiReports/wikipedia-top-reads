@@ -224,6 +224,85 @@ def card(s, latest, groups):
         E(why), st.lower(), st, E(s.get('type', '')), cchip, format(peak, ','), b)
 
 
+# ---------------------------------------------------------------- linked articles on daily pages
+LINK_SVG = ('<svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" '
+            'stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/>'
+            '<path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/></svg>')
+
+
+def link_daily(h, ids, byid, groups):
+    """Mark the articles of one daily page that belong to a linked-storyline group: a "Linked" chip in the article header
+    and in its At a glance row, and a "Linked articles" block in the opened article. Safe to run again (old marks are
+    replaced). Classes chip lk and blk linked are not read by parse_daily."""
+    h = re.sub(r'<a class="chip lk"[^>]*>.*?</a>|<span class="chip lk"[^>]*>.*?</span>', '', h, flags=re.S)
+    h = re.sub(r'<section class="blk linked">.*?</section>', '', h, flags=re.S)
+    arts = {}
+    for m in re.finditer(r'<details class="art" id="a(\d+)" data-conf="\w+"><summary>(.*?)</summary>', h, re.S):
+        u = re.search(r'<span class="nm"><a href="([^"]+)">(.*?)</a>', m.group(2), re.S)
+        rk = re.search(r'<small>Rank</small>(\w+)', m.group(2))
+        if not u:
+            continue
+        sid = ids.get(canon(html.unescape(u.group(1))))
+        if sid:
+            arts[sid] = dict(n=int(m.group(1)), name=u.group(2), rank=rk.group(1) if rk else '')
+    if not arts:
+        return h
+    marks = {}
+    for sid, a in arts.items():
+        gl = [g for g in groups if sid in g['members']]
+        if not gl:
+            continue
+        inpage, rows, seen = [], [], set()
+        for g in gl:
+            items = []
+            for m in g['_m']:
+                if m['id'] == sid or m['id'] in seen:
+                    continue
+                seen.add(m['id'])
+                o = arts.get(m['id'])
+                if o:
+                    inpage.append(o)
+                    items.append((0, o['n'], '<li class="lk-in"><a href="#a%d"><span class="lkn">%d</span>%s</a> <span class="lkr">rank %s in this report</span></li>' % (o['n'], o['n'], o['name'], E(o['rank']))))
+                else:
+                    items.append((1, 0, '<li class="lk-out"><a href="storylines.html#%s">%s</a> <span class="lkr">not in this report</span></li>' % (m['id'], E(m['title']))))
+            if items:
+                items.sort()
+                rows.append('<li class="lkg"><a class="lkt" href="storylines.html#g-%s">%s</a><ul>%s</ul></li>' % (g['id'], E(g['title']), ''.join(i[2] for i in items)))
+        if not rows:
+            continue
+        inpage.sort(key=lambda o: o['n'])
+        tip = 'Linked to ' + (', '.join(html.unescape(re.sub('<[^>]+>', '', o['name'])) for o in inpage) + ' in this report' if inpage else 'storylines not in this report')
+        marks[a['n']] = dict(count=len(inpage), tip=tip, rows=rows, nall=len(seen))
+    def summary(m):
+        n = int(m.group(1)); k = marks.get(n)
+        if not k:
+            return m.group(0)
+        chip = '<span class="chip lk" title="%s">%s Linked%s</span>' % (E(k['tip'], quote=True), LINK_SVG, (' <b>%d</b>' % k['count']) if k['count'] else '')
+        return re.sub(r'(<span class="chip typ">.*?</span>)', lambda x: x.group(1) + chip, m.group(0), count=1)
+    h = re.sub(r'<details class="art" id="a(\d+)" data-conf="\w+"><summary>.*?</summary>', summary, h, flags=re.S)
+    def body(m):
+        n = int(m.group(1)); k = marks.get(n)
+        if not k:
+            return m.group(0)
+        blk = ('<section class="blk linked"><h4>Linked articles</h4><p class="lk-intro">Part of the same story. Numbers are positions in this report.</p>'
+               '<ul class="lkgroups">%s</ul></section>') % ''.join(k['rows'])
+        b = m.group(0)
+        for anchor in ('<section class="blk views">', '<section class="blk rank">'):
+            if anchor in b:
+                return b.replace(anchor, blk + anchor, 1)
+        return b[:-len('</div></details>')] + blk + '</div></details>'
+    h = re.sub(r'<details class="art" id="a(\d+)".*?</div></details>(?=<details class="art"|\s*</section>)', body, h, flags=re.S)
+    def glance(m):
+        n = int(m.group(2)); k = marks.get(n)
+        if not k:
+            return m.group(0)
+        chip = '<a class="chip lk" href="#a%d" title="%s" aria-label="%s">%s%s</a>' % (
+            n, E(k['tip'], quote=True), E(k['tip'], quote=True), LINK_SVG, (' %d' % k['count']) if k['count'] else '')
+        return m.group(0) + chip
+    h = re.sub(r'(<td data-label="Article"><a href="#a(\d+)">.*?</a></td><td data-label="Type"><span class="chip typ">.*?</span>)', glance, h, flags=re.S)
+    return h
+
+
 def cmd_build():
     d = load()
     S = d['storylines']
@@ -250,8 +329,8 @@ def cmd_build():
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wikipedia Top Reads: Storylines</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Lexend:wght@500;700&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=20261104b">
-<script src="assets/theme.js?v=20261104b"></script>
+<link rel="stylesheet" href="assets/style.css?v=20261105e">
+<script src="assets/theme.js?v=20261105e"></script>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon.ico" sizes="48x48">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -316,6 +395,7 @@ def cmd_build():
             if not sid: return global_blk
             return global_blk[:-len('</div></details>')] + '<p class="sl-link"><a href="storylines.html#%s">Full storyline <span aria-hidden="true">→</span></a></p></div></details>' % sid
         h2 = re.sub(r'<details class="art" id="a\d+".*?</div></details>(?=<details class="art"|\s*</section>)', fix, h, flags=re.S)
+        h2 = link_daily(h2, ids, byid, groups)  # Linked chips and Linked articles block (groups in data/storylines.json)
         if h2 != h:
             open(p, 'w', encoding='utf-8').write(h2); linked += 1
     print('built storylines.html (%d storylines, %d groups); linked %d daily page(s)' % (len(S), len(groups), linked))

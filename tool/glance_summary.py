@@ -31,6 +31,19 @@ def _link(r):
     return '<a href="#a%s">%s</a>' % (r['n'], r['name'])
 
 
+def _names(rows, fold=False):
+    """Names of a group as small bubbles (chips). fold=True puts them behind a "Show N names" button (used for High
+    confidence, which usually holds most of the articles)."""
+    if not rows:
+        return '<td class="arts muted">—</td>'
+    chips = '<div class="gnames">%s</div>' % ''.join(
+        '<a class="chip nm" href="#a%s">%s</a>' % (r['n'], r['name']) for r in rows)
+    if fold:
+        return ('<td class="arts"><details class="gexp"><summary><span class="gx-show">Show %d names</span>'
+                '<span class="gx-hide">Hide names</span></summary>%s</details></td>') % (len(rows), chips)
+    return '<td class="arts">%s</td>' % chips
+
+
 def summary_html(page):
     rows = [m.groupdict() for m in ROW.finditer(page)]
     if not rows:
@@ -51,15 +64,14 @@ def summary_html(page):
         if not by[k]:
             continue
         trs += ('<tr><th scope="row"><span class="chip tag %s">%s</span><small>%s</small></th><td class="num">%d</td>'
-                '<td class="arts">%s</td></tr>') % (k, label, hint, len(by[k]), ' · '.join(_link(r) for r in by[k]))
+                '%s</tr>') % (k, label, hint, len(by[k]), _names(by[k]))
 
     ctr = ''
     for k, label in CONF:
         ctr += ('<tr><th scope="row"><span class="chip conf %s"><span aria-hidden="true">%s</span> %s</span></th>'
-                '<td class="num">%d</td><td class="arts">%s</td></tr>') % (
+                '<td class="num">%d</td>%s</tr>') % (
             k, {'hi': '●', 'md': '◐', 'lo': '○'}[k], label, len(byc[k]),
-            ' · '.join(_link(r) for r in byc[k]))
-    ctr = ctr.replace('<td class="arts"></td>', '<td class="arts muted">—</td>')
+            (_names(byc[k], fold=True) if k == 'hi' else _names(byc[k])))
 
     return (
         '<div class="gsum" role="group" aria-label="Summary of the %d articles">'

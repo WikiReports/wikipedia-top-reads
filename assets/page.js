@@ -9,7 +9,7 @@
     var el = id && document.getElementById(id);
     if (el && el.tagName === 'DETAILS') { el.open = true; }
   };
-  document.querySelectorAll('.jump a, table.glance a').forEach(function (a) {
+  document.querySelectorAll('.jump a, table.glance a, .blk.linked a[href^="#a"]').forEach(function (a) {
     a.addEventListener('click', function () {
       var id = (a.getAttribute('href') || '').slice(1);
       var t = document.getElementById(id);
@@ -91,17 +91,36 @@
 
 /* Main Page views chart: draws the data in <figure class="mpchart" data-series="YYYY-MM-DD:views;..."> as an SVG at the real width
    of the screen (tool/mainpage_chart.py writes the figure; the colors come from the page's theme variables).
-   Reading a day: hover, tap or drag on the chart, or focus it and use the arrow keys, Home, End and Escape. Weekends are shaded,
-   every day has a tick, and a button switches the axis between "from 0" and "zoom to the range". */
+   Range buttons: 7, 14 and 28 days come from the series stored in the page (it ends on the report date). 3, 6 and 12 months
+   and Year to date are loaded once, on demand, from the Wikimedia pageviews REST API (Main_Page, all-access, user), always
+   ending on the report date; if that fails, data/mainpage-daily.json (same site, {"YYYY-MM-DD": views}) is tried, and
+   otherwise the stored days stay on screen with a note. A line under the buttons gives the total and daily average.
+   Reading a day: hover, tap or drag on the chart, or focus it and use the arrow keys, Home, End and Escape. Short ranges
+   shade weekends and tick every day; long ranges tick each month. A button switches the axis between "from 0" and the range. */
 (function () {
   var figs = document.querySelectorAll('figure.mpchart');
   if (!figs.length) { return; }
   var NS = 'http://www.w3.org/2000/svg';
   var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   var DOW = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  var RANGES = [
+    ['d7', '7 days', 7], ['d14', '14 days', 14], ['d28', '28 days', 28],
+    ['m3', '3 months', 3], ['m6', '6 months', 6], ['m12', '12 months', 12], ['ytd', 'Year to date', 0]
+  ];
+  var API = 'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Main_Page/daily/';
   function ord(n) { var t = n % 100; return n + ((t >= 11 && t <= 13) ? 'th' : ({ 1: 'st', 2: 'nd', 3: 'rd' }[n % 10] || 'th')); }
-  function lab(iso) { return ord(parseInt(iso.slice(8, 10), 10)) + ' ' + MON[parseInt(iso.slice(5, 7), 10) - 1]; }
-  function dow(iso) { return new Date(Date.UTC(+iso.slice(0, 4), +iso.slice(5, 7) - 1, +iso.slice(8, 10))).getUTCDay(); }
+  function lab(iso, yr) { return ord(parseInt(iso.slice(8, 10), 10)) + ' ' + MON[parseInt(iso.slice(5, 7), 10) - 1] + (yr ? ' ' + iso.slice(0, 4) : ''); }
+  function toDate(iso) { return new Date(Date.UTC(+iso.slice(0, 4), +iso.slice(5, 7) - 1, +iso.slice(8, 10))); }
+  function iso(d) { return d.toISOString().slice(0, 10); }
+  function dow(s) { return toDate(s).getUTCDay(); }
+  function addDays(s, n) { var d = toDate(s); d.setUTCDate(d.getUTCDate() + n); return iso(d); }
+  function addMonths(s, n) {
+    var d = toDate(s), day = d.getUTCDate();
+    d.setUTCDate(1); d.setUTCMonth(d.getUTCMonth() + n);
+    var last = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth() + 1, 0)).getUTCDate();
+    d.setUTCDate(Math.min(day, last));
+    return iso(d);
+  }
   function el(name, attrs, text) {
     var e = document.createElementNS(NS, name);
     for (var k in attrs) { if (attrs.hasOwnProperty(k)) { e.setAttribute(k, attrs[k]); } }
@@ -118,6 +137,11 @@
     var m = v / 1e6, dec = (step % 1e6 === 0) ? 0 : ((step % 1e5 === 0) ? 1 : 2);
     return m.toFixed(dec) + 'M';
   }
+  function big(v) {
+    if (v >= 1e9) { return (v / 1e9).toFixed(2) + ' billion'; }
+    if (v >= 1e6) { return (v / 1e6).toFixed(1) + ' million'; }
+    return v.toLocaleString('en-US');
+  }
   function niceStep(range) {
     var steps = [0.05, 0.1, 0.2, 0.25, 0.5, 1, 2, 2.5, 5, 10, 20, 50], i;
     for (i = 0; i < steps.length; i++) { if (range / (steps[i] * 1e6) <= 5) { return Math.round(steps[i] * 1e6); } }
@@ -127,14 +151,41 @@
     var d = (a - b) / b * 100;
     return (d >= 0 ? '+' : '−') + Math.abs(d).toFixed(1) + '%';
   }
+  /* Long history, loaded once per page and shared by every chart on it. */
+  var longReq = null;
+  function loadLong(end) {
+    if (longReq) { return longReq; }
+    var start = addMonths(end, -12);
+    var jan = end.slice(0, 4) + '-01-01';
+    if (jan < start) { start = jan; }
+    var url = API + start.replace(/-/g, '') + '00/' + end.replace(/-/g, '') + '00';
+    function fromApi(j) {
+      var out = {};
+      (j.items || []).forEach(function (it) {
+        var t = String(it.timestamp);
+        out[t.slice(0, 4) + '-' + t.slice(4, 6) + '-' + t.slice(6, 8)] = it.views;
+      });
+      if (Object.keys(out).length < 30) { throw new Error('short'); }
+      return out;
+    }
+    function fromFile(j) {
+      if (!j || typeof j !== 'object' || Object.keys(j).length < 30) { throw new Error('short'); }
+      return j;
+    }
+    var get = function (u) { return fetch(u).then(function (r) { if (!r.ok) { throw new Error('HTTP ' + r.status); } return r.json(); }); };
+    longReq = get(url).then(fromApi).catch(function () { return get('data/mainpage-daily.json').then(fromFile); });
+    longReq.catch(function () { longReq = null; });
+    return longReq;
+  }
   var state = [];
   function draw(fig, st) {
     var host = fig.querySelector('.mpc-plot');
     var pts = st.pts;
     if (!host || pts.length < 2) { return; }
-    var n = pts.length;
+    var n = pts.length, dense = n > 62;
+    var crossYear = pts[0].d.slice(0, 4) !== pts[n - 1].d.slice(0, 4);
     var W = Math.max(host.clientWidth, 260), H = W < 520 ? 200 : (W > 900 ? 290 : 250);
-    var L = 52, R = 46, T = 14, B = 42;
+    var L = 52, R = 46, T = 14, B = dense ? 30 : 42;
     var vals = pts.map(function (p) { return p.v; });
     var max = Math.max.apply(null, vals), min = Math.min.apply(null, vals);
     var lo = 0, hi, step;
@@ -148,36 +199,50 @@
     var dx = (W - L - R) / (n - 1);
     var x = function (i) { return L + dx * i; };
     var y = function (v) { return T + (H - T - B) * (1 - (v - lo) / (hi - lo)); };
-    var svg = el('svg', { width: W, height: H, viewBox: '0 0 ' + W + ' ' + H, 'class': 'mpc-svg', role: 'group', tabindex: '0',
+    var svg = el('svg', { width: W, height: H, viewBox: '0 0 ' + W + ' ' + H, 'class': 'mpc-svg' + (dense ? ' dense' : ''), role: 'group', tabindex: '0',
       'aria-label': 'Main Page views per day. Use the left and right arrow keys to read each day.' });
-    var i, k, cnt = Math.round((hi - lo) / step);
-    pts.forEach(function (p, j) {
-      var w = dow(p.d);
-      if (w === 0 || w === 6) {
-        var x0 = Math.max(L, x(j) - dx / 2), x1 = Math.min(W - R, x(j) + dx / 2);
-        svg.appendChild(el('rect', { x: x0, y: T, width: x1 - x0, height: H - T - B, 'class': 'mpc-wkend' }));
-      }
-    });
+    var k, cnt = Math.round((hi - lo) / step);
+    if (!dense) {
+      pts.forEach(function (p, j) {
+        var w = dow(p.d);
+        if (w === 0 || w === 6) {
+          var x0 = Math.max(L, x(j) - dx / 2), x1 = Math.min(W - R, x(j) + dx / 2);
+          svg.appendChild(el('rect', { x: x0, y: T, width: x1 - x0, height: H - T - B, 'class': 'mpc-wkend' }));
+        }
+      });
+    }
     for (k = 0; k <= cnt; k++) {
       var t = lo + k * step;
       svg.appendChild(el('line', { x1: L, x2: W - R, y1: y(t), y2: y(t), 'class': 'mpc-grid' }));
       svg.appendChild(el('text', { x: L - 8, y: y(t) + 4, 'text-anchor': 'end', 'class': 'mpc-tick' }, (t === 0 && !st.fit) ? '0' : fmtM(t, step)));
     }
-    var every = Math.max(1, Math.ceil(58 / dx));
-    pts.forEach(function (p, j) {
-      svg.appendChild(el('line', { x1: x(j), x2: x(j), y1: H - B, y2: H - B + 4, 'class': 'mpc-xtick' }));
-      if ((n - 1 - j) % every === 0) {
-        var anchor = 'middle';
-        svg.appendChild(el('text', { x: x(j), y: H - B + 18, 'text-anchor': anchor, 'class': 'mpc-tick' }, lab(p.d)));
-        svg.appendChild(el('text', { x: x(j), y: H - B + 33, 'text-anchor': anchor, 'class': 'mpc-tick mpc-dow' }, DOW[dow(p.d)].slice(0, 3)));
-      }
-    });
+    if (dense) {
+      var lastX = -1e9;
+      pts.forEach(function (p, j) {
+        if (p.d.slice(8, 10) !== '01') { return; }
+        svg.appendChild(el('line', { x1: x(j), x2: x(j), y1: T, y2: H - B + 4, 'class': 'mpc-mline' }));
+        if (x(j) - lastX < 34) { return; }
+        lastX = x(j);
+        var m = MON[parseInt(p.d.slice(5, 7), 10) - 1];
+        svg.appendChild(el('text', { x: x(j) + 3, y: H - B + 18, 'text-anchor': 'start', 'class': 'mpc-tick' }, m === 'Jan' || j === 0 ? m + ' ' + p.d.slice(2, 4).replace(/^/, "'") : m));
+      });
+    } else {
+      var every = Math.max(1, Math.ceil(58 / dx));
+      pts.forEach(function (p, j) {
+        svg.appendChild(el('line', { x1: x(j), x2: x(j), y1: H - B, y2: H - B + 4, 'class': 'mpc-xtick' }));
+        if ((n - 1 - j) % every === 0) {
+          svg.appendChild(el('text', { x: x(j), y: H - B + 18, 'text-anchor': 'middle', 'class': 'mpc-tick' }, lab(p.d)));
+          svg.appendChild(el('text', { x: x(j), y: H - B + 33, 'text-anchor': 'middle', 'class': 'mpc-tick mpc-dow' }, DOW[dow(p.d)].slice(0, 3)));
+        }
+      });
+    }
     var line = pts.map(function (p, j) { return (j ? 'L' : 'M') + x(j).toFixed(1) + ' ' + y(p.v).toFixed(1); }).join(' ');
     svg.appendChild(el('path', { d: line + ' L' + x(n - 1).toFixed(1) + ' ' + y(lo) + ' L' + x(0).toFixed(1) + ' ' + y(lo) + ' Z', 'class': 'mpc-area' }));
     svg.appendChild(el('path', { d: line, 'class': 'mpc-line' }));
     var cross = el('line', { x1: 0, x2: 0, y1: T, y2: H - B, 'class': 'mpc-cross', visibility: 'hidden' });
     svg.appendChild(cross);
     pts.forEach(function (p, j) {
+      if (dense && j !== n - 1) { return; }
       svg.appendChild(el('circle', { cx: x(j), cy: y(p.v), r: j === n - 1 ? 5 : 3, 'class': j === n - 1 ? 'mpc-dot last' : 'mpc-dot' }));
     });
     var halo = el('circle', { cx: 0, cy: 0, r: 7.5, 'class': 'mpc-sel', visibility: 'hidden' });
@@ -206,7 +271,7 @@
       cross.setAttribute('x1', x(j)); cross.setAttribute('x2', x(j)); cross.setAttribute('visibility', 'visible');
       halo.setAttribute('cx', x(j)); halo.setAttribute('cy', y(p.v)); halo.setAttribute('visibility', 'visible');
       lastLab.setAttribute('visibility', j === n - 1 ? 'visible' : 'hidden');
-      tDay.textContent = DOW[dow(p.d)] + ' ' + lab(p.d);
+      tDay.textContent = DOW[dow(p.d)] + ' ' + lab(p.d, dense || crossYear);
       tViews.textContent = p.v.toLocaleString('en-US') + ' views';
       tChg.textContent = j ? pct(p.v, pts[j - 1].v) + ' vs ' + lab(pts[j - 1].d) : 'First day shown';
       tip.style.display = 'block';
@@ -236,22 +301,87 @@
     svg.addEventListener('blur', function () { clear(); });
     svg.addEventListener('keydown', function (e) {
       var j = st.sel == null ? n - 1 : st.sel, key = e.key;
-      if (key === 'ArrowLeft') { j -= 1; } else if (key === 'ArrowRight') { j += 1; }
+      var big7 = dense ? 7 : 1;
+      if (key === 'ArrowLeft') { j -= e.shiftKey ? big7 * 4 : big7; } else if (key === 'ArrowRight') { j += e.shiftKey ? big7 * 4 : big7; }
       else if (key === 'Home') { j = 0; } else if (key === 'End') { j = n - 1; }
       else if (key === 'Escape') { clear(); return; } else { return; }
       e.preventDefault();
       show(j, true);
     });
-    if (st.sel != null) { show(st.sel, false); }
+    if (st.sel != null && st.sel < n) { show(st.sel, false); }
+  }
+  function summarise(fig, st, label) {
+    var pts = st.pts, n = pts.length;
+    var total = pts.reduce(function (a, p) { return a + p.v; }, 0);
+    var span = lab(pts[0].d, pts[0].d.slice(0, 4) !== pts[n - 1].d.slice(0, 4)) + ' to ' + lab(pts[n - 1].d, true);
+    var cap = fig.querySelector('figcaption');
+    if (cap) { cap.textContent = 'Main Page views per day, ' + lab(pts[0].d, pts[0].d.slice(0, 4) !== pts[n - 1].d.slice(0, 4)) + ' to ' + lab(pts[n - 1].d); }
+    st.sum.innerHTML = '';
+    var b = html('strong', null, (st.range === 'ytd' ? 'Year to date' : label) + ': ' + total.toLocaleString('en-US') + ' views');
+    st.sum.appendChild(b);
+    st.sum.appendChild(html('span', 'mpc-sub', ' · ' + big(total) + ' · daily average ' + Math.round(total / n).toLocaleString('en-US') + ' · ' + span + (n !== 28 && n !== 7 && n !== 14 ? ' (' + n + ' days)' : '')));
+  }
+  function pick(fig, st, id) {
+    var r = RANGES.filter(function (x) { return x[0] === id; })[0];
+    if (!r) { return; }
+    var end = st.base[st.base.length - 1].d;
+    function apply(pts, note) {
+      st.range = id; st.pts = pts; st.sel = null;
+      st.btns.forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-r') === id ? 'true' : 'false'); });
+      st.note.textContent = note || '';
+      summarise(fig, st, r[1]);
+      draw(fig, st);
+    }
+    if (id.charAt(0) === 'd' && st.base.length >= r[2]) { apply(st.base.slice(-r[2])); return; }
+    var start = id === 'ytd' ? end.slice(0, 4) + '-01-01' : (id.charAt(0) === 'd' ? addDays(end, 1 - r[2]) : addDays(addMonths(end, -r[2]), 1));
+    st.note.textContent = 'Loading ' + r[1].toLowerCase() + ' from the Wikimedia pageviews API…';
+    st.btns.forEach(function (b) { b.disabled = true; });
+    loadLong(end).then(function (data) {
+      var pts = [], d = start;
+      while (d <= end) {
+        var v = data[d];
+        if (v == null) { var bp = st.base.filter(function (p) { return p.d === d; })[0]; v = bp ? bp.v : null; }
+        if (v != null) { pts.push({ d: d, v: v }); }
+        d = addDays(d, 1);
+      }
+      st.btns.forEach(function (b) { b.disabled = false; });
+      if (pts.length < 2) { throw new Error('empty'); }
+      var want = Math.round((toDate(end) - toDate(start)) / 864e5) + 1;
+      apply(pts, pts.length < want ? (want - pts.length) + ' day(s) in this range had no data.' : '');
+    }).catch(function () {
+      st.btns.forEach(function (b) { b.disabled = false; });
+      apply(st.base.slice(-28), 'The longer history could not be loaded here (it comes live from the Wikimedia pageviews API). Showing the days stored in this report.');
+      st.btns.forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-r') === (st.base.length >= 28 ? 'd28' : '') ? 'true' : 'false'); });
+      st.range = 'd28';
+    });
   }
   function setup(fig) {
-    var pts = (fig.getAttribute('data-series') || '').split(';').map(function (s) {
+    var base = (fig.getAttribute('data-series') || '').split(';').map(function (s) {
       var p = s.split(':'); return { d: p[0], v: parseInt(p[1], 10) };
     }).filter(function (p) { return p.d && p.v > 0; });
     var host = fig.querySelector('.mpc-plot');
-    if (!host || pts.length < 2) { return; }
+    if (!host || base.length < 2) { return; }
     host.removeAttribute('aria-hidden');
-    var st = { pts: pts, fit: false, sel: null };
+    var st = { base: base, pts: base.slice(-28), fit: false, sel: null, range: 'd28', btns: [] };
+    var ctl = html('div', 'mpc-ranges');
+    ctl.setAttribute('role', 'group');
+    ctl.setAttribute('aria-label', 'Range shown');
+    var gDays = html('div', 'mpc-seg'), gMon = html('div', 'mpc-seg');
+    RANGES.forEach(function (r) {
+      var b = html('button', 'mpc-r', r[0] === 'ytd' ? 'YTD' : r[1].replace(' days', 'd').replace(' months', 'm'));
+      b.type = 'button';
+      b.setAttribute('data-r', r[0]);
+      b.setAttribute('aria-label', r[1]);
+      b.title = r[1];
+      b.setAttribute('aria-pressed', r[0] === 'd28' ? 'true' : 'false');
+      b.addEventListener('click', function () { pick(fig, st, r[0]); });
+      (r[0].charAt(0) === 'd' ? gDays : gMon).appendChild(b);
+      st.btns.push(b);
+    });
+    ctl.appendChild(html('span', 'mpc-lbl', 'Days'));
+    ctl.appendChild(gDays);
+    ctl.appendChild(html('span', 'mpc-lbl', 'Months'));
+    ctl.appendChild(gMon);
     var bar = html('div', 'mpc-bar');
     var btn = html('button', 'mpc-zoom', 'Zoom to range');
     btn.type = 'button';
@@ -263,9 +393,23 @@
       draw(fig, st);
     });
     bar.appendChild(btn);
-    bar.appendChild(html('span', 'mpc-hint', 'Hover, tap or use the arrow keys to read a day. Shaded columns are weekends.'));
+    bar.appendChild(html('span', 'mpc-hint', 'Hover, tap or use the arrow keys to read a day.'));
+    st.sum = html('p', 'mpc-sum');
+    st.note = html('p', 'mpc-note');
+    st.note.setAttribute('aria-live', 'polite');
+    host.parentNode.insertBefore(ctl, host);
+    host.parentNode.insertBefore(st.sum, host);
+    host.parentNode.insertBefore(st.note, host);
     host.parentNode.insertBefore(bar, host);
     state.push({ fig: fig, st: st });
+    if (base.length < 28) {
+      st.btns.forEach(function (b) { if (b.getAttribute('data-r') === 'd28') { b.setAttribute('aria-pressed', 'false'); } });
+      st.range = 'stored';
+      summarise(fig, st, 'Days stored in this report');
+      draw(fig, st);
+      return;
+    }
+    summarise(fig, st, '28 days');
     draw(fig, st);
   }
   Array.prototype.forEach.call(figs, setup);
