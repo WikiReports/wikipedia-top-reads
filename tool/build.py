@@ -170,6 +170,32 @@ while i < len(exp):
         i += 1
 assert len(articles) >= 20, len(articles)   # 20 articles up to 31st Oct 2026, 42 from 1st Nov 2026
 
+# ---- chip and blurb (7th Nov 2026): the chip already says Continuing, so the blurb must not start with
+# "Continuing from <date>:". A continuing article is recognised by its "Storyline so far" bullet (or, for
+# older Docs, by that prefix); "No trigger" by a Likely cause that starts with "Unknown".
+CONT_PREFIX = re.compile(r'^\s*Continuing from [^:<]{1,40}:\s*')
+for n, (h, lst) in enumerate(articles):
+    m = meta[n]
+    has_story, cause_t = False, ''
+    for li in lst.findall('listItem'):
+        lab = para_text(li.find('paragraph'))
+        if lab.startswith('Storyline so far'):
+            has_story = True
+        elif lab.startswith('Likely cause'):
+            sub = li.find('list')
+            for s_ in (sub.findall('listItem') if sub is not None else []):
+                t_ = para_text(s_.find('paragraph'))
+                if t_.startswith('Cause:'):
+                    cause_t = t_[len('Cause:'):].strip()
+    if has_story:
+        m['tag'] = ('cont', 'Continuing')
+    elif m['tag'][0] == 'evt' and cause_t.lower().startswith('unknown'):
+        m['tag'] = ('unk', 'No trigger')
+    w = CONT_PREFIX.sub('', m['why'], count=1)
+    if w != m['why'] and w[:1].islower():
+        w = w[:1].upper() + w[1:]
+    m['why'] = w
+
 BLK_CLS = {'Views': 'views', 'Rank history': 'rank', 'Edits': 'edits', 'Protection': 'prot', 'Talk page': 'talk', 'News': 'news'}
 
 
