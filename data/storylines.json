@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "groups": [
   {
    "id": "holmes-documentary",
@@ -292,6 +292,15 @@
    "members": [
     "tomb-of-the-unknown-soldier-arlington-national-cemetery",
     "pete-hegseth"
+   ]
+  },
+  {
+   "id": "giants-commanders-2026-11-12",
+   "title": "Giants against Commanders, 12th Nov",
+   "summary": "The Giants' 24-21 loss to the Washington Commanders on the evening of 12th Nov US time, with Cam Skattebo's 122-yard, two-touchdown game and J. J. McCarthy's start ending in a late interception.",
+   "members": [
+    "cam-skattebo",
+    "j-j-mccarthy"
    ]
   }
  ],
@@ -1128,6 +1137,63 @@
    ]
   },
   {
+   "id": "2026-streamer-awards",
+   "title": "2026 Streamer Awards",
+   "canonical": "2026_Streamer_Awards",
+   "url": "https://en.wikipedia.org/wiki/2026_Streamer_Awards",
+   "type": "Awards ceremony",
+   "first_charted": "2026-11-13",
+   "cause": {
+    "text": "The sixth Streamer Awards ceremony in Los Angeles on the evening of 12th Nov (Pacific time), hosted by QTCinderella and Caroline Kwan, and the winners coverage on 13th Nov; IShowSpeed won Streamer of the Year for a third year running.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-13",
+     "text": "The sixth Streamer Awards ceremony in Los Angeles on the evening of 12th Nov (Pacific time), hosted by QTCinderella and Caroline Kwan, and the winners coverage on 13th Nov; IShowSpeed won Streamer of the Year for a third year running.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Hype Magazine",
+     "url": "https://www.thehypemagazine.com/2026/11/13/streamer-awards-2026-winners-ishowspeed-kai-cenat-jynxzi/"
+    },
+    {
+     "title": "Complex",
+     "url": "https://www.complex.com/pop-culture/a/tracewilliamcowen/streamer-awards-2026-winners-roundup"
+    },
+    {
+     "title": "Dexerto",
+     "url": "https://dexerto.com/twitch/streamer-awards-2026-how-to-watch-and-nominees-3427350"
+    },
+    {
+     "title": "Dexerto",
+     "url": "https://www.dexerto.com/entertainment/streamer-awards-trophies-stolen-ahead-of-2026-ceremony-3423109/"
+    },
+    {
+     "title": "WIN.gg",
+     "url": "https://win.gg/qtcinderella-streamer-awards-2026-changes/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-13",
+     "text": "The sixth annual awards for online streamers, hosted by QTCinderella and Caroline Kwan. The ceremony was held in Los Angeles on 12th Nov and IShowSpeed won Streamer of the Year."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-13",
+     "rank": 29,
+     "views": 84725,
+     "confidence": "hi",
+     "anchor": "a26"
+    }
+   ]
+  },
+  {
    "id": "2026-texas-gubernatorial-election",
    "title": "2026 Texas gubernatorial election",
    "canonical": "2026_Texas_gubernatorial_election",
@@ -1209,14 +1275,6 @@
    ],
    "sources": [
     {
-     "title": "CBS News",
-     "url": "https://www.cbsnews.com/live-updates/house-election-results-2026/"
-    },
-    {
-     "title": "270toWin",
-     "url": "https://www.270towin.com/news/2026/11/04/the-morning-after-uncalled-house-races_1847.html"
-    },
-    {
      "title": "NHPR",
      "url": "https://www.nhpr.org/2026-11-05/these-are-the-races-in-the-house-and-senate-that-havent-been-called-yet"
     },
@@ -1255,6 +1313,14 @@
     {
      "title": "Mississippi Free Press",
      "url": "https://mississippifreepress.org/cnn-projects-scott-colom-to-defeat-cindy-hyde-smith-colom-calls-on-hyde-smith-to-concede"
+    },
+    {
+     "title": "WRDW",
+     "url": "https://www.wrdw.com/2026/11/11/mississippi-elects-democrat-scott-colom-states-first-black-us-senator-since-reconstruction/"
+    },
+    {
+     "title": "Roll Call",
+     "url": "https://rollcall.com/2026/11/12/van-hollen-announces-bid-for-majority-leader-but-schumer-says-he-has-the-votes/"
     }
    ],
    "timeline": [
@@ -1301,6 +1367,10 @@
     {
      "date": "2026-11-12",
      "text": "Continued tail, with Alaska and about 19 House races still open"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "60,190 views; no new event found, with the last close races still open"
     }
    ],
    "charted": [
@@ -1380,6 +1450,13 @@
      "views": 83151,
      "confidence": "md",
      "anchor": "a32"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 42,
+     "views": 60190,
+     "confidence": "md",
+     "anchor": "a38"
     }
    ]
   },
@@ -1952,8 +2029,8 @@
    "type": "Politician",
    "first_charted": "2026-10-20",
    "cause": {
-    "text": "The tail of his Michigan Senate win, plus the Schumer leadership storyline in which he backs Van Hollen",
-    "confidence": "lo"
+    "text": "Tail of the 4th Nov Michigan Senate win, with the Schumer leadership storyline (his Van Hollen endorsement) keeping his name in coverage",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -1985,21 +2062,15 @@
      "text": "The tail of his Michigan Senate win, plus the Schumer leadership storyline in which he backs Van Hollen",
      "confidence": "lo",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Tail of the 4th Nov Michigan Senate win, with the Schumer leadership storyline (his Van Hollen endorsement) keeping his name in coverage",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "Al Jazeera",
-     "url": "https://www.aljazeera.com/news/2026/11/4/rejecting-hate-abdul-el-sayed-wins-senate-seat-despite-racist-attacks"
-    },
-    {
-     "title": "Breitbart",
-     "url": "https://www.breitbart.com/politics/2026/11/04/muslim-brotherhood-official-hails-el-sayed-senate-win-model/"
-    },
-    {
-     "title": "Brussels Signal",
-     "url": "https://brusselssignal.eu/2026/11/el-sayed-becomes-first-muslim-us-senator-after-campaign-dominated-by-brotherhood-claims/"
-    },
     {
      "title": "CBS Detroit",
      "url": "https://www.cbsnews.com/detroit/news/mike-rogers-statement-michigan-senate-race/"
@@ -2035,6 +2106,18 @@
     {
      "title": "Daily Kos",
      "url": "https://www.dailykos.com/stories/2026/11/11/800126922/congress/schumer-van-hollen-senate-democrats/"
+    },
+    {
+     "title": "Roll Call",
+     "url": "https://rollcall.com/2026/11/12/van-hollen-announces-bid-for-majority-leader-but-schumer-says-he-has-the-votes/"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/news/chris-van-hollen-challenge-chuck-schumer-senate-majority-leader-democrat/"
+    },
+    {
+     "title": "Daily Wire",
+     "url": "https://www.dailywire.com/news/schumers-victory-lap-hits-roadblock-inside-his-own-party"
     }
    ],
    "timeline": [
@@ -2085,6 +2168,10 @@
     {
      "date": "2026-11-11",
      "text": "88,501 views; the Schumer leadership storyline kept his name in coverage"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "61,214 views; no event specific to him was found, and he was still named in Van Hollen leadership-challenge coverage"
     }
    ],
    "charted": [
@@ -2171,6 +2258,13 @@
      "views": 88501,
      "confidence": "lo",
      "anchor": "a20"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 41,
+     "views": 61214,
+     "confidence": "md",
+     "anchor": "a37"
     }
    ]
   },
@@ -2505,12 +2599,32 @@
     {
      "title": "Nvidia 8-K, SEC",
      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+    },
+    {
+     "title": "Yahoo Finance live blog",
+     "url": "https://finance.yahoo.com/technology/live/nvidia-live-updates-following-jensen-huangs-resignation-as-ceo-allegations-of-a-third-affair-emerge-195535310.html"
+    },
+    {
+     "title": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/alisondurkee/2026/11/13/jensen-huang-ousted-timeline-of-the-nvidia-scandal/"
+    },
+    {
+     "title": "Khaleej Times",
+     "url": "https://www.khaleejtimes.com/asia/china-media-public-decry-nvidia-jensen-huang-affair-allegations"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-12",
      "text": "Former Megaspeed executive at the centre of the Nvidia scandal. Reports say US officials suspect she gathered information for China; she is uncharged and unrelated to Jensen Huang."
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Views peaked at 200,012 as new reports covered her chip-buying network and US probes, the first full day after Huang's resignation"
     }
    ],
    "charted": [
@@ -2520,6 +2634,13 @@
      "views": 160121,
      "confidence": "md",
      "anchor": "a10"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 11,
+     "views": 200012,
+     "confidence": "md",
+     "anchor": "a8"
     }
    ]
   },
@@ -2959,6 +3080,10 @@
     {
      "title": "Visit Pittsburgh",
      "url": "https://www.visitpittsburgh.com/events/ansel-adams-majestic-lands/"
+    },
+    {
+     "title": "(Roughly) Daily",
+     "url": "https://roughlydaily.com/tag/ansel-adams/"
     }
    ],
    "timeline": [
@@ -3017,6 +3142,10 @@
     {
      "date": "2026-11-12",
      "text": "77,242 views, level with the baseline"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "87,618 views, 1.0 times baseline; no edits, with two new Talk threads (a video and a pronunciation question) and a museum exhibition opening on 14th Nov."
     }
    ],
    "charted": [
@@ -3117,6 +3246,13 @@
      "views": 77242,
      "confidence": "lo",
      "anchor": "a36"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 27,
+     "views": 87618,
+     "confidence": "lo",
+     "anchor": "a24"
     }
    ]
   },
@@ -3147,12 +3283,20 @@
     {
      "title": "PinkNews",
      "url": "https://www.thepinknews.com/2026/11/12/anthony-clark-death-2026/"
+    },
+    {
+     "title": "ABC7 Los Angeles",
+     "url": "https://abc7.com/story/anthony-clark-actor-comedian-known-dear-boston-common-dies-62/20036284/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-12",
      "text": "Comedian and star of the CBS sitcom Yes, Dear. His death at 62 was announced on 12th Nov by co-star Mike O'Malley."
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Coverage tailed off with no new development; the date of the announcement still differs between sources (11th Nov or 12th Nov)."
     }
    ],
    "charted": [
@@ -3162,6 +3306,13 @@
      "views": 374893,
      "confidence": "hi",
      "anchor": "a4"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 19,
+     "views": 105784,
+     "confidence": "hi",
+     "anchor": "a16"
     }
    ]
   },
@@ -3218,6 +3369,14 @@
     {
      "title": "Bleeding Cool",
      "url": "https://bleedingcool.com/pop-culture/the-otw-has-shared-a-brief-update-on-the-archive-of-our-own-outage/"
+    },
+    {
+     "title": "Winzheng",
+     "url": "https://www.winzheng.com/en/article/ao3-shutdown-fanfic-dispute"
+    },
+    {
+     "title": "Book Riot",
+     "url": "https://bookriot.com/?p=665044"
     }
    ],
    "timeline": [
@@ -3236,6 +3395,10 @@
     {
      "date": "2026-11-12",
      "text": "Still offline; views reached a 28-day high"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Site still offline with no firm return date; no new development was found."
     }
    ],
    "charted": [
@@ -3266,6 +3429,13 @@
      "views": 99746,
      "confidence": "md",
      "anchor": "a27"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 28,
+     "views": 87286,
+     "confidence": "md",
+     "anchor": "a25"
     }
    ]
   },
@@ -3307,6 +3477,55 @@
      "views": 47842,
      "confidence": "hi",
      "anchor": "a42"
+    }
+   ]
+  },
+  {
+   "id": "avril-lavigne",
+   "title": "Avril Lavigne",
+   "canonical": "Avril_Lavigne",
+   "url": "https://en.wikipedia.org/wiki/Avril_Lavigne",
+   "type": "Singer",
+   "first_charted": "2026-11-13",
+   "cause": {
+    "text": "Lavigne's own social media announcement on 13th Nov of the birth of her first child",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-13",
+     "text": "Lavigne's own social media announcement on 13th Nov of the birth of her first child",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TMZ",
+     "url": "https://www.tmz.com/2026/11/13/avril-lavigne-has-baby-girl/"
+    },
+    {
+     "title": "Daily Caller",
+     "url": "https://dailycaller.com/2026/11/13/rocker-skater-girl-avril-lavigne-reveals-birth-first-baby-daughter-motherhood-mystery-father-parenthood/"
+    },
+    {
+     "title": "Vice",
+     "url": "https://www.vice.com/en/article/avril-lavigne-welcomes-first-child-with-a-birth-announcement-fit-for-a-sk8er-girl/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-13",
+     "text": "Canadian pop-punk singer. She announced the birth of her first child, a daughter, on social media on 13th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-13",
+     "rank": 16,
+     "views": 120937,
+     "confidence": "hi",
+     "anchor": "a13"
     }
    ]
   },
@@ -4139,6 +4358,63 @@
    ]
   },
   {
+   "id": "cam-skattebo",
+   "title": "Cam Skattebo",
+   "canonical": "Cam_Skattebo",
+   "url": "https://en.wikipedia.org/wiki/Cam_Skattebo",
+   "type": "NFL running back",
+   "first_charted": "2026-11-13",
+   "cause": {
+    "text": "His 122-yard, two-touchdown game, the sideline vomiting clip and the stance-on-the-sneak criticism, all in the Giants' 24-21 loss to the Commanders on the evening of 12th Nov US time (13th Nov UTC).",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-13",
+     "text": "His 122-yard, two-touchdown game, the sideline vomiting clip and the stance-on-the-sneak criticism, all in the Giants' 24-21 loss to the Commanders on the evening of 12th Nov US time (13th Nov UTC).",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Yahoo Sports (NY Post)",
+     "url": "https://sports.yahoo.com/articles/cam-skattebo-laughs-off-sideline-021049037.html"
+    },
+    {
+     "title": "NBC Sports Pro Football Talk",
+     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-skattebo-stayed-in-his-stance-instead-of-pushing-jameis-winstons-tush-on-key-play"
+    },
+    {
+     "title": "NBC Sports Pro Football Talk",
+     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-cam-skattebo-was-not-supposed-to-push-on-jameis-winston-sneak"
+    },
+    {
+     "title": "Yahoo Sports video",
+     "url": "https://sports.yahoo.com/videos/cam-skattebos-best-plays-122-044051184.html"
+    },
+    {
+     "title": "Yahoo Sports (HEAVY)",
+     "url": "https://sports.yahoo.com/articles/giants-j-j-mccarthy-sums-065847239.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-13",
+     "text": "Plays for the New York Giants. He gained 122 yards with two touchdowns in their 24-21 loss to the Commanders on 12th Nov and was seen vomiting on the sideline."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-13",
+     "rank": 33,
+     "views": 77860,
+     "confidence": "md",
+     "anchor": "a30"
+    }
+   ]
+  },
+  {
    "id": "candice-swanepoel",
    "title": "Candice Swanepoel",
    "canonical": "Candice_Swanepoel",
@@ -4716,8 +4992,8 @@
    "type": "Nvidia co-founder",
    "first_charted": "2026-11-12",
    "cause": {
-    "text": "Spillover from Huang's 12th Nov resignation, with readers looking up Nvidia's other co-founders; views have been elevated since the scandal began on 9th Nov",
-    "confidence": "lo"
+    "text": "Named as a possible successor to Huang in coverage on 12th and 13th Nov, including a Yahoo Finance piece on 13th Nov; this revises the stored note that no source named him",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -4725,6 +5001,12 @@
      "text": "Spillover from Huang's 12th Nov resignation, with readers looking up Nvidia's other co-founders; views have been elevated since the scandal began on 9th Nov",
      "confidence": "lo",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Named as a possible successor to Huang in coverage on 12th and 13th Nov, including a Yahoo Finance piece on 13th Nov; this revises the stored note that no source named him",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -4735,12 +5017,28 @@
     {
      "title": "Yahoo Finance",
      "url": "https://finance.yahoo.com/technology/article/nvidia-ceo-huang-resigns-amid-affair-scandals-board-names-cfo-colette-kress-interim-ceo-135801377.html"
+    },
+    {
+     "title": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/technology/article/nvidia-co-founder-chris-malachowsky-is-seen-as-a-potential-successor-to-huang-181629983.html"
+    },
+    {
+     "title": "The Federal",
+     "url": "https://thefederal.com/category/business/who-will-replace-nvidia-ceo-jensen-huang-affair-alice-huang-us-china-spy-262662"
+    },
+    {
+     "title": "ColombiaOne",
+     "url": "https://colombiaone.com/2026/11/13/who-could-replace-jensen-huang-nvidia-seven-potential-successors/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-12",
      "text": "Co-founder of Nvidia. No source names him in the news; his page rose on the day Huang resigned, which is inference."
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Yahoo Finance ran a piece naming him a potential successor to Huang; views fell to 61,738 from 100,152"
     }
    ],
    "charted": [
@@ -4750,6 +5048,13 @@
      "views": 100152,
      "confidence": "lo",
      "anchor": "a26"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 40,
+     "views": 61738,
+     "confidence": "md",
+     "anchor": "a36"
     }
    ]
   },
@@ -4882,8 +5187,8 @@
    "type": "Politician",
    "first_charted": "2026-11-11",
    "cause": {
-    "text": "Speculation about a challenge to Chuck Schumer for Democratic leader, after he said on 9th Nov he was open to a bid",
-    "confidence": "md"
+    "text": "He formally announced a challenge to Schumer for Senate Democratic leader on the evening of 12th Nov US time, with a Sanders endorsement (revised: the stored cause was only that he was open to a bid)",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -4891,6 +5196,12 @@
      "text": "Speculation about a challenge to Chuck Schumer for Democratic leader, after he said on 9th Nov he was open to a bid",
      "confidence": "md",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "He formally announced a challenge to Schumer for Senate Democratic leader on the evening of 12th Nov US time, with a Sanders endorsement (revised: the stored cause was only that he was open to a bid)",
+     "confidence": "hi",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -4913,12 +5224,32 @@
     {
      "title": "National Desk",
      "url": "https://thenationaldesk.com/news/americas-news-now/senate-democrat-chris-van-hollen-re-opens-door-to-leadership-bid-elections-chuck-schumer-majority-leader-rrt"
+    },
+    {
+     "title": "Roll Call",
+     "url": "https://rollcall.com/2026/11/12/van-hollen-announces-bid-for-majority-leader-but-schumer-says-he-has-the-votes/"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/news/chris-van-hollen-challenge-chuck-schumer-senate-majority-leader-democrat/"
+    },
+    {
+     "title": "The New Republic",
+     "url": "https://newrepublic.com/post/217852/van-hollen-calls-out-schumer-aipac-crypto-democrats-senate-leader"
+    },
+    {
+     "title": "Daily Wire",
+     "url": "https://www.dailywire.com/news/schumers-victory-lap-hits-roadblock-inside-his-own-party"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-11",
      "text": "Maryland senator. He said on 9th Nov that he was open to challenging Chuck Schumer for Senate leader."
+    },
+    {
+     "date": "2026-11-13",
+     "text": "He announced on the evening of 12th Nov US time a challenge to Schumer for Senate Democratic leader, with a Sanders endorsement, per Roll Call."
     }
    ],
    "charted": [
@@ -4928,6 +5259,13 @@
      "views": 59326,
      "confidence": "md",
      "anchor": "a42"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 9,
+     "views": 204913,
+     "confidence": "hi",
+     "anchor": "a6"
     }
    ]
   },
@@ -5455,12 +5793,28 @@
     {
      "title": "CFO Dive",
      "url": "https://www.cfodive.com/news/nvidia-cfo-viewed-some-as-possible-interim-ceo/874268/"
+    },
+    {
+     "title": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-jensen-huang-resigns-ceo-140115697.html"
+    },
+    {
+     "title": "Forbes (Jon Markman)",
+     "url": "https://www.forbes.com/sites/jonmarkman/2026/11/12/nvidia-names-cfo-colette-kress-as-interim-ceo-after-jensen-huang-resigns/"
+    },
+    {
+     "title": "Forbes (Shaheena Janjuhajivraj)",
+     "url": "https://forbes.com/sites/shaheenajanjuhajivrajeurope/2026/11/13/colette-kress-interim-ceo-and-the-glass-cliff-at-nvidia"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-12",
      "text": "Chief financial officer of Nvidia. She was named interim chief executive on 12th Nov after Jensen Huang resigned."
+    },
+    {
+     "date": "2026-11-13",
+     "text": "She kept her CFO role while commentary on her suitability continued, including a Forbes \"glass cliff\" piece."
     }
    ],
    "charted": [
@@ -5470,6 +5824,13 @@
      "views": 463931,
      "confidence": "hi",
      "anchor": "a3"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 7,
+     "views": 279241,
+     "confidence": "hi",
+     "anchor": "a4"
     }
    ]
   },
@@ -5803,12 +6164,24 @@
     {
      "title": "Hollywood Life",
      "url": "https://hollywoodlife.com/feature/dan-hicks-cause-of-death-5583114/"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/news/dan-hicks-dies-nbc-sports-announcer-dead-age-64-wife-hannah-storm/"
+    },
+    {
+     "title": "The Spun",
+     "url": "https://thespun.com/sports-media/cause-of-death-announced-nbc-announcer-dan-hicks"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-12",
      "text": "NBC Sports voice of golf and the Olympics. His death at 64 was announced on 12th Nov by his wife, Hannah Storm."
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Follow-up coverage continued; the cause was still described as an \"acute illness\" with no specific condition given."
     }
    ],
    "charted": [
@@ -5818,6 +6191,13 @@
      "views": 157094,
      "confidence": "hi",
      "anchor": "a11"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 18,
+     "views": 107505,
+     "confidence": "hi",
+     "anchor": "a15"
     }
    ]
   },
@@ -6113,14 +6493,6 @@
    ],
    "sources": [
     {
-     "title": "ITV News",
-     "url": "https://www.itv.com/news/2026-11-10/the-months-long-legal-process-to-name-david-walliams"
-    },
-    {
-     "title": "RTE",
-     "url": "https://www.rte.ie/news/2026/1110/1598675-walliams-named-in-failed-injunction/"
-    },
-    {
      "title": "TheJournal.ie",
      "url": "https://www.thejournal.ie/david-walliams-injunction-explainer-7221286-Nov2026/"
     },
@@ -6147,6 +6519,26 @@
     {
      "title": "ITV News investigation",
      "url": "https://itv.com/news/2026-11-10/david-walliams-accused-of-preying-on-teenage-girls-as-young-as-15"
+    },
+    {
+     "title": "ITV News",
+     "url": "https://www.itv.com/news/2026-11-13/police-launches-investigation-into-david-walliams-over-alleged-sexual-offences"
+    },
+    {
+     "title": "TMZ",
+     "url": "https://www.tmz.com/2026/11/13/david-walliams-under-police-investigation/"
+    },
+    {
+     "title": "ITV News",
+     "url": "https://www.itv.com/news/2026-11-10/david-walliams-allegations-deeply-troubling-downing-street-says"
+    },
+    {
+     "title": "LBC",
+     "url": "https://www.lbc.co.uk/article/david-walliams-lucy-beaumont-whistleblower-5HjdmGF_2/"
+    },
+    {
+     "title": "BritBrief",
+     "url": "https://britbrief.co.uk/crime/sex/met-police-statement-on-david-walliams-allegations.html"
     }
    ],
    "timeline": [
@@ -6165,6 +6557,10 @@
     {
      "date": "2026-11-12",
      "text": "Tail of the story; no new event found"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "The Metropolitan Police launched an investigation into alleged non-recent sexual offences, announced late in the day (ITV timed it at 5:36pm)."
     }
    ],
    "charted": [
@@ -6195,6 +6591,13 @@
      "views": 138004,
      "confidence": "hi",
      "anchor": "a15"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 20,
+     "views": 97674,
+     "confidence": "hi",
+     "anchor": "a17"
     }
    ]
   },
@@ -6364,18 +6767,6 @@
    ],
    "sources": [
     {
-     "title": "ITV News",
-     "url": "https://www.itv.com/news/2026-10-29/star-trek-actor-sir-patrick-stewart-dies-aged-86"
-    },
-    {
-     "title": "HollywoodLife",
-     "url": "https://hollywoodlife.com/pics/celebrity-deaths-2026-stars-who-died/"
-    },
-    {
-     "title": "PBS NewsHour (AP)",
-     "url": "https://www.pbs.org/newshour/politics/jay-rockefeller-former-west-virginia-governor-and-u-s-senator-dies-at-89"
-    },
-    {
      "title": "AOL UK",
      "url": "https://www.aol.co.uk/articles/beloved-tv-star-dies-aged-113500000.html"
     },
@@ -6410,6 +6801,18 @@
     {
      "title": "HELLO! celebrity deaths tag page",
      "url": "https://www.hellomagazine.com/tags/celebrity-deaths/1/"
+    },
+    {
+     "title": "Fox 5 Atlanta",
+     "url": "https://www.fox5atlanta.com/news/celebrity-deaths-2026-list"
+    },
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/espn/story/_/id/50462145/long-sports-broadcaster-dan-hicks-dies-age-64"
+    },
+    {
+     "title": "Fox News",
+     "url": "https://www.foxnews.com/entertainment/yes-dear-star-anthony-clark-dead-62"
     }
    ],
    "timeline": [
@@ -6492,6 +6895,10 @@
     {
      "date": "2026-11-12",
      "text": "143,795 views; evergreen, with several notable deaths reported on 10th to 12th Nov"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "136,924 views, 1.0 times baseline; evergreen list, no death dated 13th Nov found"
     }
    ],
    "charted": [
@@ -6648,6 +7055,13 @@
      "views": 143795,
      "confidence": "md",
      "anchor": "a13"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 15,
+     "views": 136924,
+     "confidence": "md",
+     "anchor": "a12"
     }
    ]
   },
@@ -7305,6 +7719,67 @@
    ]
   },
   {
+   "id": "ebenezer-2026-film",
+   "title": "Ebenezer (2026 film)",
+   "canonical": "Ebenezer_(2026_film)",
+   "url": "https://en.wikipedia.org/wiki/Ebenezer_(2026_film)",
+   "type": "Film",
+   "first_charted": "2026-11-13",
+   "cause": {
+    "text": "Paramount's theatrical release on 13th Nov, with the Johnny Depp comeback angle and the reviews published around it.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-13",
+     "text": "Paramount's theatrical release on 13th Nov, with the Johnny Depp comeback angle and the reviews published around it.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "JustJared",
+     "url": "https://www.justjared.com/2026/11/10/johnny-depp-ebenezer-first-reactions-critics-praise-performance-mixed-reviews/"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/movies/johnny-depp-ebenezer-box-office-tracking/"
+    },
+    {
+     "title": "But Why Tho",
+     "url": "https://butwhytho.net/2026/11/ebenezer-review/"
+    },
+    {
+     "title": "Get Your Comic On",
+     "url": "https://getyourcomicon.co.uk/blog/2026/11/12/ebenezer-2026-review-a-faux-redemption-in-need-of-spice/"
+    },
+    {
+     "title": "ReelViews",
+     "url": "https://www.reelviews.net/reelviews/ebenezer"
+    },
+    {
+     "title": "Dark Horizons",
+     "url": "https://www.darkhorizons.com/?p=194108"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-13",
+     "text": "Paramount's dark A Christmas Carol adaptation, with Johnny Depp as Scrooge. It opened in US and UK cinemas on 13th Nov, after first reactions on 10th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-13",
+     "rank": 32,
+     "views": 78621,
+     "confidence": "hi",
+     "anchor": "a29"
+    }
+   ]
+  },
+  {
    "id": "elizabeth-holmes",
    "title": "Elizabeth Holmes",
    "canonical": "Elizabeth_Holmes",
@@ -7487,6 +7962,10 @@
     {
      "date": "2026-11-12",
      "text": "73,992 views, below the baseline"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "65,706 views; no Holmes event found on or near 13th Nov, and the documentary remained the likely background interest."
     }
    ],
    "charted": [
@@ -7629,6 +8108,13 @@
      "views": 73992,
      "confidence": "lo",
      "anchor": "a40"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 36,
+     "views": 65706,
+     "confidence": "lo",
+     "anchor": "a32"
     }
    ]
   },
@@ -8206,10 +8692,6 @@
    ],
    "sources": [
     {
-     "title": "JoBlo (citing Deadline)",
-     "url": "https://www.joblo.com/godzilla-minus-zero-thursday-box-office/"
-    },
-    {
      "title": "TheWrap",
      "url": "https://thewrap.com/creative-content/movies/godzilla-minus-zero-saturday-box-office"
     },
@@ -8252,6 +8734,10 @@
     {
      "title": "TheWrap",
      "url": "https://thewrap.com/creative-content/movies/why-godzilla-minus-zero-is-a-box-office-hit/"
+    },
+    {
+     "title": "Dread Central",
+     "url": "https://dreadcentral.com/box-office/597081/godzilla-minus-zero-opening-weekend-box-office"
     }
    ],
    "timeline": [
@@ -8278,6 +8764,10 @@
     {
      "date": "2026-11-12",
      "text": "Views fell again as the run continued"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "62,276 views in the second week of the US run; no new event was found."
     }
    ],
    "charted": [
@@ -8322,6 +8812,13 @@
      "views": 75047,
      "confidence": "hi",
      "anchor": "a38"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 39,
+     "views": 62276,
+     "confidence": "hi",
+     "anchor": "a35"
     }
    ]
   },
@@ -8399,14 +8896,6 @@
    ],
    "sources": [
     {
-     "title": "Beebom",
-     "url": "https://beebom.com/gta-6-preloads-now-start-two-days-early-on-november-10/"
-    },
-    {
-     "title": "IBTimes UK",
-     "url": "https://www.ibtimes.co.uk/gta-6-preload-times-storage-requirements-1831115"
-    },
-    {
      "title": "Gamer.org",
      "url": "https://www.gamer.org/gta-6-new-trailer-preload-november-2026/"
     },
@@ -8441,6 +8930,18 @@
     {
      "title": "Kotaku",
      "url": "https://kotaku.com/gta-6-ps5-physical-boxes-have-hit-the-wild-a-harbinger-of-our-disc-less-future-2000754816"
+    },
+    {
+     "title": "9to5Toys",
+     "url": "https://9to5toys.com/2026/11/12/grand-theft-auto-vi-delivery-shipping-today/"
+    },
+    {
+     "title": "RockstarINTEL",
+     "url": "https://rockstarintel.com/gta-6-box-copies-begin-arriving-reveals-online-feature-new-screenshots-and-more/"
+    },
+    {
+     "title": "dlcompare",
+     "url": "https://www.dlcompare.com/gaming-news/gta-6-launch-week-everything-you-need-to-know-before-november-19"
     }
    ],
    "timeline": [
@@ -8455,6 +8956,10 @@
     {
      "date": "2026-11-12",
      "text": "A 28-day high as boxed copies began reaching retailers"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Views reached a new 28-day high of 74,974 in launch week, with boxed copies delivering since 12th Nov; no separate event dated 13th Nov was found."
     }
    ],
    "charted": [
@@ -8478,6 +8983,13 @@
      "views": 73739,
      "confidence": "md",
      "anchor": "a41"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 34,
+     "views": 74974,
+     "confidence": "md",
+     "anchor": "a31"
     }
    ]
   },
@@ -9070,12 +9582,20 @@
     {
      "title": "ABC News",
      "url": "https://abcnews.com/GMA/Culture/dan-hicks-sportscaster-husband-espns-hannah-storm-dies/story?id=138081471"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/news/dan-hicks-dies-nbc-sports-announcer-dead-age-64-wife-hannah-storm/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-12",
      "text": "ESPN anchor. She announced on 12th Nov that her husband, NBC's Dan Hicks, had died."
+    },
+    {
+     "date": "2026-11-13",
+     "text": "No new development was found; views tailed off from the 12th Nov peak."
     }
    ],
    "charted": [
@@ -9085,6 +9605,13 @@
      "views": 127755,
      "confidence": "hi",
      "anchor": "a18"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 22,
+     "views": 96412,
+     "confidence": "hi",
+     "anchor": "a19"
     }
    ]
   },
@@ -9682,6 +10209,55 @@
    ]
   },
   {
+   "id": "j-j-mccarthy",
+   "title": "J. J. McCarthy",
+   "canonical": "J._J._McCarthy",
+   "url": "https://en.wikipedia.org/wiki/J._J._McCarthy",
+   "type": "NFL quarterback",
+   "first_charted": "2026-11-13",
+   "cause": {
+    "text": "His start in the Giants' 24-21 loss to Washington on the evening of 12th Nov US time (13th Nov UTC), including a late interception on the final drive",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-13",
+     "text": "His start in the Giants' 24-21 loss to Washington on the evening of 12th Nov US time (13th Nov UTC), including a late interception on the final drive",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Yahoo Sports (HEAVY)",
+     "url": "https://sports.yahoo.com/articles/j-j-mccarthy-reacts-giants-081139056.html"
+    },
+    {
+     "title": "Yahoo Sports (HEAVY)",
+     "url": "https://sports.yahoo.com/articles/giants-j-j-mccarthy-sums-065847239.html"
+    },
+    {
+     "title": "ABC7 New York",
+     "url": "https://abc7ny.com/post/giants-qb-jj-mccarthy-says-hell-fine-big-hit-injures-hip/20025105/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-13",
+     "text": "Giants quarterback acquired from the Vikings on 28th Sep. He started the 24-21 loss to Washington on 12th Nov (US time), throwing 293 yards and a late interception."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-13",
+     "rank": 43,
+     "views": 59502,
+     "confidence": "md",
+     "anchor": "a39"
+    }
+   ]
+  },
+  {
    "id": "jack-campbell-american-football",
    "title": "Jack Campbell (American football)",
    "canonical": "Jack_Campbell_(American_football)",
@@ -9835,10 +10411,6 @@
    ],
    "sources": [
     {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/11/06/jailer-2-prime-video-release-date.html"
-    },
-    {
      "title": "ETV Bharat",
      "url": "https://www.etvbharat.com/en/entertainment/jailer-2-ott-release-amid-over-rs-820-crore-worldwide-run-makers-drop-major-streaming-update-enn26110501133"
     },
@@ -9881,6 +10453,10 @@
     {
      "title": "Khaleej Times",
      "url": "https://www.khaleejtimes.com/entertainment/jailer-2-ott-release-rajinikanth-mohanlal-hrithik-roshan"
+    },
+    {
+     "title": "Sakshi Post",
+     "url": "https://www.sakshipost.com/news/entertainment/jailer-2-ott-release-no-extended-version-fans-disappointed-483132"
     }
    ],
    "timeline": [
@@ -9955,6 +10531,10 @@
     {
      "date": "2026-11-12",
      "text": "Revised: began streaming on Amazon Prime Video, lifting views by 45% on the previous day"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Views tailed off from the streaming-day bump; no new development since 12th Nov was found."
     }
    ],
    "charted": [
@@ -10104,6 +10684,13 @@
      "views": 107131,
      "confidence": "md",
      "anchor": "a23"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 23,
+     "views": 94514,
+     "confidence": "md",
+     "anchor": "a20"
     }
    ]
   },
@@ -10543,6 +11130,10 @@
     {
      "title": "Lead Stories via Yahoo",
      "url": "https://www.yahoo.com/news/world/articles/fact-check-fake-image-shows-051409685.html"
+    },
+    {
+     "title": "Advanced Television",
+     "url": "https://www.advanced-television.com/2026/11/09/bezos-new-glenn-delayed-until-january/"
     }
    ],
    "timeline": [
@@ -10557,6 +11148,10 @@
     {
      "date": "2026-11-12",
      "text": "A 28-day high of 74,462 views"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "59,177 views, 1.7 times baseline; no event dated 13th Nov was found"
     }
    ],
    "charted": [
@@ -10580,6 +11175,13 @@
      "views": 74462,
      "confidence": "lo",
      "anchor": "a39"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 44,
+     "views": 59177,
+     "confidence": "lo",
+     "anchor": "a40"
     }
    ]
   },
@@ -10827,30 +11429,6 @@
    ],
    "sources": [
     {
-     "title": "Nvidia Newsroom",
-     "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
-    },
-    {
-     "title": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
-    },
-    {
-     "title": "Nvidia investor relations",
-     "url": "https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/"
-    },
-    {
-     "title": "ABC30",
-     "url": "https://abc30.com/story/nvidia-stock-falls-company-opens-probe-ceo-jensen-huang-alleged-affair-chinese-spy/20026775/"
-    },
-    {
-     "title": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
-    },
-    {
-     "title": "Tom's Hardware",
-     "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-ceo-jensen-huang-summoned-to-congressional-committee-over-affair-with-alleged-chinese-spy-says-recent-reports-raise-concerns-over-security-protocols-and-ties-to-chinese-intelligence"
-    },
-    {
      "title": "Al Jazeera",
      "url": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future"
     },
@@ -10873,6 +11451,30 @@
     {
      "title": "Al Jazeera",
      "url": "https://www.aljazeera.com/economy/2026/11/9/nvidia-shares-slump-amid-investigation-into-ceo-jensen-huang"
+    },
+    {
+     "title": "Nvidia press release (SEC filing)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+    },
+    {
+     "title": "Yahoo Finance live blog",
+     "url": "https://finance.yahoo.com/technology/live/nvidia-live-updates-jensen-huang-resigns-cfo-colette-kress-to-serve-as-interim-ceo-140341430.html"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/jonmarkman/2026/11/12/nvidia-names-cfo-colette-kress-as-interim-ceo-after-jensen-huang-resigns/"
+    },
+    {
+     "title": "The Next Web",
+     "url": "https://thenextweb.com/news/house-chairs-jensen-huang-briefing-megaspeed"
+    },
+    {
+     "title": "TheStreet live blog",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026"
+    },
+    {
+     "title": "TradingKey",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262304597-nvidia-rebounds-premarket-employees-call-jensen-huang-return-tradingkey"
     }
    ],
    "timeline": [
@@ -10891,6 +11493,10 @@
     {
      "date": "2026-11-12",
      "text": "Resigned as Nvidia president, chief executive and director; Colette Kress named interim chief executive"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "The Senate Banking chair asked him to testify on 3rd Dec, and employees pushed for his return."
     }
    ],
    "charted": [
@@ -10921,6 +11527,13 @@
      "views": 1072168,
      "confidence": "hi",
      "anchor": "a1"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 3,
+     "views": 727529,
+     "confidence": "hi",
+     "anchor": "a1"
     }
    ]
   },
@@ -10932,8 +11545,8 @@
    "type": "Scandal",
    "first_charted": "2026-11-12",
    "cause": {
-    "text": "Coverage of the alleged Chinese intelligence asset at the centre of the Huang affair on the day he resigned, with new congressional and law-enforcement developments",
-    "confidence": "md"
+    "text": "Continued fallout from Huang's 12th Nov resignation, with the congressional testimony pledge, DOJ probes and further reporting on the board turmoil. 13th Nov is the tail of the 12th Nov peak.",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -10941,6 +11554,12 @@
      "text": "Coverage of the alleged Chinese intelligence asset at the centre of the Huang affair on the day he resigned, with new congressional and law-enforcement developments",
      "confidence": "md",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Continued fallout from Huang's 12th Nov resignation, with the congressional testimony pledge, DOJ probes and further reporting on the board turmoil. 13th Nov is the tail of the 12th Nov peak.",
+     "confidence": "hi",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -10959,12 +11578,32 @@
     {
      "title": "WFSB",
      "url": "https://www.wfsb.com/2026/11/10/trump-says-fbi-is-looking-nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-agent/?outputType=amp"
+    },
+    {
+     "title": "Fox Business",
+     "url": "https://www.foxbusiness.com/business-leaders/nvidia-ceo-jensen-huang-resigns-amid-investigation-relationship-alleged-chinese-spy"
+    },
+    {
+     "title": "FourWeekMBA",
+     "url": "https://fourweekmba.com/ai-nvidia-ceo-subpoena-threat-53-days-left-in-this-congress/"
+    },
+    {
+     "title": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/alisondurkee/2026/11/13/jensen-huang-ousted-timeline-of-the-nvidia-scandal/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-12",
      "text": "Article on the affair and alleged Chinese-intelligence targeting of Nvidia's chief executive. Huang resigned on 12th Nov and agreed to testify to Congress."
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Coverage continued, including a Bloomberg report that Huang was \"broken and shattered\" on giving up the role, and an Nvidia successor search."
     }
    ],
    "charted": [
@@ -10974,6 +11613,13 @@
      "views": 97209,
      "confidence": "md",
      "anchor": "a29"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 24,
+     "views": 94201,
+     "confidence": "hi",
+     "anchor": "a21"
     }
    ]
   },
@@ -13030,8 +13676,8 @@
    "type": "Tech CEO",
    "first_charted": "2026-11-09",
    "cause": {
-    "text": "Speculation that she could succeed her relative Jensen Huang at Nvidia after his 12th Nov resignation; this broadens the stored cause rather than correcting it",
-    "confidence": "hi"
+    "text": "Successor speculation after Huang's 12th Nov resignation, plus her family link to him and AMD's share surge on 9th Nov. 13th Nov is the tail.",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -13051,17 +13697,15 @@
      "text": "Speculation that she could succeed her relative Jensen Huang at Nvidia after his 12th Nov resignation; this broadens the stored cause rather than correcting it",
      "confidence": "hi",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Successor speculation after Huang's 12th Nov resignation, plus her family link to him and AMD's share surge on 9th Nov. 13th Nov is the tail.",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "24/7 Wall St.",
-     "url": "https://247wallst.com/investing/2026/11/09/lisa-su-called-the-market-short-sighted-as-amd-crashed-17-two-sessions-later-the-stock-has-it-all-back/"
-    },
-    {
-     "title": "FinanceFeeds",
-     "url": "https://financefeeds.com/amd-stock-recovers-rout-oppenheimer-upgrade"
-    },
     {
      "title": "AOL",
      "url": "https://www.aol.com/articles/lisa-su-called-market-short-211745000.html"
@@ -13093,6 +13737,22 @@
     {
      "title": "Stocktwits",
      "url": "https://stocktwits.com/news-articles/markets/equity/amd-stock-michael-burry-wont-touch-nvidia-headline-trade/cNGu40nR97l"
+    },
+    {
+     "title": "The Week (India)",
+     "url": "https://www.theweek.in/news/biz-tech/2026/11/10/who-will-be-the-next-nvidia-ceo-top-contenders-to-replace-jensen-huang.amp.html"
+    },
+    {
+     "title": "Herald Corp (Korea)",
+     "url": "https://mbiz.heraldcorp.com/article/10933917"
+    },
+    {
+     "title": "The Federal",
+     "url": "https://thefederal.com/category/business/who-will-replace-nvidia-ceo-jensen-huang-affair-alice-huang-us-china-spy-262662"
+    },
+    {
+     "title": "ColombiaOne",
+     "url": "https://colombiaone.com/2026/11/13/who-could-replace-jensen-huang-nvidia-seven-potential-successors/"
     }
    ],
    "timeline": [
@@ -13107,6 +13767,10 @@
     {
      "date": "2026-11-12",
      "text": "Named as a possible successor after Huang resigned; 28-day high"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Successor lists naming her as a possible external candidate continued; no AMD-specific event was found."
     }
    ],
    "charted": [
@@ -13130,6 +13794,13 @@
      "views": 136248,
      "confidence": "hi",
      "anchor": "a17"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 21,
+     "views": 97254,
+     "confidence": "md",
+     "anchor": "a18"
     }
    ]
   },
@@ -13208,22 +13879,6 @@
    "sources": [
     {
      "title": "Sacnilk",
-     "url": "https://www.sacnilk.com/news/ramayana-day-1-box-office-breaks-pre-diwali-opening-record-and-beats-adipurush-in-hindi-but-trails-in-overall-india-collections"
-    },
-    {
-     "title": "Sacnilk",
-     "url": "https://www.sacnilk.com/news/ramayana-day-3-outgrosses-opening-day-as-worldwide-collection-nears-375-crore-early-estimates"
-    },
-    {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/11/09/ramayana-day-5-box-office-collection-record.amp.html"
-    },
-    {
-     "title": "Khaleej Times",
-     "url": "https://www.khaleejtimes.com/entertainment/ranbir-kapoor-ramayana-worldwide-box-office-collection"
-    },
-    {
-     "title": "Sacnilk",
      "url": "https://www.sacnilk.com/news/top-5-indian-box-office-weekend-november-6-8-collections-cross-250-crore-net-as-ramayana-leads-with-69-share"
     },
     {
@@ -13253,6 +13908,22 @@
     {
      "title": "Khaleej Times",
      "url": "https://www.khaleejtimes.com/entertainment/ramayana-box-office-day-5-ranbir-kapoor-record-monday"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/entertainmenttopbar/Top_10_Indian_Movies_%28Worldwide_Collection%29"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/11/14/ramayana-part-1-second-friday-collection-day-9-box-office.html"
+    },
+    {
+     "title": "Outlook India",
+     "url": "https://www.outlookindia.com/art-entertainment/ramayana-part-one-box-office-collection-day-9-ranbir-kapoor-film-india-worldwide-earnings"
+    },
+    {
+     "title": "Gulf News",
+     "url": "https://gulfnews.com/entertainment/ramayana-box-office-ranbir-kapoor-and-yashs-film-roars-past-rs-8-billion-worldwide-1.500743270"
     }
    ],
    "timeline": [
@@ -13271,6 +13942,10 @@
     {
      "date": "2026-11-12",
      "text": "New 28-day high as trade reports put the film past Rs 1,000 crore worldwide"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "171,338 views, a new 28-day high, as Ramayana: Part 1 reached about Rs 1,111 crore and entered the all-time top 10, Sacnilk"
     }
    ],
    "charted": [
@@ -13301,6 +13976,13 @@
      "views": 146689,
      "confidence": "md",
      "anchor": "a12"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 14,
+     "views": 171338,
+     "confidence": "md",
+     "anchor": "a11"
     }
    ]
   },
@@ -13726,18 +14408,6 @@
    ],
    "sources": [
     {
-     "title": "Football365",
-     "url": "https://www.football365.com/news/man-utd-make-incredible-pochettino-decision-as-ex-spurs-boss-emerges-as-favourite-to-replace-carrick"
-    },
-    {
-     "title": "Khel Now",
-     "url": "https://khelnow.com/football/mauricio-pochettino-becomes-bookmakers-favourite-manchester-united-202611"
-    },
-    {
-     "title": "The Peoples Person",
-     "url": "https://thepeoplesperson.com/2026/11/09/mauricio-pochettino-open-to-man-united-job-as-michael-carrick-future-in-doubt-321829/"
-    },
-    {
      "title": "Sky Sports",
      "url": "https://skysports.com/football/news/13610949/mauricio-pochettino-man-utd-strike-agreement-with-michael-carricks-potential-successor"
     },
@@ -13768,6 +14438,22 @@
     {
      "title": "Inside World Football",
      "url": "https://www.insideworldfootball.com/2026/11/10/michael-carrick-expected-to-depart-manchester-united/"
+    },
+    {
+     "title": "U.S. Soccer",
+     "url": "https://www.ussoccer.com/stories/2026/11/usmnt/mauricio-pochettino-to-depart-as-head-coach"
+    },
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/soccer/story/_/id/50470928/pochettino-leave-usmnt-nov-17-cherundolo-interim-december"
+    },
+    {
+     "title": "Fox Sports",
+     "url": "https://www.foxsports.com/stories/soccer/usmnt-pochettino-manchester-united-manager"
+    },
+    {
+     "title": "Sports Mole",
+     "url": "https://www.sportsmole.co.uk/football/man-utd/news/a-new-era-man-united-reach-agreement-with-pochettino_608910.html"
     }
    ],
    "timeline": [
@@ -13782,6 +14468,10 @@
     {
      "date": "2026-11-12",
      "text": "United sacked Carrick and reportedly agreed a deal with him"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "U.S. Soccer and Manchester United officially announced he is leaving the national team to become United head coach, U.S. Soccer"
     }
    ],
    "charted": [
@@ -13805,6 +14495,13 @@
      "views": 168183,
      "confidence": "hi",
      "anchor": "a9"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 13,
+     "views": 172224,
+     "confidence": "hi",
+     "anchor": "a10"
     }
    ]
   },
@@ -14693,22 +15390,6 @@
    ],
    "sources": [
     {
-     "title": "Motley Fool",
-     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/09/stock-market-today-nov-9-nvidia-stock-plunges-4-on-jensen-huang-investigation-as-nasdaq-surges-nearly-3/"
-    },
-    {
-     "title": "Fox 10 Phoenix",
-     "url": "https://www.fox10phoenix.com/news/nvidia-investigating-ceo-jensen-huang-over-reported-links-accused-chinese-spy"
-    },
-    {
-     "title": "DNyuz (New York Times)",
-     "url": "https://dnyuz.com/2026/11/09/lawmakers-briefed-on-nvidia-affair-as-security-concerns-mount/"
-    },
-    {
-     "title": "Nation Thailand",
-     "url": "https://www.nationthailand.com/news/world/40073275"
-    },
-    {
      "title": "Data Center Knowledge",
      "url": "https://datacenterknowledge.com/data-center-chips/nvidia-probes-huang-ties-as-ai-industry-weighs-the-fallout"
     },
@@ -14739,6 +15420,22 @@
     {
      "title": "Nvidia board statement",
      "url": "https://investor.nvidia.com/news/press-release-details/2026/Statement-from-NVIDIA-Board-of-Directors/"
+    },
+    {
+     "title": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-jensen-huang-resigns-ceo-140115697.html"
+    },
+    {
+     "title": "TheStreet live blog",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026"
+    },
+    {
+     "title": "TradingKey",
+     "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262304597-nvidia-rebounds-premarket-employees-call-jensen-huang-return-tradingkey"
+    },
+    {
+     "title": "Lance Roberts on Substack",
+     "url": "https://lanceroberts.substack.com/p/daily-market-trading-update-november-728"
     }
    ],
    "timeline": [
@@ -14757,6 +15454,10 @@
     {
      "date": "2026-11-12",
      "text": "Huang resigned and Kress became interim chief executive; views reached a 28-day high"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Shares reversed from a premarket gain to about 3.9% lower by late morning, and the Nasdaq and S&P 500 closed lower."
     }
    ],
    "charted": [
@@ -14785,6 +15486,13 @@
      "date": "2026-11-12",
      "rank": 8,
      "views": 366417,
+     "confidence": "hi",
+     "anchor": "a5"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 8,
+     "views": 252871,
      "confidence": "hi",
      "anchor": "a5"
     }
@@ -15497,6 +16205,55 @@
    ]
   },
   {
+   "id": "piracy",
+   "title": "Piracy",
+   "canonical": "Piracy",
+   "url": "https://en.wikipedia.org/wiki/Piracy",
+   "type": "Crime",
+   "first_charted": "2026-11-13",
+   "cause": {
+    "text": "Unknown. The page covers the unauthorised copying of media and sea robbery. No news, edit or Talk page trigger was found.",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-13",
+     "text": "Unknown. The page covers the unauthorised copying of media and sea robbery. No news, edit or Talk page trigger was found.",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "gCaptain",
+     "url": "https://gcaptain.com/armed-pirates-hijack-cargo-ship-off-somalia/"
+    },
+    {
+     "title": "Google Doodles",
+     "url": "https://doodles.google/doodle/veterans-day-2026/"
+    },
+    {
+     "title": "The Parker Nathan",
+     "url": "https://theparkernathan.substack.com/p/cybersecurity-news-november-13-2026"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-13",
+     "text": "Page on the unauthorised copying of media and on sea robbery. No news, edit or Talk page trigger was found."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-13",
+     "rank": 10,
+     "views": 201972,
+     "confidence": "lo",
+     "anchor": "a7"
+    }
+   ]
+  },
+  {
    "id": "ramayana-part-1",
    "title": "Ramayana: Part 1",
    "canonical": "Ramayana:_Part_1",
@@ -15504,8 +16261,8 @@
    "type": "Film",
    "first_charted": "2026-10-31",
    "cause": {
-    "text": "The continuing theatrical release and box-office run, with D on the decline from the 10th Nov peak",
-    "confidence": "md"
+    "text": "Continuing theatrical run of the Indian epic film, with record box office on 13th Nov (second Friday, about Rs 1,100 crore worldwide); stored cause confirmed",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -15537,29 +16294,15 @@
      "text": "The continuing theatrical release and box-office run, with D on the decline from the 10th Nov peak",
      "confidence": "md",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Continuing theatrical run of the Indian epic film, with record box office on 13th Nov (second Friday, about Rs 1,100 crore worldwide); stored cause confirmed",
+     "confidence": "hi",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "Bollywood Hungama",
-     "url": "https://www.bollywoodhungama.com/movie/ramayana-part-i/box-office/"
-    },
-    {
-     "title": "Sacnilk",
-     "url": "https://www.sacnilk.com/news/ramayana-crosses-100-crore-india-net-in-2-days-matches-animals-pace-but-trails-kgf-2-and-toxic"
-    },
-    {
-     "title": "Sacnilk",
-     "url": "https://www.sacnilk.com/news/ramayana-day-3-outgrosses-opening-day-as-worldwide-collection-nears-375-crore-early-estimates"
-    },
-    {
-     "title": "Sacnilk",
-     "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Fifth_Day_Advance_Booking_Report"
-    },
-    {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/11/09/ramayana-day-6-box-office.html"
-    },
     {
      "title": "Sacnilk",
      "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_5"
@@ -15587,6 +16330,26 @@
     {
      "title": "The Week",
      "url": "https://www.theweek.in/news/entertainment/2026/11/10/ramayana-day-6-box-office-collection-750-crore.amp.html"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/11/14/ramayana-part-1-second-friday-collection-day-9-box-office.html"
+    },
+    {
+     "title": "Outlook India",
+     "url": "https://www.outlookindia.com/art-entertainment/ramayana-part-one-box-office-collection-day-9-ranbir-kapoor-film-india-worldwide-earnings"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_9"
+    },
+    {
+     "title": "Gulf News",
+     "url": "https://gulfnews.com/entertainment/ramayana-box-office-ranbir-kapoor-and-yashs-film-roars-past-rs-8-billion-worldwide-1.500743270"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/11/13/ramayana-part-1-highest-grossing-bollywood-film-kerala.html"
     }
    ],
    "timeline": [
@@ -15625,6 +16388,10 @@
     {
      "date": "2026-11-12",
      "text": "Eighth day of release; trade reports of a Rs 1,000 crore worldwide crossing while advance sales ran about a quarter below the seventh day"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Day 9, second Friday: India net Rs 47.85 crore, a record second Friday, and worldwide gross Rs 1,110.70 crore."
     }
    ],
    "charted": [
@@ -15689,6 +16456,13 @@
      "rank": 4,
      "views": 735438,
      "confidence": "md",
+     "anchor": "a2"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 4,
+     "views": 618656,
+     "confidence": "hi",
      "anchor": "a2"
     }
    ]
@@ -16087,8 +16861,8 @@
    "type": "Comedian",
    "first_charted": "2026-11-05",
    "cause": {
-    "text": "The tail of the conviction and sentencing coverage plus follow-on police news about more complainants; this supports the stored cause",
-    "confidence": "hi"
+    "text": "Tail of the conviction and sentencing coverage, plus follow-on stories on police assessing more complainants and the posts and petition from his account",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -16108,25 +16882,15 @@
      "text": "The tail of the conviction and sentencing coverage plus follow-on police news about more complainants; this supports the stored cause",
      "confidence": "hi",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Tail of the conviction and sentencing coverage, plus follow-on stories on police assessing more complainants and the posts and petition from his account",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "CBS News",
-     "url": "https://www.cbsnews.com/news/russell-brand-sentenced-prison-rape-sexual-assault/"
-    },
-    {
-     "title": "Deseret News",
-     "url": "https://www.deseret.com/entertainment/2026/11/09/russell-brand-senteced-to-10-12-years-prision-for-rape-and-sexual-assault/"
-    },
-    {
-     "title": "HollywoodLife",
-     "url": "https://hollywoodlife.com/feature/russell-brand-sentence-how-long-could-he-go-to-jail-5581478/"
-    },
-    {
-     "title": "ITV News",
-     "url": "https://www.itv.com/news/london/2026-11-06/russell-brands-actions-horrifying-says-burnham-as-he-praises-victims"
-    },
     {
      "title": "Chortle",
      "url": "https://www.chortle.co.uk/news/2026/11/09/62005/russell_brand_sentenced_to_10%C2%BD_years"
@@ -16158,6 +16922,22 @@
     {
      "title": "Noovo (AFP)",
      "url": "https://www.noovo.info/nouvelles/justice/article/nouveaux-signalements-contre-russell-brand-condamne-pour-viol-et-agressions-sexuelles/"
+    },
+    {
+     "title": "Chortle",
+     "url": "https://www.chortle.co.uk/news/2026/11/09/62005/russell_brand_sentenced_to_10%c2%bd_years"
+    },
+    {
+     "title": "The Star",
+     "url": "https://www.thestar.com.my/news/world/2026/11/10/british-police-say-assessing-further-reports-about-russell-brand"
+    },
+    {
+     "title": "Dazed",
+     "url": "https://www.dazeddigital.com/life-culture/article/71325/1/russell-brand-ugly-afterlife-of-00s-sexual-assault-conviction-maga"
+    },
+    {
+     "title": "The Tab",
+     "url": "https://thetab.com/2026/11/13/russell-brands-twitter-posts-disgusting-video-and-shameful-petition-even-as-hes-locked-up"
     }
    ],
    "timeline": [
@@ -16184,6 +16964,10 @@
     {
      "date": "2026-11-12",
      "text": "Tail of the story, with police reporting more complainants"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "112,783 views; coverage of posts and a petition from his X account, with no new court event"
     }
    ],
    "charted": [
@@ -16228,6 +17012,62 @@
      "views": 116285,
      "confidence": "hi",
      "anchor": "a20"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 17,
+     "views": 112783,
+     "confidence": "md",
+     "anchor": "a14"
+    }
+   ]
+  },
+  {
+   "id": "sam-hartman",
+   "title": "Sam Hartman",
+   "canonical": "Sam_Hartman",
+   "url": "https://en.wikipedia.org/wiki/Sam_Hartman",
+   "type": "Football quarterback",
+   "first_charted": "2026-11-13",
+   "cause": {
+    "text": "ABC's announcement on 13th Nov of Sam Hartman as the lead of The Bachelor season 30, revealed on Good Morning America",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-13",
+     "text": "ABC's announcement on 13th Nov of Sam Hartman as the lead of The Bachelor season 30, revealed on Good Morning America",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/culture-lifestyle/culture/the-bachelor-abc-sam-hartman-season-30-star/"
+    },
+    {
+     "title": "LA Magazine",
+     "url": "https://lamag.com/tv/the-bachelor-season-30-will-star-nfl-quarterback-sam-hartman/"
+    },
+    {
+     "title": "Yahoo Entertainment",
+     "url": "https://www.yahoo.com/entertainment/celebrity/articles/nfl-quarterback-sam-hartman-star-153157105.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-13",
+     "text": "American football quarterback with the Washington Commanders. ABC named him the lead of The Bachelor season 30 on 13th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-13",
+     "rank": 12,
+     "views": 191577,
+     "confidence": "hi",
+     "anchor": "a9"
     }
    ]
   },
@@ -16343,8 +17183,8 @@
    "type": "Film",
    "first_charted": "2026-11-06",
    "cause": {
-    "text": "Theatrical release of the Tamil film Scene (Suriya) on 6th Nov, Diwali weekend",
-    "confidence": "hi"
+    "text": "The theatrical run of the Tamil film starring Suriya, released on 6th Nov, now in a second week with falling collections.",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -16352,21 +17192,15 @@
      "text": "Theatrical release of the Tamil film Scene (Suriya) on 6th Nov, Diwali weekend",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "The theatrical run of the Tamil film starring Suriya, released on 6th Nov, now in a second week with falling collections.",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "Pinkvilla",
-     "url": "https://www.pinkvilla.com/entertainment/south/scene-movie-review-suriyas-charm-and-swag-turn-this-dark-comedy-into-a-fun-entertainer-breaking-his-flawless-image-1406300"
-    },
-    {
-     "title": "Sacnilk",
-     "url": "https://www.sacnilk.com/quicknews/Scene_2026_Box_Office_Collection_Day_4"
-    },
-    {
-     "title": "NewsBytes",
-     "url": "https://www.newsbytesapp.com/news/entertainment/scene-box-office-collection-day-4-overview/story"
-    },
     {
      "title": "The Week",
      "url": "https://www.theweek.in/news/entertainment/2026/11/09/suriya-scene-day-four-box-office-collection-100-crore.html"
@@ -16402,6 +17236,18 @@
     {
      "title": "The Week",
      "url": "https://www.theweek.in/news/entertainment/2026/11/10/scene-movie-box-office-collection-day-5.amp.html"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/quicknews/Scene_2026_Box_Office_Collection_Day_6"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/quicknews/Scene_2026_Eighth_Day_Advance_Booking_Report"
+    },
+    {
+     "title": "Esquire India",
+     "url": "https://www.esquireindia.co.in/entertainment/what-to-stream/scene-ott-release-date-when-and-where-to-watch-suriya-nazriya-and-naslen-tamil-film-online-netflix"
     }
    ],
    "timeline": [
@@ -16424,6 +17270,10 @@
     {
      "date": "2026-11-12",
      "text": "Second week; seventh-day advance sales were modest"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Eighth day of release; morning advance booking was about Rs 2.78 crore gross, below the previous day's."
     }
    ],
    "charted": [
@@ -16461,6 +17311,13 @@
      "views": 98310,
      "confidence": "hi",
      "anchor": "a28"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 30,
+     "views": 82432,
+     "confidence": "md",
+     "anchor": "a27"
     }
    ]
   },
@@ -16472,8 +17329,8 @@
    "type": "Politician",
    "first_charted": "2026-11-04",
    "cause": {
-    "text": "A too-close-to-call Senate race in which the Democratic challenger took the lead overnight on 3rd/4th Nov, with national attention on a possible upset in a state Trump won by about 23 points",
-    "confidence": "hi"
+    "text": "Tail of the historic Senate flip called on 11th Nov; he will be the first Black US senator from Mississippi since Reconstruction, and 12th Nov was the first full day of national attention",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -16481,21 +17338,15 @@
      "text": "A too-close-to-call Senate race in which the Democratic challenger took the lead overnight on 3rd/4th Nov, with national attention on a possible upset in a state Trump won by about 23 points",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Tail of the historic Senate flip called on 11th Nov; he will be the first Black US senator from Mississippi since Reconstruction, and 12th Nov was the first full day of national attention",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "ABC News",
-     "url": "https://abcnews.com/Politics/recounts-mississippi-razor-thin-margin-senate-race/story?id=137844445"
-    },
-    {
-     "title": "Mississippi Free Press",
-     "url": "https://www.mississippifreepress.org/liveblog-mississippis-2026-u-s-senate-election-results/"
-    },
-    {
-     "title": "CBS News",
-     "url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/"
-    },
     {
      "title": "WLBT",
      "url": "https://www.wlbt.com/2026/11/06/scott-colom-widens-gap-over-2000-votes-ahead-cindy-hyde-smith/"
@@ -16531,6 +17382,18 @@
     {
      "title": "WLOX",
      "url": "https://www.wlox.com/2026/11/04/colom-give-campaign-update-mississippi-senate-race-remains-too-close-call/"
+    },
+    {
+     "title": "WRDW",
+     "url": "https://www.wrdw.com/2026/11/11/mississippi-elects-democrat-scott-colom-states-first-black-us-senator-since-reconstruction/"
+    },
+    {
+     "title": "WLOX",
+     "url": "https://www.wlox.com/2026/11/11/coloms-lead-grows-just-under-3000-votes-mississippi-senate-race-continues/"
+    },
+    {
+     "title": "Atlanta Black Star",
+     "url": "https://atlantablackstar.com/2026/11/11/scott-colom-becomes-first-black-ms-senator-in-150-years/"
     }
    ],
    "timeline": [
@@ -16553,6 +17416,10 @@
     {
      "date": "2026-11-12",
      "text": "First full day of national coverage of the historic result, with views at a 28-day high"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "55,597 views, 22.5 times baseline; no new development found, with county certification due that day"
     }
    ],
    "charted": [
@@ -16590,6 +17457,13 @@
      "views": 235409,
      "confidence": "hi",
      "anchor": "a8"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 45,
+     "views": 55597,
+     "confidence": "md",
+     "anchor": "a41"
     }
    ]
   },
@@ -16888,6 +17762,26 @@
     {
      "title": "Maritime Executive",
      "url": "https://maritime-executive.com/index.php/article/famed-ocean-liner-ss-united-states-to-be-sunk-on-veterans-day"
+    },
+    {
+     "title": "KPTV",
+     "url": "https://www.kptv.com/2026/11/11/live-ocean-liner-sinks-off-coast-florida-panhandle-make-largest-artificial-reef/"
+    },
+    {
+     "title": "Action News Jax",
+     "url": "https://www.actionnewsjax.com/news/weird-news/this-ocean-liner-was/MW3V536UNEYSFNDRYZ24OAQ4QI/"
+    },
+    {
+     "title": "Cruise Industry News",
+     "url": "https://cruiseindustrynews.com/cruise-news/2026/11/ss-united-states-sinking-moved-up-over-weather-concerns/"
+    },
+    {
+     "title": "6abc",
+     "url": "https://6abc.com/post/first-divers-explore-ss-united-states-historic-sinking-was-epic/20037309/"
+    },
+    {
+     "title": "Popular Science",
+     "url": "https://www.popsci.com/environment/ss-united-states-reef-video/"
     }
    ],
    "timeline": [
@@ -16898,6 +17792,10 @@
     {
      "date": "2026-11-12",
      "text": "The hull went under around 03:00 to 04:00 UTC, so the climax and the live-stream audience fell on this date"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Divers released the first underwater video showing the wreck upright on the seabed, with follow-up coverage."
     }
    ],
    "charted": [
@@ -16914,6 +17812,13 @@
      "views": 241627,
      "confidence": "hi",
      "anchor": "a7"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 25,
+     "views": 93568,
+     "confidence": "hi",
+     "anchor": "a22"
     }
    ]
   },
@@ -17889,12 +18794,32 @@
     {
      "title": "Rotten Tomatoes",
      "url": "https://www.rottentomatoes.com/tv/the_body_2026"
+    },
+    {
+     "title": "Netflix Tudum",
+     "url": "https://www.netflix.com/tudum/articles/the-body-plot-release-date-news?inapp=true"
+    },
+    {
+     "title": "NME",
+     "url": "https://www.nme.com/reviews/tv-reviews/the-body-review-netflix-quinn-shephard-kristina-bogic-geena-meszaros-3975594"
+    },
+    {
+     "title": "Leisurebyte",
+     "url": "https://leisurebyte.com/the-body-ending-explained-netflix-2026/"
+    },
+    {
+     "title": "Micropsia",
+     "url": "https://www.micropsiacine.com/2026/11/the-body-netflix-review-teenage-hormones-religious-hysteria-and-a-little-help-from-the-devil/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-12",
      "text": "Netflix teen supernatural thriller set at a Catholic school. All eight episodes were released on 11th Nov."
+    },
+    {
+     "date": "2026-11-13",
+     "text": "79,343 views on the third day of availability, with review and ending-explainer coverage continuing."
     }
    ],
    "charted": [
@@ -17904,6 +18829,13 @@
      "views": 82122,
      "confidence": "hi",
      "anchor": "a33"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 31,
+     "views": 79343,
+     "confidence": "hi",
+     "anchor": "a28"
     }
    ]
   },
@@ -18969,8 +19901,8 @@
    "type": "TV series",
    "first_charted": "2026-10-21",
    "cause": {
-    "text": "The tail of the series finale release; 12th Nov is a decay from the 11th Nov peak, and the news supports the stored cause",
-    "confidence": "md"
+    "text": "The tail of the series finale release on 11th Nov and its post-credits scene (stored cause confirmed). No new event was found for 13th Nov.",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -19008,21 +19940,15 @@
      "text": "The tail of the series finale release; 12th Nov is a decay from the 11th Nov peak, and the news supports the stored cause",
      "confidence": "md",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "The tail of the series finale release on 11th Nov and its post-credits scene (stored cause confirmed). No new event was found for 13th Nov.",
+     "confidence": "hi",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "But Why Tho",
-     "url": "https://butwhytho.net/2026/11/visionquest-episode-7-immolation-review/"
-    },
-    {
-     "title": "Epicstream",
-     "url": "https://epicstream.com/article/when-do-new-episodes-of-visionquest-drop-on-disney-release-dates-revealed"
-    },
-    {
-     "title": "Forbes",
-     "url": "https://www.forbes.com/sites/erikkain/2026/11/08/visionquest-season-finale-episode-8-release-time-disney-plus/"
-    },
     {
      "title": "Marvel.com",
      "url": "https://www.marvel.com/articles/tv-shows/visionquest-series-finale-screening-event"
@@ -19058,6 +19984,18 @@
     {
      "title": "ComicBookMovie.com",
      "url": "https://comicbookmovie.com/tv/marvel/vision/visionquest-complete-season-review-brilliantly-written-masterfully-acted-exploration-of-love-loss-a230379"
+    },
+    {
+     "title": "ComicBookMovie",
+     "url": "https://comicbookmovie.com/tv/marvel/vision/visionquests-surprise-post-credits-scene-explained-how-marvel-just-turned-avengers-doomsday-on-its-head-a230927"
+    },
+    {
+     "title": "Epicstream",
+     "url": "https://epicstream.com/article/is-scarlet-witch-in-avengers-doomsday-visionquest-post-credits-scene-confirms-return"
+    },
+    {
+     "title": "Ready Steady Cut",
+     "url": "https://readysteadycut.com/2026/11/11/visionquest-season-2/"
     }
    ],
    "timeline": [
@@ -19092,6 +20030,10 @@
     {
      "date": "2026-11-12",
      "text": "Second day after the finale; no new event"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Third day after the finale, 62,325 views; no new event was found."
     }
    ],
    "charted": [
@@ -19157,6 +20099,13 @@
      "views": 102126,
      "confidence": "md",
      "anchor": "a25"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 38,
+     "views": 62325,
+     "confidence": "hi",
+     "anchor": "a34"
     }
    ]
   },
@@ -19831,6 +20780,10 @@
     {
      "title": "The European Sting",
      "url": "https://europeansting.com/2026/03/27/commission-preliminarily-finds-pornhub-stripchat-xnxx-and-xvideos-in-breach-of-the-digital-services-act-for-allowing-minors-to-access-their-services/"
+    },
+    {
+     "title": "European Commission",
+     "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_722"
     }
    ],
    "timeline": [
@@ -19869,6 +20822,10 @@
     {
      "date": "2026-11-12",
      "text": "78,187 views; still no trigger"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "88,074 views, 1.9 times baseline; no event found, with no edits or new Talk threads."
     }
    ],
    "charted": [
@@ -19934,6 +20891,13 @@
      "views": 78187,
      "confidence": "lo",
      "anchor": "a35"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 26,
+     "views": 88074,
+     "confidence": "lo",
+     "anchor": "a23"
     }
    ]
   },
@@ -19957,14 +20921,6 @@
     }
    ],
    "sources": [
-    {
-     "title": "Global Capital Domain",
-     "url": "https://gcd.com/early-news-and-highlights-from-the-2026-new-gtld-round/"
-    },
-    {
-     "title": "DomainIncite adult tag",
-     "url": "https://domainincite.com/tag/adult"
-    },
     {
      "title": "Domain Name Wire",
      "url": "https://domainnamewire.com/2025/10/02/xxx-gets-more-expensive-next-month/"
@@ -20004,6 +20960,14 @@
     {
      "title": "SCL",
      "url": "https://www.scl.org/european-commission-preliminarily-finds-pornhub-stripchat-xnxx-and-xvideos-in-breach-of-dsa/"
+    },
+    {
+     "title": "ABTDomain weekly report",
+     "url": "https://abtdomain.com/periodic-reports/2026-11/domain-intelligence-weekly-2026-11-11/"
+    },
+    {
+     "title": "DomainIncite .xxx tag page",
+     "url": "https://domainincite.com/tag/xxx"
     }
    ],
    "timeline": [
@@ -20078,6 +21042,10 @@
     {
      "date": "2026-11-12",
      "text": "257,723 views; research found no news, edit or Talk page trigger"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "486,885 views, the highest in the window; no news, edit or Talk page trigger was found."
     }
    ],
    "charted": [
@@ -20206,6 +21174,13 @@
      "views": 257723,
      "confidence": "lo",
      "anchor": "a6"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 6,
+     "views": 486885,
+     "confidence": "lo",
+     "anchor": "a3"
     }
    ]
   },
@@ -20564,12 +21539,24 @@
     {
      "title": "Fox 4 News",
      "url": "https://www.fox4news.com/news/yella-beezy-trial-dallas-rapper-mo3-murder-day-11"
+    },
+    {
+     "title": "Fox LA",
+     "url": "https://www.foxla.com/news/yella-beezy-trial-dallas-rapper-mo3-murder-verdict"
+    },
+    {
+     "title": "TMZ",
+     "url": "https://www.tmz.com/2026/11/11/yella-beezy-sentenced-life-mo3-killing/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-12",
      "text": "Dallas rapper. A jury convicted him of capital murder in the killing of rapper Mo3 on 11th Nov; he got life without parole."
+    },
+    {
+     "date": "2026-11-13",
+     "text": "Follow-up coverage continued, including TMZ's jail-rules story updated on 13th Nov; no separate event was found."
     }
    ],
    "charted": [
@@ -20579,6 +21566,13 @@
      "views": 96701,
      "confidence": "hi",
      "anchor": "a30"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 37,
+     "views": 63318,
+     "confidence": "hi",
+     "anchor": "a33"
     }
    ]
   },
@@ -20614,10 +21608,6 @@
     }
    ],
    "sources": [
-    {
-     "title": "TechCrunch",
-     "url": "https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything/"
-    },
     {
      "title": "World of Reel",
      "url": "https://www.worldofreel.com/blog/2026/10/21/you-can-see-everything-is-the-1-movie-in-america-on-just-855-screens-now-it-expands-to-2500-this-weekend"
@@ -20661,6 +21651,10 @@
     {
      "title": "The Numbers",
      "url": "https://www.the-numbers.com/movie/You-Can-See-Everything-(2026)"
+    },
+    {
+     "title": "Flicks",
+     "url": "https://www.flicks.com.au/news/how-to-watch-you-can-see-everything-in-australia/"
     }
    ],
    "timeline": [
@@ -20711,6 +21705,10 @@
     {
      "date": "2026-11-11",
      "text": "69,112 views, level with the baseline, ahead of the overseas releases"
+    },
+    {
+     "date": "2026-11-13",
+     "text": "54,838 views, 0.6 times baseline; the Australian wide release of 12th Nov was the only dated event found"
     }
    ],
    "charted": [
@@ -20818,6 +21816,13 @@
      "views": 69112,
      "confidence": "md",
      "anchor": "a35"
+    },
+    {
+     "date": "2026-11-13",
+     "rank": 46,
+     "views": 54838,
+     "confidence": "md",
+     "anchor": "a42"
     }
    ]
   }
