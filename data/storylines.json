@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-13",
+ "updated": "2026-11-15",
  "groups": [
   {
    "id": "holmes-documentary",
@@ -302,6 +302,56 @@
     "cam-skattebo",
     "j-j-mccarthy"
    ]
+  },
+  {
+   "id": "ufc-334",
+   "title": "UFC 334",
+   "summary": "UFC 334 on 14th Nov (US time): Gane v Hokit main event, Harrison v Nunes co-main and Stephen Thompson's retirement fight.",
+   "members": [
+    "ufc-334",
+    "ciryl-gane",
+    "josh-hokit",
+    "kayla-harrison",
+    "amanda-nunes",
+    "stephen-thompson-fighter"
+   ]
+  },
+  {
+   "id": "bitly-hijack-2026",
+   "title": "Hijacked Bitly links",
+   "summary": "Old brand Bitly links in X posts were hijacked on 15th Nov and redirected users to unrelated Wikipedia pages.",
+   "members": [
+    "9-11",
+    "list-of-nazi-concentration-camps",
+    "adolf-hitler"
+   ]
+  },
+  {
+   "id": "snl-mulaney-2026-11-14",
+   "title": "SNL: John Mulaney and Phoebe Bridgers",
+   "summary": "Saturday Night Live episode of 14th Nov hosted by John Mulaney with musical guest Phoebe Bridgers.",
+   "members": [
+    "john-mulaney",
+    "phoebe-bridgers"
+   ]
+  },
+  {
+   "id": "nations-league-2026-27",
+   "title": "2026-27 UEFA Nations League",
+   "summary": "Matchday 6 on 15th Nov, including England's win at Spain.",
+   "members": [
+    "2026-27-uefa-nations-league",
+    "james-trafford"
+   ]
+  },
+  {
+   "id": "netflix-the-body",
+   "title": "The Body (Netflix series)",
+   "summary": "Netflix series The Body, released on 11th Nov, and its cast.",
+   "members": [
+    "the-body-tv-series",
+    "sara-boustany"
+   ]
   }
  ],
  "aliases": {},
@@ -348,6 +398,59 @@
      "views": 133655,
      "confidence": "lo",
      "anchor": "a13"
+    }
+   ]
+  },
+  {
+   "id": "2026-27-uefa-nations-league",
+   "title": "2026–27 UEFA Nations League",
+   "canonical": "2026–27_UEFA_Nations_League",
+   "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League",
+   "type": "Football tournament",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Matchday 6 on 15th Nov, including England's win at Spain.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Matchday 6 on 15th Nov, including England's win at Spain.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/soccer/story/_/id/50494867/england-spain-nations-league-win-tuchel"
+    },
+    {
+     "title": "Vanguard",
+     "url": "https://www.vanguardngr.com/2026/11/england-end-spains-44-game-unbeaten-run-with-3-2-win/"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/belgium-4-1-italy-doku-092900909.html"
+    },
+    {
+     "title": "UEFA",
+     "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Men's national-team tournament. Matchday 6 on 15th Nov included England 3-2 at Spain and Belgium 4-1 Italy."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 32,
+     "views": 79669,
+     "confidence": "hi",
+     "anchor": "a29"
     }
    ]
   },
@@ -2022,6 +2125,59 @@
    ]
   },
   {
+   "id": "9-11",
+   "title": "9/11",
+   "canonical": "9/11",
+   "url": "https://en.wikipedia.org/wiki/9/11",
+   "type": "Redirect (2001 attacks)",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Hijacked old McDonald's Bitly link (from a 7th June 2011 post) redirected X users to the page on 15th Nov, the same day the page jumped from about 150 to 673,012 views.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Hijacked old McDonald's Bitly link (from a 7th June 2011 post) redirected X users to the page on 15th Nov, the same day the page jumped from about 150 to 673,012 views.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ransomnews",
+     "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/"
+    },
+    {
+     "title": "MediaNama",
+     "url": "https://www.medianama.com/2026/11/223-old-bitly-links-x-posts-trump-burger-king-hijacked/"
+    },
+    {
+     "title": "Malwarebytes",
+     "url": "https://www.malwarebytes.com/blog/news/2026/11/hijacked-bitly-links-turn-old-brand-posts-into-offensive-redirects"
+    },
+    {
+     "title": "Tech Times UK",
+     "url": "https://www.techtimes.co.uk/recreated-bitly-links-burger-king-mcdonalds-tweets-1809960"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Redirect to the article on the 11th September 2001 attacks. An old McDonald's Bitly link was hijacked on 15th Nov and sent X users there until Bitly disabled it."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 4,
+     "views": 673012,
+     "confidence": "hi",
+     "anchor": "a2"
+    }
+   ]
+  },
+  {
    "id": "abdul-el-sayed",
    "title": "Abdul El-Sayed",
    "canonical": "Abdul_El-Sayed",
@@ -2321,6 +2477,51 @@
    ]
   },
   {
+   "id": "adolf-hitler",
+   "title": "Adolf Hitler",
+   "canonical": "Adolf_Hitler",
+   "url": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+   "type": "Biography",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Hijacked old Bitly link redirecting X users to the page on 15th Nov.",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Hijacked old Bitly link redirecting X users to the page on 15th Nov.",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "MediaNama",
+     "url": "https://www.medianama.com/2026/11/223-old-bitly-links-x-posts-trump-burger-king-hijacked/"
+    },
+    {
+     "title": "Malwarebytes",
+     "url": "https://www.malwarebytes.com/blog/news/2026/11/hijacked-bitly-links-turn-old-brand-posts-into-offensive-redirects"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Nazi dictator. A hijacked old Bitly link sent X users to the page on 15th Nov until Bitly disabled it."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 33,
+     "views": 77931,
+     "confidence": "md",
+     "anchor": "a30"
+    }
+   ]
+  },
+  {
    "id": "adrian-peterson",
    "title": "Adrian Peterson",
    "canonical": "Adrian_Peterson",
@@ -2573,7 +2774,7 @@
    "title": "Alice Huang (executive)",
    "canonical": "Alice_Huang_(executive)",
    "url": "https://en.wikipedia.org/wiki/Alice_Huang_(executive)",
-   "type": "Executive",
+   "type": "Business executive",
    "first_charted": "2026-11-12",
    "cause": {
     "text": "Her alleged role in the Huang scandal, peaking on the day he resigned",
@@ -2615,6 +2816,14 @@
     {
      "title": "Khaleej Times",
      "url": "https://www.khaleejtimes.com/asia/china-media-public-decry-nvidia-jensen-huang-affair-allegations"
+    },
+    {
+     "title": "Nation Thailand",
+     "url": "https://www.nationthailand.com/news/world/40073324"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-resignation-scandal-timeline/"
     }
    ],
    "timeline": [
@@ -2625,6 +2834,10 @@
     {
      "date": "2026-11-13",
      "text": "Views peaked at 200,012 as new reports covered her chip-buying network and US probes, the first full day after Huang's resignation"
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Peak was 13th Nov; on 15th Nov, the Megaspeed statement and continued coverage."
     }
    ],
    "charted": [
@@ -2641,6 +2854,13 @@
      "views": 200012,
      "confidence": "md",
      "anchor": "a8"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 37,
+     "views": 71596,
+     "confidence": "md",
+     "anchor": "a34"
     }
    ]
   },
@@ -2690,6 +2910,100 @@
      "views": 75261,
      "confidence": "md",
      "anchor": "a28"
+    }
+   ]
+  },
+  {
+   "id": "amanda-nunes",
+   "title": "Amanda Nunes",
+   "canonical": "Amanda_Nunes",
+   "url": "https://en.wikipedia.org/wiki/Amanda_Nunes",
+   "type": "MMA fighter",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Co-main-event title fight against Kayla Harrison at UFC 334.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Co-main-event title fight against Kayla Harrison at UFC 334.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/mma/story/_/id/50444358/ufc-334-live-results-analysis-ciryl-gane-josh-hokit"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/sports/2026/11/15/kayla-%E2%81%A0%E2%81%A0harrison-defeats-amanda-nunes-to-retain-ufc-bantamweight-belt"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Brazilian bantamweight and former two-division champion. She lost to Kayla Harrison by submission in round 4 at UFC 334 on 14th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 26,
+     "views": 95411,
+     "confidence": "hi",
+     "anchor": "a23"
+    }
+   ]
+  },
+  {
+   "id": "amon-ra-st-brown",
+   "title": "Amon-Ra St. Brown",
+   "canonical": "Amon-Ra_St._Brown",
+   "url": "https://en.wikipedia.org/wiki/Amon-Ra_St._Brown",
+   "type": "NFL player",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "The Lions' game against the Patriots in Munich on 15th Nov, where he scored two touchdowns in a German-heritage showcase.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "The Lions' game against the Patriots in Munich on 15th Nov, where he scored two touchdowns in a German-heritage showcase.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "WFTV",
+     "url": "https://www.wftv.com/sports/st-brown-gibbs-score/TPMXGOFCTY23BAXO3E4E242YZU/"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/german-star-st-brown-shines-190322402.html"
+    },
+    {
+     "title": "Allianz Arena",
+     "url": "https://allianz-arena.com/en/news/2026/05/third-nfl-game-at-allianz-arena-new-england-patriots-meet-detroit-lions"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Detroit Lions receiver of German descent. He scored two touchdowns in a 35-10 win over the Patriots in Munich on 15th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 20,
+     "views": 112331,
+     "confidence": "hi",
+     "anchor": "a17"
     }
    ]
   },
@@ -3146,6 +3460,10 @@
     {
      "date": "2026-11-13",
      "text": "87,618 views, 1.0 times baseline; no edits, with two new Talk threads (a video and a pronunciation question) and a museum exhibition opening on 14th Nov."
+    },
+    {
+     "date": "2026-11-15",
+     "text": "No event found for the date; stored cause kept."
     }
    ],
    "charted": [
@@ -3253,6 +3571,13 @@
      "views": 87618,
      "confidence": "lo",
      "anchor": "a24"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 19,
+     "views": 115262,
+     "confidence": "lo",
+     "anchor": "a16"
     }
    ]
   },
@@ -3317,15 +3642,64 @@
    ]
   },
   {
+   "id": "arch-manning",
+   "title": "Arch Manning",
+   "canonical": "Arch_Manning",
+   "url": "https://en.wikipedia.org/wiki/Arch_Manning",
+   "type": "Football player",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Late game-winning touchdown pass at LSU on the night of 14th Nov US time.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Late game-winning touchdown pass at LSU on the night of 14th Nov US time.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/Sports/wireStory/arch-manning-leads-8-texas-late-score-dramatic-138153353"
+    },
+    {
+     "title": "CBS Sports",
+     "url": "https://www.cbssports.com/college-football/news/arch-manning-texas-eliminates-lsu-college-football-playoff/"
+    },
+    {
+     "title": "Fox News Outkick",
+     "url": "https://www.foxnews.com/outkick-sports/arch-manning-overcomes-sloppy-performance-clutch-td-pass-lift-texas-lsu-crucial-matchup"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Texas quarterback. He threw a four-yard touchdown with three seconds left to beat LSU 22-21 on 14th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 29,
+     "views": 83253,
+     "confidence": "hi",
+     "anchor": "a26"
+    }
+   ]
+  },
+  {
    "id": "archive-of-our-own",
    "title": "Archive of Our Own",
    "canonical": "Archive_of_Our_Own",
    "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
-   "type": "Website",
+   "type": "Fan fiction site",
    "first_charted": "2026-11-02",
    "cause": {
-    "text": "The prolonged outage after the security incident disclosed on 30th Oct",
-    "confidence": "md"
+    "text": "The reopening of the site on 15th Nov at 08:28 UTC after the security-incident outage; this revises the stored 'still offline' cause, since the story ended in a return.",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -3338,6 +3712,12 @@
      "date": "2026-11-09",
      "text": "The prolonged outage after the security incident disclosed on 30th Oct",
      "confidence": "md",
+     "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-15",
+     "text": "The reopening of the site on 15th Nov at 08:28 UTC after the security-incident outage; this revises the stored 'still offline' cause, since the story ended in a return.",
+     "confidence": "hi",
      "note": "Confidence changed"
     }
    ],
@@ -3377,6 +3757,14 @@
     {
      "title": "Book Riot",
      "url": "https://bookriot.com/?p=665044"
+    },
+    {
+     "title": "Beinsure",
+     "url": "https://beinsure.com/news/ao3-returns-online-after-17-day-security-incident-outage/"
+    },
+    {
+     "title": "HollywoodLife",
+     "url": "https://hollywoodlife.com/2026/11/16/archive-of-our-own-ao3-website-outage-updates/"
     }
    ],
    "timeline": [
@@ -3399,6 +3787,10 @@
     {
      "date": "2026-11-13",
      "text": "Site still offline with no firm return date; no new development was found."
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Site reopened at 08:28 UTC after about 17 days offline; views reached 860,729, the high of the window."
     }
    ],
    "charted": [
@@ -3436,6 +3828,13 @@
      "views": 87286,
      "confidence": "md",
      "anchor": "a25"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 2,
+     "views": 860729,
+     "confidence": "hi",
+     "anchor": "a1"
     }
    ]
   },
@@ -5532,6 +5931,55 @@
    ]
   },
   {
+   "id": "ciryl-gane",
+   "title": "Ciryl Gane",
+   "canonical": "Ciryl_Gane",
+   "url": "https://en.wikipedia.org/wiki/Ciryl_Gane",
+   "type": "MMA fighter",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Main event at UFC 334 on the evening of 14th Nov US time.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Main event at UFC 334 on the evening of 14th Nov US time.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CBS Sports",
+     "url": "https://www.cbssports.com/ufc/news/ufc-334-results-live-updates-josh-hokit-ciryl-gane/live/"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/ufc-334-results-heavyweight-brawl-115645639.html"
+    },
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/mma/story/_/id/50444358/ufc-334-live-results-analysis-ciryl-gane-josh-hokit"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "French heavyweight. He beat Josh Hokit by unanimous decision at UFC 334 on 14th Nov, in a Fight of the Night bout."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 27,
+     "views": 90061,
+     "confidence": "hi",
+     "anchor": "a24"
+    }
+   ]
+  },
+  {
    "id": "clayface-film",
    "title": "Clayface (film)",
    "canonical": "Clayface_(film)",
@@ -6721,11 +7169,11 @@
    "title": "Deaths in 2026",
    "canonical": "Deaths_in_2026",
    "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-   "type": "Deaths list",
+   "type": "List",
    "first_charted": "2026-10-20",
    "cause": {
-    "text": "Evergreen list traffic, unchanged from the stored cause",
-    "confidence": "md"
+    "text": "Evergreen interest in the annual deaths list, with no event found for 15th Nov; the stored cause is kept.",
+    "confidence": "lo"
    },
    "cause_history": [
     {
@@ -6762,6 +7210,12 @@
      "date": "2026-11-11",
      "text": "Evergreen list traffic, unchanged from the stored cause",
      "confidence": "md",
+     "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Evergreen interest in the annual deaths list, with no event found for 15th Nov; the stored cause is kept.",
+     "confidence": "lo",
      "note": "Confidence changed"
     }
    ],
@@ -6899,6 +7353,10 @@
     {
      "date": "2026-11-13",
      "text": "136,924 views, 1.0 times baseline; evergreen list, no death dated 13th Nov found"
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Steady evergreen traffic; Richard Sterban's death on 14th Nov added an entry but no single event was found as the driver."
     }
    ],
    "charted": [
@@ -7061,6 +7519,13 @@
      "rank": 15,
      "views": 136924,
      "confidence": "md",
+     "anchor": "a12"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 15,
+     "views": 127367,
+     "confidence": "lo",
      "anchor": "a12"
     }
    ]
@@ -7761,12 +8226,28 @@
     {
      "title": "Dark Horizons",
      "url": "https://www.darkhorizons.com/?p=194108"
+    },
+    {
+     "title": "Slashfilm",
+     "url": "https://slashfilm.com/2305949/johnny-depp-movie-ebenezer-a-christmas-carol-box-office-preview"
+    },
+    {
+     "title": "The Numbers",
+     "url": "https://www.the-numbers.com/movie/Ebenezer-A-Christmas-Carol-(2026)"
+    },
+    {
+     "title": "Capitalism Institute",
+     "url": "https://capitalisminstitute.org/depps-ebenezer-takes-weekend-crown-in-first-studio-lead-in-eight-years/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-13",
      "text": "Paramount's dark A Christmas Carol adaptation, with Johnny Depp as Scrooge. It opened in US and UK cinemas on 13th Nov, after first reactions on 10th Nov."
+    },
+    {
+     "date": "2026-11-15",
+     "text": "First full weekend; reported at No. 1 with about $19 million."
     }
    ],
    "charted": [
@@ -7776,6 +8257,13 @@
      "views": 78621,
      "confidence": "hi",
      "anchor": "a29"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 24,
+     "views": 98174,
+     "confidence": "hi",
+     "anchor": "a21"
     }
    ]
   },
@@ -7784,11 +8272,11 @@
    "title": "Elizabeth Holmes",
    "canonical": "Elizabeth_Holmes",
    "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
-   "type": "Entrepreneur",
+   "type": "Biography",
    "first_charted": "2026-10-20",
    "cause": {
-    "text": "Continuing interest in the documentary You Can See Everything, as stored",
-    "confidence": "lo"
+    "text": "Continuing interest from the documentary You Can See Everything; a CBS News interview with Billy Evans on 15th Nov is a new possible trigger.",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -7838,25 +8326,15 @@
      "text": "Continuing interest in the documentary You Can See Everything, as stored",
      "confidence": "lo",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Continuing interest from the documentary You Can See Everything; a CBS News interview with Billy Evans on 15th Nov is a new possible trigger.",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "Law Commentary",
-     "url": "https://lawcommentary.com/articles/billy-evans-elizabeth-holmes-power-attorney-documentary-response"
-    },
-    {
-     "title": "Law Commentary",
-     "url": "https://www.lawcommentary.com/articles/elizabeth-holmes-early-prison-release-2027"
-    },
-    {
-     "title": "The Standard (Hong Kong)",
-     "url": "https://www.thestandard.com.hk/world-news/article/322306/Theranos-founder-Elizabeth-Holmes-asks-Trump-to-commute-her-prison-sentence"
-    },
-    {
-     "title": "Arkansas Currents",
-     "url": "https://www.arcurrent.com/arts-culture/2026/11/09/you-can-see-everything-documentary-about-elizabeth-holmes-leaves-audiences-asking-questions/"
-    },
     {
      "title": "Malay Mail",
      "url": "https://www.malaymail.com/news/showbiz/2026/11/10/documentary-about-convicted-theranos-fraudster-elizabeth-holmes-sparks-memes-lookalike-contests-and-oscar-buzz/242700"
@@ -7888,6 +8366,22 @@
     {
      "title": "Forbes Colombia",
      "url": "https://forbes.co/2026/11/05/actualidad/esta-es-la-empresa-emergente-de-analisis-de-sangre-fundada-por-la-pareja-de-la-convicta-elizabeth-holmes/"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/news/billy-evans-on-you-can-see-everything-elizabeth-holmes/"
+    },
+    {
+     "title": "The Daily Beast",
+     "url": "https://www.thedailybeast.com/obsessed/elizabeth-holmes-partner-billy-evans-breaks-silence-on-explosive-documentary"
+    },
+    {
+     "title": "HollywoodLife",
+     "url": "https://hollywoodlife.com/feature/when-will-you-can-see-everything-doc-streaming-5562522/"
+    },
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/US/elizabeth-holmes-scheduled-move-halfway-house-august-2027/story?id=136698221"
     }
    ],
    "timeline": [
@@ -7966,6 +8460,10 @@
     {
      "date": "2026-11-13",
      "text": "65,706 views; no Holmes event found on or near 13th Nov, and the documentary remained the likely background interest."
+    },
+    {
+     "date": "2026-11-15",
+     "text": "On 15th Nov CBS News published Billy Evans's first TV interview about the documentary."
     }
    ],
    "charted": [
@@ -8115,6 +8613,62 @@
      "views": 65706,
      "confidence": "lo",
      "anchor": "a32"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 18,
+     "views": 115753,
+     "confidence": "md",
+     "anchor": "a15"
+    }
+   ]
+  },
+  {
+   "id": "empress-elisabeth-of-austria",
+   "title": "Empress Elisabeth of Austria",
+   "canonical": "Empress_Elisabeth_of_Austria",
+   "url": "https://en.wikipedia.org/wiki/Empress_Elisabeth_of_Austria",
+   "type": "Historical figure",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Netflix series The Empress season 3 (released on 12th Nov); inferred.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Netflix series The Empress season 3 (released on 12th Nov); inferred.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "What's on Netflix",
+     "url": "https://www.whats-on-netflix.com/news/the-empress-season-3-release-date/"
+    },
+    {
+     "title": "Serienjunkies",
+     "url": "https://www.serienjunkies.de/news/serien/die-kaiserin-staffel-neuer-trailer-zum-grossen-serienfinale-94529753.html"
+    },
+    {
+     "title": "Moviejones",
+     "url": "https://www.moviejones.de/news/news-ab-heute-bei-netflix-die-kaiserin-staffel-3-bringt-elisabeth-an-ihre-grenzen_51523.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Nineteenth-century empress of Austria. Netflix's The Empress season 3, released on 12th Nov, fits the rise, though no source ties it to the page."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 43,
+     "views": 66052,
+     "confidence": "hi",
+     "anchor": "a40"
     }
    ]
   },
@@ -8265,6 +8819,59 @@
      "views": 111517,
      "confidence": "hi",
      "anchor": "a20"
+    }
+   ]
+  },
+  {
+   "id": "full-gear-2026",
+   "title": "Full Gear (2026)",
+   "canonical": "Full_Gear_(2026)",
+   "url": "https://en.wikipedia.org/wiki/Full_Gear_(2026)",
+   "type": "Wrestling event",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "The AEW Full Gear pay-per-view on the evening of 14th Nov US time; the finish and the MJF angle fell on 15th Nov UTC.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "The AEW Full Gear pay-per-view on the evening of 14th Nov US time; the finish and the MJF angle fell on 15th Nov UTC.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Pro Wrestling Dot Net",
+     "url": "https://prowrestling.net/site/2026/11/14/aew-full-gear-results-powells-live-review-of-will-ospreay-vs-kyle-fletcher-for-the-aew-world-championship-mercedes-mone-vs-marina-shafir-for-the-aew-womens-championship/"
+    },
+    {
+     "title": "PWTorch",
+     "url": "https://www.pwtorch.com/site/2026/11/14/aew-full-gear-ppv-results-11-14-kellers-report-on-ospreay-vs-fletcher-mercedes-vs-shafir-anarchy-in-the-arena-young-bucks-vs-davis-doyle/"
+    },
+    {
+     "title": "Bleeding Cool",
+     "url": "https://bleedingcool.com/tv/will-ospreay-retains-at-aew-full-gear-ruins-wrestling-as-mjf-returns/"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/wrestling/live/aew-full-gear-2026-live-results-updates-grades-analysis-tonight-for-will-ospreay-vs-kyle-fletcher-213000744.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "AEW's eighth Full Gear pay-per-view, held in Phoenix on 14th Nov. Will Ospreay kept the World title before MJF attacked him and three titles changed hands."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 11,
+     "views": 175811,
+     "confidence": "hi",
+     "anchor": "a8"
     }
    ]
   },
@@ -8661,8 +9268,8 @@
    "type": "Film",
    "first_charted": "2026-11-05",
    "cause": {
-    "text": "The theatrical release, with 11th Nov on the tail after the opening",
-    "confidence": "hi"
+    "text": "Continuing run in the second US weekend; the stored cause is kept.",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -8688,13 +9295,15 @@
      "text": "The theatrical release, with 11th Nov on the tail after the opening",
      "confidence": "hi",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Continuing run in the second US weekend; the stored cause is kept.",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "TheWrap",
-     "url": "https://thewrap.com/creative-content/movies/godzilla-minus-zero-saturday-box-office"
-    },
     {
      "title": "Roger's Movie Nation",
      "url": "https://rogersmovienation.com/2026/11/07/box-office-godzilla-minus-zero-devours-all-including-the-latest-cat-in-the-hat/"
@@ -8738,6 +9347,10 @@
     {
      "title": "Dread Central",
      "url": "https://dreadcentral.com/box-office/597081/godzilla-minus-zero-opening-weekend-box-office"
+    },
+    {
+     "title": "Koimoi",
+     "url": "https://www.koimoi.com/box-office/godzilla-minus-zero-japan-box-office-monster-sequel-crushes-previous-franchise-records-with-a-record-breaking-debut/"
     }
    ],
    "timeline": [
@@ -8768,6 +9381,10 @@
     {
      "date": "2026-11-13",
      "text": "62,276 views in the second week of the US run; no new event was found."
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Second US weekend; no new event."
     }
    ],
    "charted": [
@@ -8819,6 +9436,13 @@
      "views": 62276,
      "confidence": "hi",
      "anchor": "a35"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 39,
+     "views": 69353,
+     "confidence": "md",
+     "anchor": "a36"
     }
    ]
   },
@@ -8896,18 +9520,6 @@
    ],
    "sources": [
     {
-     "title": "Gamer.org",
-     "url": "https://www.gamer.org/gta-6-new-trailer-preload-november-2026/"
-    },
-    {
-     "title": "Panabee",
-     "url": "https://www.panabee.com/news/take-two-interactive-earnings-q2-2027"
-    },
-    {
-     "title": "Take-Two earnings release (SEC)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026072175/ttwo2q27earningsrelease.htm"
-    },
-    {
      "title": "Yahoo Finance",
      "url": "https://finance.yahoo.com/markets/stocks/articles/two-shares-rise-over-3-113921042.html"
     },
@@ -8942,6 +9554,18 @@
     {
      "title": "dlcompare",
      "url": "https://www.dlcompare.com/gaming-news/gta-6-launch-week-everything-you-need-to-know-before-november-19"
+    },
+    {
+     "title": "Tribune",
+     "url": "https://tribune.com.pk/story/2639739/grand-theft-auto-vi-opens-preloads-nine-days-before-launch"
+    },
+    {
+     "title": "GamesRadar",
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pre-loads-open-exactly-1-week-before-rockstars-long-awaited-sequel-comes-out-take-two-finally-confirms/"
+    },
+    {
+     "title": "Rockstar Report",
+     "url": "https://rockstarreport.com/news/gta-6-reviews-november-18-report"
     }
    ],
    "timeline": [
@@ -8960,6 +9584,10 @@
     {
      "date": "2026-11-13",
      "text": "Views reached a new 28-day high of 74,974 in launch week, with boxed copies delivering since 12th Nov; no separate event dated 13th Nov was found."
+    },
+    {
+     "date": "2026-11-15",
+     "text": "28-day high in the run-up to launch; no event specific to the date."
     }
    ],
    "charted": [
@@ -8990,6 +9618,13 @@
      "views": 74974,
      "confidence": "md",
      "anchor": "a31"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 31,
+     "views": 82149,
+     "confidence": "md",
+     "anchor": "a28"
     }
    ]
   },
@@ -9552,6 +10187,59 @@
      "views": 96152,
      "confidence": "hi",
      "anchor": "a17"
+    }
+   ]
+  },
+  {
+   "id": "hannah-fry",
+   "title": "Hannah Fry",
+   "canonical": "Hannah_Fry",
+   "url": "https://en.wikipedia.org/wiki/Hannah_Fry",
+   "type": "Mathematician",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Desert Island Discs episode on 15th Nov in which she spoke about cancer treatment.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Desert Island Discs episode on 15th Nov in which she spoke about cancer treatment.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Irish News",
+     "url": "https://www.irishnews.com/entertainment/hannah-fry-feared-horrific-end-of-my-existence-after-cancer-diagnosis-XFPBDE7YHVODRFIC5ZKIJYOYVM/"
+    },
+    {
+     "title": "Yahoo",
+     "url": "https://www.yahoo.com/entertainment/celebrity/interviews/articles/hannah-fry-feels-unbelievably-lucky-000934263.html"
+    },
+    {
+     "title": "Goss.ie",
+     "url": "https://goss.ie/uk-showbiz/celebrity-traitors-star-hannah-fry-reveals-she-feared-the-worst-following-shock-diagnosis-493233"
+    },
+    {
+     "title": "The Celeb Post",
+     "url": "https://www.thecelebpost.com/news/93517-celebrity-traitors-star-hannah-fry-reveals-cancer-diagnosis"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "British mathematician and broadcaster. On BBC Radio 4's Desert Island Discs on 15th Nov she revealed 2020 cancer treatment and a five-year all-clear."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 45,
+     "views": 65480,
+     "confidence": "hi",
+     "anchor": "a42"
     }
    ]
   },
@@ -10411,14 +11099,6 @@
    ],
    "sources": [
     {
-     "title": "ETV Bharat",
-     "url": "https://www.etvbharat.com/en/entertainment/jailer-2-ott-release-amid-over-rs-820-crore-worldwide-run-makers-drop-major-streaming-update-enn26110501133"
-    },
-    {
-     "title": "Hollywood Reporter India",
-     "url": "https://www.hollywoodreporterindia.com/features/insight/exclusive-rajinikanths-jailer-2-locks-november-12-as-global-streaming-premiere-on-prime-video"
-    },
-    {
      "title": "Sacnilk",
      "url": "https://www.sacnilk.com/news/jailer-2-ott-release-date-shows-tamil-cinemas-neglect-of-the-big-screen-continues"
     },
@@ -10457,6 +11137,14 @@
     {
      "title": "Sakshi Post",
      "url": "https://www.sakshipost.com/news/entertainment/jailer-2-ott-release-no-extended-version-fans-disappointed-483132"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/11/11/jailer-2-box-office-collection-ott-release-date.html"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/quicknews/Jailer_2_2026_Box_Office_Collection_Day_27"
     }
    ],
    "timeline": [
@@ -10535,6 +11223,10 @@
     {
      "date": "2026-11-13",
      "text": "Views tailed off from the streaming-day bump; no new development since 12th Nov was found."
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Tail of the streaming premiere on 12th Nov."
     }
    ],
    "charted": [
@@ -10691,6 +11383,13 @@
      "views": 94514,
      "confidence": "md",
      "anchor": "a20"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 30,
+     "views": 82569,
+     "confidence": "md",
+     "anchor": "a27"
     }
    ]
   },
@@ -11027,6 +11726,55 @@
      "views": 80881,
      "confidence": "md",
      "anchor": "a23"
+    }
+   ]
+  },
+  {
+   "id": "james-trafford",
+   "title": "James Trafford",
+   "canonical": "James_Trafford",
+   "url": "https://en.wikipedia.org/wiki/James_Trafford",
+   "type": "Footballer",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Starting for England in the win at Spain on 15th Nov.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Starting for England in the win at Spain on 15th Nov.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Sky Sports",
+     "url": "https://www.skysports.com/football/news/13612624/james-trafford-has-leeds-goalkeeper-overtaken-jordan-pickford-as-englands-no-1-after-starring-display-against-spain"
+    },
+    {
+     "title": "Premier League News Now",
+     "url": "https://premierleaguenewsnow.com/2026/11/15/james-trafford-england-spain-pickford-number-one/"
+    },
+    {
+     "title": "Sportsview",
+     "url": "https://sportsview.co.uk/2026/11/leeds-goalkeeper-james-trafford-produces-heroic-england-display-as-they-beat-spain"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Leeds goalkeeper. He started for England in the 3-2 Nations League win at Spain on 15th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 41,
+     "views": 68822,
+     "confidence": "hi",
+     "anchor": "a38"
     }
    ]
   },
@@ -11429,22 +12177,6 @@
    ],
    "sources": [
     {
-     "title": "Al Jazeera",
-     "url": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future"
-    },
-    {
-     "title": "BNN Bloomberg (Reuters)",
-     "url": "https://www.bnnbloomberg.ca/business/2026/11/12/nvidia-board-meets-to-decide-ceo-huangs-future-source-says/"
-    },
-    {
-     "title": "Nvidia 8-K, SEC",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
-    },
-    {
-     "title": "Yahoo Finance live blog",
-     "url": "https://finance.yahoo.com/technology/live/nvidia-live-updates-following-jensen-huangs-resignation-as-ceo-allegations-of-a-third-affair-emerge-195535310.html"
-    },
-    {
      "title": "Fox Business",
      "url": "https://www.foxbusiness.com/business-leaders/nvidia-ceo-jensen-huang-resigns-amid-investigation-relationship-alleged-chinese-spy"
     },
@@ -11475,6 +12207,22 @@
     {
      "title": "TradingKey",
      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262304597-nvidia-rebounds-premarket-employees-call-jensen-huang-return-tradingkey"
+    },
+    {
+     "title": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+    },
+    {
+     "title": "RTE",
+     "url": "https://www.rte.ie/news/us/2026/1113/1599069-nvidia-us/"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/alisondurkee/2026/11/16/jensen-huang-ousted-timeline-of-the-nvidia-scandal-as-he-reportedly-plots-comeback/"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-resignation-scandal-timeline/"
     }
    ],
    "timeline": [
@@ -11497,6 +12245,10 @@
     {
      "date": "2026-11-13",
      "text": "The Senate Banking chair asked him to testify on 3rd Dec, and employees pushed for his return."
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Decay from the 12th Nov peak of 1,072,168; new items on this date included reports that he was considering a return and a Megaspeed statement."
     }
    ],
    "charted": [
@@ -11534,6 +12286,13 @@
      "views": 727529,
      "confidence": "hi",
      "anchor": "a1"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 10,
+     "views": 194070,
+     "confidence": "hi",
+     "anchor": "a7"
     }
    ]
   },
@@ -11995,6 +12754,59 @@
    ]
   },
   {
+   "id": "john-mulaney",
+   "title": "John Mulaney",
+   "canonical": "John_Mulaney",
+   "url": "https://en.wikipedia.org/wiki/John_Mulaney",
+   "type": "Comedian",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Hosting Saturday Night Live on 14th Nov US time.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Hosting Saturday Night Live on 14th Nov US time.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "NBC Insider",
+     "url": "https://www.nbc.com/nbc-insider/watch-john-mulaney-november-14-snl-monologue-sketches"
+    },
+    {
+     "title": "Exclaim",
+     "url": "https://exclaim.ca/comedy/article/saturday-night-live-john-mulaney-and-phoebe-bridgers-november-14-2026"
+    },
+    {
+     "title": "AV Club",
+     "url": "https://www.avclub.com/saturday-night-live-recap-season-52-episode-6"
+    },
+    {
+     "title": "AV Club",
+     "url": "https://www.avclub.com/snl-john-mulaney-carriage-horses-musical"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "American comedian. He hosted Saturday Night Live for the seventh time on 14th Nov, with Phoebe Bridgers as musical guest."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 28,
+     "views": 89468,
+     "confidence": "hi",
+     "anchor": "a25"
+    }
+   ]
+  },
+  {
    "id": "joint-list",
    "title": "Joint List",
    "canonical": "Joint_List",
@@ -12404,6 +13216,59 @@
    ]
   },
   {
+   "id": "josh-hokit",
+   "title": "Josh Hokit",
+   "canonical": "Josh_Hokit",
+   "url": "https://en.wikipedia.org/wiki/Josh_Hokit",
+   "type": "MMA fighter",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Title fight against Ciryl Gane at UFC 334 on the evening of 14th Nov US time (a decision loss in a Fight of the Night bout).",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Title fight against Ciryl Gane at UFC 334 on the evening of 14th Nov US time (a decision loss in a Fight of the Night bout).",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CBS Sports",
+     "url": "https://www.cbssports.com/ufc/news/ufc-334-results-live-updates-josh-hokit-ciryl-gane/live/"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/ufc-334-results-heavyweight-brawl-115645639.html"
+    },
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/mma/story/_/id/50444358/ufc-334-live-results-analysis-ciryl-gane-josh-hokit"
+    },
+    {
+     "title": "Ufcalendar",
+     "url": "https://www.ufcalendar.com/blog/who-is-josh-hokit-ufc-334-title-shot"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "American heavyweight and former Fresno State wrestler. He lost a unanimous decision to Ciryl Gane in a title fight at UFC 334 on 14th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 12,
+     "views": 168260,
+     "confidence": "hi",
+     "anchor": "a9"
+    }
+   ]
+  },
+  {
    "id": "josh-turek",
    "title": "Josh Turek",
    "canonical": "Josh_Turek",
@@ -12729,6 +13594,59 @@
      "views": 123707,
      "confidence": "hi",
      "anchor": "a19"
+    }
+   ]
+  },
+  {
+   "id": "kayla-harrison",
+   "title": "Kayla Harrison",
+   "canonical": "Kayla_Harrison",
+   "url": "https://en.wikipedia.org/wiki/Kayla_Harrison",
+   "type": "MMA fighter",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Co-main-event title defence against Amanda Nunes at UFC 334 on the evening of 14th Nov US time.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Co-main-event title defence against Amanda Nunes at UFC 334 on the evening of 14th Nov US time.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/mma/story/_/id/50444358/ufc-334-live-results-analysis-ciryl-gane-josh-hokit"
+    },
+    {
+     "title": "CBS Sports",
+     "url": "https://www.cbssports.com/ufc/news/ufc-334-results-live-updates-josh-hokit-ciryl-gane/live/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/sports/2026/11/15/kayla-%E2%81%A0%E2%81%A0harrison-defeats-amanda-nunes-to-retain-ufc-bantamweight-belt"
+    },
+    {
+     "title": "Cageside Press",
+     "url": "https://cagesidepress.com/2026/11/15/ufc-334-bonuses-main-event-harrison-wonderboy-rewarded/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Two-time Olympic judo champion and UFC women's bantamweight champion. She submitted Amanda Nunes in the fourth round at UFC 334 on 14th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 14,
+     "views": 145493,
+     "confidence": "hi",
+     "anchor": "a11"
     }
    ]
   },
@@ -13110,7 +14028,7 @@
    "title": "Kirk Cousins",
    "canonical": "Kirk_Cousins",
    "url": "https://en.wikipedia.org/wiki/Kirk_Cousins",
-   "type": "NFL player",
+   "type": "NFL quarterback",
    "first_charted": "2026-11-10",
    "cause": {
     "text": "Trade from the Las Vegas Raiders back to the Minnesota Vikings on 10th Nov, the NFL trade deadline",
@@ -13148,6 +14066,22 @@
     {
      "title": "NBC Sports Fantasy",
      "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-11-11/gm-cousins-potentially-an-option-beyond-2026"
+    },
+    {
+     "title": "Fox Sports",
+     "url": "https://www.foxsports.com/stories/nfl/nfl-shakeout-week-10-kirk-cousins-final-piece-vikings-super-bowl-puzzle"
+    },
+    {
+     "title": "Sota Sports Roundup",
+     "url": "https://sotasportsroundup.substack.com/p/purple-roundup-four-takeaways-from-b74"
+    },
+    {
+     "title": "Vikings.com",
+     "url": "https://www.vikings.com/news/kirk-cousins-defense-win-packers-week-10-2026-observations"
+    },
+    {
+     "title": "NFL.com",
+     "url": "https://www.nfl.com/news/vikings-wont-commit-to-kirk-cousins-starting-packers"
     }
    ],
    "timeline": [
@@ -13158,6 +14092,10 @@
     {
      "date": "2026-11-11",
      "text": "NFL quarterback. The Vikings agreed on 10th Nov to acquire him from the Raiders for a 2027 third-round pick."
+    },
+    {
+     "date": "2026-11-15",
+     "text": "First start for the Vikings, a 30-10 win at Green Bay."
     }
    ],
    "charted": [
@@ -13172,6 +14110,13 @@
      "date": "2026-11-11",
      "rank": 16,
      "views": 129234,
+     "confidence": "hi",
+     "anchor": "a13"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 16,
+     "views": 121498,
      "confidence": "hi",
      "anchor": "a13"
     }
@@ -13878,22 +14823,6 @@
    ],
    "sources": [
     {
-     "title": "Sacnilk",
-     "url": "https://www.sacnilk.com/news/top-5-indian-box-office-weekend-november-6-8-collections-cross-250-crore-net-as-ramayana-leads-with-69-share"
-    },
-    {
-     "title": "Sacnilk",
-     "url": "https://www.sacnilk.com/news/ramayana-becomes-bollywoods-second-biggest-non-sequel-opener-surpassing-animal-as-the-top-5-rankings-change-after-3-years"
-    },
-    {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/11/09/ramayana-day-4-worldwide-box-office-500-crore-collection.html"
-    },
-    {
-     "title": "FlickOnClick",
-     "url": "https://www.flickonclick.com/ramayana-box-office-collection-day-7/"
-    },
-    {
      "title": "ETV Bharat",
      "url": "https://www.etvbharat.com/en/entertainment/ramayana-box-office-day-7-worldwide-gross-hits-rs-934-cr-ranbir-kapoor-yash-starrer-soon-to-join-rs-1000-cr-club-enn26111200963"
     },
@@ -13924,6 +14853,22 @@
     {
      "title": "Gulf News",
      "url": "https://gulfnews.com/entertainment/ramayana-box-office-ranbir-kapoor-and-yashs-film-roars-past-rs-8-billion-worldwide-1.500743270"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/11/16/ramayana-fifth-highest-grossing-indian-film-on-day-11.html"
+    },
+    {
+     "title": "India TV News",
+     "url": "https://www.indiatvnews.com/entertainment/news/highest-grossing-indian-films-of-all-time-dangal-still-rules-as-dhurandhar-2-and-ramayana-shake-up-the-list-2026-11-16-1059551"
+    },
+    {
+     "title": "Hollywood Reporter India",
+     "url": "https://www.hollywoodreporterindia.com/features/insight/ramayana-box-office-ranbir-kapoor-yashs-epic-grosses-over-1384-crore-globally-in-11-days-enters-all-time-indian-top-5"
+    },
+    {
+     "title": "Movietalkies",
+     "url": "https://www.movietalkies.com/news/ramayana-crosses-dhurandhar-ww-total-in-11-days-12811650"
     }
    ],
    "timeline": [
@@ -13946,6 +14891,10 @@
     {
      "date": "2026-11-13",
      "text": "171,338 views, a new 28-day high, as Ramayana: Part 1 reached about Rs 1,111 crore and entered the all-time top 10, Sacnilk"
+    },
+    {
+     "date": "2026-11-15",
+     "text": "171,338 views the day before became 214,408, the window high, as Ramayana: Part 1 entered the all-time top five on 15th Nov."
     }
    ],
    "charted": [
@@ -13983,6 +14932,66 @@
      "views": 171338,
      "confidence": "md",
      "anchor": "a11"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 9,
+     "views": 214408,
+     "confidence": "md",
+     "anchor": "a6"
+    }
+   ]
+  },
+  {
+   "id": "list-of-nazi-concentration-camps",
+   "title": "List of Nazi concentration camps",
+   "canonical": "List_of_Nazi_concentration_camps",
+   "url": "https://en.wikipedia.org/wiki/List_of_Nazi_concentration_camps",
+   "type": "List",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Hijacked old Burger King Bitly link (from a 24th July 2011 post) redirected X users to the list on 15th Nov; views went from about 230 to 534,193.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Hijacked old Burger King Bitly link (from a 24th July 2011 post) redirected X users to the list on 15th Nov; views went from about 230 to 534,193.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ransomnews",
+     "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/"
+    },
+    {
+     "title": "MediaNama",
+     "url": "https://www.medianama.com/2026/11/223-old-bitly-links-x-posts-trump-burger-king-hijacked/"
+    },
+    {
+     "title": "Tech Times UK",
+     "url": "https://www.techtimes.co.uk/recreated-bitly-links-burger-king-mcdonalds-tweets-1809960"
+    },
+    {
+     "title": "Malwarebytes",
+     "url": "https://www.malwarebytes.com/blog/news/2026/11/hijacked-bitly-links-turn-old-brand-posts-into-offensive-redirects"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Wikipedia list of camps run by Nazi Germany. An old Burger King Bitly link was hijacked on 15th Nov and sent X users there until Bitly disabled it."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 7,
+     "views": 534193,
+     "confidence": "hi",
+     "anchor": "a4"
     }
    ]
   },
@@ -16098,6 +17107,108 @@
    ]
   },
   {
+   "id": "phil-collins",
+   "title": "Phil Collins",
+   "canonical": "Phil_Collins",
+   "url": "https://en.wikipedia.org/wiki/Phil_Collins",
+   "type": "Musician",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Rock and Roll Hall of Fame solo induction on 14th Nov, with coverage on 15th Nov.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Rock and Roll Hall of Fame solo induction on 14th Nov, with coverage on 15th Nov.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Consequence",
+     "url": "https://consequence.net/2026/11/phil-collins-on-music-and-performing/"
+    },
+    {
+     "title": "Louder",
+     "url": "https://www.loudersound.com/bands-artists/phil-collins-rock-roll-hall-fame-induction-2026"
+    },
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/GMA/Culture/phil-collins-hopes-make-new-music-perform-despite/story?id=138162830"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "English drummer and singer. He was inducted into the Rock and Roll Hall of Fame as a solo artist on 14th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 35,
+     "views": 75595,
+     "confidence": "hi",
+     "anchor": "a32"
+    }
+   ]
+  },
+  {
+   "id": "phoebe-bridgers",
+   "title": "Phoebe Bridgers",
+   "canonical": "Phoebe_Bridgers",
+   "url": "https://en.wikipedia.org/wiki/Phoebe_Bridgers",
+   "type": "Musician",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Musical guest slot on Saturday Night Live on 14th Nov.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Musical guest slot on Saturday Night Live on 14th Nov.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Stereogum",
+     "url": "https://stereogum.com/2518073/phoebe-bridgers-glows-on-snl/news"
+    },
+    {
+     "title": "Consequence",
+     "url": "https://consequence.net/2026/11/phoebe-bridgers-plays-snl-november-2026-video/"
+    },
+    {
+     "title": "Consequence",
+     "url": "https://consequence.net/2026/11/phoebe-bridgers-the-lost-tour-2027-dates/"
+    },
+    {
+     "title": "Spin",
+     "url": "https://spinmagazine.com/2026/10/the-strokes-phoebe-bridgers-snl/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "American singer-songwriter. She was musical guest on Saturday Night Live on 14th Nov US time."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 42,
+     "views": 66489,
+     "confidence": "hi",
+     "anchor": "a39"
+    }
+   ]
+  },
+  {
    "id": "php",
    "title": "PHP",
    "canonical": "PHP",
@@ -16304,26 +17415,6 @@
    ],
    "sources": [
     {
-     "title": "Sacnilk",
-     "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_5"
-    },
-    {
-     "title": "Khaleej Times",
-     "url": "https://www.khaleejtimes.com/entertainment/ranbir-kapoor-ramayana-worldwide-box-office-collection"
-    },
-    {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/11/05/ramayana-part-one-ending-explained-box-office.html"
-    },
-    {
-     "title": "FlickOnClick",
-     "url": "https://www.flickonclick.com/ramayana-box-office-collection-day-7/"
-    },
-    {
-     "title": "ETV Bharat",
-     "url": "https://www.etvbharat.com/en/entertainment/ramayana-box-office-day-7-worldwide-gross-hits-rs-934-cr-ranbir-kapoor-yash-starrer-soon-to-join-rs-1000-cr-club-enn26111200963"
-    },
-    {
      "title": "Sacnilk, eighth-day advance booking report",
      "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Eighth_Day_Advance_Booking_Report"
     },
@@ -16350,6 +17441,26 @@
     {
      "title": "The Week",
      "url": "https://www.theweek.in/news/entertainment/2026/11/13/ramayana-part-1-highest-grossing-bollywood-film-kerala.html"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/11/14/ramayana-day-10-box-office-collection-1200-crore-worldwide.html"
+    },
+    {
+     "title": "India.com",
+     "url": "https://www.india.com/entertainment/bollywood/ramayana-box-office-collection-day-10-ranbir-kapoor-yash-film-crosses-rs-1200-crore-worldwide-sees-51-percent-jump-8545023/"
+    },
+    {
+     "title": "Movietalkies",
+     "url": "https://www.movietalkies.com/news/ramayana-crosses-dhurandhar-ww-total-in-11-days-12811650"
+    },
+    {
+     "title": "Hollywood Reporter India",
+     "url": "https://www.hollywoodreporterindia.com/features/insight/ramayana-box-office-ranbir-kapoor-yashs-epic-grosses-over-1384-crore-globally-in-11-days-enters-all-time-indian-top-5"
+    },
+    {
+     "title": "Khaleej Times",
+     "url": "https://khaleejtimes.com/entertainment/nitish-bharadwaj-takes-back-oscar-praise-for-ramayana-deeply-upset-and-disappointed"
     }
    ],
    "timeline": [
@@ -16392,6 +17503,10 @@
     {
      "date": "2026-11-13",
      "text": "Day 9, second Friday: India net Rs 47.85 crore, a record second Friday, and worldwide gross Rs 1,110.70 crore."
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Second weekend: India net about Rs 75 crore on the Sunday and worldwide past Rs 1,300 crore; the film entered the all-time Indian top five."
     }
    ],
    "charted": [
@@ -16464,6 +17579,13 @@
      "views": 618656,
      "confidence": "hi",
      "anchor": "a2"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 5,
+     "views": 591692,
+     "confidence": "hi",
+     "anchor": "a3"
     }
    ]
   },
@@ -16692,6 +17814,51 @@
    ]
   },
   {
+   "id": "richard-sterban",
+   "title": "Richard Sterban",
+   "canonical": "Richard_Sterban",
+   "url": "https://en.wikipedia.org/wiki/Richard_Sterban",
+   "type": "Singer",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Death of Richard Sterban on 14th Nov, reported on 15th Nov.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Death of Richard Sterban on 14th Nov, reported on 15th Nov.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fox News",
+     "url": "https://www.foxnews.com/entertainment/richard-sterban-oak-ridge-boys-dead-83"
+    },
+    {
+     "title": "Country Rebel",
+     "url": "https://countryrebel.com/richard-sterban-cmhof-3-weeks-before-his-death"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Bass singer of the Oak Ridge Boys. He died on 14th Nov, aged 83."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 25,
+     "views": 96199,
+     "confidence": "hi",
+     "anchor": "a22"
+    }
+   ]
+  },
+  {
    "id": "rob-sand",
    "title": "Rob Sand",
    "canonical": "Rob_Sand",
@@ -16854,6 +18021,59 @@
    ]
   },
   {
+   "id": "ronaldinho",
+   "title": "Ronaldinho",
+   "canonical": "Ronaldinho",
+   "url": "https://en.wikipedia.org/wiki/Ronaldinho",
+   "type": "Footballer",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Competitive comeback for Ravenna at Forlì on 15th Nov.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Competitive comeback for Ravenna at Forlì on 15th Nov.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Il Resto del Carlino",
+     "url": "https://www.ilrestodelcarlino.it/ravenna/cronaca/ronaldinho-derby-forli-aiuqhn0t"
+    },
+    {
+     "title": "Il Difforme",
+     "url": "https://www.ildifforme.it/sport/calcio/ronaldinho-ravenna-forli-serie-c-benelli/"
+    },
+    {
+     "title": "Telecittà",
+     "url": "https://www.telecitta.tv/ronaldinho-torna-in-campo-per-45-minuti-col-ravenna-ultima-volta-chissa/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://aljazeera.com/sports/2026/10/24/ronaldinhos-comeback-with-ravenna-at-46-set-for-next-month-at-forli"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Brazilian former star. He made a competitive comeback for Ravenna aged 46, playing the first half of a 2-0 win over Forlì on 15th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 44,
+     "views": 65734,
+     "confidence": "hi",
+     "anchor": "a41"
+    }
+   ]
+  },
+  {
    "id": "russell-brand",
    "title": "Russell Brand",
    "canonical": "Russell_Brand",
@@ -16861,8 +18081,8 @@
    "type": "Comedian",
    "first_charted": "2026-11-05",
    "cause": {
-    "text": "Tail of the conviction and sentencing coverage, plus follow-on stories on police assessing more complainants and the posts and petition from his account",
-    "confidence": "md"
+    "text": "Continuing coverage after his conviction and sentencing, with new items on 14th-15th Nov; the stored cause is supported.",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -16888,33 +18108,15 @@
      "text": "Tail of the conviction and sentencing coverage, plus follow-on stories on police assessing more complainants and the posts and petition from his account",
      "confidence": "md",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Continuing coverage after his conviction and sentencing, with new items on 14th-15th Nov; the stored cause is supported.",
+     "confidence": "hi",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "Chortle",
-     "url": "https://www.chortle.co.uk/news/2026/11/09/62005/russell_brand_sentenced_to_10%C2%BD_years"
-    },
-    {
-     "title": "Fox 35 Orlando",
-     "url": "https://www.fox35orlando.com/news/russell-brand-sentenced-to-prison"
-    },
-    {
-     "title": "The Star (Malaysia)",
-     "url": "https://www.thestar.com.my/news/world/2026/11/06/russell-brand-convicted-of-rape-now-likely-to-face-more-allegations-says-uk-police-chief"
-    },
-    {
-     "title": "Digg (aggregating Deadline and Variety)",
-     "url": "https://digg.com/entertainment/utjrorz6"
-    },
-    {
-     "title": "LBC",
-     "url": "https://www.lbc.co.uk/article/many-many-more-russell-brand-victims-come-forward-5Hjdm4g_2/"
-    },
-    {
-     "title": "HELLO!",
-     "url": "https://www.hellomagazine.com/celebrities/933866/russell-brand-sentenced-after-guilty-verdict/"
-    },
     {
      "title": "IBTimes UK",
      "url": "https://www.ibtimes.co.uk/russell-brand-sentenced-rape-sexual-assault-1831251"
@@ -16938,6 +18140,30 @@
     {
      "title": "The Tab",
      "url": "https://thetab.com/2026/11/13/russell-brands-twitter-posts-disgusting-video-and-shameful-petition-even-as-hes-locked-up"
+    },
+    {
+     "title": "ITV News",
+     "url": "https://www.itv.com/news/2026-11-14/woman-alleges-she-was-raped-by-russell-brand-aged-16"
+    },
+    {
+     "title": "ITV News",
+     "url": "https://www.itv.com/news/2026-11-15/russell-brands-wife-shares-message-from-disgraced-comedian-in-prison"
+    },
+    {
+     "title": "ITV News",
+     "url": "https://www.itv.com/news/2026-11-10/russell-brand-accused-of-further-abuse-as-he-begins-10-and-a-half-year-sentence"
+    },
+    {
+     "title": "Tax Policy Associates",
+     "url": "https://taxpolicy.org.uk/2026/11/07/russell-brand-secret-injunction/"
+    },
+    {
+     "title": "NewsBytes",
+     "url": "https://www.newsbytesapp.com/news/entertainment/russell-brand-s-1st-hours-in-jail-revealed/story"
+    },
+    {
+     "title": "Rova",
+     "url": "https://www.rova.nz/articles/russell-brand-documentary-in-the-works-at-netflix---report"
     }
    ],
    "timeline": [
@@ -16968,6 +18194,10 @@
     {
      "date": "2026-11-13",
      "text": "112,783 views; coverage of posts and a petition from his X account, with no new court event"
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Tail of the sentencing story; new items on 14th-15th Nov from ITV."
     }
    ],
    "charted": [
@@ -17019,6 +18249,13 @@
      "views": 112783,
      "confidence": "md",
      "anchor": "a14"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 21,
+     "views": 109938,
+     "confidence": "hi",
+     "anchor": "a18"
     }
    ]
   },
@@ -17176,6 +18413,55 @@
    ]
   },
   {
+   "id": "sara-boustany",
+   "title": "Sara Boustany",
+   "canonical": "Sara_Boustany",
+   "url": "https://en.wikipedia.org/wiki/Sara_Boustany",
+   "type": "Actress",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Role in Netflix's The Body, released on 11th Nov.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Role in Netflix's The Body, released on 11th Nov.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The National",
+     "url": "https://www.thenationalnews.com/arts-culture/film-tv/2026/11/16/who-is-sara-boustany-the-lebanese-actress-starring-in-netflixs-the-body/"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/reviews/the-body-review-netflix-quinn-shephard/"
+    },
+    {
+     "title": "The Tab",
+     "url": "https://thetab.com/filmshrine/2026/11/16/elise-is-in-love-with-anya-but-heres-who-the-body-star-sara-boustany-is-dating-in-real-life/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Lebanese actress who plays Elise in Netflix's The Body. Her page was created on 11th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 38,
+     "views": 69765,
+     "confidence": "hi",
+     "anchor": "a35"
+    }
+   ]
+  },
+  {
    "id": "scene-2026-film",
    "title": "Scene (2026 film)",
    "canonical": "Scene_(2026_film)",
@@ -17183,8 +18469,8 @@
    "type": "Film",
    "first_charted": "2026-11-06",
    "cause": {
-    "text": "The theatrical run of the Tamil film starring Suriya, released on 6th Nov, now in a second week with falling collections.",
-    "confidence": "md"
+    "text": "Continuing second-weekend run; the stored cause is confirmed.",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -17198,21 +18484,15 @@
      "text": "The theatrical run of the Tamil film starring Suriya, released on 6th Nov, now in a second week with falling collections.",
      "confidence": "md",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Continuing second-weekend run; the stored cause is confirmed.",
+     "confidence": "hi",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/11/09/suriya-scene-day-four-box-office-collection-100-crore.html"
-    },
-    {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/11/07/suriya-scene-movie-kerala-box-office-record.html"
-    },
-    {
-     "title": "Sacnilk",
-     "url": "https://www.sacnilk.com/quicknews/Scene_2026_Fifth_Day_Advance_Booking_Report"
-    },
     {
      "title": "Daily Jagran",
      "url": "https://www.thedailyjagran.com/entertainment/news/scene-vs-karuppu-box-office-collection-can-suriya-latest-film-beat-his-highest-grosser-10335720"
@@ -17248,6 +18528,18 @@
     {
      "title": "Esquire India",
      "url": "https://www.esquireindia.co.in/entertainment/what-to-stream/scene-ott-release-date-when-and-where-to-watch-suriya-nazriya-and-naslen-tamil-film-online-netflix"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/news/scene-enters-top-3-second-weekend-grossers-of-2026-as-suriya-scores-career-best-overseas-collection"
+    },
+    {
+     "title": "Pinkvilla",
+     "url": "https://www.pinkvilla.com/entertainment/box-office/scene-box-office-collections-suriya-starrer-fetches-rs-26-crore-in-2nd-weekend-grosses-rs-153-crore-in-10-days-1406455"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/11/16/suriya-scene-box-office-collection-day-eleven-250-crore.html"
     }
    ],
    "timeline": [
@@ -17274,6 +18566,10 @@
     {
      "date": "2026-11-13",
      "text": "Eighth day of release; morning advance booking was about Rs 2.78 crore gross, below the previous day's."
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Second weekend tail."
     }
    ],
    "charted": [
@@ -17318,6 +18614,13 @@
      "views": 82432,
      "confidence": "md",
      "anchor": "a27"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 36,
+     "views": 75488,
+     "confidence": "hi",
+     "anchor": "a33"
     }
    ]
   },
@@ -17500,6 +18803,59 @@
      "views": 65446,
      "confidence": "hi",
      "anchor": "a30"
+    }
+   ]
+  },
+  {
+   "id": "sean-duffy",
+   "title": "Sean Duffy",
+   "canonical": "Sean_Duffy",
+   "url": "https://en.wikipedia.org/wiki/Sean_Duffy",
+   "type": "Politician",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Duffy was the public face of the 13th Nov nationwide FAA ground stop and its weekend aftermath; 15th Nov is the tail of the story after a 14th Nov peak of 434,101.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Duffy was the public face of the 13th Nov nationwide FAA ground stop and its weekend aftermath; 15th Nov is the tail of the story after a 14th Nov peak of 434,101.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "US Department of Transportation",
+     "url": "https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-provides-update-restoration-airspace"
+    },
+    {
+     "title": "FAA",
+     "url": "https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers"
+    },
+    {
+     "title": "Fox News",
+     "url": "https://www.foxnews.com/politics/faa-ground-stop-timeline-weekend-chaos-grounds-planes-postpones-games"
+    },
+    {
+     "title": "Yahoo News",
+     "url": "https://www.yahoo.com/news/us/live/faa-ground-stop-latest-updates-duffy-blames-contractor-l3harris-thousands-more-flights-canceled-saturday-no-sign-of-cyberattack-161329174.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "US Secretary of Transportation. He led the response to the nationwide FAA ground stop of 13th Nov, blaming a contractor's router and asking Congress for funds on 15th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 13,
+     "views": 161039,
+     "confidence": "hi",
+     "anchor": "a10"
     }
    ]
   },
@@ -17988,6 +19344,55 @@
      "views": 75876,
      "confidence": "hi",
      "anchor": "a27"
+    }
+   ]
+  },
+  {
+   "id": "stephen-thompson-fighter",
+   "title": "Stephen Thompson (fighter)",
+   "canonical": "Stephen_Thompson_(fighter)",
+   "url": "https://en.wikipedia.org/wiki/Stephen_Thompson_(fighter)",
+   "type": "MMA fighter",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "Retirement fight win at UFC 334 on the evening of 14th Nov US time.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "Retirement fight win at UFC 334 on the evening of 14th Nov US time.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/mma/story/_/id/50444358/ufc-334-live-results-analysis-ciryl-gane-josh-hokit"
+    },
+    {
+     "title": "Cageside Press",
+     "url": "https://cagesidepress.com/2026/11/15/ufc-334-bonuses-main-event-harrison-wonderboy-rewarded/"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/ufc-334-results-heavyweight-brawl-115645639.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "American welterweight known as Wonderboy. He won by TKO in round 3 in his retirement fight at UFC 334 on 14th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 22,
+     "views": 106236,
+     "confidence": "hi",
+     "anchor": "a19"
     }
    ]
   },
@@ -18810,6 +20215,18 @@
     {
      "title": "Micropsia",
      "url": "https://www.micropsiacine.com/2026/11/the-body-netflix-review-teenage-hormones-religious-hysteria-and-a-little-help-from-the-devil/"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/reviews/the-body-review-netflix-quinn-shephard/"
+    },
+    {
+     "title": "Screen Rant",
+     "url": "https://screenrant.com/netflix-the-body-rotten-tomatoes-audience-score/"
+    },
+    {
+     "title": "Comic Basics",
+     "url": "https://www.comicbasics.com/?p=202907"
     }
    ],
    "timeline": [
@@ -18820,6 +20237,10 @@
     {
      "date": "2026-11-13",
      "text": "79,343 views on the third day of availability, with review and ending-explainer coverage continuing."
+    },
+    {
+     "date": "2026-11-15",
+     "text": "Fifth day of the Netflix release, with the series reported at No. 2 on the Top 10."
     }
    ],
    "charted": [
@@ -18836,6 +20257,13 @@
      "views": 79343,
      "confidence": "hi",
      "anchor": "a28"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 17,
+     "views": 120538,
+     "confidence": "hi",
+     "anchor": "a14"
     }
    ]
   },
@@ -18941,6 +20369,63 @@
      "views": 80691,
      "confidence": "hi",
      "anchor": "a22"
+    }
+   ]
+  },
+  {
+   "id": "the-end-of-oak-street",
+   "title": "The End of Oak Street",
+   "canonical": "The_End_of_Oak_Street",
+   "url": "https://en.wikipedia.org/wiki/The_End_of_Oak_Street",
+   "type": "Film",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "HBO Max streaming debut on 13th Nov.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "HBO Max streaming debut on 13th Nov.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Slashfilm",
+     "url": "https://www.slashfilm.com/2318050/anne-hathaway-sci-fi-survival-movie-the-end-of-oak-street-streaming-hbo-max/"
+    },
+    {
+     "title": "Memorable TV",
+     "url": "https://www.memorabletv.com/news/end-oak-street/"
+    },
+    {
+     "title": "Gizmodo",
+     "url": "https://gizmodo.com/one-of-the-years-most-underrated-monster-movies-comes-home-soon-2000836347"
+    },
+    {
+     "title": "Dread Central",
+     "url": "https://www.dreadcentral.com/streaming-home-video/596923/the-end-of-oak-street-crashes-the-neighborhood-on-hbo-max-this-november/"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/movies/warner-bros-box-office-cold-streak-end-of-oak-street/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Anne Hathaway sci-fi film that began streaming on HBO Max on 13th Nov. It was No. 1 in 57 countries, per one outlet."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 34,
+     "views": 77707,
+     "confidence": "hi",
+     "anchor": "a31"
     }
    ]
   },
@@ -19398,6 +20883,59 @@
      "views": 224691,
      "confidence": "hi",
      "anchor": "a2"
+    }
+   ]
+  },
+  {
+   "id": "ufc-334",
+   "title": "UFC 334",
+   "canonical": "UFC_334",
+   "url": "https://en.wikipedia.org/wiki/UFC_334",
+   "type": "MMA event",
+   "first_charted": "2026-11-15",
+   "cause": {
+    "text": "The UFC 334 event itself on the evening of 14th Nov (US time), which ran into 15th Nov UTC; results and bonuses were published on 15th Nov.",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-15",
+     "text": "The UFC 334 event itself on the evening of 14th Nov (US time), which ran into 15th Nov UTC; results and bonuses were published on 15th Nov.",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/mma/story/_/id/50444358/ufc-334-live-results-analysis-ciryl-gane-josh-hokit"
+    },
+    {
+     "title": "CBS Sports",
+     "url": "https://www.cbssports.com/ufc/news/ufc-334-results-live-updates-josh-hokit-ciryl-gane/live/"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/ufc-334-results-heavyweight-brawl-115645639.html"
+    },
+    {
+     "title": "UFC.com",
+     "url": "https://www.ufc.com/news/gane-hokit-harrison-nunes-headline-ufc-334-new-york-city"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-15",
+     "text": "Numbered UFC card at Madison Square Garden headlined by Gane v Hokit and Harrison v Nunes. It took place on the evening of 14th Nov in New York."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-15",
+     "rank": 8,
+     "views": 321149,
+     "confidence": "hi",
+     "anchor": "a5"
     }
    ]
   },
@@ -21046,6 +22584,10 @@
     {
      "date": "2026-11-13",
      "text": "486,885 views, the highest in the window; no news, edit or Talk page trigger was found."
+    },
+    {
+     "date": "2026-11-15",
+     "text": "No trigger found."
     }
    ],
    "charted": [
@@ -21181,6 +22723,13 @@
      "views": 486885,
      "confidence": "lo",
      "anchor": "a3"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 23,
+     "views": 105406,
+     "confidence": "lo",
+     "anchor": "a20"
     }
    ]
   },
@@ -21609,14 +23158,6 @@
    ],
    "sources": [
     {
-     "title": "World of Reel",
-     "url": "https://www.worldofreel.com/blog/2026/10/21/you-can-see-everything-is-the-1-movie-in-america-on-just-855-screens-now-it-expands-to-2500-this-weekend"
-    },
-    {
-     "title": "Variety Australia",
-     "url": "https://au.variety.com/2026/film/news/elizabeth-holmes-documentary-nathan-fielder-lance-oppenheim-local-release-41099/"
-    },
-    {
      "title": "Fortune",
      "url": "https://fortune.com/2026/11/02/halloween-box-office-gta-vi-november-hunger-games/"
     },
@@ -21655,6 +23196,14 @@
     {
      "title": "Flicks",
      "url": "https://www.flicks.com.au/news/how-to-watch-you-can-see-everything-in-australia/"
+    },
+    {
+     "title": "The Nightly",
+     "url": "https://thenightly.com.au/culture/film/you-can-see-everything-australian-release-date-what-you-need-to-do-before-the-elizabeth-holmes-doco-arrives-c-23057246"
+    },
+    {
+     "title": "ABC30",
+     "url": "https://abc30.com/story/elizabeth-holmes-movie-can-see-everything-becomes-biggest-documentary-releases-decades/19955218/"
     }
    ],
    "timeline": [
@@ -21709,6 +23258,10 @@
     {
      "date": "2026-11-13",
      "text": "54,838 views, 0.6 times baseline; the Australian wide release of 12th Nov was the only dated event found"
+    },
+    {
+     "date": "2026-11-15",
+     "text": "No D-specific event found."
     }
    ],
    "charted": [
@@ -21823,6 +23376,13 @@
      "views": 54838,
      "confidence": "md",
      "anchor": "a42"
+    },
+    {
+     "date": "2026-11-15",
+     "rank": 40,
+     "views": 69140,
+     "confidence": "md",
+     "anchor": "a37"
     }
    ]
   }
