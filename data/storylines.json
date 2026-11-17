@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "groups": [
   {
    "id": "holmes-documentary",
@@ -341,7 +341,8 @@
    "summary": "Matchday 6 on 15th Nov, including England's win at Spain.",
    "members": [
     "2026-27-uefa-nations-league",
-    "james-trafford"
+    "james-trafford",
+    "uefa-nations-league"
    ]
   },
   {
@@ -351,6 +352,31 @@
    "members": [
     "the-body-tv-series",
     "sara-boustany"
+   ]
+  },
+  {
+   "id": "pattinson-bond",
+   "title": "Robert Pattinson as James Bond",
+   "summary": "Robert Pattinson announced on 16th Nov as the next James Bond, with Denis Villeneuve directing; readers looked up the franchise, past Bonds and his family.",
+   "members": [
+    "robert-pattinson",
+    "james-bond",
+    "daniel-craig",
+    "denis-villeneuve",
+    "list-of-james-bond-films",
+    "portrayal-of-james-bond-in-film",
+    "robert-pattinson-filmography",
+    "lizzy-pattinson",
+    "suki-waterhouse"
+   ]
+  },
+  {
+   "id": "bengals-steelers-snf-2026-11-15",
+   "title": "Bengals v Steelers, Sunday Night Football",
+   "summary": "The Bengals beat the Steelers 38-18 on 15th Nov US time: four touchdowns for Joe Burrow, Aaron Rodgers benched.",
+   "members": [
+    "joe-burrow",
+    "aaron-rodgers"
    ]
   }
  ],
@@ -406,7 +432,7 @@
    "title": "2026–27 UEFA Nations League",
    "canonical": "2026–27_UEFA_Nations_League",
    "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_UEFA_Nations_League",
-   "type": "Football tournament",
+   "type": "Football season",
    "first_charted": "2026-11-15",
    "cause": {
     "text": "Matchday 6 on 15th Nov, including England's win at Spain.",
@@ -436,12 +462,28 @@
     {
      "title": "UEFA",
      "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/"
+    },
+    {
+     "title": "UEFA matchday 6 highlights",
+     "url": "https://www.uefa.com/uefanationsleague/news/02ab-22146db70e40-12d581ab82a9-1000--uefa-nations-league-matchday-6-highlights-belgium-france/"
+    },
+    {
+     "title": "UEFA quarter-final latest",
+     "url": "https://www.uefa.com/uefanationsleague/news/02ab-2209792f2fda-6a523d4500bb-1000--nations-league-latest-on-quarter-final-qualification-promotion/"
+    },
+    {
+     "title": "Sports Mole",
+     "url": "https://www.sportsmole.co.uk/football/england/uefa-nations-league/news/when-is-the-nations-league-quarter-final-draw_609036.html"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-15",
      "text": "Men's national-team tournament. Matchday 6 on 15th Nov included England 3-2 at Spain and Belgium 4-1 Italy."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "Season of the European national-team competition. England won 3-2 in Spain on 15th Nov and Germany and the Netherlands reached the quarter-finals on 16th Nov."
     }
    ],
    "charted": [
@@ -451,6 +493,13 @@
      "views": 79669,
      "confidence": "hi",
      "anchor": "a29"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 22,
+     "views": 100581,
+     "confidence": "hi",
+     "anchor": "a19"
     }
    ]
   },
@@ -2125,6 +2174,59 @@
    ]
   },
   {
+   "id": "69th-annual-grammy-awards",
+   "title": "69th Annual Grammy Awards",
+   "canonical": "69th_Annual_Grammy_Awards",
+   "url": "https://en.wikipedia.org/wiki/69th_Annual_Grammy_Awards",
+   "type": "Awards ceremony",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Nominations announced on 16th Nov at 12:45 UTC",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Nominations announced on 16th Nov at 12:45 UTC",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Recording Academy",
+     "url": "https://www.grammy.com/news/2027-grammys-nominations-announcement/"
+    },
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/GMA/Culture/grammy-nominations-2027-full-list/story?id=138113372"
+    },
+    {
+     "title": "Consequence",
+     "url": "https://consequence.net/2026/11/grammys-2027-nominations-list/"
+    },
+    {
+     "title": "ABC News ceremony details",
+     "url": "https://abcnews.com/culture/story/2027-grammy-nominations/?id=137921246"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "Music awards ceremony due on 7th Feb 2027. Nominations were announced on 16th Nov, led by RAYE with 11."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 25,
+     "views": 92752,
+     "confidence": "hi",
+     "anchor": "a22"
+    }
+   ]
+  },
+  {
    "id": "9-11",
    "title": "9/11",
    "canonical": "9/11",
@@ -2174,6 +2276,55 @@
      "views": 673012,
      "confidence": "hi",
      "anchor": "a2"
+    }
+   ]
+  },
+  {
+   "id": "aaron-rodgers",
+   "title": "Aaron Rodgers",
+   "canonical": "Aaron_Rodgers",
+   "url": "https://en.wikipedia.org/wiki/Aaron_Rodgers",
+   "type": "NFL player",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Sunday Night Football on 15th Nov, a 38-18 Steelers loss in which he started 0 for 8, was benched, and had a tense postgame exchange",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Sunday Night Football on 15th Nov, a 38-18 Steelers loss in which he started 0 for 8, was benched, and had a tense postgame exchange",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Yahoo Sports (replaced)",
+     "url": "https://sports.yahoo.com/articles/steelers-aaron-rodgers-replaced-mason-041753448.html"
+    },
+    {
+     "title": "Yahoo Sports (worst start)",
+     "url": "https://sports.yahoo.com/articles/aaron-rodgers-worst-start-career-023050061.html"
+    },
+    {
+     "title": "Yahoo Sports (reporter)",
+     "url": "https://sports.yahoo.com/articles/aaron-rodgers-calls-female-reporter-214611355.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "Pittsburgh Steelers quarterback. He started 0 for 8 in a loss at Cincinnati on 15th Nov and was replaced in the fourth quarter."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 42,
+     "views": 65183,
+     "confidence": "hi",
+     "anchor": "a39"
     }
    ]
   },
@@ -3464,6 +3615,10 @@
     {
      "date": "2026-11-15",
      "text": "No event found for the date; stored cause kept."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "78,113 views, equal to its baseline"
     }
    ],
    "charted": [
@@ -3578,6 +3733,13 @@
      "views": 115262,
      "confidence": "lo",
      "anchor": "a16"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 29,
+     "views": 78113,
+     "confidence": "lo",
+     "anchor": "a26"
     }
    ]
   },
@@ -3695,10 +3857,10 @@
    "title": "Archive of Our Own",
    "canonical": "Archive_of_Our_Own",
    "url": "https://en.wikipedia.org/wiki/Archive_of_Our_Own",
-   "type": "Fan fiction site",
+   "type": "Website",
    "first_charted": "2026-11-02",
    "cause": {
-    "text": "The reopening of the site on 15th Nov at 08:28 UTC after the security-incident outage; this revises the stored 'still offline' cause, since the story ended in a return.",
+    "text": "Revised: the stored cause was the prolonged outage; the site returned on 15th Nov after about 17 days, which explains the 860,729 views on that date and the tail on 16th Nov",
     "confidence": "hi"
    },
    "cause_history": [
@@ -3719,13 +3881,15 @@
      "text": "The reopening of the site on 15th Nov at 08:28 UTC after the security-incident outage; this revises the stored 'still offline' cause, since the story ended in a return.",
      "confidence": "hi",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-16",
+     "text": "Revised: the stored cause was the prolonged outage; the site returned on 15th Nov after about 17 days, which explains the 860,729 views on that date and the tail on 16th Nov",
+     "confidence": "hi",
+     "note": "Cause revised"
     }
    ],
    "sources": [
-    {
-     "title": "Fast Company",
-     "url": "https://www.fastcompany.com/91634518/ao3-down-fanfic-may-not-be-back-for-weeks-whats-the-reason"
-    },
     {
      "title": "A.V. Club",
      "url": "https://www.avclub.com/ao3-fan-fiction-site-down-for-month-security-incident"
@@ -3765,6 +3929,14 @@
     {
      "title": "HollywoodLife",
      "url": "https://hollywoodlife.com/2026/11/16/archive-of-our-own-ao3-website-outage-updates/"
+    },
+    {
+     "title": "Gizmodo",
+     "url": "https://gizmodo.com/good-news-fan-fiction-lovers-archive-of-our-own-is-back-online-2000840668"
+    },
+    {
+     "title": "Dexerto",
+     "url": "https://www.dexerto.com/entertainment/fanfiction-library-ao3-could-remain-offline-for-up-to-four-weeks-after-security-incident-3423732/"
     }
    ],
    "timeline": [
@@ -3791,6 +3963,10 @@
     {
      "date": "2026-11-15",
      "text": "Site reopened at 08:28 UTC after about 17 days offline; views reached 860,729, the high of the window."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "Back online since 15th Nov after a 17-day outage; 463,687 views as users returned"
     }
    ],
    "charted": [
@@ -3835,6 +4011,13 @@
      "views": 860729,
      "confidence": "hi",
      "anchor": "a1"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 6,
+     "views": 463687,
+     "confidence": "hi",
+     "anchor": "a3"
     }
    ]
   },
@@ -6620,6 +6803,14 @@
     {
      "title": "The Spun",
      "url": "https://thespun.com/sports-media/cause-of-death-announced-nbc-announcer-dan-hicks"
+    },
+    {
+     "title": "FOX 9",
+     "url": "https://www.fox9.com/news/dan-hicks-longtime-television-sportscaster-dies-64"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/nbc-pays-tribute-broadcaster-dan-202025499.html"
     }
    ],
    "timeline": [
@@ -6630,6 +6821,10 @@
     {
      "date": "2026-11-13",
      "text": "Follow-up coverage continued; the cause was still described as an \"acute illness\" with no specific condition given."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "64,158 views, after a quieter weekend"
     }
    ],
    "charted": [
@@ -6646,6 +6841,13 @@
      "views": 107505,
      "confidence": "hi",
      "anchor": "a15"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 45,
+     "views": 64158,
+     "confidence": "hi",
+     "anchor": "a42"
     }
    ]
   },
@@ -6797,6 +6999,55 @@
      "views": 144202,
      "confidence": "hi",
      "anchor": "a11"
+    }
+   ]
+  },
+  {
+   "id": "daniel-craig",
+   "title": "Daniel Craig",
+   "canonical": "Daniel_Craig",
+   "url": "https://en.wikipedia.org/wiki/Daniel_Craig",
+   "type": "Actor",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Previous Bond actor, in the news after Pattinson was announced as his successor on 16th Nov",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Previous Bond actor, in the news after Pattinson was announced as his successor on 16th Nov",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Brit Brief",
+     "url": "https://britbrief.co.uk/entertainment/celebrity/craigs-bond-comments-resurface-as-pattinson-named-007.html"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/movies/robert-pattinson-james-bond-casting-reactions/"
+    },
+    {
+     "title": "Amazon",
+     "url": "https://www.aboutamazon.com/news/entertainment/james-bond-robert-pattinson-cast-amazon-mgm-film"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "English actor who played James Bond in five films. Announcement coverage on 16th Nov named him as the outgoing Bond whom Robert Pattinson replaces."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 18,
+     "views": 107838,
+     "confidence": "hi",
+     "anchor": "a15"
     }
    ]
   },
@@ -7169,7 +7420,7 @@
    "title": "Deaths in 2026",
    "canonical": "Deaths_in_2026",
    "url": "https://en.wikipedia.org/wiki/Deaths_in_2026",
-   "type": "List",
+   "type": "Deaths list",
    "first_charted": "2026-10-20",
    "cause": {
     "text": "Evergreen interest in the annual deaths list, with no event found for 15th Nov; the stored cause is kept.",
@@ -7357,6 +7608,10 @@
     {
      "date": "2026-11-15",
      "text": "Steady evergreen traffic; Richard Sterban's death on 14th Nov added an entry but no single event was found as the driver."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "134,818 views, in line with its baseline"
     }
    ],
    "charted": [
@@ -7527,6 +7782,13 @@
      "views": 127367,
      "confidence": "lo",
      "anchor": "a12"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 14,
+     "views": 134818,
+     "confidence": "lo",
+     "anchor": "a11"
     }
    ]
   },
@@ -7599,6 +7861,55 @@
      "views": 91403,
      "confidence": "hi",
      "anchor": "a26"
+    }
+   ]
+  },
+  {
+   "id": "denis-villeneuve",
+   "title": "Denis Villeneuve",
+   "canonical": "Denis_Villeneuve",
+   "url": "https://en.wikipedia.org/wiki/Denis_Villeneuve",
+   "type": "Film director",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Named director of the next Bond film in the 16th Nov announcement, and quoted on Pattinson's casting",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Named director of the next Bond film in the 16th Nov announcement, and quoted on Pattinson's casting",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "GamesRadar",
+     "url": "https://www.gamesradar.com/entertainment/james-bond-movies/bond-26-director-denis-villeneuve-responds-to-robert-pattinsons-casting-he-has-the-timeless-soul-of-007/"
+    },
+    {
+     "title": "Amazon",
+     "url": "https://www.aboutamazon.com/news/entertainment/james-bond-robert-pattinson-cast-amazon-mgm-film"
+    },
+    {
+     "title": "Hypebeast",
+     "url": "https://hypebeast.com/2026/10/why-denis-villeneuve-needed-james-bond-to-finally-leave-dune-behind"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "Canadian director of the Dune films. He directs the next Bond film and was quoted in the 16th Nov announcement of Robert Pattinson."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 41,
+     "views": 65188,
+     "confidence": "hi",
+     "anchor": "a38"
     }
    ]
   },
@@ -8238,6 +8549,18 @@
     {
      "title": "Capitalism Institute",
      "url": "https://capitalisminstitute.org/depps-ebenezer-takes-weekend-crown-in-first-studio-lead-in-eight-years/"
+    },
+    {
+     "title": "WBNG",
+     "url": "https://www.wbng.com/2026/11/16/johnny-depp-film-ebenezer-gets-actor-first-no-1-opening-8-years/"
+    },
+    {
+     "title": "Collider",
+     "url": "https://collider.com/johnny-depp-ebenezer-box-office-opening-weekend-43-million/"
+    },
+    {
+     "title": "Showbiz411",
+     "url": "https://www.showbiz411.com/2026/11/14/box-office-johnny-depps-ebenezer-comeback-wont-make-20-mil-this-weekend-you-can-see-everything-still-drawing-audiences"
     }
    ],
    "timeline": [
@@ -8248,6 +8571,10 @@
     {
      "date": "2026-11-15",
      "text": "First full weekend; reported at No. 1 with about $19 million."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "87,439 views; the film opened at No. 1 with about $19 million domestic"
     }
    ],
    "charted": [
@@ -8264,6 +8591,13 @@
      "views": 98174,
      "confidence": "hi",
      "anchor": "a21"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 26,
+     "views": 87439,
+     "confidence": "hi",
+     "anchor": "a23"
     }
    ]
   },
@@ -8272,11 +8606,11 @@
    "title": "Elizabeth Holmes",
    "canonical": "Elizabeth_Holmes",
    "url": "https://en.wikipedia.org/wiki/Elizabeth_Holmes",
-   "type": "Biography",
+   "type": "Entrepreneur",
    "first_charted": "2026-10-20",
    "cause": {
-    "text": "Continuing interest from the documentary You Can See Everything; a CBS News interview with Billy Evans on 15th Nov is a new possible trigger.",
-    "confidence": "md"
+    "text": "Continuing interest in the A24 documentary and film about her; the stored cause is kept",
+    "confidence": "lo"
    },
    "cause_history": [
     {
@@ -8332,17 +8666,15 @@
      "text": "Continuing interest from the documentary You Can See Everything; a CBS News interview with Billy Evans on 15th Nov is a new possible trigger.",
      "confidence": "md",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-16",
+     "text": "Continuing interest in the A24 documentary and film about her; the stored cause is kept",
+     "confidence": "lo",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "Malay Mail",
-     "url": "https://www.malaymail.com/news/showbiz/2026/11/10/documentary-about-convicted-theranos-fraudster-elizabeth-holmes-sparks-memes-lookalike-contests-and-oscar-buzz/242700"
-    },
-    {
-     "title": "Fortune",
-     "url": "https://fortune.com/2026/10/25/elizabeth-holmes-partner-billy-evans-haemanthus-blood-testing-startup-theranos/"
-    },
     {
      "title": "SF Standard",
      "url": "https://sfstandard.com/pacific-standard-time/2026/10/30/-pst-theranos-whistleblower-tyler-shultz-elizabeth-holmes-ai/"
@@ -8382,6 +8714,14 @@
     {
      "title": "ABC News",
      "url": "https://abcnews.com/US/elizabeth-holmes-scheduled-move-halfway-house-august-2027/story?id=136698221"
+    },
+    {
+     "title": "NBC Bay Area",
+     "url": "https://www.nbcbayarea.com/news/local/elizabeth-holmes-doc-you-can-see-everything/4151510/"
+    },
+    {
+     "title": "Forbes Australia",
+     "url": "https://www.forbes.com.au/news/world-news/what-we-know-about-elizabeth-holmes-a24-movie/"
     }
    ],
    "timeline": [
@@ -8464,6 +8804,10 @@
     {
      "date": "2026-11-15",
      "text": "On 15th Nov CBS News published Billy Evans's first TV interview about the documentary."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "84,504 views, close to baseline"
     }
    ],
    "charted": [
@@ -8620,6 +8964,13 @@
      "views": 115753,
      "confidence": "md",
      "anchor": "a15"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 27,
+     "views": 84504,
+     "confidence": "lo",
+     "anchor": "a24"
     }
    ]
   },
@@ -9507,8 +9858,8 @@
    "type": "Video game",
    "first_charted": "2026-11-10",
    "cause": {
-    "text": "Run-up to the 19th Nov launch with pre-loading opening on 10th Nov, two days earlier than first planned, after Take-Two's results on 9th Nov",
-    "confidence": "md"
+    "text": "Run-up to the 19th Nov launch with updates and review-embargo news; the stored cause is confirmed",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -9516,21 +9867,15 @@
      "text": "Run-up to the 19th Nov launch with pre-loading opening on 10th Nov, two days earlier than first planned, after Take-Two's results on 9th Nov",
      "confidence": "md",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-16",
+     "text": "Run-up to the 19th Nov launch with updates and review-embargo news; the stored cause is confirmed",
+     "confidence": "hi",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "Yahoo Finance",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/two-shares-rise-over-3-113921042.html"
-    },
-    {
-     "title": "Beebom",
-     "url": "https://beebom.com/take-two-november-9-earnings-call-could-bring-gta-6-story-trailer/"
-    },
-    {
-     "title": "Game Rant",
-     "url": "https://gamerant.com/gta-6-trailer-4-pre-load/"
-    },
     {
      "title": "VideoGamer",
      "url": "https://www.videogamer.com/news/gta-6-pre-load-trailer-30fps-target-consoles/"
@@ -9566,6 +9911,18 @@
     {
      "title": "Rockstar Report",
      "url": "https://rockstarreport.com/news/gta-6-reviews-november-18-report"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://forbes.com/sites/erikkain/2026/11/16/gta-6-release-date-time-ps5-xbox-series-x-download-size-day-one-update"
+    },
+    {
+     "title": "Beebom",
+     "url": "https://beebom.com/gta-6-review-embargo-date-revealed/"
+    },
+    {
+     "title": "Rockstar Games",
+     "url": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
     }
    ],
    "timeline": [
@@ -9588,6 +9945,10 @@
     {
      "date": "2026-11-15",
      "text": "28-day high in the run-up to launch; no event specific to the date."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "106,689 views, the highest in the window, three days before launch"
     }
    ],
    "charted": [
@@ -9625,6 +9986,13 @@
      "views": 82149,
      "confidence": "md",
      "anchor": "a28"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 20,
+     "views": 106689,
+     "confidence": "hi",
+     "anchor": "a17"
     }
    ]
   },
@@ -11499,6 +11867,55 @@
    ]
   },
   {
+   "id": "james-bond",
+   "title": "James Bond",
+   "canonical": "James_Bond",
+   "url": "https://en.wikipedia.org/wiki/James_Bond",
+   "type": "Fictional spy",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Pattinson announced as the next James Bond on 16th Nov",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Pattinson announced as the next James Bond on 16th Nov",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Amazon",
+     "url": "https://www.aboutamazon.com/news/entertainment/james-bond-robert-pattinson-cast-amazon-mgm-film"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/16/british-actor-robert-pattinson-named-as-new-james-bond"
+    },
+    {
+     "title": "Euronews",
+     "url": "https://www.euronews.com/2026/11/16/meet-the-new-james-bond-its-pattinson-robert-pattinson"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "Fictional British secret agent created by Ian Fleming. Robert Pattinson was announced on 16th Nov as the next actor to play him."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 32,
+     "views": 76019,
+     "confidence": "hi",
+     "anchor": "a29"
+    }
+   ]
+  },
+  {
    "id": "james-keach",
    "title": "James Keach",
    "canonical": "James_Keach",
@@ -11760,12 +12177,28 @@
     {
      "title": "Sportsview",
      "url": "https://sportsview.co.uk/2026/11/leeds-goalkeeper-james-trafford-produces-heroic-england-display-as-they-beat-spain"
+    },
+    {
+     "title": "IBTimes",
+     "url": "https://www.ibtimes.co.uk/england-end-spain-unbeaten-run-nations-league-win-1832560"
+    },
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/soccer/story/_/id/50493712/england-spain-43-game-unbeaten-run"
+    },
+    {
+     "title": "LiveScore",
+     "url": "https://www.livescore.com/en/news/football/uefa-nations-league/nations-league-news-top-class-trafford-lays-claim-to-england-no-1-spot-with-madrid-heroics/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-15",
      "text": "Leeds goalkeeper. He started for England in the 3-2 Nations League win at Spain on 15th Nov."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "England goalkeeper. He made late saves in England's 3-2 win in Spain on 15th Nov."
     }
    ],
    "charted": [
@@ -11775,6 +12208,13 @@
      "views": 68822,
      "confidence": "hi",
      "anchor": "a38"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 40,
+     "views": 66321,
+     "confidence": "hi",
+     "anchor": "a37"
     }
    ]
   },
@@ -11882,6 +12322,18 @@
     {
      "title": "Advanced Television",
      "url": "https://www.advanced-television.com/2026/11/09/bezos-new-glenn-delayed-until-january/"
+    },
+    {
+     "title": "Billionaires.Africa",
+     "url": "https://billionaires.africa/2026/11/16/amazon-billionaire-jeff-bezos-blue-origin-puts-space-station-on-hold-for-moon"
+    },
+    {
+     "title": "Journal Arta",
+     "url": "https://journalarta.com/en/2026/11/16/mackenzie-scott-jeff-bezos-divorce-amazon-stock/"
+    },
+    {
+     "title": "The Street",
+     "url": "https://www.thestreet.com/technology/spacex-musk-bezos-launch-rivalry"
     }
    ],
    "timeline": [
@@ -11900,6 +12352,10 @@
     {
      "date": "2026-11-13",
      "text": "59,177 views, 1.7 times baseline; no event dated 13th Nov was found"
+    },
+    {
+     "date": "2026-11-16",
+     "text": "92,773 views, the highest in the window"
     }
    ],
    "charted": [
@@ -11930,6 +12386,13 @@
      "views": 59177,
      "confidence": "lo",
      "anchor": "a40"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 24,
+     "views": 92773,
+     "confidence": "lo",
+     "anchor": "a21"
     }
    ]
   },
@@ -12164,7 +12627,7 @@
    "type": "Tech CEO",
    "first_charted": "2026-11-09",
    "cause": {
-    "text": "His staff memo of 8th Nov admitting an affair and the board's investigation into whether he was targeted by Chinese intelligence, with market fallout on 9th Nov",
+    "text": "Revised: the stored cause was the affair investigation; his resignation on 12th Nov and the testimony requests are the main drivers, and 16th Nov is the continuing decline",
     "confidence": "hi"
    },
    "cause_history": [
@@ -12173,25 +12636,15 @@
      "text": "His staff memo of 8th Nov admitting an affair and the board's investigation into whether he was targeted by Chinese intelligence, with market fallout on 9th Nov",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-16",
+     "text": "Revised: the stored cause was the affair investigation; his resignation on 12th Nov and the testimony requests are the main drivers, and 16th Nov is the continuing decline",
+     "confidence": "hi",
+     "note": "Cause revised"
     }
    ],
    "sources": [
-    {
-     "title": "Fox Business",
-     "url": "https://www.foxbusiness.com/business-leaders/nvidia-ceo-jensen-huang-resigns-amid-investigation-relationship-alleged-chinese-spy"
-    },
-    {
-     "title": "Al Jazeera",
-     "url": "https://www.aljazeera.com/economy/2026/11/9/nvidia-shares-slump-amid-investigation-into-ceo-jensen-huang"
-    },
-    {
-     "title": "Nvidia press release (SEC filing)",
-     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
-    },
-    {
-     "title": "Yahoo Finance live blog",
-     "url": "https://finance.yahoo.com/technology/live/nvidia-live-updates-jensen-huang-resigns-cfo-colette-kress-to-serve-as-interim-ceo-140341430.html"
-    },
     {
      "title": "Forbes",
      "url": "https://www.forbes.com/sites/jonmarkman/2026/11/12/nvidia-names-cfo-colette-kress-as-interim-ceo-after-jensen-huang-resigns/"
@@ -12223,6 +12676,22 @@
     {
      "title": "CBS News",
      "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-resignation-scandal-timeline/"
+    },
+    {
+     "title": "NVIDIA",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    },
+    {
+     "title": "StockAnalysis",
+     "url": "https://stockanalysis.com/news/jensen-huang-resigns-as-nvidia-ceo/"
+    },
+    {
+     "title": "The Next Web",
+     "url": "https://thenextweb.com/news/jensen-huang-nvidia-investigation-senate-lutnick-testify"
+    },
+    {
+     "title": "StockTwits roundup",
+     "url": "https://stocktwits.com/news-articles/markets/equity/ai-roundup-nvidia-ceo-s-exit-dominates-headlines-core-weave-cisco-results-boost-ai-sentiment/cNbbU35R9Oz"
     }
    ],
    "timeline": [
@@ -12249,6 +12718,10 @@
     {
      "date": "2026-11-15",
      "text": "Decay from the 12th Nov peak of 1,072,168; new items on this date included reports that he was considering a return and a Megaspeed statement."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "162,987 views, the fifth day of decline after the peak"
     }
    ],
    "charted": [
@@ -12293,6 +12766,13 @@
      "views": 194070,
      "confidence": "hi",
      "anchor": "a7"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 11,
+     "views": 162987,
+     "confidence": "hi",
+     "anchor": "a8"
     }
    ]
   },
@@ -12630,6 +13110,55 @@
    ]
   },
   {
+   "id": "joe-burrow",
+   "title": "Joe Burrow",
+   "canonical": "Joe_Burrow",
+   "url": "https://en.wikipedia.org/wiki/Joe_Burrow",
+   "type": "NFL player",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Sunday Night Football on 15th Nov (kickoff about 01:20 UTC on 16th Nov); the Bengals beat the Steelers 38-18 and he threw four touchdowns",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Sunday Night Football on 15th Nov (kickoff about 01:20 UTC on 16th Nov); the Bengals beat the Steelers 38-18 and he threw four touchdowns",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "NBC Sports (record)",
+     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-matches-peyton-mannings-record-for-consecutive-games-with-at-least-four-tds"
+    },
+    {
+     "title": "NBC Sports (MVP)",
+     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-becomes-the-mvp-favorite"
+    },
+    {
+     "title": "NBC Sports (nine games)",
+     "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-burrow-sunday-night-was-great-but-youre-not-winning-anything-after-nine-games"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "Cincinnati Bengals quarterback. He threw four touchdowns in a Sunday Night Football win over the Steelers on 15th Nov and became MVP betting favourite."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 33,
+     "views": 75566,
+     "confidence": "hi",
+     "anchor": "a30"
+    }
+   ]
+  },
+  {
    "id": "joe-fagnano",
    "title": "Joe Fagnano",
    "canonical": "Joe_Fagnano",
@@ -12750,6 +13279,55 @@
      "views": 98885,
      "confidence": "hi",
      "anchor": "a11"
+    }
+   ]
+  },
+  {
+   "id": "john-malkovich",
+   "title": "John Malkovich",
+   "canonical": "John_Malkovich",
+   "url": "https://en.wikipedia.org/wiki/John_Malkovich",
+   "type": "Actor",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "60 Minutes interview aired on the evening of 15th Nov US time (00:00 UTC on 16th Nov), tied to his new film",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "60 Minutes interview aired on the evening of 15th Nov US time (00:00 UTC on 16th Nov), tied to his new film",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/news/john-malkovich-acting-movies-versus-plays-60-minutes/"
+    },
+    {
+     "title": "CBS transcript",
+     "url": "https://www.cbsnews.com/news/john-malkovich-60-minutes-transcript/"
+    },
+    {
+     "title": "Newser",
+     "url": "https://www.newser.com/story/400108/john-malkovich-recalls-learning-he-lost-it-all-to-madoff.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "American actor and director. CBS's 60 Minutes aired an interview with him on 15th Nov, tied to his film Wild Horse Nine."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 23,
+     "views": 93805,
+     "confidence": "md",
+     "anchor": "a20"
     }
    ]
   },
@@ -14028,7 +14606,7 @@
    "title": "Kirk Cousins",
    "canonical": "Kirk_Cousins",
    "url": "https://en.wikipedia.org/wiki/Kirk_Cousins",
-   "type": "NFL quarterback",
+   "type": "NFL player",
    "first_charted": "2026-11-10",
    "cause": {
     "text": "Trade from the Las Vegas Raiders back to the Minnesota Vikings on 10th Nov, the NFL trade deadline",
@@ -14043,10 +14621,6 @@
     }
    ],
    "sources": [
-    {
-     "title": "NFL.com",
-     "url": "https://www.nfl.com/news/kirk-cousins-vikings-raiders-trade"
-    },
     {
      "title": "Pro Football Rumors",
      "url": "https://www.profootballrumors.com/2026/11/raiders-to-trade-qb-kirk-cousins-back-to-vikings"
@@ -14082,6 +14656,18 @@
     {
      "title": "NFL.com",
      "url": "https://www.nfl.com/news/vikings-wont-commit-to-kirk-cousins-starting-packers"
+    },
+    {
+     "title": "ESPN recap",
+     "url": "https://www.espn.com/nfl/recap/_/gameId/401873060"
+    },
+    {
+     "title": "Vikings.com",
+     "url": "https://www.vikings.com/news/kirk-cousins-quarterback-offense-packers-win-week-10-2026"
+    },
+    {
+     "title": "KTTC",
+     "url": "https://www.kttc.com/2026/11/10/kirk-cousins-traded-vikings/"
     }
    ],
    "timeline": [
@@ -14096,6 +14682,10 @@
     {
      "date": "2026-11-15",
      "text": "First start for the Vikings, a 30-10 win at Green Bay."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "76,919 views, the tail of the 15th Nov game"
     }
    ],
    "charted": [
@@ -14119,6 +14709,13 @@
      "views": 121498,
      "confidence": "hi",
      "anchor": "a13"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 30,
+     "views": 76919,
+     "confidence": "hi",
+     "anchor": "a27"
     }
    ]
   },
@@ -14823,18 +15420,6 @@
    ],
    "sources": [
     {
-     "title": "ETV Bharat",
-     "url": "https://www.etvbharat.com/en/entertainment/ramayana-box-office-day-7-worldwide-gross-hits-rs-934-cr-ranbir-kapoor-yash-starrer-soon-to-join-rs-1000-cr-club-enn26111200963"
-    },
-    {
-     "title": "Sacnilk, eighth-day advance report",
-     "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Eighth_Day_Advance_Booking_Report"
-    },
-    {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/11/10/ramayana-beats-tiger-3-box-office-diwali-records.amp.html"
-    },
-    {
      "title": "Khaleej Times",
      "url": "https://www.khaleejtimes.com/entertainment/ramayana-box-office-day-5-ranbir-kapoor-record-monday"
     },
@@ -14869,6 +15454,18 @@
     {
      "title": "Movietalkies",
      "url": "https://www.movietalkies.com/news/ramayana-crosses-dhurandhar-ww-total-in-11-days-12811650"
+    },
+    {
+     "title": "The Open Press",
+     "url": "https://theopenpress.in/article/ramayana-box-office-day-12-worldwide-godzilla-dhurandhar-2"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/news/ramayana-becomes-11th-indian-film-to-cross-1000-crore-worldwide-achieves-feat-in-8-days"
+    },
+    {
+     "title": "India TV",
+     "url": "https://www.indiatvnews.com/entertainment/news/ramayana-box-office-day-12-ranbir-kapoor-yash-s-film-nears-rs-1000-crore-in-india-2026-11-16-1059608"
     }
    ],
    "timeline": [
@@ -14895,6 +15492,10 @@
     {
      "date": "2026-11-15",
      "text": "171,338 views the day before became 214,408, the window high, as Ramayana: Part 1 entered the all-time top five on 15th Nov."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "206,909 views; the film was reported behind only four titles"
     }
    ],
    "charted": [
@@ -14939,6 +15540,62 @@
      "views": 214408,
      "confidence": "md",
      "anchor": "a6"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 8,
+     "views": 206909,
+     "confidence": "md",
+     "anchor": "a5"
+    }
+   ]
+  },
+  {
+   "id": "list-of-james-bond-films",
+   "title": "List of James Bond films",
+   "canonical": "List_of_James_Bond_films",
+   "url": "https://en.wikipedia.org/wiki/List_of_James_Bond_films",
+   "type": "Film list",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Readers checking the franchise's films after Pattinson was named the next Bond on 16th Nov",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Readers checking the franchise's films after Pattinson was named the next Bond on 16th Nov",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Yahoo Canada",
+     "url": "https://ca.finance.yahoo.com/news/robert-pattinson-named-7th-james-150805749.html"
+    },
+    {
+     "title": "Euronews",
+     "url": "https://www.euronews.com/2026/11/16/meet-the-new-james-bond-its-pattinson-robert-pattinson"
+    },
+    {
+     "title": "James Bond Dossier",
+     "url": "https://www.thejamesbonddossier.com/films/bond-26.htm"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "List of the James Bond film series. Amazon MGM announced Robert Pattinson on 16th Nov as the lead of the next film."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 19,
+     "views": 106736,
+     "confidence": "hi",
+     "anchor": "a16"
     }
    ]
   },
@@ -14992,6 +15649,51 @@
      "views": 534193,
      "confidence": "hi",
      "anchor": "a4"
+    }
+   ]
+  },
+  {
+   "id": "lizzy-pattinson",
+   "title": "Lizzy Pattinson",
+   "canonical": "Lizzy_Pattinson",
+   "url": "https://en.wikipedia.org/wiki/Lizzy_Pattinson",
+   "type": "Singer",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Sister of Robert Pattinson, who was announced as the next James Bond on 16th Nov",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Sister of Robert Pattinson, who was announced as the next James Bond on 16th Nov",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hello!",
+     "url": "https://www.hellomagazine.com/celebrities/914408/meet-robert-pattinson-family-famous-sister/"
+    },
+    {
+     "title": "Amazon",
+     "url": "https://www.aboutamazon.com/news/entertainment/james-bond-robert-pattinson-cast-amazon-mgm-film"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "English singer-songwriter and sister of Robert Pattinson. Her page followed the Bond announcement of 16th Nov; no source linked her to it directly."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 31,
+     "views": 76545,
+     "confidence": "lo",
+     "anchor": "a28"
     }
    ]
   },
@@ -15643,6 +16345,63 @@
    ]
   },
   {
+   "id": "miguel-ngel-f-lix-gallardo",
+   "title": "Miguel Ángel Félix Gallardo",
+   "canonical": "Miguel_Ángel_Félix_Gallardo",
+   "url": "https://en.wikipedia.org/wiki/Miguel_%C3%81ngel_F%C3%A9lix_Gallardo",
+   "type": "Deceased drug lord",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Death on 15th Nov at about 19:45 to 20:00 UTC in a Guadalajara hospital, aged 80, of multiple organ failure",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Death on 15th Nov at about 19:45 to 20:00 UTC in a Guadalajara hospital, aged 80, of multiple organ failure",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/16/founder-of-guadalajara-cartel-dies-in-hospital-after-decades-in-prison"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/news/miguel-angel-felix-gallardo-dies-drug-lord-behind-us-agent-murder-age-80/"
+    },
+    {
+     "title": "IBTimes",
+     "url": "https://www.ibtimes.co.uk/miguel-angel-felix-gallardo-dies-aged-80-1832579"
+    },
+    {
+     "title": "Formato Siete",
+     "url": "https://formato7.com/2026/11/16/murio-miguel-angel-felix-gallardo-el-jefe-de-jefes/"
+    },
+    {
+     "title": "Yucatan.com.mx",
+     "url": "https://www.yucatan.com.mx/mexico/2026/11/13/miguel-angel-felix-gallardo-fundador-del-cartel-de-guadalajara-es-hospitalizado-de-emergencia-en-jalisco.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "Founder of Mexico's Guadalajara Cartel. He died on 15th Nov aged 80 at a hospital in Guadalajara."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 36,
+     "views": 70590,
+     "confidence": "hi",
+     "anchor": "a33"
+    }
+   ]
+  },
+  {
    "id": "mike-rogers-michigan-politician",
    "title": "Mike Rogers (Michigan politician)",
    "canonical": "Mike_Rogers_(Michigan_politician)",
@@ -15833,6 +16592,51 @@
      "views": 100427,
      "confidence": "hi",
      "anchor": "a10"
+    }
+   ]
+  },
+  {
+   "id": "mordechai-vanunu",
+   "title": "Mordechai Vanunu",
+   "canonical": "Mordechai_Vanunu",
+   "url": "https://en.wikipedia.org/wiki/Mordechai_Vanunu",
+   "type": "Whistleblower",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Unknown: no trigger found; a jump to 379.6 times baseline in one day with almost no edits suggests a link or social post, which was not checked",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Unknown: no trigger found; a jump to 379.6 times baseline in one day with almost no edits suggests a link or social post, which was not checked",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Online Citizen",
+     "url": "https://theonlinecitizen.com/2026/05/14/the-man-who-told-the-truth-the-world-already-knew-still-waiting-for-freedom"
+    },
+    {
+     "title": "Times of Israel liveblog",
+     "url": "https://timesofisrael.com/liveblog-november-16-2026"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "Israeli nuclear technician who disclosed details of the Dimona programme in 1986. No news, edit or Talk page trigger was found."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 15,
+     "views": 132656,
+     "confidence": "lo",
+     "anchor": "a12"
     }
    ]
   },
@@ -16650,6 +17454,55 @@
    ]
   },
   {
+   "id": "palestine-national-football-team",
+   "title": "Palestine national football team",
+   "canonical": "Palestine_national_football_team",
+   "url": "https://en.wikipedia.org/wiki/Palestine_national_football_team",
+   "type": "Football team",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Unknown: no trigger found; the 14th Nov friendly with Iran does not match the rise on 16th Nov, which was 346.1 times baseline",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Unknown: no trigger found; the 14th Nov friendly with Iran does not match the rise on 16th Nov, which was 346.1 times baseline",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "VAVEL",
+     "url": "https://www.vavel.com/en-us/soccer/2026/11/14/1279166-palestine-vs-iran-live-score-friendly.html"
+    },
+    {
+     "title": "Sports Mole match page",
+     "url": "https://www.sportsmole.co.uk/football/international-friendlies/palestine-vs-iran_game_262133.html"
+    },
+    {
+     "title": "Sports Mole team page",
+     "url": "https://www.sportsmole.co.uk/football/palestine/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "National men's football team of Palestine. It lost 0-2 to Iran in a friendly on 14th Nov; no trigger for 16th Nov was found."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 28,
+     "views": 83074,
+     "confidence": "lo",
+     "anchor": "a25"
+    }
+   ]
+  },
+  {
    "id": "pat-murphy-baseball-manager",
    "title": "Pat Murphy (baseball manager)",
    "canonical": "Pat_Murphy_(baseball_manager)",
@@ -17137,12 +17990,24 @@
     {
      "title": "ABC News",
      "url": "https://abcnews.com/GMA/Culture/phil-collins-hopes-make-new-music-perform-despite/story?id=138162830"
+    },
+    {
+     "title": "Ultimate Classic Rock",
+     "url": "https://ultimateclassicrock.com/phil-collins-rock-hall-induction-2026/"
+    },
+    {
+     "title": "My Radio Link",
+     "url": "https://www.myradiolink.com/2026/11/16/phil-collins-honored-at-rock-roll-hall-of-fame-with-emotional-speech-and-star-studded-tribute/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-15",
      "text": "English drummer and singer. He was inducted into the Rock and Roll Hall of Fame as a solo artist on 14th Nov."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "English drummer and singer. He was inducted into the Rock and Roll Hall of Fame on 14th Nov and spoke about performing again."
     }
    ],
    "charted": [
@@ -17152,6 +18017,13 @@
      "views": 75595,
      "confidence": "hi",
      "anchor": "a32"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 44,
+     "views": 64816,
+     "confidence": "hi",
+     "anchor": "a41"
     }
    ]
   },
@@ -17365,6 +18237,55 @@
    ]
   },
   {
+   "id": "portrayal-of-james-bond-in-film",
+   "title": "Portrayal of James Bond in film",
+   "canonical": "Portrayal_of_James_Bond_in_film",
+   "url": "https://en.wikipedia.org/wiki/Portrayal_of_James_Bond_in_film",
+   "type": "Film topic",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Readers comparing Bond actors after the 16th Nov announcement of the seventh",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Readers comparing Bond actors after the 16th Nov announcement of the seventh",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Amazon",
+     "url": "https://www.aboutamazon.com/news/entertainment/james-bond-robert-pattinson-cast-amazon-mgm-film"
+    },
+    {
+     "title": "Yahoo Canada",
+     "url": "https://ca.finance.yahoo.com/news/robert-pattinson-named-7th-james-150805749.html"
+    },
+    {
+     "title": "Euronews",
+     "url": "https://www.euronews.com/2026/11/16/meet-the-new-james-bond-its-pattinson-robert-pattinson"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "Overview of the actors who have played James Bond. Robert Pattinson was named on 16th Nov as the seventh actor in the official series."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 37,
+     "views": 69500,
+     "confidence": "hi",
+     "anchor": "a34"
+    }
+   ]
+  },
+  {
    "id": "ramayana-part-1",
    "title": "Ramayana: Part 1",
    "canonical": "Ramayana:_Part_1",
@@ -17415,22 +18336,6 @@
    ],
    "sources": [
     {
-     "title": "Sacnilk, eighth-day advance booking report",
-     "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Eighth_Day_Advance_Booking_Report"
-    },
-    {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/11/10/ramayana-day-6-box-office-collection-750-crore.amp.html"
-    },
-    {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/11/14/ramayana-part-1-second-friday-collection-day-9-box-office.html"
-    },
-    {
-     "title": "Outlook India",
-     "url": "https://www.outlookindia.com/art-entertainment/ramayana-part-one-box-office-collection-day-9-ranbir-kapoor-film-india-worldwide-earnings"
-    },
-    {
      "title": "Sacnilk",
      "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_9"
     },
@@ -17461,6 +18366,22 @@
     {
      "title": "Khaleej Times",
      "url": "https://khaleejtimes.com/entertainment/nitish-bharadwaj-takes-back-oscar-praise-for-ramayana-deeply-upset-and-disappointed"
+    },
+    {
+     "title": "Sacnilk fourteenth-day report",
+     "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Fourteenth_Day_Advance_Booking_Report"
+    },
+    {
+     "title": "India TV",
+     "url": "https://www.indiatvnews.com/entertainment/news/ramayana-box-office-day-12-ranbir-kapoor-yash-s-film-nears-rs-1000-crore-in-india-2026-11-16-1059608"
+    },
+    {
+     "title": "The Open Press",
+     "url": "https://theopenpress.in/article/ramayana-box-office-day-12-worldwide-godzilla-dhurandhar-2"
+    },
+    {
+     "title": "Sacnilk Rs 1,000 crore report",
+     "url": "https://www.sacnilk.com/news/ramayana-becomes-11th-indian-film-to-cross-1000-crore-worldwide-achieves-feat-in-8-days"
     }
    ],
    "timeline": [
@@ -17507,6 +18428,10 @@
     {
      "date": "2026-11-15",
      "text": "Second weekend: India net about Rs 75 crore on the Sunday and worldwide past Rs 1,300 crore; the film entered the all-time Indian top five."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "Day 12, a Monday; worldwide gross reported at about Rs 1,384 crore after 11 days"
     }
    ],
    "charted": [
@@ -17586,6 +18511,13 @@
      "views": 591692,
      "confidence": "hi",
      "anchor": "a3"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 4,
+     "views": 551941,
+     "confidence": "hi",
+     "anchor": "a2"
     }
    ]
   },
@@ -17859,6 +18791,55 @@
    ]
   },
   {
+   "id": "ricky-wilson-singer",
+   "title": "Ricky Wilson (singer)",
+   "canonical": "Ricky_Wilson_(singer)",
+   "url": "https://en.wikipedia.org/wiki/Ricky_Wilson_%28singer%29",
+   "type": "Singer",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "The 26th series of I'm A Celebrity launched on ITV1 at 21:00 UTC on 16th Nov with him in the line-up",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "The 26th series of I'm A Celebrity launched on ITV1 at 21:00 UTC on 16th Nov with him in the line-up",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ITV News",
+     "url": "https://www.itv.com/news/2026-11-10/im-a-celebrity-2026-find-out-the-full-lineup"
+    },
+    {
+     "title": "Hello!",
+     "url": "https://www.hellomagazine.com/film/934261/im-a-celebrity-2026-official-line-up-revealed/"
+    },
+    {
+     "title": "Brit Brief",
+     "url": "https://britbrief.co.uk/entertainment/reality/ricky-wilson-kaiser-chiefs-star-enters-im-a-celebrity-2026.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "Kaiser Chiefs frontman and former coach on The Voice UK. The 26th series of I'm A Celebrity launched on ITV on 16th Nov with him in the cast."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 38,
+     "views": 68908,
+     "confidence": "hi",
+     "anchor": "a35"
+    }
+   ]
+  },
+  {
    "id": "rob-sand",
    "title": "Rob Sand",
    "canonical": "Rob_Sand",
@@ -17927,6 +18908,108 @@
      "views": 88526,
      "confidence": "hi",
      "anchor": "a22"
+    }
+   ]
+  },
+  {
+   "id": "robert-pattinson",
+   "title": "Robert Pattinson",
+   "canonical": "Robert_Pattinson",
+   "url": "https://en.wikipedia.org/wiki/Robert_Pattinson",
+   "type": "Actor",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Official announcement on 16th Nov that he is the next James Bond",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Official announcement on 16th Nov that he is the next James Bond",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Amazon",
+     "url": "https://www.aboutamazon.com/news/entertainment/james-bond-robert-pattinson-cast-amazon-mgm-film"
+    },
+    {
+     "title": "TMZ",
+     "url": "https://www.tmz.com/2026/11/16/robert-pattinson-next-james-bond/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/16/british-actor-robert-pattinson-named-as-new-james-bond"
+    },
+    {
+     "title": "Khaleej Times",
+     "url": "https://www.khaleejtimes.com/entertainment/robert-pattinson-james-bond-screen-test"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "British actor known for Twilight and The Batman. Amazon MGM announced him on 16th Nov as the next James Bond."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 2,
+     "views": 1363657,
+     "confidence": "hi",
+     "anchor": "a1"
+    }
+   ]
+  },
+  {
+   "id": "robert-pattinson-filmography",
+   "title": "Robert Pattinson filmography",
+   "canonical": "Robert_Pattinson_filmography",
+   "url": "https://en.wikipedia.org/wiki/Robert_Pattinson_filmography",
+   "type": "Filmography",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Readers checking the new Bond's body of work after the 16th Nov announcement",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Readers checking the new Bond's body of work after the 16th Nov announcement",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/movies/robert-pattinson-james-bond-actor/"
+    },
+    {
+     "title": "RTÉ",
+     "url": "https://www.rte.ie/entertainment/2026/1116/1599426-robert-pattinson-announced-as-next-james-bond/"
+    },
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/GMA/Culture/robert-pattinson-new-james-bond-amazon-mgm-studios/story?id=135776275"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "List of Robert Pattinson's film and television work. He was announced as the next James Bond on 16th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 9,
+     "views": 191139,
+     "confidence": "md",
+     "anchor": "a6"
     }
    ]
   },
@@ -18081,8 +19164,8 @@
    "type": "Comedian",
    "first_charted": "2026-11-05",
    "cause": {
-    "text": "Continuing coverage after his conviction and sentencing, with new items on 14th-15th Nov; the stored cause is supported.",
-    "confidence": "hi"
+    "text": "Continuing aftermath of the conviction and sentence, with more allegations reported; the stored cause is confirmed",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -18114,17 +19197,15 @@
      "text": "Continuing coverage after his conviction and sentencing, with new items on 14th-15th Nov; the stored cause is supported.",
      "confidence": "hi",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-16",
+     "text": "Continuing aftermath of the conviction and sentence, with more allegations reported; the stored cause is confirmed",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "IBTimes UK",
-     "url": "https://www.ibtimes.co.uk/russell-brand-sentenced-rape-sexual-assault-1831251"
-    },
-    {
-     "title": "Noovo (AFP)",
-     "url": "https://www.noovo.info/nouvelles/justice/article/nouveaux-signalements-contre-russell-brand-condamne-pour-viol-et-agressions-sexuelles/"
-    },
     {
      "title": "Chortle",
      "url": "https://www.chortle.co.uk/news/2026/11/09/62005/russell_brand_sentenced_to_10%c2%bd_years"
@@ -18164,6 +19245,14 @@
     {
      "title": "Rova",
      "url": "https://www.rova.nz/articles/russell-brand-documentary-in-the-works-at-netflix---report"
+    },
+    {
+     "title": "IBTimes",
+     "url": "https://www.ibtimes.co.uk/russell-brand-sentence-further-allegations-1832257"
+    },
+    {
+     "title": "DHnet",
+     "url": "https://www.dhnet.be/medias/2026/11/13/six-nouvelles-victimes-de-russell-brand-deja-condamne-a-plus-de-10-ans-pour-viol-CZ6RLMNQDRFPZIXKMQFMCYGEWA/"
     }
    ],
    "timeline": [
@@ -18198,6 +19287,10 @@
     {
      "date": "2026-11-15",
      "text": "Tail of the sentencing story; new items on 14th-15th Nov from ITV."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "127,981 views, a small rise on 15th Nov; the Met Police said on 14th Nov that more people had come forward"
     }
    ],
    "charted": [
@@ -18256,6 +19349,13 @@
      "views": 109938,
      "confidence": "hi",
      "anchor": "a18"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 16,
+     "views": 127981,
+     "confidence": "md",
+     "anchor": "a13"
     }
    ]
   },
@@ -18443,12 +19543,28 @@
     {
      "title": "The Tab",
      "url": "https://thetab.com/filmshrine/2026/11/16/elise-is-in-love-with-anya-but-heres-who-the-body-star-sara-boustany-is-dating-in-real-life/"
+    },
+    {
+     "title": "Marie Claire",
+     "url": "https://www.marieclaire.com/culture/tv-shows/the-body-cast/"
+    },
+    {
+     "title": "Screen Rant",
+     "url": "https://screenrant.com/netflix-the-body-psychological-drama-streaming-recommendation/"
+    },
+    {
+     "title": "What's on Netflix",
+     "url": "https://www.whats-on-netflix.com/news/the-body-netflix-top-10-cancellation-petition/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-15",
      "text": "Lebanese actress who plays Elise in Netflix's The Body. Her page was created on 11th Nov."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "Lebanese actress who plays Elise Zakaria in the Netflix series The Body. The National published a profile of her on 16th Nov."
     }
    ],
    "charted": [
@@ -18458,6 +19574,58 @@
      "views": 69765,
      "confidence": "hi",
      "anchor": "a35"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 34,
+     "views": 70797,
+     "confidence": "hi",
+     "anchor": "a31"
+    }
+   ]
+  },
+  {
+   "id": "saturn-devouring-his-son",
+   "title": "Saturn Devouring His Son",
+   "canonical": "Saturn_Devouring_His_Son",
+   "url": "https://en.wikipedia.org/wiki/Saturn_Devouring_His_Son",
+   "type": "Painting",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Unknown: no trigger found; a jump to 87.5 times baseline in one day with no edits suggests a link, social post or automated traffic, none of which was checked",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Unknown: no trigger found; a jump to 87.5 times baseline in one day with no edits suggests a link, social post or automated traffic, none of which was checked",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Know Your Meme",
+     "url": "https://knowyourmeme.com/memes/saturn-devouring-his-son"
+    },
+    {
+     "title": "JustWatch guide",
+     "url": "https://guides.justwatch.com/uk/christopher-nolan-cyclops-goya"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "Goya's Black Painting of 1819 to 1823, held at the Prado. No news, edit or Talk page trigger was found."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 10,
+     "views": 176155,
+     "confidence": "lo",
+     "anchor": "a7"
     }
    ]
   },
@@ -18494,18 +19662,6 @@
    ],
    "sources": [
     {
-     "title": "Daily Jagran",
-     "url": "https://www.thedailyjagran.com/entertainment/news/scene-vs-karuppu-box-office-collection-can-suriya-latest-film-beat-his-highest-grosser-10335720"
-    },
-    {
-     "title": "The Week",
-     "url": "https://www.theweek.in/news/entertainment/2026/11/11/scene-box-office-collection-day-six-200-crore.html"
-    },
-    {
-     "title": "India.com",
-     "url": "https://www.india.com/entertainment/regional/scene-box-office-collection-day-6-suriya-naslen-starrer-records-massive-dip-check-earnings-8544143/"
-    },
-    {
      "title": "Gulf News",
      "url": "https://gulfnews.com/entertainment/south-indian/suriya-completes-2026-hat-trick-as-scene-crosses-rs145-billion-worldwide-jyotika-thanks-fans-1.500741455"
     },
@@ -18540,6 +19696,18 @@
     {
      "title": "The Week",
      "url": "https://www.theweek.in/news/entertainment/2026/11/16/suriya-scene-box-office-collection-day-eleven-250-crore.html"
+    },
+    {
+     "title": "Sacnilk day 10",
+     "url": "https://www.sacnilk.com/quicknews/Scene_2026_Box_Office_Collection_Day_10"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/11/13/scene-day-7-worldwide-box-office-200-crore.amp.html"
+    },
+    {
+     "title": "Box Office Worldwide",
+     "url": "https://boxofficeworldwide.com/movies-latest-news/suriyas-scene-rs-152-75-crore-10-days-box-office-hit/"
     }
    ],
    "timeline": [
@@ -18570,6 +19738,10 @@
     {
      "date": "2026-11-15",
      "text": "Second weekend tail."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "64,882 views in the decaying tail of the run"
     }
    ],
    "charted": [
@@ -18621,6 +19793,13 @@
      "views": 75488,
      "confidence": "hi",
      "anchor": "a33"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 43,
+     "views": 64882,
+     "confidence": "hi",
+     "anchor": "a40"
     }
    ]
   },
@@ -18841,12 +20020,32 @@
     {
      "title": "Yahoo News",
      "url": "https://www.yahoo.com/news/us/live/faa-ground-stop-latest-updates-duffy-blames-contractor-l3harris-thousands-more-flights-canceled-saturday-no-sign-of-cyberattack-161329174.html"
+    },
+    {
+     "title": "ABC7",
+     "url": "https://abc7news.com/live-updates/faa-ground-stop-live-updates-what-know-nationwide-flights-are-grounded/20038887/entry/20039427/"
+    },
+    {
+     "title": "Fox News",
+     "url": "https://www.foxnews.com/travel/duffy-vows-modernize-aging-air-traffic-system-nationwide-ground-stop"
+    },
+    {
+     "title": "Yahoo News / The Hill",
+     "url": "https://www.yahoo.com/news/politics/articles/duffy-seeks-more-faa-funding-223446192.html"
+    },
+    {
+     "title": "The Daily Beast",
+     "url": "https://www.thedailybeast.com/trump-goon-sean-duffy-hits-panic-button-as-airport-chaos-spirals"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-15",
      "text": "US Secretary of Transportation. He led the response to the nationwide FAA ground stop of 13th Nov, blaming a contractor's router and asking Congress for funds on 15th Nov."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "US Secretary of Transportation. He fronted the response to the 13th Nov nationwide FAA ground stop and sought $50 billion for air traffic control."
     }
    ],
    "charted": [
@@ -18856,6 +20055,13 @@
      "views": 161039,
      "confidence": "hi",
      "anchor": "a10"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 21,
+     "views": 102558,
+     "confidence": "hi",
+     "anchor": "a18"
     }
    ]
   },
@@ -19004,6 +20210,55 @@
      "views": 59699,
      "confidence": "hi",
      "anchor": "a39"
+    }
+   ]
+  },
+  {
+   "id": "sharad-kapoor",
+   "title": "Sharad Kapoor",
+   "canonical": "Sharad_Kapoor",
+   "url": "https://en.wikipedia.org/wiki/Sharad_Kapoor",
+   "type": "Actor",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Coverage of the actor's public appeal for work and money, and the reported help from Sonu Sood and Salman Khan",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Coverage of the actor's public appeal for work and money, and the reported help from Sonu Sood and Salman Khan",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "The Daily Jagran",
+     "url": "https://www.thedailyjagran.com/entertainment/news/who-is-srks-josh-costar-sharad-kapoor-why-were-his-four-dogs-shifted-from-his-home-10336203"
+    },
+    {
+     "title": "ETV Bharat",
+     "url": "https://etvbharat.com/hi/entertainment/sharad-kapoor-reveals-reason-behind-depression-salman-khan-and-sonu-sood-to-help-and-actor-to-make-hollywood-debut-hin26111601550"
+    },
+    {
+     "title": "Pinkvilla",
+     "url": "https://www.pinkvilla.com/cinema/salman-khan-sonu-sood-extend-financial-help-to-josh-actor-sharad-kapoor-after-he-seeks-work-report-1406470"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "Indian actor known for the 2000 film Josh. A 13th Nov video of his dogs being moved to a shelter led to appeals, and Sonu Sood met him on 16th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 17,
+     "views": 118510,
+     "confidence": "hi",
+     "anchor": "a14"
     }
    ]
   },
@@ -19566,6 +20821,55 @@
      "views": 186420,
      "confidence": "hi",
      "anchor": "a9"
+    }
+   ]
+  },
+  {
+   "id": "suki-waterhouse",
+   "title": "Suki Waterhouse",
+   "canonical": "Suki_Waterhouse",
+   "url": "https://en.wikipedia.org/wiki/Suki_Waterhouse",
+   "type": "Actress and singer",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Partner of Robert Pattinson, announced on 16th Nov as the next James Bond",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Partner of Robert Pattinson, announced on 16th Nov as the next James Bond",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Newsweek",
+     "url": "https://www.newsweek.com/entertainment/celebrity-news/robert-pattinson-suki-waterhouse-relationship-timeline-james-bond-12722270"
+    },
+    {
+     "title": "RTÉ",
+     "url": "https://www.rte.ie/entertainment/2026/1116/1599426-robert-pattinson-announced-as-next-james-bond/"
+    },
+    {
+     "title": "Brit Brief",
+     "url": "https://britbrief.co.uk/entertainment/celebrity/suki-waterhouse-once-said-shed-love-to-be-a-bond-girl.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "English actress and singer, partner of Robert Pattinson. Coverage on 16th Nov described her as his fiancée after the Bond announcement."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 7,
+     "views": 378948,
+     "confidence": "hi",
+     "anchor": "a4"
     }
    ]
   },
@@ -20185,10 +21489,6 @@
    ],
    "sources": [
     {
-     "title": "Cultured Magazine",
-     "url": "https://culturedmag.com/article/2026/11/11/film-gina-gammell-the-body-netflix/"
-    },
-    {
      "title": "ScreenRant",
      "url": "https://screenrant.com/netflix-new-series-the-body-psychological-thriller-binge-watch/"
     },
@@ -20227,6 +21527,14 @@
     {
      "title": "Comic Basics",
      "url": "https://www.comicbasics.com/?p=202907"
+    },
+    {
+     "title": "What's on Netflix",
+     "url": "https://www.whats-on-netflix.com/news/the-body-netflix-top-10-cancellation-petition/"
+    },
+    {
+     "title": "Netflix Tudum",
+     "url": "https://www.netflix.com/tudum/articles/the-body-ending-explained"
     }
    ],
    "timeline": [
@@ -20241,6 +21549,10 @@
     {
      "date": "2026-11-15",
      "text": "Fifth day of the Netflix release, with the series reported at No. 2 on the Top 10."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "136,145 views, a new high in the window as viewers finished the series"
     }
    ],
    "charted": [
@@ -20264,6 +21576,13 @@
      "views": 120538,
      "confidence": "hi",
      "anchor": "a14"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 13,
+     "views": 136145,
+     "confidence": "hi",
+     "anchor": "a10"
     }
    ]
   },
@@ -20460,12 +21779,28 @@
     {
      "title": "Gizmodo",
      "url": "https://gizmodo.com/the-odyssey-sails-back-to-theaters-ahead-of-awards-season-2000836008"
+    },
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/timlammers/2026/11/14/the-odyssey-plans-return-to-imax-screens-after-debut-on-digital-this-week/"
+    },
+    {
+     "title": "Awards Radar",
+     "url": "https://awardsradar.com/2026/11/17/joeys-home-movies-for-the-week-of-november-16th-set-sail-once-more-with-christopher-nolans-the-odyssey/"
+    },
+    {
+     "title": "Collider",
+     "url": "https://collider.com/christopher-nolan-the-odyssey-4k-blu-ray-release-date-november-2026/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-09",
      "text": "Christopher Nolan film. Universal announced an 11th Dec re-release on 5th Nov; no source explains the rise on 7th to 8th Nov."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "66,870 views, the highest in the window, the day before the home release"
     }
    ],
    "charted": [
@@ -20475,6 +21810,13 @@
      "views": 54384,
      "confidence": "lo",
      "anchor": "a38"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 39,
+     "views": 66870,
+     "confidence": "lo",
+     "anchor": "a36"
     }
    ]
   },
@@ -20838,6 +22180,55 @@
      "views": 192363,
      "confidence": "lo",
      "anchor": "a4"
+    }
+   ]
+  },
+  {
+   "id": "uefa-nations-league",
+   "title": "UEFA Nations League",
+   "canonical": "UEFA_Nations_League",
+   "url": "https://en.wikipedia.org/wiki/UEFA_Nations_League",
+   "type": "Football competition",
+   "first_charted": "2026-11-16",
+   "cause": {
+    "text": "Final matchdays of the 2026-27 league phase on 15th and 16th Nov, with the quarter-final draw due on 20th Nov",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-16",
+     "text": "Final matchdays of the 2026-27 league phase on 15th and 16th Nov, with the quarter-final draw due on 20th Nov",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "UEFA fixtures",
+     "url": "https://www.uefa.com/uefanationsleague/news/02a2-1fea18abbcbc-456e846509e7-1000--2026-27-uefa-nations-league-all-the-league-phase-fixtures-a/"
+    },
+    {
+     "title": "Football360",
+     "url": "https://football360.com.au/uefa-nations-league-2026-27-quarter-finals-promotion-relegation-playoffs/"
+    },
+    {
+     "title": "Sports Mole explainer",
+     "url": "https://www.sportsmole.co.uk/football/england/uefa-nations-league/feature/how-does-the-uefa-nations-league-work-in-2026-27_605556.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-16",
+     "text": "European national-team football competition. Its 2026-27 league phase reached the final matchdays, with the quarter-final draw set for 20th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-16",
+     "rank": 35,
+     "views": 70723,
+     "confidence": "md",
+     "anchor": "a32"
     }
    ]
   },
@@ -22460,14 +23851,6 @@
    ],
    "sources": [
     {
-     "title": "Domain Name Wire",
-     "url": "https://domainnamewire.com/2025/10/02/xxx-gets-more-expensive-next-month/"
-    },
-    {
-     "title": "abtdomain.com",
-     "url": "https://abtdomain.com/periodic-reports/2026-11/domain-intelligence-weekly-2026-11-03/"
-    },
-    {
      "title": "ICANN",
      "url": "https://www.icann.org/en/announcements/details/icann-reveals-2026-round-applications-for-new-generic-top-level-domains-07-10-2026-en"
     },
@@ -22506,6 +23889,14 @@
     {
      "title": "DomainIncite .xxx tag page",
      "url": "https://domainincite.com/tag/xxx"
+    },
+    {
+     "title": "DomainIncite",
+     "url": "https://domainincite.com/30254-godaddy-likely-to-win-relaxed-xxx-deal"
+    },
+    {
+     "title": "ABTdomain statistics",
+     "url": "https://abtdomain.com/tlds-reports/2026-11/statistics-2026-11-16"
     }
    ],
    "timeline": [
@@ -22588,6 +23979,10 @@
     {
      "date": "2026-11-15",
      "text": "No trigger found."
+    },
+    {
+     "date": "2026-11-16",
+     "text": "153,348 views, close to its own baseline"
     }
    ],
    "charted": [
@@ -22730,6 +24125,13 @@
      "views": 105406,
      "confidence": "lo",
      "anchor": "a20"
+    },
+    {
+     "date": "2026-11-16",
+     "rank": 12,
+     "views": 153348,
+     "confidence": "lo",
+     "anchor": "a9"
     }
    ]
   },
