@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "groups": [
   {
    "id": "holmes-documentary",
@@ -186,7 +186,8 @@
     "2026-united-states-elections",
     "2026-united-states-senate-election-in-michigan",
     "2026-united-states-senate-elections",
-    "united-states-midterm-election"
+    "united-states-midterm-election",
+    "mary-peltola"
    ]
   },
   {
@@ -400,6 +401,27 @@
     "mariella-frostrup",
     "ade-adepitan"
    ]
+  },
+  {
+   "id": "gta-vi-2026",
+   "title": "Grand Theft Auto VI release",
+   "summary": "The 18th Nov review embargo lift and record Metacritic score for Grand Theft Auto VI, and the franchise, studio and cast pages that rose with it.",
+   "members": [
+    "grand-theft-auto-vi",
+    "grand-theft-auto",
+    "grand-theft-auto-v",
+    "rockstar-games",
+    "manni-l-perez"
+   ]
+  },
+  {
+   "id": "stojakovic-duke-2026",
+   "title": "Andrej Stojaković's 46 points at Duke",
+   "summary": "Illinois guard Andrej Stojaković's career-high 46 points in a 99-78 win at Duke, which also lifted his father Peja Stojaković.",
+   "members": [
+    "andrej-stojakovi",
+    "peja-stojakovi"
+   ]
   }
  ],
  "aliases": {},
@@ -510,6 +532,18 @@
     {
      "title": "All Football App",
      "url": "https://m.allfootballapp.com/amp/news/Headline/Wales-vs-Portugal-No-Cristiano-Ronaldo-for-the-visitors-as-Craig-Bellamys-side-have-a-free-hit-in-final-Nations-League-encounter/5976434"
+    },
+    {
+     "title": "UEFA.com, matchday 6 round-up",
+     "url": "https://www.uefa.com/uefanationsleague/news/02ab-22146db70e40-12d581ab82a9-1000--uefa-nations-league-matchday-6-round-up-erling-haaland-tak/"
+    },
+    {
+     "title": "UEFA.com, quarter-finalists",
+     "url": "https://www.uefa.com/uefanationsleague/news/02ab-22096ba64f4d-f179d6d05013-1000--nations-league-quarter-finals-last-eight-confirmed/"
+    },
+    {
+     "title": "The Star (wire)",
+     "url": "https://www.thestar.com.my/sport/football/2026/11/18/soccer-haaland039s-late-penalty-sends-norway-into-nations-league-quarters-portugal-top-group"
     }
    ],
    "timeline": [
@@ -524,6 +558,10 @@
     {
      "date": "2026-11-17",
      "text": "Final matchdays: Norway and Portugal won on this date and the quarter-final line-up was completed ahead of the 20th Nov draw"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Decay from the 17th Nov peak; no matches on this date and the quarter-final draw previewed for 20th Nov"
     }
    ],
    "charted": [
@@ -547,6 +585,13 @@
      "views": 93874,
      "confidence": "md",
      "anchor": "a16"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 32,
+     "views": 61581,
+     "confidence": "md",
+     "anchor": "a29"
     }
    ]
   },
@@ -1474,14 +1519,6 @@
    ],
    "sources": [
     {
-     "title": "NHPR",
-     "url": "https://www.nhpr.org/2026-11-05/these-are-the-races-in-the-house-and-senate-that-havent-been-called-yet"
-    },
-    {
-     "title": "Good Morning America",
-     "url": "https://www.goodmorningamerica.com/news/story/recounts-mississippi-razor-thin-margin-senate-race-137844445"
-    },
-    {
      "title": "Asia Economy",
      "url": "https://view.asiae.co.kr/en/article/2026110605191152603"
     },
@@ -1520,6 +1557,14 @@
     {
      "title": "Roll Call",
      "url": "https://rollcall.com/2026/11/12/van-hollen-announces-bid-for-majority-leader-but-schumer-says-he-has-the-votes/"
+    },
+    {
+     "title": "Alaska Public Media",
+     "url": "https://alaskapublic.org/news/politics/elections/2026-11-17/mary-peltola-wins-u-s-senate-seat-in-alaska"
+    },
+    {
+     "title": "Democracy Docket",
+     "url": "https://www.democracydocket.com/news-alerts/live-updates-alaska-senate-race-set-for-democratic-win-with-gop-set-to-fight-results/"
     }
    ],
    "timeline": [
@@ -1570,6 +1615,10 @@
     {
      "date": "2026-11-13",
      "text": "60,190 views; no new event found, with the last close races still open"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Tail of the midterms; the Alaska Senate race call on 17th Nov US time lifted views to 62,638"
     }
    ],
    "charted": [
@@ -1656,6 +1705,13 @@
      "views": 60190,
      "confidence": "md",
      "anchor": "a38"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 30,
+     "views": 62638,
+     "confidence": "md",
+     "anchor": "a27"
     }
    ]
   },
@@ -2010,18 +2066,6 @@
    ],
    "sources": [
     {
-     "title": "Texas Tribune",
-     "url": "https://www.texastribune.org/2026/11/02/texas-senate-ken-paxton-james-talarico-2026-election-day-eve/"
-    },
-    {
-     "title": "Texas Tribune",
-     "url": "https://www.texastribune.org/2026/11/03/texas-ken-paxton-james-talarico-us-senate-elections-2026/"
-    },
-    {
-     "title": "KPRC/Click2Houston",
-     "url": "https://www.click2houston.com/decision-2026/2026/11/04/ken-paxton-concedes-texas-us-senate-race-to-james-talarico/"
-    },
-    {
      "title": "CBS News",
      "url": "https://www.cbsnews.com/live-updates/senate-election-results-2026/"
     },
@@ -2056,6 +2100,18 @@
     {
      "title": "WLOX",
      "url": "https://www.wlox.com/2026/11/10/razor-thin-us-senate-race-mississippi-has-no-automatic-recount-law/"
+    },
+    {
+     "title": "Alaska Public Media",
+     "url": "https://alaskapublic.org/news/politics/elections/2026-11-17/mary-peltola-wins-u-s-senate-seat-in-alaska"
+    },
+    {
+     "title": "Democracy Docket",
+     "url": "https://www.democracydocket.com/news-alerts/live-updates-alaska-senate-race-set-for-democratic-win-with-gop-set-to-fight-results/"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/18/why-democrat-mary-peltolas-us-senate-win-in-alaska-matters"
     }
    ],
    "timeline": [
@@ -2082,6 +2138,10 @@
     {
      "date": "2026-11-12",
      "text": "Views rose 36% on the previous day; Alaska remained open"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Tail of the Democratic Senate takeover; the Alaska call on 17th Nov US time lifted views to 60,456"
     }
    ],
    "charted": [
@@ -2126,6 +2186,13 @@
      "views": 75912,
      "confidence": "md",
      "anchor": "a37"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 34,
+     "views": 60456,
+     "confidence": "md",
+     "anchor": "a31"
     }
    ]
   },
@@ -2705,12 +2772,32 @@
     {
      "title": "Capital FM",
      "url": "https://www.capitalfm.com/news/tv-film/im-a-celebrity/2026-cast-line-up-rumours/"
+    },
+    {
+     "title": "WhereToWatch.tv live recap",
+     "url": "https://wheretowatch.tv/tv-tonight/live-what-happened-on-tonights-im-a-celebrity/18/11/"
+    },
+    {
+     "title": "TVZone UK",
+     "url": "https://www.tvzoneuk.com/post/imacelebrity-tonight-wed18nov26"
+    },
+    {
+     "title": "Capital FM",
+     "url": "https://www.capitalfm.com/news/tv-film/im-a-celebrity/ade-adepitan-age-wife-children-disability/"
+    },
+    {
+     "title": "Irish News (PA)",
+     "url": "https://www.irishnews.com/entertainment/im-a-celebrity-contestants-served-blended-fish-eye-cocktails-in-first-episode-YBPAMLF4YVL2TF3OWQUECF7VB4"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-17",
      "text": "British Paralympic wheelchair-basketball champion and TV presenter. He entered the I'm a Celebrity jungle as the first wheelchair-using contestant."
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Plateau after the 17th Nov peak; his first Bushtucker Trial and an emotional scene aired on the 18th Nov episode"
     }
    ],
    "charted": [
@@ -2720,6 +2807,13 @@
      "views": 70088,
      "confidence": "hi",
      "anchor": "a25"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 31,
+     "views": 62084,
+     "confidence": "hi",
+     "anchor": "a28"
     }
    ]
   },
@@ -3360,6 +3454,59 @@
    ]
   },
   {
+   "id": "andrej-stojakovi",
+   "title": "Andrej Stojaković",
+   "canonical": "Andrej_Stojaković",
+   "url": "https://en.wikipedia.org/wiki/Andrej_Stojakovi%C4%87",
+   "type": "Basketball player",
+   "first_charted": "2026-11-18",
+   "cause": {
+    "text": "Career-high 46 points at Duke on the evening of 17th Nov US time (18th Nov UTC), a record for a visiting player at Cameron Indoor Stadium",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-18",
+     "text": "Career-high 46 points at Duke on the evening of 17th Nov US time (18th Nov UTC), a record for a visiting player at Cameron Indoor Stadium",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Larry Brown Sports",
+     "url": "https://larrybrownsports.com/college-basketball/peja-stojakovic-son-andrej-scoring-record-duke/778878"
+    },
+    {
+     "title": "Basketball Network",
+     "url": "https://www.basketballnetwork.net/college/peja-stojakovics-son-makes-history-with-46-point-explosion-at-dukes-cameron-indoor-stadium"
+    },
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/articles/andrej-stojakovic-monster-night-vs-082617485.html"
+    },
+    {
+     "title": "Yahoo Sports (ClutchPoints)",
+     "url": "https://sports.yahoo.com/articles/peja-stojakovic-son-andrej-torches-032501360.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-18",
+     "text": "Illinois guard and son of Peja Stojaković. He scored a career-high 46 points in Illinois's 99-78 win at Duke on the evening of 17th Nov US time."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-18",
+     "rank": 18,
+     "views": 97435,
+     "confidence": "hi",
+     "anchor": "a15"
+    }
+   ]
+  },
+  {
    "id": "anirudh-ravichander",
    "title": "Anirudh Ravichander",
    "canonical": "Anirudh_Ravichander",
@@ -3481,6 +3628,59 @@
      "views": 133555,
      "confidence": "hi",
      "anchor": "a41"
+    }
+   ]
+  },
+  {
+   "id": "anne-hathaway",
+   "title": "Anne Hathaway",
+   "canonical": "Anne_Hathaway",
+   "url": "https://en.wikipedia.org/wiki/Anne_Hathaway",
+   "type": "Actress",
+   "first_charted": "2026-11-18",
+   "cause": {
+    "text": "Reports and photographs of the birth of her third child, first reported by TMZ on 17th Nov, with the baby's apparent sex revealed",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-18",
+     "text": "Reports and photographs of the birth of her third child, first reported by TMZ on 17th Nov, with the baby's apparent sex revealed",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "iHeart",
+     "url": "https://www.iheart.com/content/2026-11-18-anne-hathaway-welcomes-baby-no-3-with-husband-adam-shulman/"
+    },
+    {
+     "title": "WHIO (Cox Media Group)",
+     "url": "https://www.whio.com/news/trending/anne-hathaway-adam-shulman-welcome-baby-no-3/OUI3CNP7MZGGVN25UZIBRYDLE4/"
+    },
+    {
+     "title": "Rova (Cover Media)",
+     "url": "https://www.rova.nz/articles/anne-hathaway-welcomes-baby-no-3-with-husband-adam-shulman---report"
+    },
+    {
+     "title": "The Tab",
+     "url": "https://thetab.com/filmshrine/2026/11/18/anne-hathaway-what-is-new-babys-gender-spoiled-devil-wears-prada-2-designer/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-18",
+     "text": "Oscar-winning actress. Outlets reported on 17th and 18th Nov that she had her third child with Adam Shulman, after TMZ photographed her with a newborn."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-18",
+     "rank": 33,
+     "views": 61423,
+     "confidence": "md",
+     "anchor": "a30"
     }
    ]
   },
@@ -3719,6 +3919,10 @@
     {
      "date": "2026-11-17",
      "text": "74,933 views, below the whole-window median; no event found"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "No news, edit or Talk page trigger found; views at the page's baseline"
     }
    ],
    "charted": [
@@ -3847,6 +4051,13 @@
      "views": 74933,
      "confidence": "lo",
      "anchor": "a23"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 23,
+     "views": 74358,
+     "confidence": "lo",
+     "anchor": "a20"
     }
    ]
   },
@@ -4166,6 +4377,59 @@
      "views": 47842,
      "confidence": "hi",
      "anchor": "a42"
+    }
+   ]
+  },
+  {
+   "id": "avengers-doomsday",
+   "title": "Avengers: Doomsday",
+   "canonical": "Avengers:_Doomsday",
+   "url": "https://en.wikipedia.org/wiki/Avengers:_Doomsday",
+   "type": "Film",
+   "first_charted": "2026-11-18",
+   "cause": {
+    "text": "Runtime reports of 17th Nov (Omelete-sourced) and continuing coverage ahead of the December release; views were already elevated and flat, so the report may only sustain them",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-18",
+     "text": "Runtime reports of 17th Nov (Omelete-sourced) and continuing coverage ahead of the December release; views were already elevated and flat, so the report may only sustain them",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ComicBookMovie",
+     "url": "https://comicbookmovie.com/avengers/avengers-doomsday/avengers-doomsday-final-runtime-reportedly-revealed-heres-how-you-can-see-an-extended-cut-of-the-film-a231048"
+    },
+    {
+     "title": "Ready Steady Cut",
+     "url": "https://readysteadycut.com/2026/11/17/avengers-doomsday-runtime/"
+    },
+    {
+     "title": "ComingSoon",
+     "url": "https://www.comingsoon.net/movies/news/2225301-avengers-doomsday-runtime-revealed-shorter-than-endgame"
+    },
+    {
+     "title": "Omelete",
+     "url": "https://www.omelete.com.br/filmes/vingadores-doutor-destino-duracao"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-18",
+     "text": "Marvel superhero film due on 18th Dec. Outlets reported its runtime on 17th Nov at about 2 hours 29 minutes, citing Brazilian site Omelete."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-18",
+     "rank": 44,
+     "views": 50378,
+     "confidence": "md",
+     "anchor": "a40"
     }
    ]
   },
@@ -5346,14 +5610,6 @@
    ],
    "sources": [
     {
-     "title": "Business Today",
-     "url": "https://businesstoday.in/technology/news/story/chatgpt-images-2-6-is-here-openai-wants-to-fix-one-of-ai-image-editings-biggest-frustrations-565931-2026-11-05"
-    },
-    {
-     "title": "OpenAI Status",
-     "url": "https://status.openai.com/incidents/01M6P50GPP1V98EF8MJ9SH393R"
-    },
-    {
      "title": "Releasebot",
      "url": "https://releasebot.io/updates/openai"
     },
@@ -5392,6 +5648,14 @@
     {
      "title": "AI Weekly",
      "url": "https://aiweekly.co/ai-news-today/edition/2026-11-09"
+    },
+    {
+     "title": "Resultsense",
+     "url": "https://www.resultsense.com/news/2026-11-18-openai-gpt-6-2-astra-sol-launch/"
+    },
+    {
+     "title": "KuCoin (CryptoBriefing)",
+     "url": "https://www.kucoin.com/news/flash/openai-launches-gpt-6-2-astra-and-sol-for-chatgpt-and-api"
     }
    ],
    "timeline": [
@@ -5450,6 +5714,10 @@
     {
      "date": "2026-11-10",
      "text": "59,377 views, a rise from 35,513 on 8th Nov, with minor product news"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Flat day at about 50,000 views; GPT-6.2 launched on 17th Nov without a visible effect"
     }
    ],
    "charted": [
@@ -5564,6 +5832,13 @@
      "views": 59377,
      "confidence": "lo",
      "anchor": "a40"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 46,
+     "views": 49796,
+     "confidence": "lo",
+     "anchor": "a42"
     }
    ]
   },
@@ -6504,8 +6779,8 @@
    "type": "Executive",
    "first_charted": "2026-11-12",
    "cause": {
-    "text": "Her appointment as interim chief executive of Nvidia on 12th Nov after Jensen Huang resigned",
-    "confidence": "hi"
+    "text": "Interim Nvidia chief executive since 12th Nov, back in the spotlight after the 17th Nov earnings call; the 18th Nov rise is inferred from that coverage",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -6513,6 +6788,12 @@
      "text": "Her appointment as interim chief executive of Nvidia on 12th Nov after Jensen Huang resigned",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Interim Nvidia chief executive since 12th Nov, back in the spotlight after the 17th Nov earnings call; the 18th Nov rise is inferred from that coverage",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -6543,6 +6824,22 @@
     {
      "title": "Forbes (Shaheena Janjuhajivraj)",
      "url": "https://forbes.com/sites/shaheenajanjuhajivrajeurope/2026/11/13/colette-kress-interim-ceo-and-the-glass-cliff-at-nvidia"
+    },
+    {
+     "title": "The National",
+     "url": "https://www.thenationalnews.com/business/markets/2026/11/17/nvidia-earnings-q3-jensen-huang/"
+    },
+    {
+     "title": "Fortune",
+     "url": "https://fortune.com/2026/11/13/nvidia-cfo-colette-kress-takes-over-as-interim-ceobut-the-succession-question-remains/"
+    },
+    {
+     "title": "Constellation Research",
+     "url": "https://www.constellationr.com/insights/news/nvidia-posts-strong-q3-ups-q4-fiscal-2028-outlook-amid-huang-resignation"
+    },
+    {
+     "title": "Fox Business",
+     "url": "https://www.foxbusiness.com/markets/nvidia-releases-quarterly-earnings-after-jensen-huangs-resignation-ceo.amp"
     }
    ],
    "timeline": [
@@ -6553,6 +6850,10 @@
     {
      "date": "2026-11-13",
      "text": "She kept her CFO role while commentary on her suitability continued, including a Forbes \"glass cliff\" piece."
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Small rise to 54,730 views after the 17th Nov earnings call at which she fronted the company"
     }
    ],
    "charted": [
@@ -6569,6 +6870,13 @@
      "views": 279241,
      "confidence": "hi",
      "anchor": "a4"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 41,
+     "views": 54730,
+     "confidence": "md",
+     "anchor": "a37"
     }
    ]
   },
@@ -7115,6 +7423,14 @@
     {
      "title": "Yahoo Entertainment",
      "url": "https://www.yahoo.com/entertainment/tv/articles/left-dancing-stars-season-35-195715640.html"
+    },
+    {
+     "title": "Yahoo (Parade)",
+     "url": "https://www.yahoo.com/entertainment/tv/reviews/articles/dancing-stars-season-35-harry-010000691.html"
+    },
+    {
+     "title": "DirecTV Insider",
+     "url": "https://www.directv.com/insider/dancing-with-the-stars-season-35-week-10/"
     }
    ],
    "timeline": [
@@ -7133,6 +7449,10 @@
     {
      "date": "2026-11-11",
      "text": "Grammy Night (8 pm ET on 10th Nov, 01:00 UTC on 11th Nov) ended with the Jenna Dewan elimination"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Semi-finals aired at 01:00 UTC; Harry Shum Jr. and Jenna Johnson eliminated; five couples reach the finale"
     }
    ],
    "charted": [
@@ -7163,6 +7483,13 @@
      "views": 144202,
      "confidence": "hi",
      "anchor": "a11"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 7,
+     "views": 150752,
+     "confidence": "hi",
+     "anchor": "a4"
     }
    ]
   },
@@ -7209,6 +7536,18 @@
     {
      "title": "IBTimes UK",
      "url": "https://www.ibtimes.co.uk/robert-pattinson-next-james-bond-1832890"
+    },
+    {
+     "title": "Khaleej Times",
+     "url": "https://www.khaleejtimes.com/entertainment/robert-pattinson-james-bond-daniel-craig"
+    },
+    {
+     "title": "Hollywood Reporter India",
+     "url": "https://www.hollywoodreporterindia.com/features/insight/robert-pattinson-is-the-next-james-bond-brad-pitt-ralph-fiennes-george-lazenby-and-elizabeth-debicki-react"
+    },
+    {
+     "title": "spiked",
+     "url": "https://www.spiked-online.com/2026/11/18/robert-pattinson-will-make-bond-dangerous-again/"
     }
    ],
    "timeline": [
@@ -7219,6 +7558,10 @@
     {
      "date": "2026-11-17",
      "text": "Day after the announcement; Bond-actor retrospectives kept Craig's page high"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Decay: down about 50% from 17th Nov; no new Craig statement found"
     }
    ],
    "charted": [
@@ -7235,6 +7578,13 @@
      "views": 101483,
      "confidence": "hi",
      "anchor": "a13"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 45,
+     "views": 50126,
+     "confidence": "hi",
+     "anchor": "a41"
     }
    ]
   },
@@ -7803,6 +8153,10 @@
     {
      "date": "2026-11-17",
      "text": "136,111 views, at the baseline; no single death found to explain it"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Evergreen interest; views at baseline and no single death found to explain the day"
     }
    ],
    "charted": [
@@ -7985,6 +8339,13 @@
      "date": "2026-11-17",
      "rank": 11,
      "views": 136111,
+     "confidence": "lo",
+     "anchor": "a8"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 11,
+     "views": 131394,
      "confidence": "lo",
      "anchor": "a8"
     }
@@ -8912,14 +9273,6 @@
    ],
    "sources": [
     {
-     "title": "SF Standard",
-     "url": "https://sfstandard.com/pacific-standard-time/2026/10/30/-pst-theranos-whistleblower-tyler-shultz-elizabeth-holmes-ai/"
-    },
-    {
-     "title": "IBTimes UK",
-     "url": "https://www.ibtimes.co.uk/elizabeth-holmes-halfway-house-transfer-2027-1821773"
-    },
-    {
      "title": "TheWrap",
      "url": "https://www.thewrap.com/industry-news/awards/critics-choice-documentary-awards-winners-2026/"
     },
@@ -8958,6 +9311,14 @@
     {
      "title": "Forbes Australia",
      "url": "https://www.forbes.com.au/news/world-news/what-we-know-about-elizabeth-holmes-a24-movie/"
+    },
+    {
+     "title": "Fox 4 News",
+     "url": "https://www.fox4news.com/news/elizabeth-holmes-meme"
+    },
+    {
+     "title": "IBTimes UK",
+     "url": "https://www.ibtimes.co.uk/elizabeth-holmes-partner-billy-evans-blood-testing-startup-1821777"
     }
    ],
    "timeline": [
@@ -9048,6 +9409,10 @@
     {
      "date": "2026-11-17",
      "text": "64,085 views, a decay from the 21st Oct peak of 208,412; no new event found"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Tail interest; views below the month's baseline and no event found"
     }
    ],
    "charted": [
@@ -9218,6 +9583,13 @@
      "views": 64085,
      "confidence": "lo",
      "anchor": "a30"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 40,
+     "views": 58677,
+     "confidence": "lo",
+     "anchor": "a36"
     }
    ]
   },
@@ -10098,6 +10470,104 @@
    ]
   },
   {
+   "id": "grand-theft-auto",
+   "title": "Grand Theft Auto",
+   "canonical": "Grand_Theft_Auto",
+   "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto",
+   "type": "Video game series",
+   "first_charted": "2026-11-18",
+   "cause": {
+    "text": "Spillover from the GTA VI review embargo lift and record score on 18th Nov, with readers looking up the series (inference from timing)",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-18",
+     "text": "Spillover from the GTA VI review embargo lift and record score on 18th Nov, with readers looking up the series (inference from timing)",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Consequence",
+     "url": "https://consequence.net/2026/11/gta-6-review-scores-highest-rated-game-metacritic/"
+    },
+    {
+     "title": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/GTA-6-reviews-award-99-Metacritic-score-topping-GTA-4-to-become-Rockstar-s-top-rated.1453363.0.html"
+    },
+    {
+     "title": "Nintendo Life",
+     "url": "https://www.nintendolife.com/news/2026/11/gta-6-ties-with-zelda-ocarina-of-time-as-the-highest-rated-game-ever"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-18",
+     "text": "Rockstar's crime game franchise. Its page rose with the 18th Nov review embargo lift and Metacritic 99 for Grand Theft Auto VI."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-18",
+     "rank": 14,
+     "views": 110668,
+     "confidence": "md",
+     "anchor": "a11"
+    }
+   ]
+  },
+  {
+   "id": "grand-theft-auto-v",
+   "title": "Grand Theft Auto V",
+   "canonical": "Grand_Theft_Auto_V",
+   "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_V",
+   "type": "Video game",
+   "first_charted": "2026-11-18",
+   "cause": {
+    "text": "Readers comparing Grand Theft Auto VI's launch and 99 score with its predecessor on 18th Nov (inference from timing)",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-18",
+     "text": "Readers comparing Grand Theft Auto VI's launch and 99 score with its predecessor on 18th Nov (inference from timing)",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Consequence",
+     "url": "https://consequence.net/2026/11/gta-6-review-scores-highest-rated-game-metacritic/"
+    },
+    {
+     "title": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/GTA-6-reviews-award-99-Metacritic-score-topping-GTA-4-to-become-Rockstar-s-top-rated.1453363.0.html"
+    },
+    {
+     "title": "Gameluster",
+     "url": "https://gameluster.com/gta-6-launch-twitch-record-new-zealand-trick/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-18",
+     "text": "Rockstar's 2013 open-world game. Reviews of Grand Theft Auto VI on 18th Nov compared it with GTA V, whose Metacritic score is 97."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-18",
+     "rank": 21,
+     "views": 81349,
+     "confidence": "md",
+     "anchor": "a18"
+    }
+   ]
+  },
+  {
    "id": "grand-theft-auto-vi",
    "title": "Grand Theft Auto VI",
    "canonical": "Grand_Theft_Auto_VI",
@@ -10105,8 +10575,8 @@
    "type": "Video game",
    "first_charted": "2026-11-10",
    "cause": {
-    "text": "Launch-eve anticipation two days before the 19th Nov release, with review-embargo and user-score chatter; the stored cause is supported",
-    "confidence": "md"
+    "text": "Review embargo lift and the first regional unlock at about 11:00 UTC on 18th Nov (New Zealand, midnight local on 19th Nov), with a Metacritic 99 tied for the highest-rated game ever; launch is on 19th Nov",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -10126,29 +10596,15 @@
      "text": "Launch-eve anticipation two days before the 19th Nov release, with review-embargo and user-score chatter; the stored cause is supported",
      "confidence": "md",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Review embargo lift and the first regional unlock at about 11:00 UTC on 18th Nov (New Zealand, midnight local on 19th Nov), with a Metacritic 99 tied for the highest-rated game ever; launch is on 19th Nov",
+     "confidence": "hi",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "9to5Toys",
-     "url": "https://9to5toys.com/2026/11/12/grand-theft-auto-vi-delivery-shipping-today/"
-    },
-    {
-     "title": "RockstarINTEL",
-     "url": "https://rockstarintel.com/gta-6-box-copies-begin-arriving-reveals-online-feature-new-screenshots-and-more/"
-    },
-    {
-     "title": "dlcompare",
-     "url": "https://www.dlcompare.com/gaming-news/gta-6-launch-week-everything-you-need-to-know-before-november-19"
-    },
-    {
-     "title": "Tribune",
-     "url": "https://tribune.com.pk/story/2639739/grand-theft-auto-vi-opens-preloads-nine-days-before-launch"
-    },
-    {
-     "title": "GamesRadar",
-     "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-pre-loads-open-exactly-1-week-before-rockstars-long-awaited-sequel-comes-out-take-two-finally-confirms/"
-    },
     {
      "title": "Rockstar Report",
      "url": "https://rockstarreport.com/news/gta-6-reviews-november-18-report"
@@ -10176,6 +10632,26 @@
     {
      "title": "Tech Insider",
      "url": "https://tech-insider.org/gta-6-review-embargo-leak-nov-18-2026/"
+    },
+    {
+     "title": "Consequence",
+     "url": "https://consequence.net/2026/11/gta-6-review-scores-highest-rated-game-metacritic/"
+    },
+    {
+     "title": "Nintendo Life",
+     "url": "https://www.nintendolife.com/news/2026/11/gta-6-ties-with-zelda-ocarina-of-time-as-the-highest-rated-game-ever"
+    },
+    {
+     "title": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/GTA-6-reviews-award-99-Metacritic-score-topping-GTA-4-to-become-Rockstar-s-top-rated.1453363.0.html"
+    },
+    {
+     "title": "Gameluster",
+     "url": "https://gameluster.com/gta-6-launch-twitch-record-new-zealand-trick/"
+    },
+    {
+     "title": "Fox29",
+     "url": "https://fox29.com/news/grand-theft-auto-6-already-1-billion-sales-week-before-launch"
     }
    ],
    "timeline": [
@@ -10206,6 +10682,10 @@
     {
      "date": "2026-11-17",
      "text": "Two days before launch; Metacritic user-score reports and review-embargo chatter, with views at the highest of the 28 days"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Review embargo lifted and the first region unlocked at about 11:00 UTC; Metacritic 99, tied for the highest-rated game ever; views reached the 28-day high of 519,632"
     }
    ],
    "charted": [
@@ -10257,6 +10737,13 @@
      "views": 153037,
      "confidence": "md",
      "anchor": "a5"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 4,
+     "views": 519632,
+     "confidence": "hi",
+     "anchor": "a1"
     }
    ]
   },
@@ -10509,8 +10996,8 @@
    "type": "Politician",
    "first_charted": "2026-11-04",
    "cause": {
-    "text": "Continuing: House Democrats’ win and his 4th Nov speakership announcement (first Black Speaker if elected); a petition backlash on 5th Nov is a possible extra driver",
-    "confidence": "md"
+    "text": "New rise: the House Democratic caucus voted 251 to 11 to nominate him for Speaker on 18th Nov; the stored cause (his 4th Nov speakership announcement) was the earlier peak",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -10523,6 +11010,12 @@
      "date": "2026-11-05",
      "text": "Continuing: House Democrats’ win and his 4th Nov speakership announcement (first Black Speaker if elected); a petition backlash on 5th Nov is a possible extra driver",
      "confidence": "md",
+     "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "New rise: the House Democratic caucus voted 251 to 11 to nominate him for Speaker on 18th Nov; the stored cause (his 4th Nov speakership announcement) was the earlier peak",
+     "confidence": "hi",
      "note": "Confidence changed"
     }
    ],
@@ -10558,6 +11051,18 @@
     {
      "title": "The New Arab",
      "url": "https://www.newarab.com/news/mamdani-speaks-out-us-petition-against-hakeem-jeffries-surges"
+    },
+    {
+     "title": "TIME",
+     "url": "https://time.com/article/2026/11/18/democrats-hakeem-jeffries-house-speaker-nomination-vote/"
+    },
+    {
+     "title": "PBS NewsHour",
+     "url": "https://www.pbs.org/newshour/politics/democrats-nominate-hakeem-jeffries-to-become-house-speaker-a-historic-first"
+    },
+    {
+     "title": "theGrio",
+     "url": "https://thegrio.com/2026/11/13/hakeem-jeffries-speaker-black-history-democratic-divide/"
     }
    ],
    "timeline": [
@@ -10572,6 +11077,10 @@
     {
      "date": "2026-11-06",
      "text": "59,684 views, 72% below the 4th Nov peak; the petition kept coverage going"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "New rise: caucus nominated him for Speaker 251 to 11; views 92,218 against 11,730 the day before"
     }
    ],
    "charted": [
@@ -10595,6 +11104,13 @@
      "views": 59684,
      "confidence": "md",
      "anchor": "a37"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 19,
+     "views": 92218,
+     "confidence": "hi",
+     "anchor": "a16"
     }
    ]
   },
@@ -11255,8 +11771,8 @@
    "type": "Actress",
    "first_charted": "2026-10-20",
    "cause": {
-    "text": "The release and its opening weekend, now decaying",
-    "confidence": "hi"
+    "text": "Bond girl speculation after the 16th Nov casting of Pattinson, with her premiere comments reported on 18th Nov; revised from the stored interview cause",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -11264,13 +11780,36 @@
      "text": "The release and its opening weekend, now decaying",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Bond girl speculation after the 16th Nov casting of Pattinson, with her premiere comments reported on 18th Nov; revised from the stored interview cause",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
-   "sources": [],
+   "sources": [
+    {
+     "title": "Page Six via Yahoo",
+     "url": "https://www.yahoo.com/entertainment/celebrity/articles/hunter-schafer-given-major-boost-163510399.html"
+    },
+    {
+     "title": "JournalArta",
+     "url": "https://journalarta.com/en/2026/11/17/robert-pattinson-bond-girl-actresses-tipped-007/"
+    },
+    {
+     "title": "Advanced Television",
+     "url": "https://www.advanced-television.com/?p=293723"
+    }
+   ],
    "timeline": [
     {
      "date": "2026-10-20",
      "text": "Actress. An Elle interview published 19th Oct disclosed she had gender-affirming surgery in December 2025."
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Revised cause: named among Bond girl contenders after Pattinson's casting; views at the 28-day high of 101,368"
     }
    ],
    "charted": [
@@ -11280,6 +11819,13 @@
      "views": 117851,
      "confidence": "hi",
      "anchor": "a9"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 17,
+     "views": 101368,
+     "confidence": "md",
+     "anchor": "a14"
     }
    ]
   },
@@ -12676,8 +13222,8 @@
    "type": "Businessman",
    "first_charted": "2026-11-03",
    "cause": {
-    "text": "Unknown; the fake image is a possible small factor.",
-    "confidence": "lo"
+    "text": "Remarks at a Semafor event reported on 17th and 18th Nov: his role in picking Pattinson as Bond, and comments on Trump and Congress; the share of each cannot be separated",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -12685,25 +13231,15 @@
      "text": "Unknown; the fake image is a possible small factor.",
      "confidence": "lo",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Remarks at a Semafor event reported on 17th and 18th Nov: his role in picking Pattinson as Bond, and comments on Trump and Congress; the share of each cannot be separated",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "24/7 Wall St",
-     "url": "https://247wallst.com/investing/2026/11/10/nasa-says-bezos-blue-origin-can-compete-for-up-to-10-billion-in-moon-base-contracts-as-musks-spacex-soars/"
-    },
-    {
-     "title": "Fortune",
-     "url": "https://fortune.com/2026/11/12/jeff-bezos-ai-single-income-households-iphone-skeptics/"
-    },
-    {
-     "title": "Fox News",
-     "url": "https://www.foxnews.com/media/jeff-bezos-reveals-his-vision-americas-next-frontier-ai-moon"
-    },
-    {
-     "title": "New Space Economy",
-     "url": "https://newspaceeconomy.ca/2026/11/07/blue-origin-delays-new-glenn-return-to-flight-until-january-2027/"
-    },
     {
      "title": "Lead Stories via Yahoo",
      "url": "https://www.yahoo.com/news/world/articles/fact-check-fake-image-shows-051409685.html"
@@ -12735,6 +13271,22 @@
     {
      "title": "New Straits Times",
      "url": "https://www.nst.com.my/amp/lifestyle/groove/2026/11/1579298/showbiz-british-actor-robert-pattinson-named-new-james-bond"
+    },
+    {
+     "title": "CBS News",
+     "url": "https://www.cbsnews.com/news/jeff-bezos-james-bond-robert-pattinson-heavily-involved-decision-cast/"
+    },
+    {
+     "title": "ABC7 San Francisco",
+     "url": "https://abc7news.com/story/jeff-bezos-says-new-james-bond-wasnt-picked-friday/20051271/"
+    },
+    {
+     "title": "Daily Kos",
+     "url": "https://www.dailykos.com/stories/2026/11/18/800130532/business-and-economy/jeff-bezos-wants-you-to-forget-he-sucked-up-to-trump/"
+    },
+    {
+     "title": "Fortune",
+     "url": "https://fortune.com/2026/11/18/robert-pattinson-james-bond-amazon-casting-risk/"
     }
    ],
    "timeline": [
@@ -12761,6 +13313,10 @@
     {
      "date": "2026-11-17",
      "text": "61,162 views, down from 16th Nov; no Bezos-specific event found"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Bezos's Semafor remarks on the Bond casting and on Trump were reported; views 91,953"
     }
    ],
    "charted": [
@@ -12805,6 +13361,13 @@
      "views": 61162,
      "confidence": "lo",
      "anchor": "a34"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 20,
+     "views": 91953,
+     "confidence": "md",
+     "anchor": "a17"
     }
    ]
   },
@@ -13039,8 +13602,8 @@
    "type": "Tech CEO",
    "first_charted": "2026-11-09",
    "cause": {
-    "text": "Revised: the stored cause was the affair investigation; his resignation on 12th Nov and the testimony requests are the main drivers, and 16th Nov is the continuing decline",
-    "confidence": "hi"
+    "text": "Decay of the Nvidia leadership story, refreshed by the 17th Nov earnings call, the board's no-reinstatement statement, his first comments and the testimony agreement; the stored cause is added to, not contradicted",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -13054,25 +13617,15 @@
      "text": "Revised: the stored cause was the affair investigation; his resignation on 12th Nov and the testimony requests are the main drivers, and 16th Nov is the continuing decline",
      "confidence": "hi",
      "note": "Cause revised"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Decay of the Nvidia leadership story, refreshed by the 17th Nov earnings call, the board's no-reinstatement statement, his first comments and the testimony agreement; the stored cause is added to, not contradicted",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
-    },
-    {
-     "title": "RTE",
-     "url": "https://www.rte.ie/news/us/2026/1113/1599069-nvidia-us/"
-    },
-    {
-     "title": "Forbes",
-     "url": "https://www.forbes.com/sites/alisondurkee/2026/11/16/jensen-huang-ousted-timeline-of-the-nvidia-scandal-as-he-reportedly-plots-comeback/"
-    },
-    {
-     "title": "CBS News",
-     "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-resignation-scandal-timeline/"
-    },
     {
      "title": "NVIDIA",
      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
@@ -13104,6 +13657,22 @@
     {
      "title": "Kiplinger",
      "url": "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026"
+    },
+    {
+     "title": "The National, earnings report",
+     "url": "https://www.thenationalnews.com/business/markets/2026/11/17/nvidia-earnings-q3-jensen-huang/"
+    },
+    {
+     "title": "NPR via WAMC",
+     "url": "https://www.wamc.org/2026-11-17/huang-says-hed-be-honored-to-return-to-nvidia-as-he-agrees-to-testify-to-congress"
+    },
+    {
+     "title": "The National, oversight committee",
+     "url": "https://www.thenationalnews.com/future/technology/2026/11/17/nvidia-creates-oversight-committee-after-jensen-huang-affair-raises-security-concerns/"
+    },
+    {
+     "title": "Fox Business",
+     "url": "https://www.foxbusiness.com/markets/nvidia-releases-quarterly-earnings-after-jensen-huangs-resignation-ceo.amp"
     }
    ],
    "timeline": [
@@ -13138,6 +13707,10 @@
     {
      "date": "2026-11-17",
      "text": "Nvidia reported earnings with interim CEO Colette Kress; the chair said the board does not intend to bring Huang back; views down from the 16th Nov level"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Decay from the 12th Nov peak; news of 17th Nov (earnings call, no reinstatement, testimony agreed) kept the page up"
     }
    ],
    "charted": [
@@ -13196,6 +13769,13 @@
      "views": 144823,
      "confidence": "hi",
      "anchor": "a6"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 15,
+     "views": 109002,
+     "confidence": "md",
+     "anchor": "a12"
     }
    ]
   },
@@ -13476,6 +14056,59 @@
      "views": 61400,
      "confidence": "hi",
      "anchor": "a37"
+    }
+   ]
+  },
+  {
+   "id": "jj-gabriel",
+   "title": "JJ Gabriel",
+   "canonical": "JJ_Gabriel",
+   "url": "https://en.wikipedia.org/wiki/JJ_Gabriel",
+   "type": "Footballer",
+   "first_charted": "2026-11-18",
+   "cause": {
+    "text": "Announcement on 17th Nov that he is leaving Manchester United for Real Madrid, with follow-up coverage on 18th Nov",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-18",
+     "text": "Announcement on 17th Nov that he is leaving Manchester United for Real Madrid, with follow-up coverage on 18th Nov",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ESPN",
+     "url": "https://www.espn.com/soccer/story/_/id/50512542/jj-gabriel-man-united-real-madrid"
+    },
+    {
+     "title": "Yahoo Sports (Madrid Universal)",
+     "url": "https://sports.yahoo.com/articles/jj-gabriel-announces-manchester-united-191000699.html"
+    },
+    {
+     "title": "SPORTbible",
+     "url": "https://www.sportbible.com/football/football-news/man-utd/jj-gabriel-man-utd-real-madrid-spanish-media-271620-20261118"
+    },
+    {
+     "title": "Sporza",
+     "url": "https://sporza.be/nl/2026/11/17/de-weg-naar-real-ligt-open-16-jarig-wonderkind-jj-gabriel-knipt-band-met-manchester-united-definitief-door~1794945444781/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-18",
+     "text": "Sixteen-year-old Manchester United academy forward. He confirmed on 17th Nov that he is leaving United, with a Real Madrid move expected."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-18",
+     "rank": 38,
+     "views": 59157,
+     "confidence": "hi",
+     "anchor": "a34"
     }
    ]
   },
@@ -15998,14 +16631,6 @@
    ],
    "sources": [
     {
-     "title": "Outlook India",
-     "url": "https://www.outlookindia.com/art-entertainment/ramayana-part-one-box-office-collection-day-9-ranbir-kapoor-film-india-worldwide-earnings"
-    },
-    {
-     "title": "Gulf News",
-     "url": "https://gulfnews.com/entertainment/ramayana-box-office-ranbir-kapoor-and-yashs-film-roars-past-rs-8-billion-worldwide-1.500743270"
-    },
-    {
      "title": "The Week",
      "url": "https://www.theweek.in/news/entertainment/2026/11/16/ramayana-fifth-highest-grossing-indian-film-on-day-11.html"
     },
@@ -16044,6 +16669,14 @@
     {
      "title": "Sacnilk",
      "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_13"
+    },
+    {
+     "title": "Sacnilk, top five report",
+     "url": "https://www.sacnilk.com/news/ramayana-enters-top-5-highest-grossing-indian-films-in-12-days-eyes-pushpa-2-with-estimated-305-cr-gap"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/11/16/indian-box-office-2026-highest-grossing-year.html"
     }
    ],
    "timeline": [
@@ -16078,6 +16711,10 @@
     {
      "date": "2026-11-17",
      "text": "Ramayana: Part 1 reached about Rs 1,483 crore worldwide on day 13 and was still being reported as the new fifth-ranked film"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Views down again as the film's rank held at fifth"
     }
    ],
    "charted": [
@@ -16136,6 +16773,13 @@
      "views": 153338,
      "confidence": "md",
      "anchor": "a4"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 12,
+     "views": 129294,
+     "confidence": "md",
+     "anchor": "a9"
     }
    ]
   },
@@ -16147,8 +16791,8 @@
    "type": "Film list",
    "first_charted": "2026-11-16",
    "cause": {
-    "text": "Readers checking the franchise's films after Pattinson was named the next Bond on 16th Nov",
-    "confidence": "hi"
+    "text": "Readers checking the franchise's films after the 16th Nov Bond announcement; views peaked on 17th Nov and fell about 39% on 18th Nov",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -16156,6 +16800,12 @@
      "text": "Readers checking the franchise's films after Pattinson was named the next Bond on 16th Nov",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Readers checking the franchise's films after the 16th Nov Bond announcement; views peaked on 17th Nov and fell about 39% on 18th Nov",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -16182,6 +16832,18 @@
     {
      "title": "IBTimes UK",
      "url": "https://www.ibtimes.co.uk/robert-pattinson-next-james-bond-1832890"
+    },
+    {
+     "title": "Syfy Wire",
+     "url": "https://www.syfy.com/index%2Ephp/syfy-wire/robert-pattinson-is-the-new-james-bond-everything-to-know"
+    },
+    {
+     "title": "Fortune",
+     "url": "https://fortune.com/2026/11/18/robert-pattinson-james-bond-amazon-casting-risk/"
+    },
+    {
+     "title": "Hello!",
+     "url": "https://www.hellomagazine.com/celebrities/935474/robert-pattinson-telling-response-to-bond-question/"
     }
    ],
    "timeline": [
@@ -16192,6 +16854,10 @@
     {
      "date": "2026-11-17",
      "text": "Day after the announcement; franchise explainers kept readers on the list"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Decay: down about 39% from the 17th Nov peak of 120,511"
     }
    ],
    "charted": [
@@ -16208,6 +16874,13 @@
      "views": 120511,
      "confidence": "hi",
      "anchor": "a11"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 24,
+     "views": 73650,
+     "confidence": "md",
+     "anchor": "a21"
     }
    ]
   },
@@ -16624,6 +17297,55 @@
    ]
   },
   {
+   "id": "manni-l-perez",
+   "title": "Manni L. Perez",
+   "canonical": "Manni_L._Perez",
+   "url": "https://en.wikipedia.org/wiki/Manni_L._Perez",
+   "type": "Actress",
+   "first_charted": "2026-11-18",
+   "cause": {
+    "text": "The Game Awards Best Performance nomination announced on 17th Nov, which publicly tied her to GTA VI's Lucia, followed by launch-eve profiles on 18th Nov",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-18",
+     "text": "The Game Awards Best Performance nomination announced on 17th Nov, which publicly tied her to GTA VI's Lucia, followed by launch-eve profiles on 18th Nov",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Gematsu",
+     "url": "https://www.gematsu.com/2026/11/the-game-awards-2026-nominees-announced"
+    },
+    {
+     "title": "ComicBook.com",
+     "url": "https://comicbook.com/gaming/news/gta-6s-lucia-actress-finally-confirmed-after-years-of-speculation/"
+    },
+    {
+     "title": "PlayStation LifeStyle",
+     "url": "https://www.playstationlifestyle.net/2026/11/18/manni-l-perez-gta-6-lucia-law-and-order-svu"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-18",
+     "text": "New York actress reported to play Lucia in Grand Theft Auto VI. The Game Awards nominated her on 17th Nov for Best Performance, publicly tying her to the role."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-18",
+     "rank": 28,
+     "views": 67267,
+     "confidence": "md",
+     "anchor": "a25"
+    }
+   ]
+  },
+  {
    "id": "mariella-frostrup",
    "title": "Mariella Frostrup",
    "canonical": "Mariella_Frostrup",
@@ -16631,8 +17353,8 @@
    "type": "Broadcaster",
    "first_charted": "2026-11-17",
    "cause": {
-    "text": "Being a contestant on I'm a Celebrity, launched on 16th Nov; 17th Nov is the second day",
-    "confidence": "hi"
+    "text": "Contestant on I'm a Celebrity (launched 16th Nov); 18th Nov is a decay after the 17th Nov peak and no stand-out event for her was found",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -16640,6 +17362,12 @@
      "text": "Being a contestant on I'm a Celebrity, launched on 16th Nov; 17th Nov is the second day",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Contestant on I'm a Celebrity (launched 16th Nov); 18th Nov is a decay after the 17th Nov peak and no stand-out event for her was found",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -16654,12 +17382,32 @@
     {
      "title": "Newswav",
      "url": "https://newswav.com/article/i-m-a-celebrity-2026-live-wayne-rooney-thrown-into-bushtucker-trial-in-laun-A2611_zlPQ1D"
+    },
+    {
+     "title": "WhereToWatch.tv live recap",
+     "url": "https://wheretowatch.tv/tv-tonight/live-what-happened-on-tonights-im-a-celebrity/18/11/"
+    },
+    {
+     "title": "Capital FM",
+     "url": "https://www.capitalfm.com/news/tv-film/im-a-celebrity/mariella-frostrup-age-where-from-husband-children-net-worth/"
+    },
+    {
+     "title": "Yahoo UK live blog",
+     "url": "https://uk.news.yahoo.com/m-celebrity-2026-live-wayne-150656917.html"
+    },
+    {
+     "title": "Irish News (PA)",
+     "url": "https://www.irishnews.com/entertainment/im-a-celebrity-contestants-served-blended-fish-eye-cocktails-in-first-episode-YBPAMLF4YVL2TF3OWQUECF7VB4"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-17",
      "text": "British broadcaster, journalist and Loose Women panellist. She entered the I'm a Celebrity jungle in the series that launched on 16th Nov."
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Decay after the 17th Nov peak; the 18th Nov episode aired"
     }
    ],
    "charted": [
@@ -16669,6 +17417,119 @@
      "views": 85178,
      "confidence": "hi",
      "anchor": "a20"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 39,
+     "views": 59061,
+     "confidence": "md",
+     "anchor": "a35"
+    }
+   ]
+  },
+  {
+   "id": "markwayne-mullin",
+   "title": "Markwayne Mullin",
+   "canonical": "Markwayne_Mullin",
+   "url": "https://en.wikipedia.org/wiki/Markwayne_Mullin",
+   "type": "Politician",
+   "first_charted": "2026-11-18",
+   "cause": {
+    "text": "The 18th Nov House Homeland Security hearing, following the football-game flight story of 17th Nov and the 13th Nov ground stop",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-18",
+     "text": "The 18th Nov House Homeland Security hearing, following the football-game flight story of 17th Nov and the 13th Nov ground stop",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ABC News",
+     "url": "https://abcnews.com/Politics/mullin-faces-congressional-hearing-wake-historic-nationwide-ground/story?id=138226960"
+    },
+    {
+     "title": "Boston Globe (AP)",
+     "url": "https://www.bostonglobe.com/2026/11/17/nation/mullin-defends-use-of-government-plane-football-game/"
+    },
+    {
+     "title": "NPR via WUNC",
+     "url": "https://www.wunc.org/2026-11-13/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop"
+    },
+    {
+     "title": "ABC11 (AP)",
+     "url": "https://abc11.com/story/mullin-defends-use-government-plane-go-college-football-game-ground-stop/20048437"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-18",
+     "text": "US Secretary of Homeland Security. He testified before the House Homeland Security Committee on 18th Nov, days after a nationwide FAA ground stop and a government-plane trip to a football game."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-18",
+     "rank": 43,
+     "views": 50399,
+     "confidence": "md",
+     "anchor": "a39"
+    }
+   ]
+  },
+  {
+   "id": "mary-peltola",
+   "title": "Mary Peltola",
+   "canonical": "Mary_Peltola",
+   "url": "https://en.wikipedia.org/wiki/Mary_Peltola",
+   "type": "Politician",
+   "first_charted": "2026-11-18",
+   "cause": {
+    "text": "AP call of her win in the Alaska Senate race late on 17th Nov US time (18th Nov UTC)",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-18",
+     "text": "AP call of her win in the Alaska Senate race late on 17th Nov US time (18th Nov UTC)",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "WSOC-TV (Cox Media)",
+     "url": "https://www.wsoctv.com/news/trending/election-2026-mary-peltola-wins-us-senate-seat-alaska-ap-projects/JEBINXV4AFALJLTWRLP2A6RKU4/"
+    },
+    {
+     "title": "Al Jazeera, win report",
+     "url": "https://www.aljazeera.com/news/2026/11/18/mary-peltola-wins-alaska-senate-seat-in-another-democratic-win"
+    },
+    {
+     "title": "Al Jazeera, explainer",
+     "url": "https://www.aljazeera.com/news/2026/11/18/why-democrat-mary-peltolas-us-senate-win-in-alaska-matters"
+    },
+    {
+     "title": "Alaska Public Media",
+     "url": "https://alaskapublic.org/news/politics/elections/2026-11-17/mary-peltola-wins-u-s-senate-seat-in-alaska"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-18",
+     "text": "Alaska Democrat who lost her House seat in 2024. AP called the Alaska Senate race for her late on 17th Nov US time, the last Senate seat called."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-18",
+     "rank": 10,
+     "views": 133395,
+     "confidence": "hi",
+     "anchor": "a7"
     }
    ]
   },
@@ -18589,6 +19450,55 @@
    ]
   },
   {
+   "id": "peja-stojakovi",
+   "title": "Peja Stojaković",
+   "canonical": "Peja_Stojaković",
+   "url": "https://en.wikipedia.org/wiki/Peja_Stojakovi%C4%87",
+   "type": "Basketball player",
+   "first_charted": "2026-11-18",
+   "cause": {
+    "text": "Spillover from his son Andrej's 46-point game at Duke on the evening of 17th Nov US time; headlines used his name",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-18",
+     "text": "Spillover from his son Andrej's 46-point game at Duke on the evening of 17th Nov US time; headlines used his name",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Larry Brown Sports",
+     "url": "https://larrybrownsports.com/college-basketball/peja-stojakovic-son-andrej-scoring-record-duke/778878"
+    },
+    {
+     "title": "Basketball Network",
+     "url": "https://www.basketballnetwork.net/college/peja-stojakovics-son-makes-history-with-46-point-explosion-at-dukes-cameron-indoor-stadium"
+    },
+    {
+     "title": "Yahoo Sports (ClutchPoints)",
+     "url": "https://sports.yahoo.com/articles/peja-stojakovic-son-andrej-torches-032501360.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-18",
+     "text": "Retired NBA All-Star and father of Andrej Stojaković. His son's 46 points at Duke on the evening of 17th Nov US time sent readers to his page."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-18",
+     "rank": 35,
+     "views": 59924,
+     "confidence": "md",
+     "anchor": "a32"
+    }
+   ]
+  },
+  {
    "id": "pete-hegseth",
    "title": "Pete Hegseth",
    "canonical": "Pete_Hegseth",
@@ -19128,6 +20038,55 @@
    ]
   },
   {
+   "id": "quentin-grimes",
+   "title": "Quentin Grimes",
+   "canonical": "Quentin_Grimes",
+   "url": "https://en.wikipedia.org/wiki/Quentin_Grimes",
+   "type": "Basketball player",
+   "first_charted": "2026-11-18",
+   "cause": {
+    "text": "Career-high 47 points with 10 threes and a game-tying shot in the Lakers' overtime win on the night of 17th Nov US time (18th Nov UTC)",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-18",
+     "text": "Career-high 47 points with 10 threes and a game-tying shot in the Lakers' overtime win on the night of 17th Nov US time (18th Nov UTC)",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Yahoo Sports",
+     "url": "https://sports.yahoo.com/nba/breaking-news/article/quentin-grimes-makes-10-3-pointers-drops-career-high-47-points-to-lift-lakers-past-hornets-080827242.html"
+    },
+    {
+     "title": "ClutchPoints",
+     "url": "https://clutchpoints.com/nba/los-angeles-lakers/lakers-news-quentin-grimes-career-night-puts-him-alongside-only-kobe-bryant-in-la-history"
+    },
+    {
+     "title": "CBS Sports game tracker",
+     "url": "https://www.cbssports.com/nba/gametracker/NBA_20261117_CHA@LAL/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-18",
+     "text": "Los Angeles Lakers guard. He scored a career-high 47 points with 10 threes in a 118-114 overtime win over the Hornets on the night of 17th Nov US time."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-18",
+     "rank": 27,
+     "views": 67780,
+     "confidence": "hi",
+     "anchor": "a24"
+    }
+   ]
+  },
+  {
    "id": "ramayana-part-1",
    "title": "Ramayana: Part 1",
    "canonical": "Ramayana:_Part_1",
@@ -19178,14 +20137,6 @@
    ],
    "sources": [
     {
-     "title": "India.com",
-     "url": "https://www.india.com/entertainment/bollywood/ramayana-box-office-collection-day-10-ranbir-kapoor-yash-film-crosses-rs-1200-crore-worldwide-sees-51-percent-jump-8545023/"
-    },
-    {
-     "title": "Movietalkies",
-     "url": "https://www.movietalkies.com/news/ramayana-crosses-dhurandhar-ww-total-in-11-days-12811650"
-    },
-    {
      "title": "Hollywood Reporter India",
      "url": "https://www.hollywoodreporterindia.com/features/insight/ramayana-box-office-ranbir-kapoor-yashs-epic-grosses-over-1384-crore-globally-in-11-days-enters-all-time-indian-top-5"
     },
@@ -19224,6 +20175,14 @@
     {
      "title": "Newslaundry",
      "url": "https://www.newslaundry.com/2026/11/15/ramayana-part-1-having-courted-propaganda-bollywood-finds-itself-held-hostage-by-it"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/11/16/indian-box-office-2026-highest-grossing-year.html"
+    },
+    {
+     "title": "Sacnilk, top five report",
+     "url": "https://www.sacnilk.com/news/ramayana-enters-top-5-highest-grossing-indian-films-in-12-days-eyes-pushpa-2-with-estimated-305-cr-gap"
     }
    ],
    "timeline": [
@@ -19278,6 +20237,10 @@
     {
      "date": "2026-11-17",
      "text": "Day 13 of the run; worldwide gross reported at about Rs 1,483 crore, views down from the 16th Nov level"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Day 14 of the run; views down again from the 17th Nov level with no new event found"
     }
    ],
    "charted": [
@@ -19369,6 +20332,13 @@
      "date": "2026-11-17",
      "rank": 5,
      "views": 452299,
+     "confidence": "hi",
+     "anchor": "a2"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 5,
+     "views": 410267,
      "confidence": "hi",
      "anchor": "a2"
     }
@@ -19864,6 +20834,26 @@
     {
      "title": "Parade",
      "url": "https://parade.com/news/robert-pattinsons-james-bond-casting-sparks-kristen-stewart-twilight-reunion-wish-but-fans-have-a-twist"
+    },
+    {
+     "title": "Fortune",
+     "url": "https://fortune.com/2026/11/18/robert-pattinson-james-bond-amazon-casting-risk/"
+    },
+    {
+     "title": "Hollywood Reporter India",
+     "url": "https://www.hollywoodreporterindia.com/features/insight/robert-pattinson-is-the-next-james-bond-brad-pitt-ralph-fiennes-george-lazenby-and-elizabeth-debicki-react"
+    },
+    {
+     "title": "Hello!",
+     "url": "https://www.hellomagazine.com/celebrities/935474/robert-pattinson-telling-response-to-bond-question/"
+    },
+    {
+     "title": "Syfy Wire",
+     "url": "https://www.syfy.com/index%2Ephp/syfy-wire/robert-pattinson-is-the-new-james-bond-everything-to-know"
+    },
+    {
+     "title": "Deseret News",
+     "url": "https://www.deseret.com/entertainment/2026/11/17/robert-pattinson-major-franchises-career/"
     }
    ],
    "timeline": [
@@ -19874,6 +20864,10 @@
     {
      "date": "2026-11-17",
      "text": "Day after the announcement; reaction coverage continued and views fell from the 16th Nov peak"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Second day of decline after the 16th Nov peak; follow-on coverage only, including Bezos's screen-test remark"
     }
    ],
    "charted": [
@@ -19890,6 +20884,13 @@
      "views": 840972,
      "confidence": "hi",
      "anchor": "a1"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 6,
+     "views": 337514,
+     "confidence": "hi",
+     "anchor": "a3"
     }
    ]
   },
@@ -19936,6 +20937,18 @@
     {
      "title": "Al Jazeera",
      "url": "https://www.aljazeera.com/news/2026/11/16/british-actor-robert-pattinson-named-as-new-james-bond"
+    },
+    {
+     "title": "Deseret News",
+     "url": "https://www.deseret.com/entertainment/2026/11/17/robert-pattinson-major-franchises-career/"
+    },
+    {
+     "title": "Syfy Wire",
+     "url": "https://www.syfy.com/index%2Ephp/syfy-wire/robert-pattinson-is-the-new-james-bond-everything-to-know"
+    },
+    {
+     "title": "Fortune",
+     "url": "https://fortune.com/2026/11/18/robert-pattinson-james-bond-amazon-casting-risk/"
     }
    ],
    "timeline": [
@@ -19946,6 +20959,10 @@
     {
      "date": "2026-11-17",
      "text": "Day after the announcement; career guides kept readers on the filmography"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Decay: down from 127,113 on 17th Nov"
     }
    ],
    "charted": [
@@ -19962,6 +20979,58 @@
      "views": 127113,
      "confidence": "md",
      "anchor": "a10"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 42,
+     "views": 52857,
+     "confidence": "md",
+     "anchor": "a38"
+    }
+   ]
+  },
+  {
+   "id": "rockstar-games",
+   "title": "Rockstar Games",
+   "canonical": "Rockstar_Games",
+   "url": "https://en.wikipedia.org/wiki/Rockstar_Games",
+   "type": "Video game company",
+   "first_charted": "2026-11-18",
+   "cause": {
+    "text": "Spillover from the Grand Theft Auto VI unlock and record review score on 18th Nov, with readers looking up the developer (inference)",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-18",
+     "text": "Spillover from the Grand Theft Auto VI unlock and record review score on 18th Nov, with readers looking up the developer (inference)",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Notebookcheck",
+     "url": "https://www.notebookcheck.net/GTA-6-reviews-award-99-Metacritic-score-topping-GTA-4-to-become-Rockstar-s-top-rated.1453363.0.html"
+    },
+    {
+     "title": "Gameluster",
+     "url": "https://gameluster.com/gta-6-launch-twitch-record-new-zealand-trick/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-18",
+     "text": "Developer and publisher of the Grand Theft Auto series. Its Grand Theft Auto VI got the highest Metacritic score on record, 99, on 18th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-18",
+     "rank": 22,
+     "views": 79323,
+     "confidence": "md",
+     "anchor": "a19"
     }
    ]
   },
@@ -20116,8 +21185,8 @@
    "type": "Comedian",
    "first_charted": "2026-11-05",
    "cause": {
-    "text": "The prison message and government investigation on 16th Nov, layered on the conviction and sentence aftermath; the stored cause is updated, not contradicted",
-    "confidence": "hi"
+    "text": "Tail of the prison-message and government-investigation story layered on the conviction and sentence; the stored cause is updated, not contradicted",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -20161,17 +21230,15 @@
      "text": "The prison message and government investigation on 16th Nov, layered on the conviction and sentence aftermath; the stored cause is updated, not contradicted",
      "confidence": "hi",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Tail of the prison-message and government-investigation story layered on the conviction and sentence; the stored cause is updated, not contradicted",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "ITV News",
-     "url": "https://www.itv.com/news/2026-11-14/woman-alleges-she-was-raped-by-russell-brand-aged-16"
-    },
-    {
-     "title": "ITV News",
-     "url": "https://www.itv.com/news/2026-11-15/russell-brands-wife-shares-message-from-disgraced-comedian-in-prison"
-    },
     {
      "title": "ITV News",
      "url": "https://www.itv.com/news/2026-11-10/russell-brand-accused-of-further-abuse-as-he-begins-10-and-a-half-year-sentence"
@@ -20211,6 +21278,14 @@
     {
      "title": "InDaily",
      "url": "https://www.indailysa.com.au/news/just-in/2026/11/17/brands-jail-message-probed"
+    },
+    {
+     "title": "Irish News (PA)",
+     "url": "https://www.irishnews.com/news/uk/russell-brand-investigated-over-message-from-behind-bars-downing-street-says-6UQPAE2K2VIFNAPL2466CWWK6E/"
+    },
+    {
+     "title": "The Daily Beast",
+     "url": "https://www.thedailybeast.com/russell-brands-prison-plea-backfires-immediately"
     }
    ],
    "timeline": [
@@ -20253,6 +21328,10 @@
     {
      "date": "2026-11-17",
      "text": "Tail of the 16th Nov story about his message from prison; no outcome of the investigation yet"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Decay: down from 86,201 on 17th Nov; the prison-message investigation had no reported outcome"
     }
    ],
    "charted": [
@@ -20325,6 +21404,13 @@
      "views": 86201,
      "confidence": "hi",
      "anchor": "a19"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 26,
+     "views": 69384,
+     "confidence": "md",
+     "anchor": "a23"
     }
    ]
   },
@@ -20534,6 +21620,14 @@
     {
      "title": "IBTimes UK",
      "url": "https://www.ibtimes.co.uk/netflix-body-tops-global-charts-cancellation-petition-1832466"
+    },
+    {
+     "title": "Capital FM",
+     "url": "https://www.capitalfm.com/news/tv-film/the-body-sara-boustany-age-height-movies-elise/"
+    },
+    {
+     "title": "What's on Netflix",
+     "url": "https://www.whats-on-netflix.com/news/the-body-just-got-its-first-official-netflix-numbers-heres-what-they-mean-for-season-2/"
     }
    ],
    "timeline": [
@@ -20548,6 +21642,10 @@
     {
      "date": "2026-11-17",
      "text": "Profile coverage on 16th Nov kept her page high; views slightly below the previous day"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Slow decay from a plateau of 60,000 to 70,000 views a day; updated profile coverage"
     }
    ],
    "charted": [
@@ -20571,6 +21669,13 @@
      "views": 66243,
      "confidence": "md",
      "anchor": "a28"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 36,
+     "views": 59830,
+     "confidence": "md",
+     "anchor": "a33"
     }
    ]
   },
@@ -21971,6 +23076,18 @@
     {
      "title": "TV Insider",
      "url": "https://www.tvinsider.com/swooon/1312864/robert-pattinson-family-suki-waterhouse-relationship-dating-history/"
+    },
+    {
+     "title": "Entertainment Now",
+     "url": "https://entertainmentnow.com/celebrity/robert-pattinson-suki-waterhouse-wedding-james-bond/"
+    },
+    {
+     "title": "Fortune",
+     "url": "https://fortune.com/2026/11/18/robert-pattinson-james-bond-amazon-casting-risk/"
+    },
+    {
+     "title": "Hello!",
+     "url": "https://www.hellomagazine.com/celebrities/935474/robert-pattinson-telling-response-to-bond-question/"
     }
    ],
    "timeline": [
@@ -21981,6 +23098,10 @@
     {
      "date": "2026-11-17",
      "text": "Day after the announcement; partner and family explainers continued, views down from 16th Nov"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Second day of decline; partner and family coverage after the Bond announcement"
     }
    ],
    "charted": [
@@ -21997,6 +23118,13 @@
      "views": 297037,
      "confidence": "hi",
      "anchor": "a3"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 8,
+     "views": 146794,
+     "confidence": "hi",
+     "anchor": "a5"
     }
    ]
   },
@@ -22535,6 +23663,59 @@
    ]
   },
   {
+   "id": "tatyana-ali",
+   "title": "Tatyana Ali",
+   "canonical": "Tatyana_Ali",
+   "url": "https://en.wikipedia.org/wiki/Tatyana_Ali",
+   "type": "Actress",
+   "first_charted": "2026-11-18",
+   "cause": {
+    "text": "Her advance to the Dancing with the Stars finale (semi-finals at 01:00 UTC on 18th Nov) and syndicated news of her reaction to The Young and the Restless recasting Roxie on 18th Nov",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-18",
+     "text": "Her advance to the Dancing with the Stars finale (semi-finals at 01:00 UTC on 18th Nov) and syndicated news of her reaction to The Young and the Restless recasting Roxie on 18th Nov",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "theGrio",
+     "url": "https://thegrio.com/2026/11/18/tatyana-ali-jan-ravnik-dwts-finale/"
+    },
+    {
+     "title": "Parade",
+     "url": "https://parade.com/tv/the-young-and-the-restless-alum-tatyana-ali-addresses-her-character-being-recast-after-13-years"
+    },
+    {
+     "title": "Reality Tea",
+     "url": "https://www.realitytea.com/2026/11/18/tatyana-ali-young-and-restless-recasting-reaction-tetona-jackson/"
+    },
+    {
+     "title": "CinemaBlend",
+     "url": "https://www.cinemablend.com/television/after-tatyana-ali-surprise-advancement-three-couples-could-miss-dwts-season-35-finale-amber-connor-maura"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-18",
+     "text": "Actress and Dancing with the Stars semi-finalist. Reports on 18th Nov said she reached the finale and covered her reaction to The Young and the Restless recasting her old role."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-18",
+     "rank": 29,
+     "views": 63987,
+     "confidence": "md",
+     "anchor": "a26"
+    }
+   ]
+  },
+  {
    "id": "ted-bundy",
    "title": "Ted Bundy",
    "canonical": "Ted_Bundy",
@@ -22603,8 +23784,8 @@
    "type": "TV series",
    "first_charted": "2026-11-12",
    "cause": {
-    "text": "The Netflix release of all eight episodes on 11th Nov, so 12th Nov was the first full day of availability",
-    "confidence": "hi"
+    "text": "Continuing viewership and controversy after the 11th Nov Netflix release; no event dated 18th Nov was found",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -22612,13 +23793,15 @@
      "text": "The Netflix release of all eight episodes on 11th Nov, so 12th Nov was the first full day of availability",
      "confidence": "hi",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Continuing viewership and controversy after the 11th Nov Netflix release; no event dated 18th Nov was found",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "Netflix Tudum",
-     "url": "https://www.netflix.com/tudum/articles/the-body-plot-release-date-news"
-    },
     {
      "title": "Rotten Tomatoes",
      "url": "https://www.rottentomatoes.com/tv/the_body_2026"
@@ -22662,6 +23845,10 @@
     {
      "title": "IBTimes UK",
      "url": "https://www.ibtimes.co.uk/netflix-body-tops-global-charts-cancellation-petition-1832466"
+    },
+    {
+     "title": "What's on Netflix, first official numbers",
+     "url": "https://www.whats-on-netflix.com/news/the-body-just-got-its-first-official-netflix-numbers-heres-what-they-mean-for-season-2/"
     }
    ],
    "timeline": [
@@ -22684,6 +23871,10 @@
     {
      "date": "2026-11-17",
      "text": "Still on a high plateau after the 11th Nov release; no new event found"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Plateau just below the peak; first official Netflix numbers had been published on 17th Nov"
     }
    ],
    "charted": [
@@ -22721,6 +23912,13 @@
      "views": 127281,
      "confidence": "hi",
      "anchor": "a9"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 13,
+     "views": 124563,
+     "confidence": "md",
+     "anchor": "a10"
     }
    ]
   },
@@ -22917,12 +24115,24 @@
     {
      "title": "GamesRadar",
      "url": "https://www.gamesradar.com/entertainment/action-movies/the-hunger-games-sunrise-on-the-reaping-first-reactions/"
+    },
+    {
+     "title": "World of Reel",
+     "url": "https://www.worldofreel.com/blog/2026/11/17/the-hunger-games-sunrise-on-the-reaping-reviews-are-in-69-on-rotten-tomatoes-56-on-metacritic-and-the-hype-train-hits-a-speed-bump"
+    },
+    {
+     "title": "Yahoo Entertainment",
+     "url": "https://www.yahoo.com/entertainment/movies/articles/hunger-games-sunrise-reaping-lets-153324698.html"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-17",
      "text": "Prequel film about a young Haymitch Abernathy, directed by Francis Lawrence. It held its New York premiere on 16th Nov and opens on 20th Nov."
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Early-access screenings; reviews out the day before; views at the 28-day high of 101,703"
     }
    ],
    "charted": [
@@ -22932,6 +24142,13 @@
      "views": 92631,
      "confidence": "md",
      "anchor": "a18"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 16,
+     "views": 101703,
+     "confidence": "md",
+     "anchor": "a13"
     }
    ]
   },
@@ -23000,6 +24217,14 @@
     {
      "title": "Hypebeast",
      "url": "https://hypebeast.com/2026/11/christopher-nolan-the-odyssey-returns-to-imax-70mm-theaters-december-2026-holiday-release-info"
+    },
+    {
+     "title": "ComingSoon",
+     "url": "https://www.comingsoon.net/movies/news/2224946-the-odyssey-digital-release-date-today-out"
+    },
+    {
+     "title": "JoBlo",
+     "url": "https://www.joblo.com/the-odyssey-digital-4k-ultra-hd-blu-ray/"
     }
    ],
    "timeline": [
@@ -23014,6 +24239,10 @@
     {
      "date": "2026-11-17",
      "text": "Digital rental and purchase release on this date; views at the highest of the 28 days"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "Second day of the digital and disc release; views at the 28-day high of 72,718"
     }
    ],
    "charted": [
@@ -23037,6 +24266,13 @@
      "views": 71643,
      "confidence": "md",
      "anchor": "a24"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 25,
+     "views": 72718,
+     "confidence": "md",
+     "anchor": "a22"
     }
    ]
   },
@@ -25090,10 +26326,6 @@
    ],
    "sources": [
     {
-     "title": "btw.media",
-     "url": "https://btw.media/en/icm-registry-sells-renewals-with-reputation-risk-attached"
-    },
-    {
      "title": "Realtime Register",
      "url": "https://realtimeregister.com/blogs/xxx-tld-no-longer-sponsored-key-policy-updates"
     },
@@ -25136,6 +26368,10 @@
     {
      "title": "Managing IP",
      "url": "https://www.managingip.com/article/2a5d08lcu0fnaw0tn5k3k/icm-registry-expands-brand-protection-options-as-xxx-blocks-expire"
+    },
+    {
+     "title": "Domain Name Wire, .xxx tag page",
+     "url": "https://domainnamewire.com/tag/xxx/"
     }
    ],
    "timeline": [
@@ -25226,6 +26462,10 @@
     {
      "date": "2026-11-17",
      "text": "144,538 views, below 16th Nov and well below the 12th Nov peak of 486,885; no news or edit trigger found"
+    },
+    {
+     "date": "2026-11-18",
+     "text": "No news, edit or Talk page trigger found; views at the page's own baseline"
     }
    ],
    "charted": [
@@ -25382,6 +26622,13 @@
      "views": 144538,
      "confidence": "lo",
      "anchor": "a7"
+    },
+    {
+     "date": "2026-11-18",
+     "rank": 9,
+     "views": 139577,
+     "confidence": "lo",
+     "anchor": "a6"
     }
    ]
   },
