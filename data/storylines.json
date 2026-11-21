@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "groups": [
   {
    "id": "holmes-documentary",
@@ -413,7 +413,8 @@
     "rockstar-games",
     "manni-l-perez",
     "grand-theft-auto-video-game",
-    "lucia-caminos"
+    "lucia-caminos",
+    "list-of-best-selling-video-games"
    ]
   },
   {
@@ -446,6 +447,45 @@
     "leigh-nash",
     "brooks-dunn",
     "devlin-hodges"
+   ]
+  },
+  {
+   "id": "riemann-hypothesis-claim-2026",
+   "title": "Riemann hypothesis proof claim",
+   "summary": "Levent Alpöge's announced claimed proof of the Riemann hypothesis on 20th Nov, which sent readers to the problem and to his biography.",
+   "members": [
+    "riemann-hypothesis",
+    "levent-alp-ge"
+   ]
+  },
+  {
+   "id": "sunrise-on-the-reaping-2026",
+   "title": "Sunrise on the Reaping film release",
+   "summary": "The 20th Nov opening of the Hunger Games film, with readers going to the film, the source novel and its young lead.",
+   "members": [
+    "the-hunger-games-sunrise-on-the-reaping",
+    "sunrise-on-the-reaping",
+    "joseph-zada"
+   ]
+  },
+  {
+   "id": "xxx-pages-2026",
+   "title": "XXX pages rising together",
+   "summary": "The XXX song, soundtrack, film series and Return of Xander Cage pages rose together on 20th Nov; no shared trigger was found.",
+   "members": [
+    "xxx-kendrick-lamar-song",
+    "xxx-soundtrack",
+    "xxx-film-series",
+    "xxx-return-of-xander-cage"
+   ]
+  },
+  {
+   "id": "fiona-hippo-death",
+   "title": "Death of Fiona the hippo",
+   "summary": "The Cincinnati Zoo's 19th Nov announcement of Fiona's death, which also sent readers to Harambe, shot at the same zoo in 2016.",
+   "members": [
+    "fiona-hippopotamus",
+    "harambe"
    ]
   }
  ],
@@ -4001,6 +4041,10 @@
     {
      "date": "2026-11-19",
      "text": "74,494 views, 0.9 times the baseline"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "85,168 views, at baseline; still no trigger found"
     }
    ],
    "charted": [
@@ -4143,6 +4187,13 @@
      "views": 74494,
      "confidence": "lo",
      "anchor": "a28"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 21,
+     "views": 85168,
+     "confidence": "lo",
+     "anchor": "a18"
     }
    ]
   },
@@ -4241,12 +4292,40 @@
     {
      "title": "AI Business",
      "url": "https://aibusiness.com/generative-ai/anthropic-launches-new-ai-models"
+    },
+    {
+     "title": "The Next Web",
+     "url": "https://thenextweb.com/news/anthropic-ipo-amodei-nasdaq-bell-ant-debut-needham-staff-sales"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo"
+    },
+    {
+     "title": "Decrypt",
+     "url": "https://decrypt.co/383669/nvidia-amd-micron-ai-stocks-sink-anthropic-ipo-price"
+    },
+    {
+     "title": "Futurism",
+     "url": "https://futurism.com/artificial-intelligence/anthropic-stock-sputters-after-historic-ipo"
+    },
+    {
+     "title": "The Next Web",
+     "url": "https://thenextweb.com/news/misanthropic-statement-anthropic-not-safe-ai-company-cais-ipo"
+    },
+    {
+     "title": "Motley Fool",
+     "url": "https://www.fool.com/investing/2026/11/19/why-anthropic-stock-is-up-today/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-19",
      "text": "AI developer behind Claude. It began trading on Nasdaq on 19th Nov after pricing a record IPO at 83 dollars a share on 18th Nov."
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Coverage of the debut continued; one page reported an 8.5 percent fall in the share price that day"
     }
    ],
    "charted": [
@@ -4256,6 +4335,13 @@
      "views": 112202,
      "confidence": "hi",
      "anchor": "a16"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 20,
+     "views": 89567,
+     "confidence": "hi",
+     "anchor": "a17"
     }
    ]
   },
@@ -5292,6 +5378,59 @@
      "views": 63225,
      "confidence": "hi",
      "anchor": "a32"
+    }
+   ]
+  },
+  {
+   "id": "bruno-mars",
+   "title": "Bruno Mars",
+   "canonical": "Bruno_Mars",
+   "url": "https://en.wikipedia.org/wiki/Bruno_Mars",
+   "type": "Singer",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "The announcement on 19th Nov that his father, Peter Hernandez, had died aged 74",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "The announcement on 19th Nov that his father, Peter Hernandez, had died aged 74",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TMZ",
+     "url": "https://www.tmz.com/2026/11/19/peter-hernandez-dead/"
+    },
+    {
+     "title": "Complex",
+     "url": "https://www.complex.com/music/a/alex-ocho/bruno-mars-announces-father-death"
+    },
+    {
+     "title": "Good Morning America",
+     "url": "https://www.goodmorningamerica.com/culture/story/bruno-mars-remembers-late-father-musical-lessons-passed-138303867"
+    },
+    {
+     "title": "Rio Times",
+     "url": "https://www.riotimesonline.com/bruno-mars-father-peter-hernandez-dies-74/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "American singer. He announced the death of his father, Peter Hernandez, aged 74, on 19th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 34,
+     "views": 60612,
+     "confidence": "hi",
+     "anchor": "a31"
     }
    ]
   },
@@ -7787,8 +7926,8 @@
    "type": "AI executive",
    "first_charted": "2026-11-19",
    "cause": {
-    "text": "Anthropic's Nasdaq debut on 19th Nov, in which she, as co-founder and president, took part in the opening bell",
-    "confidence": "md"
+    "text": "Anthropic's stock market listing on 20th Nov and reports that she became a billionaire",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -7796,6 +7935,12 @@
      "text": "Anthropic's Nasdaq debut on 19th Nov, in which she, as co-founder and president, took part in the opening bell",
      "confidence": "md",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Anthropic's stock market listing on 20th Nov and reports that she became a billionaire",
+     "confidence": "hi",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -7814,12 +7959,36 @@
     {
      "title": "Kuwait Times",
      "url": "https://kuwaittimes.com/article/53372/business/anthropic-reveals-new-models-ahead-of-wall-st-debut/"
+    },
+    {
+     "title": "The Next Web",
+     "url": "https://thenextweb.com/news/anthropic-ipo-amodei-nasdaq-bell-ant-debut-needham-staff-sales"
+    },
+    {
+     "title": "Irish News",
+     "url": "https://www.irishnews.com/news/uk/anthropic-boss-says-firm-created-for-benefit-of-humankind-as-record-ipo-begins-WUL4CR7FV5PPPMWITPB4RZJERY/"
+    },
+    {
+     "title": "Fortune",
+     "url": "https://fortune.com/2026/11/20/daniela-amodei-anthropic-ipo-richest-woman-billionaire-safety/"
+    },
+    {
+     "title": "IBTimes Australia",
+     "url": "https://www.ibtimes.com.au/daniela-amodei-anthropic-president-profile-1878967"
+    },
+    {
+     "title": "American Bazaar",
+     "url": "https://americanbazaaronline.com/2026/11/20/meet-anthropics-seven-billionaire-founders-and-their-net-worth-492733/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-19",
      "text": "President and co-founder of Anthropic. She rang the Nasdaq bell with her brother on 19th Nov as Anthropic listed."
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Coverage of her wealth on listing day; views at 60,132"
     }
    ],
    "charted": [
@@ -7829,6 +7998,13 @@
      "views": 92187,
      "confidence": "md",
      "anchor": "a22"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 37,
+     "views": 60132,
+     "confidence": "hi",
+     "anchor": "a34"
     }
    ]
   },
@@ -7920,12 +8096,28 @@
     {
      "title": "The Next Web",
      "url": "https://thenextweb.com/news/anthropic-ipo-amodei-nasdaq-bell-ant-debut-needham-staff-sales"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo"
+    },
+    {
+     "title": "Open magazine",
+     "url": "https://openthemagazine.com/world/at-anthropics-81-billion-nasdaq-debut-dario-amodei-spoke-about-his-father"
+    },
+    {
+     "title": "The American Bazaar",
+     "url": "https://americanbazaaronline.com/2026/11/20/meet-anthropics-seven-billionaire-founders-and-their-net-worth-492733/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-19",
      "text": "Chief executive of Anthropic. He rang the Nasdaq opening bell on 19th Nov as Anthropic began trading after a record IPO."
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Founders' net-worth and profile coverage continued; no event specific to him was found"
     }
    ],
    "charted": [
@@ -7935,6 +8127,13 @@
      "views": 167998,
      "confidence": "hi",
      "anchor": "a8"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 15,
+     "views": 121762,
+     "confidence": "hi",
+     "anchor": "a12"
     }
    ]
   },
@@ -8306,10 +8505,6 @@
    ],
    "sources": [
     {
-     "title": "ABC7 News",
-     "url": "https://abc7news.com/post/jay-rockefeller-former-west-virginia-governor-us-senator-was-part-dynasty-dies-89/20020212/"
-    },
-    {
      "title": "Dead People Server",
      "url": "https://www.dead-people.com/last-30-days"
     },
@@ -8352,6 +8547,10 @@
     {
      "title": "BlackAmericaWeb",
      "url": "https://blackamericaweb.com/2026/11/16/who-died-in-2026/"
+    },
+    {
+     "title": "Legacy.com",
+     "url": "https://www.legacy.com/tag/died-november-19"
     }
    ],
    "timeline": [
@@ -8458,6 +8657,10 @@
     {
      "date": "2026-11-19",
      "text": "Views at baseline again; no event found"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "132,581 views, at the baseline; no single death found to explain the day"
     }
    ],
    "charted": [
@@ -8656,6 +8859,13 @@
      "views": 133759,
      "confidence": "lo",
      "anchor": "a9"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 9,
+     "views": 132581,
+     "confidence": "lo",
+     "anchor": "a6"
     }
    ]
   },
@@ -9559,8 +9769,8 @@
    "type": "Entrepreneur",
    "first_charted": "2026-10-20",
    "cause": {
-    "text": "Continuing interest in the A24 documentary and film about her; the stored cause is kept",
-    "confidence": "lo"
+    "text": "Continued interest linked to the documentary You Can See Everything, which is also in this ranking",
+    "confidence": "md"
    },
    "cause_history": [
     {
@@ -9622,13 +9832,15 @@
      "text": "Continuing interest in the A24 documentary and film about her; the stored cause is kept",
      "confidence": "lo",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Continued interest linked to the documentary You Can See Everything, which is also in this ranking",
+     "confidence": "md",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "Forbes Colombia",
-     "url": "https://forbes.co/2026/11/05/actualidad/esta-es-la-empresa-emergente-de-analisis-de-sangre-fundada-por-la-pareja-de-la-convicta-elizabeth-holmes/"
-    },
     {
      "title": "CBS News",
      "url": "https://www.cbsnews.com/news/billy-evans-on-you-can-see-everything-elizabeth-holmes/"
@@ -9672,6 +9884,10 @@
     {
      "title": "TechRadar",
      "url": "https://www.techradar.com/entertainment/how-to-watch/where-to-watch-you-can-see-everything"
+    },
+    {
+     "title": "Pocket-lint",
+     "url": "https://www.pocket-lint.com/you-can-see-everything-digital-release/"
     }
    ],
    "timeline": [
@@ -9770,6 +9986,10 @@
     {
      "date": "2026-11-19",
      "text": "56,470 views, 0.8 times baseline, with no edits on the page"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Views at 61,003, flat against the previous days"
     }
    ],
    "charted": [
@@ -9954,6 +10174,13 @@
      "views": 56470,
      "confidence": "lo",
      "anchor": "a37"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 33,
+     "views": 61003,
+     "confidence": "md",
+     "anchor": "a30"
     }
    ]
   },
@@ -9992,12 +10219,32 @@
     {
      "title": "Good Morning America",
      "url": "https://www.goodmorningamerica.com/culture/story/cma-awards-2026-full-winners-list-138220240"
+    },
+    {
+     "title": "Fox Baltimore",
+     "url": "https://foxbaltimore.com/news/entertainment/ella-langley-sweeps-cma-awards-makes-history-taylor-swift-performs-over-a-decade-later"
+    },
+    {
+     "title": "ABC7 New York",
+     "url": "https://abc7ny.com/story/ella-langley-dominates-2026-cma-awards-wins-entertainer-year/20055124/"
+    },
+    {
+     "title": "Showbiz Junkies",
+     "url": "https://www.showbizjunkies.com/music/ella-langley-2026-cma-awards-record-wins/"
+    },
+    {
+     "title": "Fox News",
+     "url": "https://www.foxnews.com/outkick-culture/ella-langley-celebrates-historic-cma-awards-night-viral-instagram-post-nearing-900000-likes"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-19",
      "text": "Country singer. She won a record six awards, including Entertainer of the Year, at the 60th CMA Awards on 18th Nov (US time)."
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Follow-up coverage; views at 56,528"
     }
    ],
    "charted": [
@@ -10007,6 +10254,13 @@
      "views": 189264,
      "confidence": "hi",
      "anchor": "a4"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 42,
+     "views": 56528,
+     "confidence": "hi",
+     "anchor": "a39"
     }
    ]
   },
@@ -10158,12 +10412,36 @@
     {
      "title": "Hawaii News Now",
      "url": "https://www.hawaiinewsnow.com/2026/11/16/fiona-hippo-hat/"
+    },
+    {
+     "title": "ABC7 (AP)",
+     "url": "https://abc7.com/20054877/"
+    },
+    {
+     "title": "Cleveland19",
+     "url": "https://www.cleveland19.com/2026/11/19/fiona-cincinnatis-miracle-hippo-dies-9/"
+    },
+    {
+     "title": "Fox19",
+     "url": "https://www.fox19.com/2026/11/19/fans-devastated-over-loss-beloved-hippo/"
+    },
+    {
+     "title": "Axios Cincinnati",
+     "url": "https://www.axios.com/local/cincinnati/2026/11/19/fiona-hippo-dies-cincinnati-zoo-hat"
+    },
+    {
+     "title": "Scripps News",
+     "url": "https://www.scrippsnews.com/us-news/nation-mourns-fiona-cincinnati-zoo-hippo-who-died-after-ingesting-a-hat"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-19",
      "text": "Cincinnati Zoo hippo born prematurely in 2017. The zoo announced her death on 19th Nov after she swallowed a hat."
+    },
+    {
+     "date": "2026-11-20",
+     "text": "First full day of national mourning coverage; views rose to 124,449 and the page was protected"
     }
    ],
    "charted": [
@@ -10173,6 +10451,13 @@
      "views": 83965,
      "confidence": "hi",
      "anchor": "a24"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 12,
+     "views": 124449,
+     "confidence": "hi",
+     "anchor": "a9"
     }
    ]
   },
@@ -10982,6 +11267,22 @@
     {
      "title": "GTABoom",
      "url": "https://gtaboom.com/gta-v-keeps-selling-millions-and-gta-6-is-five-months-away-ed49"
+    },
+    {
+     "title": "Take-Two Interactive",
+     "url": "https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records"
+    },
+    {
+     "title": "Insider Gaming",
+     "url": "https://insider-gaming.com/gta-5-sales-reach-235-million-copies-since-launch/"
+    },
+    {
+     "title": "Fox Business",
+     "url": "https://www.foxbusiness.com/markets/take-two-stock-jumps-over-6-rockstars-long-awaited-gta-vi-arrives-after-13-year-wait"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/19/grand-theft-auto-vi-launches-to-rave-reviews-after-13-year-wait"
     }
    ],
    "timeline": [
@@ -10992,6 +11293,10 @@
     {
      "date": "2026-11-19",
      "text": "Views rose about 55 percent as the game launched worldwide"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Take-Two's release gave franchise totals alongside the record launch; views fell from the 19th Nov peak"
     }
    ],
    "charted": [
@@ -11006,6 +11311,13 @@
      "date": "2026-11-19",
      "rank": 10,
      "views": 171292,
+     "confidence": "md",
+     "anchor": "a7"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 10,
+     "views": 129311,
      "confidence": "md",
      "anchor": "a7"
     }
@@ -11046,6 +11358,22 @@
     {
      "title": "The National",
      "url": "https://www.thenationalnews.com/arts-culture/pop-culture/2026/11/18/gta-6-reviews-metacritic/"
+    },
+    {
+     "title": "Take-Two Interactive",
+     "url": "https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records"
+    },
+    {
+     "title": "Fox 5 NY",
+     "url": "https://www.fox5ny.com/news/gta-vi-pulls-estimated-1-84-billion-release-day-more-than-double-gta-vs-launch-record"
+    },
+    {
+     "title": "CriticalHits",
+     "url": "https://criticalhits.com.br/games/gta-5-na-steam-ganha-jogadores-apos-estreia-de-gta-6"
+    },
+    {
+     "title": "Insider Gaming",
+     "url": "https://insider-gaming.com/gta-5-sales-reach-235-million-copies-since-launch/"
     }
    ],
    "timeline": [
@@ -11056,6 +11384,10 @@
     {
      "date": "2026-11-19",
      "text": "Views rose to a new peak as the sequel launched"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Take-Two's release set GTA VI's record launch against GTA V's 235 million units"
     }
    ],
    "charted": [
@@ -11072,6 +11404,13 @@
      "views": 108371,
      "confidence": "md",
      "anchor": "a18"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 22,
+     "views": 82987,
+     "confidence": "md",
+     "anchor": "a19"
     }
    ]
   },
@@ -11114,26 +11453,6 @@
    ],
    "sources": [
     {
-     "title": "Men's Journal",
-     "url": "https://www.mensjournal.com/entertainment/gta-6-debuts-to-a-shockingly-mixed-reception-on-metacritic"
-    },
-    {
-     "title": "Tech Insider",
-     "url": "https://tech-insider.org/gta-6-review-embargo-leak-nov-18-2026/"
-    },
-    {
-     "title": "Consequence",
-     "url": "https://consequence.net/2026/11/gta-6-review-scores-highest-rated-game-metacritic/"
-    },
-    {
-     "title": "Nintendo Life",
-     "url": "https://www.nintendolife.com/news/2026/11/gta-6-ties-with-zelda-ocarina-of-time-as-the-highest-rated-game-ever"
-    },
-    {
-     "title": "Notebookcheck",
-     "url": "https://www.notebookcheck.net/GTA-6-reviews-award-99-Metacritic-score-topping-GTA-4-to-become-Rockstar-s-top-rated.1453363.0.html"
-    },
-    {
      "title": "Gameluster",
      "url": "https://gameluster.com/gta-6-launch-twitch-record-new-zealand-trick/"
     },
@@ -11160,6 +11479,26 @@
     {
      "title": "IBTimes UK",
      "url": "https://www.ibtimes.co.uk/psn-sign-problems-before-gta-6-release-1833247"
+    },
+    {
+     "title": "Take-Two Interactive",
+     "url": "https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records"
+    },
+    {
+     "title": "Seeking Alpha",
+     "url": "https://seekingalpha.com/news/4675294-take-two-says-gta-vi-posts-record-379b-in-day-one-sales"
+    },
+    {
+     "title": "Fox 5 NY",
+     "url": "https://www.fox5ny.com/news/gta-vi-pulls-estimated-1-84-billion-release-day-more-than-double-gta-vs-launch-record"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/19/grand-theft-auto-vi-launches-to-rave-reviews-after-13-year-wait"
+    },
+    {
+     "title": "Latin Times",
+     "url": "https://www.latintimes.com/gta-6-metacritic-record-launch-bugs-psn-outage-601565"
     }
    ],
    "timeline": [
@@ -11198,6 +11537,10 @@
     {
      "date": "2026-11-19",
      "text": "Worldwide launch; views reached 750,227, the 28-day high"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Take-Two announced $3.79 billion in day-one sales; views fell 28 percent from the launch-day peak"
     }
    ],
    "charted": [
@@ -11261,6 +11604,13 @@
      "date": "2026-11-19",
      "rank": 3,
      "views": 750227,
+     "confidence": "hi",
+     "anchor": "a1"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 3,
+     "views": 540793,
      "confidence": "hi",
      "anchor": "a1"
     }
@@ -12027,6 +12377,59 @@
      "views": 96412,
      "confidence": "hi",
      "anchor": "a19"
+    }
+   ]
+  },
+  {
+   "id": "harambe",
+   "title": "Harambe",
+   "canonical": "Harambe",
+   "url": "https://en.wikipedia.org/wiki/Harambe",
+   "type": "Gorilla",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "The death of Fiona the hippo at the same zoo on 19th Nov, with AP coverage and memes comparing it with the 2016 shooting of Harambe",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "The death of Fiona the hippo at the same zoo on 19th Nov, with AP coverage and memes comparing it with the 2016 shooting of Harambe",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "ABC News (AP)",
+     "url": "https://abcnews.com/US/wireStory/decade-after-shooting-harambe-cincinnati-zoo-reeling-fionas-138312394"
+    },
+    {
+     "title": "Click on Detroit",
+     "url": "https://www.clickondetroit.com/news/2026/11/20/harambe-was-killed-a-decade-ago-at-the-same-zoo-as-fiona/"
+    },
+    {
+     "title": "ABC7 Los Angeles",
+     "url": "https://abc7.com/post/fiona-hippo-update-1-decade-shooting-harambe-cincinnati-zoo-reeling-hippopotamus-untimely-death-eating-hat/20060059/"
+    },
+    {
+     "title": "Fox19",
+     "url": "https://www.fox19.com/2026/11/19/fans-devastated-over-loss-beloved-hippo/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "Cincinnati Zoo gorilla shot in 2016. AP linked Fiona the hippo's death on 19th Nov to his killing on 20th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 27,
+     "views": 67020,
+     "confidence": "hi",
+     "anchor": "a24"
     }
    ]
   },
@@ -13929,26 +14332,6 @@
    ],
    "sources": [
     {
-     "title": "The Street",
-     "url": "https://www.thestreet.com/technology/spacex-musk-bezos-launch-rivalry"
-    },
-    {
-     "title": "ABC7",
-     "url": "https://abc7news.com/story/robert-pattinson-is-named-7th-james-bond-taking-role-daniel-craig/20044588/"
-    },
-    {
-     "title": "Billionaires.Africa",
-     "url": "https://www.billionaires.africa/2026/11/16/amazon-billionaire-jeff-bezos-blue-origin-puts-space-station-on-hold-for-moon/"
-    },
-    {
-     "title": "New Straits Times",
-     "url": "https://www.nst.com.my/amp/lifestyle/groove/2026/11/1579298/showbiz-british-actor-robert-pattinson-named-new-james-bond"
-    },
-    {
-     "title": "CBS News",
-     "url": "https://www.cbsnews.com/news/jeff-bezos-james-bond-robert-pattinson-heavily-involved-decision-cast/"
-    },
-    {
      "title": "ABC7 San Francisco",
      "url": "https://abc7news.com/story/jeff-bezos-says-new-james-bond-wasnt-picked-friday/20051271/"
     },
@@ -13975,6 +14358,26 @@
     {
      "title": "SlashFilm",
      "url": "https://www.slashfilm.com/jeff-bezos-bond-casting-robert-pattinson/"
+    },
+    {
+     "title": "SF Standard",
+     "url": "https://sfstandard.com/2026/11/17/jeff-bezos-blue-wave-tech-villain/"
+    },
+    {
+     "title": "AP via WSLS",
+     "url": "https://www.wsls.com/business/2026/11/18/what-tech-ceos-are-saying-about-the-saga-around-jensen-huangs-exit-from-nvidia/"
+    },
+    {
+     "title": "The Next Web",
+     "url": "https://thenextweb.com/news/jeff-bezos-james-bond-pattinson-nvidia-prometheus-semafor"
+    },
+    {
+     "title": "Inc.",
+     "url": "https://www.inc.com/dan-schawbel/jeff-bezos-jensen-huang-replacement/91439325"
+    },
+    {
+     "title": "IBTimes UK",
+     "url": "https://www.ibtimes.co.uk/jeff-bezos-defends-trump-ties-democratic-oversight-1833466"
     }
    ],
    "timeline": [
@@ -14009,6 +14412,10 @@
     {
      "date": "2026-11-19",
      "text": "93,836 views, a new window high, with no edits on the page"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "No event dated 20th Nov found; views at 63,190"
     }
    ],
    "charted": [
@@ -14067,6 +14474,13 @@
      "views": 93836,
      "confidence": "md",
      "anchor": "a21"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 30,
+     "views": 63190,
+     "confidence": "md",
+     "anchor": "a27"
     }
    ]
   },
@@ -15105,8 +15519,8 @@
    "type": "Football coach",
    "first_charted": "2026-11-19",
    "cause": {
-    "text": "Release of the Prime Video film Madden on 18th Nov, about the coach and the video game that carries his name",
-    "confidence": "md"
+    "text": "Release of the Prime Video film Madden on 18th Nov and the resulting debate over its accuracy",
+    "confidence": "hi"
    },
    "cause_history": [
     {
@@ -15114,6 +15528,12 @@
      "text": "Release of the Prime Video film Madden on 18th Nov, about the coach and the video game that carries his name",
      "confidence": "md",
      "note": "First stated"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Release of the Prime Video film Madden on 18th Nov and the resulting debate over its accuracy",
+     "confidence": "hi",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
@@ -15132,12 +15552,32 @@
     {
      "title": "OutKick",
      "url": "https://www.outkick.com/culture/madden-review-nicolas-cage-prime-video"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/movies/madden-review-nicolas-cage-kathryn-hahn/"
+    },
+    {
+     "title": "The Daily Beast",
+     "url": "https://www.thedailybeast.com/obsessed/madden-oscar-winners-nicolas-cage-and-christian-bale-deliver-a-gridiron-catastrophe-of-epic-proportions"
+    },
+    {
+     "title": "Amazon",
+     "url": "https://www.aboutamazon.com/news/entertainment/madden-movie-nicolas-cage-prime-video"
+    },
+    {
+     "title": "Essentially Sports",
+     "url": "https://www.essentiallysports.com/nfl-legends-news-john-madden-biographer-has-a-brutal-verdict-for-nicolas-cage-starrer-biopic-on-nfl-legend/"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-19",
      "text": "Late NFL coach and broadcaster. The Prime Video film Madden, starring Nicolas Cage, premiered on 18th Nov."
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Debate over the film's accuracy continued"
     }
    ],
    "charted": [
@@ -15147,6 +15587,13 @@
      "views": 102039,
      "confidence": "md",
      "anchor": "a19"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 25,
+     "views": 76841,
+     "confidence": "hi",
+     "anchor": "a22"
     }
    ]
   },
@@ -15605,6 +16052,59 @@
      "views": 68303,
      "confidence": "hi",
      "anchor": "a32"
+    }
+   ]
+  },
+  {
+   "id": "joseph-zada",
+   "title": "Joseph Zada",
+   "canonical": "Joseph_Zada",
+   "url": "https://en.wikipedia.org/wiki/Joseph_Zada",
+   "type": "Actor",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "His lead role as the young Haymitch in the Hunger Games film that opened on 20th Nov",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "His lead role as the young Haymitch in the Hunger Games film that opened on 20th Nov",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Biography.com",
+     "url": "https://www.biography.com/actors/a74481307/joseph-zada-facts"
+    },
+    {
+     "title": "W Magazine",
+     "url": "https://www.wmagazine.com/culture/joseph-zada-haymitch-hunger-games-sunrise-on-the-reaping-interview"
+    },
+    {
+     "title": "SYFY Wire",
+     "url": "https://www.syfy.com/syfy-wire/hunger-games-why-young-haymitch-actor-did-not-copy-woody-harrelson"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/movies/hunger-games-box-office-preview/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "Australian actor who plays young Haymitch. The Hunger Games film opened on 20th Nov, with profiles on 19th and 20th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 40,
+     "views": 57846,
+     "confidence": "hi",
+     "anchor": "a37"
     }
    ]
   },
@@ -16259,12 +16759,24 @@
     {
      "title": "WEAR-TV",
      "url": "https://weartv.com/news/entertainment/documentary-series-examines-cost-of-small-town-vigilantism"
+    },
+    {
+     "title": "A&E",
+     "url": "https://www.aetv.com/real-crime/ken-rex-mcelroy-vigilante-murder-skidmore-unsolved"
+    },
+    {
+     "title": "KOMO News",
+     "url": "https://komonews.com/news/entertainment/documentary-series-examines-cost-of-small-town-vigilantism"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-19",
      "text": "Missouri man shot dead in 1981 in front of onlookers. No news, edit or Talk page trigger was found."
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Views stayed high at 158,096; still no trigger found"
     }
    ],
    "charted": [
@@ -16272,6 +16784,13 @@
      "date": "2026-11-19",
      "rank": 8,
      "views": 172820,
+     "confidence": "lo",
+     "anchor": "a5"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 8,
+     "views": 158096,
      "confidence": "lo",
      "anchor": "a5"
     }
@@ -16858,6 +17377,63 @@
    ]
   },
   {
+   "id": "lance-broadway",
+   "title": "Lance Broadway",
+   "canonical": "Lance_Broadway",
+   "url": "https://en.wikipedia.org/wiki/Lance_Broadway",
+   "type": "Deceased actor",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "News of his death at 43, first reported by TMZ on 19th Nov, with 20th Nov the larger second wave as wire and sports outlets followed",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "News of his death at 43, first reported by TMZ on 19th Nov, with 20th Nov the larger second wave as wire and sports outlets followed",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TMZ",
+     "url": "https://www.tmz.com/2026/11/19/lance-broadway-dead/"
+    },
+    {
+     "title": "The Daily Beast",
+     "url": "https://www.thedailybeast.com/mets-pitcher-lance-broadway-turned-hollywood-star-found-dead-at-43"
+    },
+    {
+     "title": "CBS Chicago (AP)",
+     "url": "https://www.cbsnews.com/chicago/news/white-sox-pitcher-actor-lance-broadway-dies/"
+    },
+    {
+     "title": "ESPN (AP)",
+     "url": "https://www.espn.com/mlb/story/_/id/50540724/pitcher-turned-actor-lance-broadway-dies-age-43"
+    },
+    {
+     "title": "Yahoo Sports (LA Times)",
+     "url": "https://sports.yahoo.com/articles/lance-broadway-former-mlb-pitcher-154608363.html"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "Former MLB pitcher turned actor and youth coach. TMZ reported his death at 43 on 19th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 23,
+     "views": 79751,
+     "confidence": "hi",
+     "anchor": "a20"
+    }
+   ]
+  },
+  {
    "id": "lara-stone",
    "title": "Lara Stone",
    "canonical": "Lara_Stone",
@@ -17249,6 +17825,59 @@
    ]
   },
   {
+   "id": "levent-alp-ge",
+   "title": "Levent Alpöge",
+   "canonical": "Levent_Alpöge",
+   "url": "https://en.wikipedia.org/wiki/Levent_Alp%C3%B6ge",
+   "type": "Mathematician",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "He is the author of the 20th Nov Riemann hypothesis proof claim, which sent readers to his biography",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "He is the author of the 20th Nov Riemann hypothesis proof claim, which sent readers to his biography",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CASRAI",
+     "url": "https://casrai.org/news/anthropic-levent-alpoge-claude-lean-riemann-hypothesis-claim-2026"
+    },
+    {
+     "title": "Unite.AI",
+     "url": "https://www.unite.ai/levent-alpoges-unverified-riemann-claim-puts-claudes-lean-code-in-focus/"
+    },
+    {
+     "title": "Kingy AI",
+     "url": "https://kingy.ai/blog/levent-alpoge-claude-riemann-hypothesis-proof/"
+    },
+    {
+     "title": "Harvard Mathematics Department",
+     "url": "https://www.math.harvard.edu/people/alpoge-levent"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "Anthropic staff member and Harvard junior fellow. He released a claimed Riemann hypothesis proof on 20th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 11,
+     "views": 124632,
+     "confidence": "hi",
+     "anchor": "a8"
+    }
+   ]
+  },
+  {
    "id": "lewy-body-dementia",
    "title": "Lewy body dementia",
    "canonical": "Lewy_body_dementia",
@@ -17513,6 +18142,63 @@
    ]
   },
   {
+   "id": "list-of-best-selling-video-games",
+   "title": "List of best-selling video games",
+   "canonical": "List_of_best-selling_video_games",
+   "url": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games",
+   "type": "List",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "Official and estimated Grand Theft Auto VI sales figures, from 18th Nov and on 20th Nov, sending readers to see where the game ranks",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "Official and estimated Grand Theft Auto VI sales figures, from 18th Nov and on 20th Nov, sending readers to see where the game ranks",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Take-Two Interactive",
+     "url": "https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records"
+    },
+    {
+     "title": "Seeking Alpha",
+     "url": "https://seekingalpha.com/news/4675294-take-two-says-gta-vi-posts-record-379b-in-day-one-sales"
+    },
+    {
+     "title": "Fox 5 NY",
+     "url": "https://www.fox5ny.com/news/gta-vi-pulls-estimated-1-84-billion-release-day-more-than-double-gta-vs-launch-record"
+    },
+    {
+     "title": "80.lv",
+     "url": "https://80.lv/articles/report-gta-6-generated-nearly-usd2b-in-sales-by-launch-day"
+    },
+    {
+     "title": "GGRecon",
+     "url": "https://www.ggrecon.com/articles/gta-6-17-million-sales-sensor-tower/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "Ranked list of top-selling games. Take-Two reported 32.5 million GTA VI units sold before release on 20th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 26,
+     "views": 69466,
+     "confidence": "md",
+     "anchor": "a23"
+    }
+   ]
+  },
+  {
    "id": "list-of-formula-one-world-drivers-champions",
    "title": "List of Formula One World Drivers' Champions",
    "canonical": "List_of_Formula_One_World_Drivers'_Champions",
@@ -17586,14 +18272,6 @@
    ],
    "sources": [
     {
-     "title": "Movietalkies",
-     "url": "https://www.movietalkies.com/news/ramayana-crosses-dhurandhar-ww-total-in-11-days-12811650"
-    },
-    {
-     "title": "The Open Press",
-     "url": "https://theopenpress.in/article/ramayana-box-office-day-12-worldwide-godzilla-dhurandhar-2"
-    },
-    {
      "title": "Sacnilk",
      "url": "https://www.sacnilk.com/news/ramayana-becomes-11th-indian-film-to-cross-1000-crore-worldwide-achieves-feat-in-8-days"
     },
@@ -17632,6 +18310,14 @@
     {
      "title": "Sacnilk news",
      "url": "https://www.sacnilk.com/news/ramayana-joins-1000-crore-india-gross-club-in-14-days-becomes-only-sixth-indian-film-to-achieve-the-milestone"
+    },
+    {
+     "title": "Business Today",
+     "url": "https://www.businesstoday.in/trending/entertainment/photo/ramayana-is-indias-no-5-film-worldwide-what-it-needs-to-pass-pushpa-2-baahubali-2-and-dangal-567714-2026-11-16"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_16"
     }
    ],
    "timeline": [
@@ -17674,6 +18360,10 @@
     {
      "date": "2026-11-19",
      "text": "Views down again; the film held fifth place at Rs 1,547 crore worldwide"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "The film was still fifth at Rs 1,574 crore worldwide"
     }
    ],
    "charted": [
@@ -17746,6 +18436,13 @@
      "views": 116217,
      "confidence": "md",
      "anchor": "a14"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 18,
+     "views": 100239,
+     "confidence": "md",
+     "anchor": "a15"
     }
    ]
   },
@@ -18369,6 +19066,18 @@
     {
      "title": "Wisevoter",
      "url": "https://wisevoter.com/world/us/2026/11/19/manni-perez-lucia-grand-theft-auto-vi/"
+    },
+    {
+     "title": "Vice",
+     "url": "https://www.vice.com/en/article/gta-6-earns-8-nominations-at-the-game-awards-and-confirms-manni-l-perez-performance/"
+    },
+    {
+     "title": "Latin Times",
+     "url": "https://www.latintimes.com/manni-perez-lucia-grand-theft-auto-vi-601476"
+    },
+    {
+     "title": "Yahoo",
+     "url": "https://www.yahoo.com/entertainment/celebrity/article/the-lead-actress-in-grand-theft-auto-vi-has-finally-been-revealed-what-to-know-about-the-woman-behind-lucia-185317472.html"
     }
    ],
    "timeline": [
@@ -18379,6 +19088,10 @@
     {
      "date": "2026-11-19",
      "text": "69,951 views as the game launched"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Launch-day attention on the game; views at 56,461"
     }
    ],
    "charted": [
@@ -18395,6 +19108,13 @@
      "views": 69951,
      "confidence": "md",
      "anchor": "a29"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 43,
+     "views": 56461,
+     "confidence": "md",
+     "anchor": "a40"
     }
    ]
   },
@@ -19231,6 +19951,59 @@
    ]
   },
   {
+   "id": "mobland",
+   "title": "MobLand",
+   "canonical": "MobLand",
+   "url": "https://en.wikipedia.org/wiki/MobLand",
+   "type": "TV series",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "The season 2 finale on Paramount+ on 20th Nov, consistent with the weekly Friday bumps",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "The season 2 finale on Paramount+ on 20th Nov, consistent with the weekly Friday bumps",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Forbes",
+     "url": "https://www.forbes.com/sites/erikkain/2026/11/18/mobland-season-2-finale-episode-10-release-time-paramount-plus/"
+    },
+    {
+     "title": "Just Jared",
+     "url": "https://www.justjared.com/2026/11/13/mobland-season-2-finale-date-how-many-episodes-season-3-renewal/"
+    },
+    {
+     "title": "TV Insider",
+     "url": "https://www.tvinsider.com/1303467/mobland-season-2-episode-9-recap-gina-abducted-eddie-new-orders/"
+    },
+    {
+     "title": "Selectra",
+     "url": "https://selectra.co.uk/tv-broadband/news/mobland-tom-hardy-number-one-uk-streaming-chart-series-2-finale-20-november-paramount-plus"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "Paramount+ crime drama starring Tom Hardy. Its season 2 finale was due on 20th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 32,
+     "views": 61030,
+     "confidence": "hi",
+     "anchor": "a29"
+    }
+   ]
+  },
+  {
    "id": "mordechai-vanunu",
    "title": "Mordechai Vanunu",
    "canonical": "Mordechai_Vanunu",
@@ -19992,6 +20765,63 @@
      "views": 252871,
      "confidence": "hi",
      "anchor": "a5"
+    }
+   ]
+  },
+  {
+   "id": "o-m-operation-mole",
+   "title": "O.M: Operation Mole",
+   "canonical": "O.M:_Operation_Mole",
+   "url": "https://en.wikipedia.org/wiki/O.M:_Operation_Mole",
+   "type": "Film",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "Theatrical release of the Dhanush, Mammootty and Sai Pallavi film on 20th Nov, matching the 00:33 UTC Wikipedia edit that said the film had released",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "Theatrical release of the Dhanush, Mammootty and Sai Pallavi film on 20th Nov, matching the 00:33 UTC Wikipedia edit that said the film had released",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Filmibeat",
+     "url": "https://www.filmibeat.com/tamil/movies/om-operation-mole.html"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/news/om-day-1-advance-crosses-7-crore-gross-incl-block-seats-breaks-dhanushs-advance-record-as-film-eyes-his-no-1-opening"
+    },
+    {
+     "title": "The Week",
+     "url": "https://www.theweek.in/news/entertainment/2026/11/18/om-chapter-1-udhiram-box-office-advance-booking-dhanush-mammootty.html"
+    },
+    {
+     "title": "Koimoi",
+     "url": "https://www.koimoi.com/box-office/om-box-office-day-1-mammootty-set-to-achieve-a-record-he-just-missed-with-patriot/"
+    },
+    {
+     "title": "Outlook",
+     "url": "https://www.outlookindia.com/art-entertainment/dhanushs-om-gets-ua-6-am-tamil-nadu-shows-actor-thanks-cm-vijay"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "Tamil spy thriller starring Dhanush and Mammootty. It opened in cinemas worldwide on 20th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 16,
+     "views": 119692,
+     "confidence": "hi",
+     "anchor": "a13"
     }
    ]
   },
@@ -21091,6 +21921,42 @@
    ]
   },
   {
+   "id": "privacy-policy",
+   "title": "privacy_policy",
+   "canonical": "privacy_policy",
+   "url": "https://en.wikipedia.org/wiki/privacy_policy",
+   "type": "Policy article",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "Unknown. A lowercase title with almost no earlier views suggests link-driven or automated traffic, which is an unverified hypothesis",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "Unknown. A lowercase title with almost no earlier views suggests link-driven or automated traffic, which is an unverified hypothesis",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "Lowercase title for the article on privacy policies, with almost no earlier views. No news, edit or Talk page trigger was found."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 24,
+     "views": 78955,
+     "confidence": "lo",
+     "anchor": "a21"
+    }
+   ]
+  },
+  {
    "id": "quentin-grimes",
    "title": "Quentin Grimes",
    "canonical": "Quentin_Grimes",
@@ -21190,14 +22056,6 @@
    ],
    "sources": [
     {
-     "title": "The Open Press",
-     "url": "https://theopenpress.in/article/ramayana-box-office-day-12-worldwide-godzilla-dhurandhar-2"
-    },
-    {
-     "title": "Sacnilk Rs 1,000 crore report",
-     "url": "https://www.sacnilk.com/news/ramayana-becomes-11th-indian-film-to-cross-1000-crore-worldwide-achieves-feat-in-8-days"
-    },
-    {
      "title": "Sacnilk",
      "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_13"
     },
@@ -21236,6 +22094,14 @@
     {
      "title": "ThePrint",
      "url": "https://theprint.in/feature/behind-ramayanas-rs-900-crore-milestone-three-different-box-office-figures/3096897/"
+    },
+    {
+     "title": "Sacnilk",
+     "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_16"
+    },
+    {
+     "title": "Khaleej Times",
+     "url": "https://www.khaleejtimes.com/ramayana-oscars-gondhal-slumdog-millionaire-rrr"
     }
    ],
    "timeline": [
@@ -21298,6 +22164,10 @@
     {
      "date": "2026-11-19",
      "text": "Day 15; India net Rs 19.35 crore, down 16.6 percent on day 14"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Day 16; India net Rs 16.30 crore, down 15.8 percent, with views still falling from the peak"
     }
    ],
    "charted": [
@@ -21403,6 +22273,13 @@
      "date": "2026-11-19",
      "rank": 5,
      "views": 371581,
+     "confidence": "hi",
+     "anchor": "a2"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 5,
+     "views": 329248,
      "confidence": "hi",
      "anchor": "a2"
     }
@@ -21780,6 +22657,59 @@
    ]
   },
   {
+   "id": "riemann-hypothesis",
+   "title": "Riemann hypothesis",
+   "canonical": "Riemann_hypothesis",
+   "url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
+   "type": "Math problem",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "Levent Alpöge's announced Claude-assisted claimed proof of the Riemann hypothesis on 20th Nov, matching the new Talk page threads",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "Levent Alpöge's announced Claude-assisted claimed proof of the Riemann hypothesis on 20th Nov, matching the new Talk page threads",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "CASRAI",
+     "url": "https://casrai.org/news/anthropic-levent-alpoge-claude-lean-riemann-hypothesis-claim-2026"
+    },
+    {
+     "title": "Unite.AI",
+     "url": "https://www.unite.ai/levent-alpoges-unverified-riemann-claim-puts-claudes-lean-code-in-focus/"
+    },
+    {
+     "title": "Kingy AI",
+     "url": "https://kingy.ai/blog/levent-alpoge-claude-riemann-hypothesis-proof/"
+    },
+    {
+     "title": "Anthropic",
+     "url": "https://www.anthropic.com/research/riemann-zeta"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "Famous unsolved problem in number theory. Levent Alpöge announced a claimed proof made with Claude on 20th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 6,
+     "views": 295157,
+     "confidence": "hi",
+     "anchor": "a3"
+    }
+   ]
+  },
+  {
    "id": "rob-sand",
    "title": "Rob Sand",
    "canonical": "Rob_Sand",
@@ -21872,14 +22802,6 @@
    ],
    "sources": [
     {
-     "title": "Khaleej Times",
-     "url": "https://www.khaleejtimes.com/entertainment/robert-pattinson-james-bond-screen-test"
-    },
-    {
-     "title": "TheWrap",
-     "url": "https://www.thewrap.com/creative-content/movies/robert-pattinson-james-bond-actor/"
-    },
-    {
      "title": "ITV News",
      "url": "https://www.itv.com/news/2026-11-16/robert-pattinson-becoming-james-bond-is-the-honour-of-a-lifetime"
     },
@@ -21918,6 +22840,14 @@
     {
      "title": "AFP via EWN",
      "url": "https://www.ewn.co.za/2026/11/18/robert-pattinson-a-smoother-more-haunted-bond"
+    },
+    {
+     "title": "IBTimes UK",
+     "url": "https://www.ibtimes.co.uk/robert-pattinson-james-bond-successor-daniel-craig-1832633"
+    },
+    {
+     "title": "IBTimes UK",
+     "url": "https://www.ibtimes.co.uk/florence-pugh-james-bond-villain-role-1833045"
     }
    ],
    "timeline": [
@@ -21936,6 +22866,10 @@
     {
      "date": "2026-11-19",
      "text": "Third day of decline; no new development found"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "No new development found; views at 9 percent of the peak"
     }
    ],
    "charted": [
@@ -21966,6 +22900,13 @@
      "views": 172742,
      "confidence": "hi",
      "anchor": "a6"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 13,
+     "views": 124262,
+     "confidence": "hi",
+     "anchor": "a10"
     }
    ]
   },
@@ -22099,6 +23040,22 @@
     {
      "title": "Consequence",
      "url": "https://consequence.net/2026/11/gta-6-review-scores-highest-rated-game-metacritic/"
+    },
+    {
+     "title": "Take-Two Interactive",
+     "url": "https://www.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records"
+    },
+    {
+     "title": "Latin Times",
+     "url": "https://www.latintimes.com/gta-6-metacritic-record-launch-bugs-psn-outage-601565"
+    },
+    {
+     "title": "Fox Business",
+     "url": "https://www.foxbusiness.com/markets/take-two-stock-jumps-over-6-rockstars-long-awaited-gta-vi-arrives-after-13-year-wait"
+    },
+    {
+     "title": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/19/grand-theft-auto-vi-launches-to-rave-reviews-after-13-year-wait"
     }
    ],
    "timeline": [
@@ -22109,6 +23066,10 @@
     {
      "date": "2026-11-19",
      "text": "Views rose to a new peak as the game launched worldwide"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Take-Two's record-sales release quoted founder Sam Houser"
     }
    ],
    "charted": [
@@ -22125,6 +23086,13 @@
      "views": 112864,
      "confidence": "md",
      "anchor": "a15"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 19,
+     "views": 91847,
+     "confidence": "md",
+     "anchor": "a16"
     }
    ]
   },
@@ -24019,12 +24987,28 @@
     {
      "title": "Variety via Yahoo",
      "url": "https://www.yahoo.com/entertainment/music/articles/cma-awards-2026-complete-list-012422845.html"
+    },
+    {
+     "title": "Tixel",
+     "url": "https://tixel.com/us/news/2026/11/19/stephen-wilson-jr-named-new-artist-of"
+    },
+    {
+     "title": "Nacionale",
+     "url": "https://www.nacionale.com/en/articles/who-is-stephen-wilson-jr-cma-new-artist-of-the-year-2026"
+    },
+    {
+     "title": "Stereogum",
+     "url": "https://stereogum.com/2518295/stephen-wilson-jr-announces-double-album-earns-frank-black-his-first-grammy-nomination-covers-oasis-at-rock-hall/music"
     }
    ],
    "timeline": [
     {
      "date": "2026-11-19",
      "text": "Country singer-songwriter. He won New Artist of the Year at the 60th CMA Awards on 18th Nov (US time) at age 47."
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Coverage of the win continued, with views at 64,007"
     }
    ],
    "charted": [
@@ -24034,6 +25018,13 @@
      "views": 327962,
      "confidence": "hi",
      "anchor": "a3"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 28,
+     "views": 64007,
+     "confidence": "hi",
+     "anchor": "a25"
     }
    ]
   },
@@ -24275,6 +25266,10 @@
     {
      "title": "Tyla",
      "url": "https://www.tyla.com/entertainment/celebrity/robert-pattinson-girlfriend-suki-waterhouse-bond-clues-months-431906-20261117"
+    },
+    {
+     "title": "IBTimes UK",
+     "url": "https://www.ibtimes.co.uk/robert-pattinson-james-bond-successor-daniel-craig-1832633"
     }
    ],
    "timeline": [
@@ -24293,6 +25288,10 @@
     {
      "date": "2026-11-19",
      "text": "Views at 75,449, 80 percent below the peak"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "A decay tail; views at 53,002"
     }
    ],
    "charted": [
@@ -24323,6 +25322,13 @@
      "views": 75449,
      "confidence": "md",
      "anchor": "a27"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 45,
+     "views": 53002,
+     "confidence": "md",
+     "anchor": "a42"
     }
    ]
   },
@@ -24418,6 +25424,59 @@
      "views": 126366,
      "confidence": "hi",
      "anchor": "a10"
+    }
+   ]
+  },
+  {
+   "id": "sunrise-on-the-reaping",
+   "title": "Sunrise on the Reaping",
+   "canonical": "Sunrise_on_the_Reaping",
+   "url": "https://en.wikipedia.org/wiki/Sunrise_on_the_Reaping",
+   "type": "Novel",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "The opening of the film adaptation on 20th Nov, sending readers to the source novel",
+    "confidence": "md"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "The opening of the film adaptation on 20th Nov, sending readers to the source novel",
+     "confidence": "md",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "SlashFilm",
+     "url": "https://www.slashfilm.com/2312000/the-hunger-games-sunrise-on-the-reaping-katniss-peeta-scene-explained/"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/movies/hunger-games-box-office-preview/"
+    },
+    {
+     "title": "Scholastic",
+     "url": "https://www.scholastic.com/newsroom/all-news/press-release/scholastic-to-publish-trade-paperback-and-movie-tie-in-editions-.html?pubDate=20261113"
+    },
+    {
+     "title": "Box Office Pro",
+     "url": "https://www.boxofficepro.com/weekend-preview-hunger-games-sunrise-on-the-reaping-looking-at-100m-debut/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "Suzanne Collins's 2025 Hunger Games prequel novel. Its film adaptation opened in US cinemas on 20th Nov."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 35,
+     "views": 60334,
+     "confidence": "md",
+     "anchor": "a32"
     }
    ]
   },
@@ -25058,14 +26117,6 @@
    ],
    "sources": [
     {
-     "title": "Netflix Tudum",
-     "url": "https://www.netflix.com/tudum/articles/the-body-plot-release-date-news?inapp=true"
-    },
-    {
-     "title": "NME",
-     "url": "https://www.nme.com/reviews/tv-reviews/the-body-review-netflix-quinn-shephard-kristina-bogic-geena-meszaros-3975594"
-    },
-    {
      "title": "Leisurebyte",
      "url": "https://leisurebyte.com/the-body-ending-explained-netflix-2026/"
     },
@@ -25104,6 +26155,14 @@
     {
      "title": "Serienjunkies",
      "url": "https://www.serienjunkies.de/news/serien/netflix-horrorhit-fuehrt-die-charts-an-warum-die-verlaengerung-auf-sich-warten-laesst-94595103.html"
+    },
+    {
+     "title": "What's on Netflix",
+     "url": "https://www.whats-on-netflix.com/news/the-body-creator-quinn-shephard-teases-season-2-plans-after-that-shocking-cliffhanger/"
+    },
+    {
+     "title": "Fiction Horizon",
+     "url": "https://fictionhorizon.com/?p=400810"
     }
    ],
    "timeline": [
@@ -25134,6 +26193,10 @@
     {
      "date": "2026-11-19",
      "text": "Views down 10 percent from 18th Nov; no event dated 18th or 19th Nov found"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "No event dated 19th or 20th Nov found; views at 106,047"
     }
    ],
    "charted": [
@@ -25185,6 +26248,13 @@
      "views": 111521,
      "confidence": "md",
      "anchor": "a17"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 17,
+     "views": 106047,
+     "confidence": "md",
+     "anchor": "a14"
     }
    ]
   },
@@ -25411,6 +26481,18 @@
     {
      "title": "Rotten Tomatoes",
      "url": "https://editorial.rottentomatoes.com/article/the-hunger-games-sunrise-on-the-reaping-first-reviews/"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/movies/hunger-games-box-office-preview/"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/movies/the-hunger-games-sunrise-on-the-reaping-review/"
+    },
+    {
+     "title": "SlashFilm",
+     "url": "https://www.slashfilm.com/2312000/the-hunger-games-sunrise-on-the-reaping-katniss-peeta-scene-explained/"
     }
    ],
    "timeline": [
@@ -25425,6 +26507,10 @@
     {
      "date": "2026-11-19",
      "text": "Day before the wide release; views at a new high of 121,672"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "US wide release; views reached 174,063, the highest of the window"
     }
    ],
    "charted": [
@@ -25448,6 +26534,13 @@
      "views": 121672,
      "confidence": "hi",
      "anchor": "a12"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 7,
+     "views": 174063,
+     "confidence": "hi",
+     "anchor": "a4"
     }
    ]
   },
@@ -25477,10 +26570,6 @@
     }
    ],
    "sources": [
-    {
-     "title": "ComingSoon",
-     "url": "https://www.comingsoon.net/movies/news/2218802-christopher-nolan-the-odyssey-returning-to-theaters-december-11"
-    },
     {
      "title": "Gizmodo",
      "url": "https://gizmodo.com/the-odyssey-sails-back-to-theaters-ahead-of-awards-season-2000836008"
@@ -25524,6 +26613,10 @@
     {
      "title": "JoBlo",
      "url": "https://www.joblo.com/the-odyssey-digital-4k-ultra-hd-blu-ray-release-dates/"
+    },
+    {
+     "title": "Keith and the Movies",
+     "url": "https://keithandthemovies.com/2026/11/17/new-on-home-video-the-odyssey-on-4k-ultra-hd-blu-ray-digital/"
     }
    ],
    "timeline": [
@@ -25546,6 +26639,10 @@
     {
      "date": "2026-11-19",
      "text": "60,629 views, down 17 percent"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Views at 57,628, a slow decline"
     }
    ],
    "charted": [
@@ -25583,6 +26680,66 @@
      "views": 60629,
      "confidence": "md",
      "anchor": "a34"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 41,
+     "views": 57628,
+     "confidence": "md",
+     "anchor": "a38"
+    }
+   ]
+  },
+  {
+   "id": "the-traitors-new-blood",
+   "title": "The Traitors: New Blood",
+   "canonical": "The_Traitors:_New_Blood",
+   "url": "https://en.wikipedia.org/wiki/The_Traitors:_New_Blood",
+   "type": "TV series",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "The two-part season finale on the evening of 19th Nov US time (01:00 UTC on 20th Nov), with next-day streaming and the season 2 renewal",
+    "confidence": "hi"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "The two-part season finale on the evening of 19th Nov US time (01:00 UTC on 20th Nov), with next-day streaming and the season 2 renewal",
+     "confidence": "hi",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "TVLine",
+     "url": "https://tvline.com/2321835/the-traitors-new-blood-renewed-season-2-nbc"
+    },
+    {
+     "title": "TheWrap",
+     "url": "https://www.thewrap.com/creative-content/tv-shows/the-traitors-new-blood-renewed-season-2-nbc/"
+    },
+    {
+     "title": "Reality Tea",
+     "url": "https://www.realitytea.com/2026/11/20/traitors-new-blood-shane-beatty-historic-win/"
+    },
+    {
+     "title": "AV Club",
+     "url": "https://www.avclub.com/the-traitors-new-blood-recap-episode-10"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "NBC reality competition with an all-civilian cast. Its season finale aired on 19th Nov US time, with season 2 announced."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 29,
+     "views": 63853,
+     "confidence": "hi",
+     "anchor": "a26"
     }
    ]
   },
@@ -27780,6 +28937,10 @@
     {
      "date": "2026-11-19",
      "text": "Views below baseline; still no trigger found"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Views at 122,207, below baseline; still no trigger found"
     }
    ],
    "charted": [
@@ -27950,6 +29111,111 @@
      "views": 128793,
      "confidence": "lo",
      "anchor": "a10"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 14,
+     "views": 122207,
+     "confidence": "lo",
+     "anchor": "a11"
+    }
+   ]
+  },
+  {
+   "id": "xxx-film-series",
+   "title": "XXX (film series)",
+   "canonical": "XXX_(film_series)",
+   "url": "https://en.wikipedia.org/wiki/XXX_%28film_series%29",
+   "type": "Film series",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "Unknown; the four XXX pages rose together, which points to a shared trigger that was not found",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "Unknown; the four XXX pages rose together, which points to a shared trigger that was not found",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "MovieWeb",
+     "url": "https://movieweb.com/vin-diesel-triple-x-4-xander-cage-sequel-action-streaming/"
+    },
+    {
+     "title": "Collider",
+     "url": "https://collider.com/vin-diesel-triple-x-movie-wikipedia-chart-interest-23-years-after-release/"
+    },
+    {
+     "title": "We Got This Covered",
+     "url": "https://wegotthiscovered.com/movies/forgotten-vin-diesel-movie-finding-life-netflix/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "Vin Diesel action film series. No news, edit or Talk page trigger was found."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 39,
+     "views": 58700,
+     "confidence": "lo",
+     "anchor": "a36"
+    }
+   ]
+  },
+  {
+   "id": "xxx-kendrick-lamar-song",
+   "title": "XXX (Kendrick Lamar song)",
+   "canonical": "XXX_(Kendrick_Lamar_song)",
+   "url": "https://en.wikipedia.org/wiki/XXX_%28Kendrick_Lamar_song%29",
+   "type": "Song",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "Unknown. The song features U2, whose album and halftime show were in the news, but no source links them; a shared link or automated source across the XXX pages is also an unverified possibility",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "Unknown. The song features U2, whose album and halftime show were in the news, but no source links them; a shared link or automated source across the XXX pages is also an unverified possibility",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Spin",
+     "url": "https://www.spinmagazine.com/2026/10/u2-netflix-nfl-halftime/"
+    },
+    {
+     "title": "U2",
+     "url": "https://www.u2.com/blogs/news/carnaval-de-luz-new-album-coming-in-november"
+    },
+    {
+     "title": "Dork",
+     "url": "https://readdork.com/track/kendrick-lamar-xxx"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "Song from the 2017 album DAMN. featuring U2. No news, edit or Talk page trigger was found."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 31,
+     "views": 62233,
+     "confidence": "lo",
+     "anchor": "a28"
     }
    ]
   },
@@ -27976,12 +29242,28 @@
     {
      "title": "Collider",
      "url": "https://collider.com/vin-diesel-xxx-streaming-paramount-plus-july-2026/"
+    },
+    {
+     "title": "MovieWeb",
+     "url": "https://movieweb.com/vin-diesel-triple-x-4-xander-cage-sequel-action-streaming/"
+    },
+    {
+     "title": "We Got This Covered",
+     "url": "https://wegotthiscovered.com/movies/forgotten-vin-diesel-movie-finding-life-netflix/"
+    },
+    {
+     "title": "JustWatch",
+     "url": "https://www.justwatch.com/us/movie/xxx-return-of-xander-cage"
     }
    ],
    "timeline": [
     {
      "date": "2026-10-23",
      "text": "No confirmed trigger (low confidence). Stop-start spikes may reflect streaming exposure, which is a guess; nothing dated 21st to 23rd Oct was found."
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Returned to the ranking alongside three other XXX pages"
     }
    ],
    "charted": [
@@ -27991,6 +29273,62 @@
      "views": 83223,
      "confidence": "lo",
      "anchor": "a15"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 44,
+     "views": 54947,
+     "confidence": "lo",
+     "anchor": "a41"
+    }
+   ]
+  },
+  {
+   "id": "xxx-soundtrack",
+   "title": "XXX (soundtrack)",
+   "canonical": "XXX_(soundtrack)",
+   "url": "https://en.wikipedia.org/wiki/XXX_%28soundtrack%29",
+   "type": "Soundtrack album",
+   "first_charted": "2026-11-20",
+   "cause": {
+    "text": "Unknown, and probably shared with the other XXX pages, which all rose together; the cause was not found",
+    "confidence": "lo"
+   },
+   "cause_history": [
+    {
+     "date": "2026-11-20",
+     "text": "Unknown, and probably shared with the other XXX pages, which all rose together; the cause was not found",
+     "confidence": "lo",
+     "note": "First stated"
+    }
+   ],
+   "sources": [
+    {
+     "title": "JustWatch",
+     "url": "https://www.justwatch.com/us/movie/xxx-return-of-xander-cage"
+    },
+    {
+     "title": "Filmstarts",
+     "url": "https://www.filmstarts.de/nachrichten/1000230995.html"
+    },
+    {
+     "title": "Collider",
+     "url": "https://collider.com/vin-diesel-xxx-streaming-paramount-plus-july-2026/"
+    }
+   ],
+   "timeline": [
+    {
+     "date": "2026-11-20",
+     "text": "Soundtrack of the 2002 film xXx. No news, edit or Talk page trigger was found."
+    }
+   ],
+   "charted": [
+    {
+     "date": "2026-11-20",
+     "rank": 36,
+     "views": 60318,
+     "confidence": "lo",
+     "anchor": "a33"
     }
    ]
   },
@@ -28353,8 +29691,8 @@
    "type": "Documentary",
    "first_charted": "2026-10-20",
    "cause": {
-    "text": "Continuing from 20th Oct, the A24 documentary's run; Monday reports of its number-one third weekend",
-    "confidence": "md"
+    "text": "Continued interest after the cinema run, with home release coverage on 18th to 20th Nov",
+    "confidence": "lo"
    },
    "cause_history": [
     {
@@ -28374,21 +29712,15 @@
      "text": "Continuing from 20th Oct, the A24 documentary's run; Monday reports of its number-one third weekend",
      "confidence": "md",
      "note": "Confidence changed"
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Continued interest after the cinema run, with home release coverage on 18th to 20th Nov",
+     "confidence": "lo",
+     "note": "Confidence changed"
     }
    ],
    "sources": [
-    {
-     "title": "Fortune",
-     "url": "https://fortune.com/2026/11/02/halloween-box-office-gta-vi-november-hunger-games/"
-    },
-    {
-     "title": "HollywoodLife",
-     "url": "https://hollywoodlife.com/feature/when-will-you-can-see-everything-doc-streaming-5562522/"
-    },
-    {
-     "title": "The Spinoff",
-     "url": "https://thespinoff.co.nz/culture/08-10-2026/you-can-see-everything-but-not-until-november-12"
-    },
     {
      "title": "TheWrap",
      "url": "https://thewrap.com/creative-content/movies/godzilla-minus-zero-saturday-box-office"
@@ -28424,6 +29756,18 @@
     {
      "title": "ABC30",
      "url": "https://abc30.com/story/elizabeth-holmes-movie-can-see-everything-becomes-biggest-documentary-releases-decades/19955218/"
+    },
+    {
+     "title": "NY1 (AP)",
+     "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/11/01/box-office-you-can-see-everything-clayface-lead-sleepy-halloween-weekend"
+    },
+    {
+     "title": "The Numbers",
+     "url": "https://www.the-numbers.com/box-office-chart/weekend/2026/11/13"
+    },
+    {
+     "title": "MovieWeb",
+     "url": "https://movieweb.com/you-can-see-everything-digital-release/"
     }
    ],
    "timeline": [
@@ -28482,6 +29826,10 @@
     {
      "date": "2026-11-15",
      "text": "No D-specific event found."
+    },
+    {
+     "date": "2026-11-20",
+     "text": "Views at 60,035, up 31 percent on the previous day"
     }
    ],
    "charted": [
@@ -28603,6 +29951,13 @@
      "views": 69140,
      "confidence": "md",
      "anchor": "a37"
+    },
+    {
+     "date": "2026-11-20",
+     "rank": 38,
+     "views": 60035,
+     "confidence": "lo",
+     "anchor": "a35"
     }
    ]
   }
